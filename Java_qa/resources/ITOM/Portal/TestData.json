@@ -1,0 +1,50 @@
+{
+    "DRSQA_12342_Data":[
+          {"Label":"ApplicationName1","Value":"BMC Helix Cloud Cost"},
+          {"Label":"ApplicationName2","Value":"BMC Helix Capacity Optimize"},
+          {"Label":"ApplicationName3","Value":"BMC Helix Cloud Security"},
+          {"Label":"ApplicationName4","Value":"BMC Helix Dashboard"},
+          {"Label":"ApplicationName5","Value":"BMC Helix Log Analytics"},
+          {"Label":"ApplicationName6","Value":"BMC Helix Operation Management"},
+          {"Label":"ApplicationName7","Value":"BMC Helix Vulnerability Management"},
+          {"Label":"ApplicationName8","Value":"BMC Helix ITSM"},
+          {"Label":"ApplicationName9","Value":"BMC Helix Business Workflows"}
+    ],
+
+    "DRSQA_17124_Data":[
+          {"Label":"ApplicationTelemetry","Value":"ADE Helix Telemetry"},
+          {"Label":"ApplicationAutomationConsole","Value":"BMC Helix Automation Console"},
+          {"Label":"ApplicationBusinessWorkflows","Value":"BMC Helix Business Workflows"},
+          {"Label":"ApplicationContinuousOptimization","Value":"BMC Helix Continuous Optimization"},
+          {"Label":"ApplicationDashboards","Value":"BMC Helix Dashboards"},
+          {"Label":"ApplicationDeveloperTools","Value":"BMC Helix Developer Tools"},
+          {"Label":"ApplicationDigitalWorkplace","Value":"BMC Helix Digital Workplace"},
+          {"Label":"ApplicationDigitalWorkplaceCatalog","Value":"BMC Helix Digital Workplace Catalog"},
+          {"Label":"ApplicationDiscovery","Value":"BMC Helix Discovery"},
+          {"Label":"ApplicationInnovationSuite","Value":"BMC Helix Innovation Suite"},
+          {"Label":"ApplicationIntelligentAutomation","Value":"BMC Helix Intelligent Automation"},
+          {"Label":"ApplicationIntelligentIntegrations","Value":"BMC Helix Intelligent Integrations"},
+          {"Label":"ApplicationITSM","Value":"BMC Helix ITSM"},
+          {"Label":"ApplicationLogAnalytics","Value":"BMC Helix Log Analytics"},
+          {"Label":"ApplicationOperationsManagement","Value":"BMC Helix Operations Management"},
+          {"Label":"ApplicationServiceMonitoring","Value":"BMC Helix Service Monitoring"},
+          {"Label":"ApplicationCloudSecurity","Value":"BMC Helix Cloud Security"},
+          {"Label":"ApplicationCMDB","Value":"BMC Helix CMDB"},
+          {"Label":"ApplicationCloudCost","Value":"BMC Helix Cloud Cost"}
+
+    ],
+
+    "DRSQA_17126_Data":[
+          {"Label":"KeyName","Value":"DRSQA_17126_Key"},
+          {"Label":"ProfileKeyName","Value":"DRSQA_17126_Profile_Key"}
+    ],
+
+    "DRSQA_19027_Data":[
+          {"Label":"NonAccessingUser","Value":"apavlik"},
+          {"Label":"NonAccessingUserPassword","Value":"__USER_PASSWORD__"},
+          {"Label":"ApplicationName","Value":"Agent Outcomes"},
+          {"Label":"ExpectedURLContains","Value":"-is"}
+    ]
+
+
+}

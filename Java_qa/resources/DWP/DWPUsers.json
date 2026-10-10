@@ -1,0 +1,188 @@
+{
+  "bmcopsenduser": [
+    {"Label": "UserName", "Value": "bmcopsenduser"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FirstName", "Value": "BMCOps"},
+    {"Label": "FullName", "Value": "BMCOps EndUser"}
+  ],
+
+  "bmcopssupportagent": [
+    {"Label": "UserName", "Value": "bmcopssupportagent"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "bmcOpsManagerUser": [
+    {"Label": "UserName", "Value": "bmcopsl1manager"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "Fritz": [
+    {"Label": "UserName", "Value": "Fritz"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "bhillUser": [
+    {"Label": "UserName", "Value": "bhill"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Bobby Hill"},
+    {"Label": "FirstName", "Value": "Bobby"}
+  ],
+
+  "fcatUser": [
+    {"Label": "UserName", "Value": "fcat"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "pbunyon": [
+    {"Label": "UserName", "Value": "pbunyon"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+  
+  "nishaUser": [
+    {"Label": "UserName", "Value": "nisha"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "friedaUser": [
+    {"Label": "UserName", "Value": "Frieda"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "MosesUser": [
+    {"Label": "UserName", "Value": "Moses"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "SlashCharacterUser": [
+    {"Label":"UserName","Value":"Slash\\Name3"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "sadamUser": [
+    {"Label": "UserName", "Value": "sadam"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Sam Adam"}
+  ],
+
+  "liamUser":[
+    {"Label":"UserName","Value":"Liam"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"},
+    {"Label":"FullName", "Value":"Liam Shay"}
+  ],
+
+  "bhillEnduser": [
+    { "Label": "UserName", "Value": "bhill" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" },
+    { "Label": "FirstName", "Value": "Bobby" },
+    { "Label": "LastName", "Value": "Hill" },
+    { "Label": "FullName", "Value": "Bobby Hill" }
+  ],
+  "SpecialCharacterUser": [
+    { "Label": "UserName", "Value": "R!%^*<>@#$()-=+{[]}|:.?T" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ],
+  "rmenonEnduser": [
+    { "Label": "UserName", "Value": "rmenon" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" },
+    { "Label": "FullName", "Value": "Radha Menon" }
+  ],
+  "Peter": [
+    { "Label": "UserName", "Value": "Peter" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" },
+    { "Label": "FullName", "Value": "Peter" }
+  ],
+  "hhaasUser": [
+    { "Label": "UserName", "Value": "hhaas" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" },
+    { "Label": "FullName", "Value": "hhaas" }
+  ],
+  "DWPAdminUsersWithMyITSuperAdminPermission": [
+    { "Label": "UserName", "Value": "hannah_admin" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ],
+  "fritzEnduser": [
+    { "Label": "UserName", "Value": "Fritz" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" },
+    { "Label": "FirstName", "Value": "Fritz" },
+    { "Label": "LastName", "Value": "Schulz" },
+    { "Label": "FullName", "Value": "Fritz Schulz" }
+  ],
+  "swaugh": [
+    { "Label": "UserName", "Value": "swaugh"},
+    { "Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "MonikaUser": [
+    {"Label":"UserName","Value":"Monika"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "swaughUser": [
+    {"Label":"UserName","Value":"swaugh"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "yanandaUser":[
+    {"Label":"UserName", "Value":"yananda"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"},
+    {"Label":"FullName", "Value":"Yoga Ananda"}
+  ],
+
+  "jhardy":[
+    {"Label":"UserName", "Value":"jhardy"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"}
+  ],
+  
+    "jproUser": [
+    {"Label": "UserName", "Value": "jpro"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "DBriggsUser": [
+    {"Label": "UserName", "Value": "DBriggs"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "jandersonUser": [
+    {"Label": "UserName", "Value": "janderson"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "James Anderson"}
+  ],
+
+  "dmurphyUser": [
+    {"Label": "UserName", "Value": "dmurphy"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "David Murphy"}
+  ],
+
+  "jhardyUser": [
+    {"Label": "UserName", "Value": "jhardy"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Joe Hardy"}
+  ],
+
+  "lyellowUser": [
+    {"Label": "UserName", "Value": "lyellow"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Lemon Yellow"}
+  ],
+
+  "apavlikUser": [
+    {"Label": "UserName", "Value": "apavlik"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Adam Pavlik"}
+  ],
+
+  "rjamesEnduser": [
+    {"Label": "UserName", "Value": "rjames"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Rose James"}
+  ],
+
+  "vgoodmanUser": [
+    {"Label": "UserName", "Value": "vgoodman"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FirstName", "Value": "Victor"}
+  ]
+
+}

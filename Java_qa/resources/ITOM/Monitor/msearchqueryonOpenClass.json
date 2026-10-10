@@ -1,0 +1,31 @@
+{
+	"query": {
+		"bool": {
+			"must": [
+				{
+					"range": {
+						"creation_time": {
+							"lt": "<END_TIME>"
+						}
+					}
+				},
+				{
+					"match": {
+						"class": "<SERVICE_KEY>"
+					}
+				},
+				{
+					"match": {
+						"status": "OPEN"
+					}
+				}
+			]
+		}
+	},
+	"sort": {
+		"creation_time": {
+			"order": "desc"
+		}
+	},
+	"size": 990
+}

@@ -1,0 +1,8 @@
+{
+    "name": "${0}",
+    "dataSourceId": "${1}",
+    "url": "https://your-instance.develop.lightning.force.com",
+    "securityToken": "__SALESFORCE_SECURITY_TOKEN__",
+    "username": "__SALESFORCE_USERNAME__",
+    "password": "__SALESFORCE_PASSWORD__"
+  }

@@ -1,0 +1,33 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Server is not able to connect to LAN",
+    "Incident Description": "Server cannot connect to the local area network.",
+    "Status": "Assigned",
+    "Template Name": "Can't connect to network",
+    "CI": "Optiplex 9020",
+    "AssignToMe": false
+  },
+  "GPTData": {
+    "input1": "Share list of peoples who can be associated with Optiplex 9020 service/CI?",
+    "context1": "The user requests people or support entities that have established associations with the 'Optiplex 9020' service or Configuration Item (CI). The response should identify individuals and/or organizational groups linked to this specific CI/service. Core requirements: CI/service association verification ('Optiplex 9020'), people identification, and relationship context establishment. Return both individual persons and support groups when applicable. Each returned entity must include at least one stable identifier (Name, Login ID, Group Name, Employee ID, etc.). Enhancement fields that provide valuable context include Email, Role, Department, Contact Status, Responsibility Type, Group Function, or Organizational Unit. System elements such as association explanations, CI context messages, or relationship type descriptions should be considered acceptable contextual information.",
+    "expected_components1": "An association-focused response listing people and/or support groups with established connections to 'Optiplex 9020' CI/service. Essential elements: entity identification (people and/or groups) and confirmed CI/service association. Each returned item should include entity identifier (person name, login ID, or group name) with clear relationship context to Optiplex 9020. Optional enhancements include contact details, role information, organizational context, or responsibility descriptions. System guidance about CI associations and formatting variations should be evaluated as helpful response elements.",
+
+    "input2": "Get all people who are managing the assets related to incident",
+    "context2": "The user asks for people managing assets related to a specific incident. Any format is valid. Return only people with a managing role and include the incident-asset relationship context when available. Empty-result handling is acceptable.",
+    "expected_components2": "A response that identifies people with managing responsibility for assets tied to the referenced incident. Include at least one person identifier per returned item; optional role/contact details are accepted.",
+
+    "input3": "Get people related to asset named Latitude E6430 and Optiplex 9020",
+    "context3": "The user asks for people associated with both assets Latitude E6430 and Optiplex 9020. Any format is acceptable. Return records for each asset if available; multiple results and repeated entities are acceptable.",
+    "expected_components3": "A response listing people associated with one or both requested assets, with clear relation context. At minimum include a person identifier per record; asset context is preferred. Additional text and metadata are acceptable.",
+
+    "input4": "Get person with primary contact related to asset named Latitude E6430 and Optiplex 9020",
+    "context4": "The user specifically seeks people who are designated as 'primary contacts' for the assets named 'Latitude E6430' and 'Optiplex 9020'. This requires filtering for both asset association AND primary contact designation. Core requirements: asset name matching (both specified assets), primary contact role identification, and person record retrieval. Each returned person must have confirmed primary contact status for at least one of the specified assets. Include person identifier and explicit primary contact confirmation. Enhancement fields that provide valuable context include Email, Phone, Department, Role, Contact Status, or Asset Responsibility details. If no primary contacts exist, provide clear negative messaging. System elements such as primary contact role explanations are acceptable contextual additions.",
+    "expected_components4": "A primary-contact focused response showing people with designated primary contact roles for 'Latitude E6430' and/or 'Optiplex 9020' assets. Essential elements: person identification, asset association confirmation, and explicit primary contact designation. Each record should include person identifier with clear primary contact status for the relevant asset(s). When no primary contacts exist: clear 'no primary contacts found' message with optional explanation. Optional enhancements include contact details, role information, and system guidance about primary contact designations.",
+
+    "input5": "Get person details who is related to asset named Optiplex 9020",
+    "context5": "The user asks for person details related to asset Optiplex 9020. Output can be any format. Return relevant person details if available with optional role and contact data.",
+    "expected_components5": "A response providing person details linked to Optiplex 9020, with at least one person identifier. Extra clarifications and optional metadata are acceptable."
+  }
+}
+  

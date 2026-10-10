@@ -1,0 +1,17 @@
+{
+  "links": [],
+  "nodes": [
+    {
+      "blueprintConfigurations": [],
+      "kind": "BusinessService",
+      "staticNodeIds": [],
+      "name": "<SERVICE_NAME>",
+      "criticality": 0,
+      "compatibleOnly": "false",
+      "id": "$$$$${ko}",
+      "labels": {},
+      "securityGroupConfigurations": [],
+      "associatedElements": []
+    }
+  ]
+}

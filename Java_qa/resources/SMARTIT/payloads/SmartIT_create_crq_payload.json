@@ -1,0 +1,213 @@
+{
+  "id": "${id}",
+  "customer": {
+    "type": "person",
+    "firstName": "Cai",
+    "lastName": "Luong",
+    "fullName": "Cai Luong",
+    "department": "",
+    "email": "",
+    "company": {
+      "name": "Petramco"
+    },
+    "phone": "61 2 8899 2918",
+    "thumbnailMime": "",
+    "thumbnail": "",
+    "site": {
+      "companyName": "Petramco"
+    },
+    "organization": "",
+    "loginId": "cluong",
+    "available": "OFFLINE",
+    "jid": "cluong_000000000000001",
+    "supportGroups": [
+      {
+        "name": "AU Support 1",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Australia Support",
+        "isDefault": true,
+        "id": "GGP000000000001"
+      }
+    ],
+    "id": "cluong",
+    "createDate": 1750156629666,
+    "supportGroup": "AU Support 1",
+    "supportGroupId": "GGP000000000001",
+    "supportOrganization": "Australia Support"
+  },
+  "displayId": "${displayId}",
+  "status": {},
+  "categorizations": [
+    {
+      "name": "operational",
+      "tiers": {
+        "operationCategoryTier1": "Applications",
+        "operationCategoryTier2": "Help Desk",
+        "operationCategoryTier3": "Incident"
+      }
+    },
+    {
+      "name": "product",
+      "tiers": {
+        "productCategoryTier1": "Business",
+        "productCategoryTier2": "Business Process",
+        "productCategoryTier3": "Level 1",
+        "productName": "",
+        "productModelVersion": ""
+      }
+    }
+  ],
+  "resCategorizations": [],
+  "customFields": {},
+  "scheduledStartDate": null,
+  "scheduledEndDate": null,
+  "actualStartDate": null,
+  "actualEndDate": null,
+  "riskIsUserSpecified": false,
+  "riskLevel": "Risk Level 1",
+  "mode": "manual",
+  "summary": "Performance_Change_Request_Created",
+  "impact": "4-Minor/Localized",
+  "urgency": "4-Low",
+  "priority": "Low",
+  "impactedService": {
+    "name": "App Hosting",
+    "desc": "",
+    "type": "Business Service",
+    "company": {
+      "name": "Petramco"
+    },
+    "product": {
+      "categorizations": [
+        {
+          "name": "product",
+          "tiers": {
+            "productCategoryTier1": "Service",
+            "productCategoryTier2": "Infrastructure",
+            "productCategoryTier3": "Service Management"
+          },
+          "cognitiveFlag": false
+        }
+      ]
+    },
+    "reconciliationId": "REHAA5V0GQBORANAMVYHWDLW3SVMWE",
+    "classId": "BMC_BUSINESSSERVICE",
+    "instanceId": "AGHAA5V0GQBORANAMVYHWDLW3SVMWF",
+    "site": {},
+    "status": {
+      "value": "Deployed"
+    },
+    "assetExtension": {},
+    "needsReconciliation": false,
+    "dataSetId": "BMC.ASSET",
+    "assetId": "GBS000000000007",
+    "assetType": "Business Service",
+    "verified": false,
+    "customFields": {},
+    "id": "GBS000000000007",
+    "createDate": 1693562966000,
+    "modifiedDate": 1567167031924
+  },
+  "changeReason": "Fix/Repair",
+  "timing": "Normal",
+  "location": {
+    "companyName": "Petramco"
+  },
+  "assignee": {
+    "type": "child",
+    "firstName": "Cahya",
+    "lastName": "Sofyan",
+    "fullName": "Cahya Sofyan",
+    "department": "",
+    "email": "performance_10a@acme.com",
+    "company": {
+      "name": "Petramco"
+    },
+    "phone": "61 3 9655 0017",
+    "thumbnailMime": "",
+    "thumbnail": "",
+    "site": null,
+    "organization": "Australia Support",
+    "loginId": "csofyan",
+    "available": "",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "AU Support 2",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Australia Support",
+        "id": "GGP000000000002",
+        "assignedToGroup": false,
+        "persons": []
+      }
+    ],
+    "id": "csofyan",
+    "createDate": 1750156629666,
+    "supportGroup": "AU Support 2",
+    "supportGroupId": "GGP000000000002",
+    "supportOrganization": "Australia Support"
+  },
+  "supportGroup": {
+    "name": "AU Support 2",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "Australia Support",
+    "id": "GGP000000000002",
+    "assignedToGroup": false,
+    "persons": [],
+    "supportGroups": "AU Support 2"
+  },
+  "manager": {
+    "type": "person",
+    "firstName": "Cai",
+    "lastName": "Luong",
+    "fullName": "Cai Luong",
+    "department": "",
+    "email": "performance_10a@acme.com",
+    "company": {
+      "name": "Petramco"
+    },
+    "phone": "61 2 8899 2918",
+    "thumbnailMime": "",
+    "thumbnail": "",
+    "site": null,
+    "organization": "Australia Support",
+    "loginId": "cluong",
+    "available": "",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "AU Support 3",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Australia Support",
+        "id": "GGP000000000003",
+        "assignedToGroup": false
+      }
+    ],
+    "id": "cluong",
+    "createDate": 1750156629666,
+    "supportGroup": "AU Support 3",
+    "supportGroupId": "GGP000000000003",
+    "supportOrganization": "Australia Support"
+  },
+  "managerGroup": {
+    "name": "AU Support 3",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "Australia Support",
+    "id": "GGP000000000003",
+    "assignedToGroup": false,
+    "supportGroups": "AU Support 3"
+  },
+  "company": {
+    "name": "Petramco"
+  }
+}

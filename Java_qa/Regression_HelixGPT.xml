@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="HelixGPT_Testcases_SolQA_Automation_Suite"
+	configfailurepolicy="continue" thread-count="3" parallel="classes">
+
+	<listeners>
+		<listener class-name="util.Listener" />
+		<listener class-name="util.ModelComparisonReportListener" />
+	</listeners>
+	
+	 <test name="Preconditions" parallel="false">
+        <classes>
+            <class name="ITSM.HelixGPT.HelixGPT_Preconditions"/>
+        </classes>
+    </test>
+
+   <test name="HelixGPT Tests" parallel="classes" thread-count="3">
+        <groups>
+            <run>
+                <include name="HelixGPT"/>
+            </run>
+        </groups>
+        
+        <!-- 
+            RETRY BEHAVIOR (testng-failed.xml):
+            When testng-failed.xml is generated, it will NOT include this <groups> block,
+            so failed tests will run without ANY group filtering - exactly as intended!
+            No need for Clean-FailedXml.ps1 script anymore (but it's still useful as backup).
+        -->
+		<classes>
+			<class name="ITSM.HelixGPT.BWF_HelixGPT"/>
+			<class name="ITSM.HelixGPT.DWP_HelixGPT"/>
+			<class name="ITSM.HelixGPT.HelixGPTBot"/>
+			<class name="ITSM.HelixGPT.SmartIT_HelixGPT"/>
+			<class name="ITSM.BWF.BWF_HKM"/>
+			<class name="ITSM.SmartIT.SmartIT_HelixGPT"/>
+            <class name="ITSM.HelixGPT.LiveChat_HelixGPT"/>
+		</classes>
+	</test>
+</suite>

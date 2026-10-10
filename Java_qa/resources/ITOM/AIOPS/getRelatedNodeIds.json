@@ -1,0 +1,14 @@
+{
+  "explode_groups": "all",
+  "get_related_models": false,
+  "at_time": null,
+  "link_model_nodes": false,
+  "attributes": [
+    "hba_id",
+    "wwnn"
+  ],
+  "search_query": null,
+  "node_ids": [
+    "<NODE_ID>"
+  ]
+}

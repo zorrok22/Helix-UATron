@@ -1,0 +1,19 @@
+{
+    "summary": "Sample BMCOps Change",
+    "impact": 4000,
+    "priority": 3,
+    "urgency": 4000,
+    "locationCompany": "BMCOpsMonitoring",
+    "changeManagerGroupId": "SMO000000000213",
+    "changeManagerGroup": "BMCOpsMonitoring Support Group1",
+    "changeManagerGroupCompany": "BMCOpsMonitoring",
+    "changeManagerGroupOrganization": "BMCOpsMonitoring Support Org",
+    "requestedFor": {
+                "firstName": "BMCOps",
+                "lastName": "SupportAgent7",
+                "fullName": "BMCOps SupportAgent7",
+                "personId": "SMO000000000604",
+                "company": "BMCOpsMonitoring",
+                "id": "bmcopssupportagent7"
+    }
+}

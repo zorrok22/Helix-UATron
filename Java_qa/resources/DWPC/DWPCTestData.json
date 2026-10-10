@@ -1,0 +1,127 @@
+{
+  "SearchService_DRSQA_11404": [
+    { "Label": "SERVICE_NAME", "Value": "Chatter Login Issue SRD" }
+  ],
+
+  "DRSQA_15148_Survey": [
+    { "Label": "SURVEY_NAME", "Value": "Test_NPS_Survey" },
+    { "Label": "RATING_SCALE", "Value": "Net Promoter Score (NPS)" },
+    { "Label": "SERVICE_REQUEST_NAME", "Value": "Software Install" },
+    { "Label": "NEW_RATING_SCALE", "Value": "Customer Satisfaction (CSAT) - 5 point" }
+  ],
+
+  "DRSQA_11691_DWPCData":[
+    {"Label":"dwpcReportsMenu", "Value":"Reports"},
+    {"Label":"dwpcServiceRequestsSubMenu", "Value":"Service Requests"}
+  ],
+
+  "DRSQA_11772_service": [
+    {"Label": "serviceName", "Value": "SB_Approval service"},
+    {"Label": "ImportServiceName","Value": "SB_ApprovalService"},
+    {"Label": "ServiceOptionName","Value": "Collaboration"}
+  ],
+
+  "DRSQA_11554_service": [
+    {"Label": "serviceName", "Value": "Change My Legal Name"}
+  ],
+
+  "DRSQA_11551_service": [
+    {"Label": "serviceName", "Value": "All Questions"}
+  ],
+
+  "DRSQA_11550_service": [
+    {"Label": "serviceName", "Value": "Approval SRD - Person"}
+  ],
+
+  "DRSQA_11548_service": [
+    {"Label": "serviceName", "Value": "Install Projector SRD"}
+  ],
+
+  "DRSQA_11478_service": [
+    {"Label": "serviceName", "Value":"Approval SRD - Group One Sign"},
+    {"Label": "ImportServiceName","Value": "Approval SRD - Group One Sign"}
+  ],
+
+  "DRSQA_11619_SurveySettings": [
+    { "Label": "DeliveryLimitDays", "Value": "1" }
+  ],
+
+  "DRSQA_16523_Data": [
+    { "Label": "serviceName", "Value": "SB_CreateIncident" },
+    { "Label": "description", "Value": "Service for SBE Request Cancel/Reopen functionality test" }
+  ],
+  
+  "DRSQA_16205_Data": [
+    { "Label": "serviceName", "Value": "Chatter Login Issue SRD" },
+    { "Label": "description", "Value": "Service for REQ Request Cancel/Reopen functionality test" }
+  ],
+
+  "DRSQA_11470_service": [
+    {"Label": "serviceName", "Value":"Simple Change SRD"},
+    {"Label": "ImportServiceName","Value": "Simple Change SRD"}
+  ],
+
+  "DRSQA_11656_service": [
+    {"Label": "serviceName", "Value": "Health Insurance Test"},
+    {"Label": "ImportServiceName", "Value": "ServiceExport"},
+    {"Label": "BundleName", "Value": "Health Insurance"},
+    {"Label": "ImportBundleName", "Value": "BundleExport"}
+  ],
+  
+  "DRSQA_12266_Data": [
+    { "Label": "CONNECTION_NAME", "Value": "REST" },
+    { "Label": "CONNECTOR_TYPE", "Value": "REST" },
+    { "Label": "SERVICE_NAME", "Value": "REST Request Error" }
+  ],
+
+  "DRSQA_11447_ActivityOnTaskCreatedFromDWP": [
+    {"Label": "Connector", "Value": "Innovation Suite"},
+    {"Label": "DWPCMenuItem", "Value": "Services"},
+    {"Label": "DWPCSubMenuItem", "Value": "Connectors"},
+    {"Label": "DWPCUserKey", "Value": "Liam"}
+  ],
+
+  "DRSQA_11427_DWPCService": [
+    { "Label": "serviceName", "Value": "All Questions" },
+    { "Label": "DeliveryLimitDays", "Value": "1" }
+  ],
+
+  "DRSQA_11714_service_info": [
+    {"Label": "serviceName", "Value": "SB_Create_MultiITSM"}
+  ],
+
+  "DRSQA_11654_Service": [
+    { "Label": "serviceName", "Value": "DRSQA_11654_Service"}
+  ],
+
+  "DRSQA_11458_TestData": [
+    { "Label": "serviceName", "Value": "ServiceWithConfidQuestions2"},
+    { "Label": "ImportServiceName", "Value": "ServiceWithConfidQuestions2"}
+  ],
+
+  "DRSQA_11459_TestData": [
+    { "Label": "serviceName", "Value": "AllQuestions_ConfidentialService"},
+    { "Label": "ImportServiceName", "Value": "AllQuestions_ConfidentialService"}
+  ],
+
+  "DRSQA_11507_TestData": [
+    { "Label": "serviceName", "Value": "Employee Spot Bonus"},
+    { "Label": "ImportServiceName", "Value": "SpotBonusRequest"}
+  ],
+
+  "DRSQA_11629_TestData": [
+    { "Label": "serviceName", "Value": "Desktop Service Related INC"},
+    { "Label": "ImportServiceName", "Value": "DesktopServiceRelatedINC"}
+  ],
+
+  "DRSQA_11517_TestData": [
+    { "Label": "serviceName", "Value": "MultiTab with Condition"},
+    { "Label": "ImportServiceName", "Value": "MultiTab with Condition"}
+  ],
+
+  "DRSQA_11473_TestData": [
+    { "Label": "serviceName", "Value": "Simple Change SRD"},
+    { "Label": "ImportServiceName", "Value": "Simple Change SRD"}
+  ]
+
+}

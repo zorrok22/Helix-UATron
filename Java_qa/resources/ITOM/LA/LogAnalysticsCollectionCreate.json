@@ -1,0 +1,99 @@
+{
+	"id": "",
+	"name": "<POLICY_NAME>",
+	"description": "<POLICY_NAME>",
+	"execution_order": 9999,
+	"enabled": true,
+	"selection_criteria": "host_name CONTAINS '<HOST_NAME>'",
+	"tenant_id": "<TENANT_ID>",
+	"usergroups": [
+		{
+			"id": "<ADMIN_ID>",
+			"name": "<ADMIN_NAME>"
+		}
+	],
+	"configurations": [
+		{
+			"name": "test",
+			"type": "COLLECTION",
+			"details": {
+				"collection_type": "FILE",
+				"connector_type": "tdc-connector-linux",
+				"selected_entities": [
+					"Log"
+				],
+				"integration_template_id": "<TEMPLATE_ID>",
+				"hosted": false,
+				"parsing_rules": [
+					{
+						"id": "<PARSING_RULE_ID>",
+						"name": "<PARSING_RULE_NAME>",
+						"orderId": "1"
+					}
+				],
+				"filtering_rules": [],
+				"prefiltering_rules": [],
+				"usergroups": [
+					{
+						"id": "<ADMIN_ID>",
+						"name": "Administrators"
+					}
+				],
+				"parameters": [
+					{
+						"name": "path",
+						"secret": false,
+						"dataType": "String",
+						"context": {},
+						"value": "<FOLDER_PATH>"
+					},
+					{
+						"name": "exclude_path",
+						"secret": false,
+						"dataType": "string_array",
+						"context": {},
+						"array_value": [
+							""
+						]
+					},
+					{
+						"name": "read_from_head",
+						"secret": false,
+						"dataType": "boolean",
+						"context": {},
+						"value": true
+					},
+					{
+						"name": "open_on_every_update",
+						"secret": false,
+						"dataType": "boolean",
+						"context": {},
+						"value": true
+					},
+					{
+						"name": "file_encoding",
+						"secret": false,
+						"dataType": "enum",
+						"context": {},
+						"value": "UTF-8"
+					},
+					{
+						"name": "tag",
+						"secret": false,
+						"dataType": "String",
+						"context": {},
+						"value": "<TAGS>"
+					},
+					{
+						"name": "fields",
+						"secret": false,
+						"dataType": "string",
+						"context": {},
+						"value": "[]"
+					}
+				]
+			},
+			"display_order": 0
+		}
+	]
+}

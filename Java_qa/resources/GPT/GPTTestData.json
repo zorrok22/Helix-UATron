@@ -1,0 +1,5 @@
+{
+ 	"DRSQA_11284_Data": [
+		{"Label": "helixGPTAssitstahtServiceURL", "Value": "http://helix-gpt-assistant:8001"}
+	]
+}

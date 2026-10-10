@@ -1,0 +1,34 @@
+{
+  "name": "NAME",
+  "description": "DESCRIPTION",
+  "executionOrder": 9999,
+  "timeframes": [
+    "-1"
+  ],
+  "enabled": true,
+  "configurations": {
+    "configOrder": 1,
+    "definition": {
+      "timeframeDetails": {
+        "startDate": "START_DATE",
+        "startTime": "STAR_TIME",
+        "endTime": "END_TIME",
+        "endsOn": {
+          "endDate": "END_DATE"
+        },
+        "recurrencePattern": {
+          "recurrence": "oneTime"
+        },
+        "timeZone": {
+          "id": "Asia/Kolkata",
+          "offset": "+05:30"
+        }
+      },
+      "processing_action": {
+        "blackoutExistingEvents": "BLACKOUT_EXISTING_EVENTS",
+        "resetStatusOnBlackoutEnd": "RESET_STATUS_ON"
+      }
+    }
+  },
+  "eventSelectorCriteria": "EVENT_SELECTION_CRITERIA"
+}

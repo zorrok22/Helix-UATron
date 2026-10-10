@@ -1,0 +1,223 @@
+{
+  "id": "${id}",
+  "displayId": "${displayId}",
+  "summary": "Lan_Connection_Problem",
+  "desc": "",
+  "impact": "4-Minor/Localized",
+  "urgency": "4-Low",
+  "status": {
+    "value": "Draft"
+  },
+  "categorizations": [
+    {
+      "name": "operational",
+      "tiers": {
+        "operationCategoryTier1": "Applications",
+        "operationCategoryTier2": "Help Desk",
+        "operationCategoryTier3": "Incident"
+      }
+    },
+    {
+      "name": "product",
+      "tiers": {
+        "productCategoryTier1": "Business",
+        "productCategoryTier2": "Business Process",
+        "productCategoryTier3": "Level 1",
+        "productName": "",
+        "productModelVersion": ""
+      }
+    }
+  ],
+  "investigationDriver": "High Impact Incident",
+  "targetDate": null,
+  "rootCause": "Application Error",
+  "company": {
+    "name": "Petramco",
+    "site": {
+      "name": "MacquariePark",
+      "address": {
+        "street": "Level5,BuildingC\n11TalaveraRoad\nMacquarieParkNSW",
+        "city": "Sydney",
+        "state": "NewSouthWales",
+        "country": "Australia",
+        "zip": "2113",
+        "address": "Level5,BuildingC\n11TalaveraRoad\nMacquarieParkNSW\nSydney,NewSouthWales2113\nAustralia"
+      },
+      "region": "Asia-Pac",
+      "siteGroup": "Engineering",
+      "siteId": "GTE000000000037"
+    }
+  },
+  "location": {
+    "name": "Macquarie Park",
+    "address": {
+      "street": "Level5,BuildingC\n11TalaveraRoad\nMacquarieParkNSW",
+      "city": "Sydney",
+      "state": "NewSouthWales",
+      "country": "Australia",
+      "zip": "2113",
+      "address": "Level5,BuildingC\n11TalaveraRoad\nMacquarieParkNSW\nSydney,NewSouthWales2113\nAustralia"
+    },
+    "region": "Asia-Pac",
+    "siteGroup": "Engineering",
+    "siteId": "GTE000000000037",
+    "companyName": "Petramco"
+  },
+  "impactedService": {
+    "name": "App Hosting",
+    "desc": "",
+    "type": "Business Service",
+    "company": {
+      "name": "Petramco"
+    },
+    "product": {
+      "categorizations": [
+        {
+          "name": "product",
+          "tiers": {
+            "productCategoryTier1": "Service",
+            "productCategoryTier2": "Infrastructure",
+            "productCategoryTier3": "Service Management"
+          },
+          "cognitiveFlag": false
+        }
+      ]
+    },
+    "reconciliationId": "REHAA5V0GQBORANAMVYHWDLW3SVMWE",
+    "classId": "BMC_BUSINESSSERVICE",
+    "instanceId": "AGHAA5V0GQBORANAMVYHWDLW3SVMWF",
+    "site": {},
+    "status": {
+      "value": "Deployed"
+    },
+    "assetExtension": {},
+    "thumbnail": "",
+    "needsReconciliation": false,
+    "dataSetId": "BMC.ASSET",
+    "assetId": "GBS000000000007",
+    "assetType": "Business Service",
+    "verified": false,
+    "customFields": {},
+    "id": "GBS000000000007",
+    "createDate": 1693562966000,
+    "modifiedDate": 1567167031924
+  },
+  "assignee": {
+    "type": "person",
+    "firstName": "Emerald",
+    "lastName": "Green",
+    "fullName": "Emerald Green",
+    "department": "Help Desk",
+    "email": "",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "San Jose",
+        "address": {
+          "street": "91 East Tasman Drive",
+          "city": "San Jose",
+          "state": "California",
+          "country": "United States",
+          "zip": "95134-1618",
+          "address": "91 East Tasman Drive\nSan Jose, California 95134-1618\nUnited States"
+        },
+        "region": "Americas",
+        "siteGroup": "Marketing",
+        "siteId": "GTE000000000089"
+      },
+      "email": "egreen@petramco.com",
+      "phone": "1 408 838-9997",
+      "thumbnailMime": "",
+      "thumbnail": ""
+    },
+    "organization": "Petramco Support Org1",
+    "loginId": "egreen",
+    "available": "OFFLINE",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "Petramco Support Group1",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Petramco Support Org1",
+        "id": "GGP000000000016",
+        "assignedToGroup": false,
+        "persons": []
+      }
+    ],
+    "id": "egreen",
+    "createDate": 1750153503369,
+    "supportGroup": "Petramco Support Group1",
+    "supportGroupId": "GGP000000000016",
+    "supportOrganization": "Petramco Support Org1"
+  },
+  "supportGroup": {
+    "name": "Petramco Support Group1",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "Petramco Support Org1",
+    "id": "GGP000000000016",
+    "assignedToGroup": false,
+    "persons": []
+  },
+  "coordinator": {
+    "type": "person",
+    "firstName": "Emerald",
+    "lastName": "Green",
+    "fullName": "Emerald Green",
+    "department": "Help Desk",
+    "email": "",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "San Jose",
+        "address": {
+          "street": "91 East Tasman Drive",
+          "city": "San Jose",
+          "state": "California",
+          "country": "United States",
+          "zip": "95134-1618",
+          "address": "91 East Tasman Drive\nSan Jose, California 95134-1618\nUnited States"
+        },
+        "region": "Americas",
+        "siteGroup": "Marketing",
+        "siteId": "GTE000000000089"
+      },
+      "email": "egreen@petramco.com",
+      "phone": "1 408 838-9997",
+      "thumbnailMime": "",
+      "thumbnail": ""
+    },
+    "organization": "Petramco Support Org1",
+    "loginId": "egreen",
+    "available": "OFFLINE",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "Petramco Support Group1",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Petramco Support Org1",
+        "id": "GGP000000000016",
+        "assignedToGroup": false
+      }
+    ],
+    "id": "egreen",
+    "createDate": 1750153503369,
+    "supportGroup": "Petramco Support Group1",
+    "supportGroupId": "GGP000000000016",
+    "supportOrganization": "Petramco Support Org1"
+  },
+  "coordinatorGroup": {
+    "name": "Petramco Support Group1",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "Petramco Support Org1",
+    "id": "GGP000000000016",
+    "assignedToGroup": false
+  }
+}

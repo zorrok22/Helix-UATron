@@ -1,0 +1,40 @@
+{
+	"size": 980,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"range": {
+									"creation_time": {
+										"lt": <END_TIME>
+									}
+								}
+							},
+							{
+								"bool": {
+									"must": [
+										{
+											"term": {
+												"status": "<SERVICE_KEY>"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

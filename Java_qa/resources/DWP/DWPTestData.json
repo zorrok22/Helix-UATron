@@ -1,0 +1,1085 @@
+{
+  "DRSQA_11810_Data":[
+    {"Label": "CustomerName","Value": "BMCOps EndUser"},
+    {"Label": "RejectReason","Value": "RejectingApprovalRequest"},
+    {"Label":"SERVICE_NAME", "Value":"BMCOps Approval Service 1.0"},
+    {"Label":"configuration", "Value":"Configuration"},
+    {"Label":"fulfillmentDetails", "Value":"Fulfillment Details"},
+    {"Label":"WAITING_YOUR_APPROVAL", "Value":"Waiting for your approval"},
+    {"Label":"APPROVED_STATUS", "Value":"Approved"},
+    {"Label":"REJECTED_STATUS", "Value":"Rejected"}
+  ],
+
+  "DRSQA_11815_Data": [
+    {"Label": "ProviderName", "Value":"Helix Knowledge Management pluggable provider"},
+    {"Label": "url", "Value":"innovation_suite.url"},
+    {"Label": "password", "Value":"__USER_PASSWORD__"},
+    {"Label": "user", "Value":"innovation_suite.system_user"},
+    {"Label": "tenantName", "Value":"innovation_suite.tenant_name"},
+    {"Label": "urlContains", "Value":"comaround"},
+    {"Label": "comaroundArticle","Value": "Install Flash Player"},
+    {"Label":"configuration", "Value":"Configuration"}
+  ],
+
+  "DRSQA_11618_Data": [
+    {"Label": "quickLinkText", "Value":"Comaround"},
+    {"Label": "urlContains", "Value":"comaround"}
+  ],
+
+  "DRSQA_11769_Details":[
+    {"Label":"EnableToDo", "Value":"true"}
+  ],
+
+  "DRSQA_11517_BidirectionalCommunication":[
+    {"Label":"SERVICE_NAME", "Value":"BMCOps BWF Service 1.0"},
+    {"Label":"bwfUser", "Value":"opsSupportAgent"},
+    {"Label":"bwfLOB", "Value":"Human Resource"},
+    {"Label":"bwfComment1", "Value":"BWF comment 1 DRSQA_11517"},
+    {"Label":"bwfComment2", "Value":"BWF comment 2 DRSQA_11517"},
+    {"Label":"dwpComment1", "Value":"DWP comment 1 DRSQA_11517"},
+    {"Label":"dwpComment2", "Value":"DWP comment 2 DRSQA_11517"}
+  ],
+
+  "DRSQA_11781_Data":[
+    {"Label":"SERVICE_NAME", "Value":"BMCOps BWF Service 1.0"},
+    {"Label":"Summary", "Value":"Sample BWF case for BMCOps Monitoring"},
+    {"Label":"Description", "Value":"This is a sample BWF case for BMCOps Monitoring"}
+  ],
+
+  "DRSQA_11642_Data":[
+    {"Label":"AlternateApproverUserName", "Value":"sadam"}
+  ],
+
+  "DRSQA_11517_Data": [
+    {"Label": "Summary", "Value":"I want to submit multi tab request"},
+    {"Label": "Description", "Value": "Multi tab request"},
+    {"Label": "FoodQuality","Value": "3"},
+    {"Label": "VendorType","Value":"Food"},
+    {"Label": "ServiceRequestName", "Value":"MultiTab with Condition"},
+    {"Label": "DWPComment", "Value": "Comment from DWP"},
+    {"Label": "DWPAttachment", "Value": "DRSQA_11517.txt"},
+    {"Label": "Bold", "Value": "Bold"}
+  ],
+	
+  "DRSQA_11782_Data":[
+    {"Label":"serviceName", "Value":"BMCOps Remedy Service 1.0"},
+    {"Label":"configuration", "Value":"Configuration"},
+    {"Label":"Summary", "Value":"Remedy Work Order"},
+    {"Label":"fulfillmentDetails", "Value":"Fulfillment Details"},
+    {"Label":"attachmentName", "Value":"DRSQA_11839.txt"}
+  ],
+
+  "DRSQA_15148_Data":[
+    {"Label":"SERVICE_NAME", "Value":"Software Install 1.0"},
+    {"Label":"MACHINE_NAME", "Value":"TestMachine_DRSQA_15148"},
+    {"Label":"SOFTWARE_LABEL", "Value":"Software required"},
+    {"Label":"SOFTWARE_NAME", "Value":"Visio"},
+    {"Label":"NPS_RATING", "Value":"8"},
+    {"Label":"NEW_RATING_SCALE", "Value":"Customer Satisfaction (CSAT) - 5 point"}
+  ],
+
+  "DRSQA_11772_Data": [
+    {"Label": "serviceName", "Value": "SB_Approval service 1.0"},
+    {"Label": "ServiceOptionName","Value": "Collaboration"},
+    {"Label": "ApprovalSummary","Value": "Collaboration Delegation"},
+    {"Label": "collaboratorName1","Value": "Moses Werner"},
+    {"Label": "collaboratorName2","Value": "Frieda Hoffmann"},
+    {"Label": "delegationCollaboratorName","Value": "Fritz Schulz"},
+    {"Label": "sharedByText","Value": "Shared by Bobby Hill"}
+  ],
+
+  "DRSQA_11436_Data":[
+    {"Label":"initialMsg", "Value":"How to change admin password? "},
+    {"Label":"topic", "Value":""},
+    {"Label":"endUserMessage", "Value":"Thank you for your help, I will try and let you know."},
+    {"Label":"systemMessageForJoiningTheSession", "Value":"%s has joined the session"},
+    {"Label":"systemMessageForClosingTheBrowser", "Value":"System Message: %s has closed the browser"}
+  ],
+
+  "DRSQA_11435_Data":[
+    {"Label":"initialMsg", "Value":"How do I change Password "},
+    {"Label":"topic", "Value":""},
+    {"Label":"endUserMessage1", "Value":"I need help with my account password."},
+    {"Label":"endUserMessage2", "Value":"Thanks. Can you transfer me to another agent?"},
+    {"Label":"systemMessageForJoiningTheSession", "Value":"%s has joined the session"},
+    {"Label":"endUserAttachmentPrefix", "Value":"DRSQA_11435_endUserAttachment_"},
+    {"Label":"attachmentFileExtension", "Value":".txt"}
+  ],
+
+  "DRSQA_11437_Data":[
+    {"Label":"initialMsg", "Value":"How do I connect to the printer? "},
+    {"Label":"topic", "Value":""},
+    {"Label":"endUserMessage1", "Value":"SJC-1234"},
+    {"Label":"systemMessageForJoiningTheSession", "Value":"System Message: %s has joined the session"},
+    {"Label":"systemMessageForClosingTheBrowser", "Value":"System Message: %s has closed the browser"}
+  ],
+
+  "DRSQA_11682_Data":[
+    {"Label":"initialMsg", "Value":"I need help with a knowledge article "},
+    {"Label":"topic", "Value":""},
+    {"Label":"endUserMessage1", "Value":"Can you share the Windows Blue Screen of Death article?"},
+    {"Label":"articleSearchKeyword", "Value":"Windows"},
+    {"Label":"articleName", "Value":"Windows Blue Screen of Death"},
+    {"Label":"systemMessageForJoiningTheSession", "Value":"System Message: %s has joined the session"},
+    {"Label":"systemMessageForClosingTheBrowser", "Value":"System Message: %s has closed the browser"}
+  ],
+
+  "DRSQA_11523_Data":[
+    {"Label":"initialMsg", "Value":"xerox "},
+    {"Label":"topic", "Value":"BMCOps-BWF"},
+    {"Label":"systemMessageForClosingTheBrowser", "Value":"System Message: %s has closed the browser"}
+  ],
+
+  "DRSQA_11524_Data":[
+    {"Label":"initialMsg", "Value":"I cannot login? "},
+    {"Label":"topic", "Value":"BMCOps-BWF"},
+    {"Label":"endUserMessage2", "Value":"Please reconnect my chat"},
+    {"Label":"openItemsSectionName", "Value":"My Open Chats"},
+    {"Label":"systemMessageForClosingTheBrowser", "Value":"System Message: %s has closed the browser"}
+  ],
+
+  "DRSQA_11525_Data":[
+    {"Label":"initialMsg", "Value":"I cannot login? "},
+    {"Label":"topic", "Value":"BMCOps-BWF"},
+    {"Label":"releaseMessage", "Value":"System Message: %s has released this ticket for reassignment."},
+    {"Label":"endUserAttachmentPrefix", "Value":"DRSQA_11525_endUserAttachment_"},
+    {"Label":"attachmentFileExtension", "Value":".txt"},
+    {"Label":"endUserAttachmentUploadMessage", "Value":"%s has uploaded files"}
+  ],
+
+  "DRSQA_11619_RequestDetails":[
+    {"Label":"ServiceRequestName", "Value":"Software Install 1.0"},
+    {"Label":"SummaryLabel", "Value":"Request Summary"},
+    {"Label":"SummaryLabelAlt", "Value":"Summary"},
+    {"Label":"DescriptionLabel", "Value":"Justification"},
+    {"Label":"DescriptionLabelAlt", "Value":"Description"},
+    {"Label":"Summary", "Value":"DRSQA_11619 Summary"},
+    {"Label":"Description", "Value":"DRSQA_11619 Justification"},
+    {"Label":"SOFTWARE_LABEL", "Value":"Software required"},
+    {"Label":"SOFTWARE_NAME", "Value":"Visio"},
+    {"Label":"MACHINE_NAME", "Value":"TestMachine_DRSQA_11619"}
+  ],
+
+  "BMCOpsArticleSearch":[
+    {"Label":"BWF_ArticleName", "Value":"Sample BWFA article for BMCOps Monitoring"},
+    {"Label":"ITSM_ArticleName", "Value":"Sample RKM article for BMCOps Monitoring"}
+  ],
+
+  "DRSQA_17550_Data":[
+    {"Label":"configuration", "Value":"Configuration"},
+    {"Label":"Search", "Value":"Search"},
+    {"Label":"Skill", "Value":"Employee Navigator for Helix"},
+    {"Label": "ServiceName", "Value": "I am requesting paid time off"},
+    {"Label": "Would you like to walk through the request", "Value": "Yes"},
+    {"Label": "SummaryConfirmationMessage","Value": "Here is a summary"},
+    {"Label": "SummaryConfirmationMessage2","Value": "Please confirm"},
+    {"Label": "SummaryConfirmationMessage3","Value": "Here’s the current summary"},
+    {"Label": "SummaryConfirmationMessage4","Value": "like to submit"},
+    {"Label": "DWPCserviceName","Value": "I Want paid time off next week"},
+    {"Label": "summar","Value": "vacation"},
+    {"Label": "vacation","Value": "Skip"},
+    {"Label": "attach","Value": "Skip"},
+    {"Label": "descri","Value": "Jury Service"},
+    {"Label": "start","Value": "Today"},
+    {"Label": "end","Value": "Tomorrow"},
+    {"Label": "submit","Value": "Yes"},
+    {"Label": "skip","Value": "Yes"},
+    {"Label": "invalid","Value": "Skip"},
+    {"Label": "SummaryField1","Value": "Summary"},
+    {"Label": "SummaryField2","Value": "Start Date"},
+    {"Label": "SummaryField3","Value": "End Date"},
+    {"Label": "SummaryField4","Value": "attachment"},
+    {"Label": "SummaryField5","Value": "Description"}
+  
+  ],
+
+  "DRSQA_11777Data":[
+    {"Label": "ServiceRequestName","Value": "SB_CreateIncident"},
+    {"Label": "Note","Value": "Request created via DWPC service SB_CreateIncident"},
+    {"Label": "Comment", "Value": "7384_Adding_comment"}
+  ],
+
+  "DRSQA_11624_RequestDetails":[
+    {"Label":"SERVICE_NAME", "Value":"SB_CreateIncident"},
+    {"Label":"SUMMARY_TEXT", "Value":"DRSQA_11624 Summary"},
+    {"Label":"RTF_TEXT", "Value":"DRSQA_11624 RichText"},
+    {"Label":"LINK_TEXT", "Value":"BMC"},
+    {"Label":"LINK_URL", "Value":"https://www.bmc.com"}
+  ],
+
+  "DRSQA_11401Data":[
+    {"Label": "PageName","Value": "GPT"},
+    {"Label": "Input","Value": "onboarding"},
+    {"Label": "Context","Value": "Employee onboarding is a structured orientation process that supports new hires and promoted employees in adapting successfully to their roles."},
+    {"Label": "ExpectedResponse","Value": "Employee onboarding"}
+  ],
+
+  "DRSQA_11741Data":[
+    {"Label": "input","Value": "Install flash player"}
+  ],
+
+
+  "DRSQA_11407Data":[
+    {"Label": "technologyDropdown","Value": "technology"},
+    {"Label": "techDropdownValues","Value": "Employee Navigator"},
+    {"Label": "skillDropdown","Value": "Skill"},
+    {"Label": "agentDropdownValues","Value": "Employee Navigator for Helix"},
+    {"Label": "message1","Value": "Hi"},
+    {"Label": "notSupportedFile","Value": "TestData.xml"},
+    {"Label": "errorMessageForNotSupported","Value": "files are not supported"},
+    {"Label": "supportedFile","Value": "vpn_issue.png"},
+    {"Label": "Input","Value": ""},
+    {"Label": "response","Value": "VPN"},
+    {"Label": "Context","Value": "fix VPN issue"},
+    {"Label": "ExpectedResponse","Value": "To fix this VPN issue"},
+    {"Label": "configuration","Value": "Configuration"},
+    {"Label": "Chat","Value": "Chat"}
+  ],
+
+  "DRSQA_11408Data":[
+	{"Label": "configSetting","Value": "Studio (expose pages to end users)"},
+    {"Label": "PageName","Value": "SampleGPTView"},
+    {"Label": "FileName","Value": "SampleGPTViewPage.zip"},
+    {"Label": "SearchResponse1","Value": "Admin"},
+    {"Label": "technologyDropdown","Value": "technology"},
+    {"Label": "techDropdownValues","Value": "Employee Navigator"},
+    {"Label": "skillDropdown","Value": "Skill"},
+    {"Label": "skillDropdownValues","Value": "Employee Navigator for Helix"},
+    {"Label": "message","Value": "show Medical InsurancefuicL health item"},
+    {"Label": "ExpectedResponse","Value": ["Health Insurance", "If there is participant name and more data then consider answer as relevant"]},
+    {"Label": "Context","Value": "Different types of health insurance—individual, child, family, and joint—provide quick access to tailored medical care and peace of mind for various needs."},
+    {"Label": "message2","Value": "Is something wrong with Microsoft outlook"},
+    {"Label": "source1","Value": "Medical InsurancefuicL"},
+    {"Label": "Context2","Value": "Microsoft Outlook"},
+    {"Label": "response2","Value": "Microsoft Outlook"},
+    {"Label": "source2","Value": "Microsoft outlook"},
+    {"Label": "configuration","Value": "Configuration"},
+    {"Label": "Chat","Value": "Chat"}
+  ],
+
+  "DRSQA_11409Details":[
+    {"Label": "configSetting","Value": "Studio (expose pages to end users)"},
+    {"Label": "PageName","Value": "SampleGPTView"},
+    {"Label": "FileName","Value": "SampleGPTViewPage.zip"},
+    {"Label": "SearchResponse1","Value": "Admin"},
+    {"Label": "technologyDropdown","Value": "technology"},
+    {"Label": "techDropdownValues","Value": "Employee Navigator"},
+    {"Label": "skillDropdown","Value": "Skill"},
+    {"Label": "skillDropdownValues","Value": "DWP_GPT"},
+    {"Label": "question1","Value": "List users with name ending with Admin"},
+    {"Label": "question2","Value": "List users with name starting with A"},
+    {"Label": "SearchResponse2","Value": "A"},
+    {"Label": "question3","Value": "List people with email @petramco.com"},
+    {"Label": "SearchResponse3","Value": "@petramco.com"},
+    {"Label": "MyPageTab","Value": "My pages"},
+    {"Label": "SearchViewTab","Value": "Search views"},
+    {"Label": "viewName","Value": "GPTVIew"},
+    {"Label": "skillOnViewDropdown","Value": "skillId"},
+    {"Label": "keywardValue","Value": "onboarding"},
+    {"Label": "configuration","Value": "Configuration"},
+    {"Label": "Chat","Value": "Chat"}
+  ],
+
+  "DRSQA_11771Data":[
+    {"Label": "SearchText","Value": "Show my 2 in progress requests?"},
+    {"Label": "SearchText_2","Value": "What are my 2 pending approvals?"},
+    {"Label": "SecondQuestion","Value": "how many requests do I have in total?"},
+    {"Label": "Context2","Value": "You are an assistant connected to a request-tracking system. The system counts all requests across these statuses: active, waiting for approval, initiated, completed, closed, cancelled, and faulted."},
+    {"Label": "ExpectedResponse2","Value": "Reply gives correct totals for active and past requests, lists each active request with title, status, times, and people fields from data."},
+    {"Label": "RequestID","Value": "Request ID"},
+    {"Label": "Title","Value": "Title"},
+    {"Label": "Status","Value": "Status"},
+    {"Label": "RequestedBy","Value": "Requested By"},
+    {"Label": "inProgressRequest","Value": "In Progress Requests"},
+    {"Label": "cancelConfirmationMessage","Value": "confirm"},
+    {"Label": "cancelSuccessMessage","Value": "canceled successfully"},
+    {"Label": "commentSuccessMessage","Value": "added successfully"},
+    {"Label": "ReassignText_1","Value": "confirm if you would like to approve this request."},
+    {"Label": "ReassignText_2","Value": "Do you want to approve"},
+    {"Label": "ReassignText_3","Value": "justification"},
+    {"Label": "ReassignText_4","Value": "confirm"},
+    {"Label": "ApproveText","Value": "Yes"},
+    {"Label": "JustificationText","Value": "justification"},
+    {"Label": "JustificationAnswer","Value": "No justification, Just Approve"},
+    {"Label": "ApproveSuccessText","Value": "approved successfully"},
+    {"Label": "ApproveSuccessText_1","Value": "Your approval has been recorded"},
+    {"Label": "ApproveSuccessText_2","Value": "successfully"}
+  ],
+
+  "DRSQA_12263Data":[
+    {"Label": "AI_DISCLAIMER","Value": "AI Disclaimer"},
+    {"Label": "messageType","Value": "Long"},
+    {"Label": "message1","Value": "Hello gpt"},
+    {"Label": "shortMessageText","Value": "Results do not reflect BMC Helix"},
+    {"Label": "messageText","Value": "HelixGPT might display inaccurate information time to time"},
+    {"Label": "viewName","Value": "GPTVIew"}
+  ],
+
+  "DRSQA_12256Data": [
+    {"Label": "BWFArticle","Value": "What To Do If Having a Baby"},
+    {"Label": "Context","Value": "The document provides a step-by-step guide on handling company benefits, leave options, and enrollment requirements before and after having a baby, including Short-Term Disability, FMLA, Parental Bonding Leave, newborn enrollment, and return-to-work procedures."},
+    {"Label": "ExpectedResponse","Value": "If you are having a baby, prepare by scheduling prenatal checkups and arranging needed support.After birth, ensure the baby receives medical evaluation, birth registration, and necessary vaccinations.Also plan for childcare, parental leave, and adjusting your home for the baby’s safety and comfort.If there is participant name and more data then consider answer as relevant"},
+    {"Label": "RKMArticle","Value": "How To Connect To The Office Printer / Copier"},
+    {"Label": "Context_2","Value": "The model added general explanation of how to connect to an office printer/copier."},
+    {"Label": "ExpectedResponse_2","Value": "To connect to the office printer or copier, open your computer’s printer settings and select “Add Printer.” Choose the office printer from the network list or enter its network address if provided."},
+    {"Label": "HKMArticle","Value": "Install Flash player"},
+    {"Label": "Context_3","Value": "The document outlines how to install Flash Player by downloading it and following on-screen instructions, while also noting that Adobe has discontinued support and cautioning users to download only from trusted sources."},
+    {"Label": "ExpectedResponse_3","Value": "Install Flash player"},
+    {"Label": "ArticleNotFound","Value": "Calbro"},
+    {"Label": "ExternalWorldQuestion","Value": "What is the weather in Pune?"},
+    {"Label": "ExternalWorldResponse","Value": "The weather in Pune is"}
+  ],
+
+  "DRSQA_11409Data":[
+    {"Label": "technologyDropdown","Value": "technology"},
+    {"Label": "techDropdownValues","Value": "Employee Navigator"},
+    {"Label": "skillDropdown","Value": "Skill"},
+    {"Label": "skillDropdownValues","Value": "Employee Navigator for Helix"},
+    {"Label": "question1","Value": "List all users whose names end with Admin."},
+    {"Label": "Context1","Value": "Agent should provide a list of users whose names strictly end with Admin. The response may include multiple columns (such as email, department, location), but must include only relevant users. Users whose names only contain Admin but do not end with it must be excluded. No additional explanation text should be included."},
+    {"Label": "ExpectedResponse1","Value": "All returned users must have names that strictly end with Admin."},
+    {"Label": "question2","Value": "Give me List users with name starting with A"},
+    {"Label": "Context2","Value": "Agent should give the list of users starting with A word, answer is providing in column format please took only one column as answer"},
+    {"Label": "ExpectedResponse2","Value": "starting with A"},
+    {"Label": "question3","Value": "Give me 5 people with email @petramco.com  with email column"},
+    {"Label": "Context3","Value": "Agent should give the list of people ending with @petramco.com email column"},
+    {"Label": "ExpectedResponse3","Value": "@petramco.com"},
+    {"Label": "configuration","Value": "Configuration"},
+    {"Label": "Chat","Value": "Chat"}
+  ],
+
+  "DRSQA_11773Data":[
+    {"Label": "SearchText","Value": "How To Play UNO"},
+    {"Label": "PageName","Value": "GPT"},
+    {"Label": "ApplicationName","Value": "BMC Digital Workplace"},
+    {"Label": "SkillName","Value": "DWP_GPT"},
+    {"Label": "ServiceName", "Value": "GPTDemo"},
+    {"Label": "SearchResponce","Value": "Sorry!"},
+    {"Label": "RaiseRequest","Value": "Raise a service request"},
+    {"Label": "summar","Value": "vacation"},
+    {"Label": "attachment","Value": "No"},
+    {"Label": "descri","Value": "Jury Service"},
+    {"Label": "start","Value": "Today"},
+    {"Label": "end","Value": "Tomorrow"},
+    {"Label": "submit","Value": "Yes"},
+    {"Label": "skip","Value": "Yes"},
+    {"Label": "SummaryField1","Value": "Summary"},
+    {"Label": "SummaryField2","Value": "Start Date:"},
+    {"Label": "SummaryField3","Value": "End Date:"},
+    {"Label": "SummaryField4","Value": "Attachments:"},
+    {"Label": "SummaryField5","Value": "Description:"}
+  ],
+
+  "DRSQA_11703_ArticleSearch":[
+    {"Label":"RKM_ArticleName", "Value":"Paper Jam on a Xerox Printer"},
+    {"Label":"BWF_ArticleName", "Value":"SNAP"}
+  ],
+
+  "DRSQA_14636_Data":[
+    {"Label":"serviceName", "Value":"SB_Approval service 1.0"},
+    {"Label":"ApprovalSummaryLabel", "Value":"Approval Summary"},
+    {"Label":"ApprovalSummaryValue", "Value":"DRSQA_14636_SBApprovalServiceRequest"},
+    {"Label":"ApprovalBannerText", "Value":"0 Approved, 1 Awaiting Approval"},
+    {"Label":"ApprovalName", "Value":"Felix Cat"}
+  ],
+
+  "DRSQA_11721_Data":[
+    {"Label":"serviceName", "Value":"SB_Approval service 1.0"},
+    {"Label":"summaryLabel", "Value":"Approval Summary"},
+    {"Label":"summaryValue", "Value":"DRSQA_11721_SBApprovalServiceRequest"},
+    {"Label":"requestPriorityLabel", "Value":"Request priority"},
+    {"Label":"expectedPriorityAfterApproval", "Value":"P4"},
+    {"Label":"expectedPriorityAfterWOUpdate", "Value":"P2"},
+    {"Label":"dwpcReportsMenu", "Value":"Reports"},
+    {"Label":"dwpcServiceRequestsSubMenu", "Value":"Service Requests"},
+    {"Label":"dwpcPriorityColumn", "Value":"Priority"},
+    {"Label":"dwpcExpectedPriorityAfterApproval", "Value":"LOW"},
+    {"Label":"dwpcExpectedPriorityAfterWOUpdate", "Value":"HIGH"},
+    {"Label":"itsmUpdatedWorkOrderPriority", "Value":"High"},
+    {"Label":"approvalExpectedStatus", "Value":"Approved"}
+  ],
+
+  "DRSQA_11518_Data":[
+    {"Label":"serviceName", "Value":"SB_Approval service 1.0"},
+    {"Label":"summaryLabel", "Value":"Approval Summary"},
+    {"Label":"summaryValue", "Value":"DRSQA_11518_SBApprovalServiceRequest"},
+    {"Label":"approvalExpectedStatus", "Value":"Approved"}
+  ],
+
+  "DRSQA_11629_TestData":[
+    {"Label":"serviceName", "Value":"Desktop Service Related INC"},
+    {"Label": "AssetLabel", "Value": "Asset ID for impacted system"},
+    {"Label": "AssetValue","Value": "Computer system"},
+    {"Label": "Priority","Value": "High"},
+    {"Label": "FirstName","Value": "Sample User"},
+    {"Label": "Status","Value": "In Progress"}
+  ],
+
+  "DRSQA_11630_KnowledgeArticleSearch": [
+    {"Label": "PaperJamToSearch", "Value":"Paper Jam on a Xerox Printer"},
+    {"Label": "PaperJamDesc","Value": "Paper Jam on a Xerox Printer stuck Paper Jams This section includes: Jam at the Exit Cover Jam"},
+    {"Label": "SimilarArticleOfPaperJam", "Value":"How To Connect To The Office Printer / Copier"},
+    {"Label": "KnowledgeID", "Value": "KBA90000067"}
+  ],
+
+  "DRSQA_11477_service_info": [
+    {"Label": "serviceName", "Value": "Chatter Login Issue SRD"},
+    {"Label": "Question_1","Value": "What is the problem?"},
+    {"Label": "Answer_1", "Value": "User is not able to Login to laptop"},
+    {"Label": "Status","Value": "Initiated"},
+    {"Label": "Comment","Value": "Comment Added from end user to DWP request"},
+    {"Label": "StatusAfterCancellingRequest", "Value": "Cancelled"},
+    {"Label": "AttachmentName","Value": "DRSQA_11477_DWPAttachment.txt"}
+  ],
+
+  "DRSQA_11568_SRDInfo": [
+    {"Label": "serviceName", "Value": "Donations SRD"},
+    {"Label": "Question_1","Value": "To whom is the donation for?"},
+    {"Label": "Answer_1", "Value": "For Blind Children's"},
+    {"Label": "Question_2","Value": "What or how much you donating?"},
+    {"Label": "Answer_2", "Value": "Donating School bags and Footballs. Quantity each 20"},
+    {"Label": "Status","Value": "Initiated"},
+    {"Label": "Comment","Value": "Comment Added from end user to DWP SRD request"},
+    {"Label": "StatusAfterCancellingRequest", "Value": "Cancelled"},
+    {"Label": "AttachmentName","Value": "DRSQA_11568_DWPAttachment.txt"},
+    {"Label": "InitiatedStatus","Value": "Initiated"}
+  ],
+
+  "DRSQA_11508_SubmitRequest":[
+    {"Label":"SERVICE_NAME", "Value":"Dynamic BWF Request"},
+    {"Label":"completedStatus", "Value":"Completed"},
+    {"Label":"BWF_CASE_TEMPLATE_GUID", "Value":"AGGADG1AAP0ICAOZ3SZ3OY75UM48W7"}
+  ],
+  
+  "DRSQA_11509_TestData":[
+    {"Label":"ServiceRequestName", "Value":"Office Move"},
+    {"Label":"TemplateName", "Value":"Office Move_Question"},
+    {"Label":"OBO_User","Value": "Franz"},
+    {"Label": "Summary", "Value":"I want to move my office"},
+    {"Label": "where to move", "Value": "Pune"},
+    {"Label": "Status","Value": "Waiting Approval"}
+  ],
+
+  "DRSQA_11549_TestData":[
+    {"Label": "ServiceName", "Value": "Request Time Off"},
+    {"Label": "Summary", "Value": "DRSQA-11549 Summary"},
+    {"Label": "bwfCrossLaunchURL", "Value": "/view/com.bmc.dsm.case-lib:Case%20Edit?Case%20ID={id}"},
+    {"Label": "bwfCrossLaunchSettingName", "Value": "Case approval details"},
+    {"Label": "label", "Value": "Summary"},
+    {"Label": "crossLaunchLabel", "Value": "Case approval details"},
+    {"Label": "crossLaunchLabelAlt", "Value": "Additional approval details"},
+    {"Label": "value", "Value": "View"},
+    {"Label": "StartDateLabel", "Value": "Start date"},
+    {"Label": "StartDateDaysFromToday", "Value": "1"},
+    {"Label": "EndDateLabel", "Value": "End date"},
+    {"Label": "EndDateDaysFromToday", "Value": "2"}
+  ],
+
+  "DRSQA_15127_Data":[
+    {"Label":"ServiceName", "Value":"Request Time Off"},
+    {"Label":"CaseTemplateFieldName", "Value":"Case Template"},
+    {"Label":"expectedCaseTemplate", "Value":"Paid Time Off Request"},
+    {"Label":"CaseCategoryFieldName1", "Value":"Category Tier 1"},
+    {"Label":"expectedCategoryValue1", "Value":"Total Rewards"},
+    {"Label":"CaseCategoryFieldName2", "Value":"Category Tier 2"},
+    {"Label":"expectedCategoryValue2", "Value":"Leave"},
+    {"Label":"CaseCategoryFieldName3", "Value":"Category Tier 3"},
+    {"Label":"expectedCategoryValue3", "Value":"PTO"},
+    {"Label":"Requester", "Value":"Fritz Schulz"},
+    {"Label":"Summary", "Value":"Paid time off"},
+    {"Label":"requestTileName", "Value":"Request Time Off"}
+  ],
+
+  "DRSQA_15391_Data": [
+    {"Label": "SERVICE_NAME", "Value": "Software Install 1.0"},
+    {"Label": "MACHINE_NAME", "Value": "TestMachine_DRSQA_15391"},
+    {"Label": "ASSET_GROUP_NAME", "Value": "Test15391AssetGroup"},
+    {"Label": "SERVICE_CAROUSEL", "Value": "TestingAction"},
+    {"Label":"SOFTWARE_LABEL", "Value":"Software required"},
+    {"Label":"SOFTWARE_NAME", "Value":"Visio"},
+    {"Label":"SERVICE_ACTION_NAME", "Value":"Test15391"},
+    {"Label":"REQUEST_LIFECYCLE_DAYS", "Value":"0"},
+    {"Label":"SUFFIX_SA", "Value":"Software"},
+    {"Label":"SUFFIX_SA1", "Value":"Test"}
+
+  ],
+
+  "DRSQA_16523_Data":[
+    {"Label":"serviceName", "Value":"SB_CreateIncident"},
+    {"Label":"ReopenReason", "Value":"Test Reopen Reason from DWP SBE Request"}
+  ],
+
+  "DRSQA11580_TestData": [
+    {"Label": "serviceName", "Value": "Donations SRD"},
+    {"Label": "Question_1","Value": "To whom is the donation for?"},
+    {"Label": "Answer_1", "Value": "For Blind Children's"},
+    {"Label": "Question_2","Value": "What or how much you donating?"},
+    {"Label": "Answer_2", "Value": "Donating School bags and Footballs. Quantity each 20"}
+  ],
+
+  "DRSQA_11567_service_info": [
+    {"Label": "serviceName", "Value": "Extend VM SRD"},
+    {"Label": "Question_1","Value": "What system"},
+    {"Label": "Answer_1", "Value": "ABC"},
+    {"Label": "Status","Value": "Initiated"},
+    {"Label": "Comment","Value": "Comment Added from end user to DWP request"},
+    {"Label": "StatusAfterCancellingRequest", "Value": "Cancelled"},
+    {"Label": "AttachmentName","Value": "DRSQA_11567_DWPAttachment.txt"}
+  ],
+
+  "DRSQA_11631_TestData":[
+    {"Label": "KAToSearch", "Value":"FMLA"},
+    {"Label": "settingName","Value": "innovation_suite.use_and_search_logic"},
+    {"Label": "searchHoliday","Value": "Holiday Schedule"},
+    {"Label": "article1","Value": "Holiday Schedule 2018"},
+    {"Label": "article2","Value": "What are a Manager's responsibilities when employee takes leave of absence?"}
+  ],
+
+  "DRSQA_11535_TestData":[
+    {"Label":"searchTab","Value":"Articles"},
+    {"Label":"feedbackRating","Value":"Good"}
+  ],
+
+  "DRSQA_11578_Data":[
+    {"Label":"serviceName", "Value":"SB_Approval service 1.0"},
+    {"Label":"summaryLabel", "Value":"Approval Summary"},
+    {"Label":"summaryValue", "Value":"DRSQA_11578_SBApprovalServiceRequest"},
+    {"Label":"waitingApprovalStatus", "Value":"Waiting Approval"},
+    {"Label":"inProgressStatus", "Value":"In Progress"}
+  ],
+
+  "DRSQA_11511_TestData":[
+    {"Label":"searchTab","Value":"Articles"},
+    {"Label":"draftStatus","Value":"Draft"},
+    {"Label":"publishApprovalStatus","Value":"Publish Approval"},
+    {"Label":"retireApprovalStatus","Value":"Retire Approval"},
+    {"Label":"closedStatus","Value":"Closed"}
+  ],
+
+  "DRSQA_11555_Data": [
+    {"Label": "Summary", "Value":"Service request for DRSQA-11555"},
+    {"Label": "Description", "Value": "Submit food rating"},
+    {"Label": "FoodQualityQuestion","Value": "How was the food quality?"},
+    {"Label": "FoodQuality","Value": "3"},
+    {"Label": "VendorQuestion","Value": "Which type of vendor are you reviewing?"},
+    {"Label": "VendorType","Value":"Food"},
+    {"Label": "ServiceRequestName", "Value":"MultiTab with Condition"}
+  ],
+
+  "DRSQA_11554_Data": [
+    {"Label":"NewNameLabel", "Value":"New Name"},
+    {"Label":"NewNameValue", "Value":"Test User"},
+    {"Label":"AttachmentLabel", "Value":"Add reference documents"},
+    {"Label":"AttachmentFileName", "Value":"DRSQA_11554.txt"}
+  ],
+
+  "DRSQA_11551_Data": [
+    {"Label":"TextQuestionLabel", "Value":"Text Question"},
+    {"Label":"TextQuestionValue", "Value":"Submitting All questions"},
+    {"Label":"CheckboxQuestionLabel", "Value":"Checkbox Question"},
+    {"Label":"CheckboxQuestionValue", "Value":"Red"},
+    {"Label":"RadioButtonQuestionLabel", "Value":"Radio Button Question"},
+    {"Label":"RadioButtonQuestionValue", "Value":"On"},
+    {"Label":"AttachmentQuestionLabel", "Value":"Attachment Question"},
+    {"Label":"AttachmentFileName", "Value":"DRSQA_11551.txt"},
+    {"Label":"CounterLabel", "Value":"Counter"},
+    {"Label":"CounterValue", "Value":"5"}
+  ],
+
+  "DRSQA_11550_Data": [
+    {"Label":"DateTimeLabel", "Value":"When do you need it by?"},
+    {"Label":"PersonLabel", "Value":"Who are you?"},
+    {"Label":"RequestIdLabel", "Value":"Request ID"},
+    {"Label":"WaitingYourApprovalStatus", "Value":"Waiting for your approval"}
+  ],
+
+  "DRSQA_11548_Data": [
+    {"Label":"RoomQuestionLabel", "Value":"What room?"}		
+  ],
+
+  "DRSQA_16205_Data":[
+    {"Label":"serviceName", "Value":"Chatter Login Issue SRD"},
+    {"Label":"problemField", "Value":"What is the problem?"},
+    {"Label":"problemValue", "Value":"Not able to login"},
+    {"Label":"ReopenReason", "Value":"Test reopen reason 12345"}
+  ],
+
+  "DRSQA_11478_Data": [
+    {"Label":"ServiceRequestName", "Value":"Approval SRD - Group One Sign"},
+    {"Label":"DateTimeLabel", "Value":"When do you need it by?"},
+    {"Label":"PersonLabel", "Value":"Who are you?"},
+    {"Label":"WaitingApprovalStatus", "Value":"Waiting Approval"},
+    {"Label":"RejectReason", "Value":"Test"},
+    {"Label":"OnHoldStatus", "Value":"On Hold"}
+  ],
+
+  "DRSQA_11470_Data": [
+    {"Label": "ServiceRequestName", "Value":"Simple Change SRD"},
+    {"Label": "ImportServiceName","Value": "Simple Change SRD"},
+    {"Label": "WaitingApprovalStatus", "Value":"Waiting Approval"},
+    {"Label": "ReassignUserFullName", "Value": "Monika Andrade"},
+    {"Label": "ReassignUserFullName2", "Value": "Bobby Hill"},
+    {"Label": "ReassignedBannerPrefix", "Value": "Approval reassigned to "},
+    {"Label": "Scheduled Start Date", "Value": "0"},
+    {"Label": "Scheduled End Date", "Value": "1"}
+  ],
+
+  "DRSQA_11448_RequestDetails":[
+    {"Label":"ServiceRequestName1", "Value":"Office Move"},
+    {"Label":"SummaryLabel", "Value":"Summary"},
+    {"Label":"Summary1", "Value":"Shifting"},
+    {"Label":"WhereToMoveLabel", "Value":"where to move"},
+    {"Label":"WhereToMoveValue1", "Value":"Pune"},
+    {"Label":"WhenToMoveLabel", "Value":"when to move"},
+    {"Label":"ServiceRequestName2", "Value":"MultiService 2 cases"},
+    {"Label":"Summary2", "Value":"Summary for multi service"},
+    {"Label":"WhereToMoveValue2", "Value":"move to Pune"},
+    {"Label":"ServiceRequestName3", "Value":"Install Projector SRD"},
+    {"Label":"WhatRoomLabel", "Value":"What room?"},
+    {"Label":"WhatRoomValue", "Value":"EiffelTower"},
+    {"Label":"ServiceRequestName4", "Value":"Complaint Against Your Manager"},
+    {"Label":"ComplaintSummaryLabel", "Value":"Summary of your Complaint"},
+    {"Label":"Summary4", "Value":"Summary of your Complaint"},
+    {"Label":"ComplaintDescriptionLabel", "Value":"Detailed Description of the Complaint"},
+    {"Label":"Description4", "Value":"Description of complaint"},
+    {"Label":"OrderTitle", "Value":"4 items ordered"},
+    {"Label":"RequestIdLabel", "Value":"Request ID"},
+    {"Label":"ApprovedStatus", "Value":"Approved"}
+  ],
+
+  "DRSQA_11447_TaskActivity":[
+    {"Label":"ServiceName","Value":"Employee Verification Letter"},
+    {"Label":"SummaryLabel","Value":"Summary"},
+    {"Label":"Summary","Value":"DRSQA_11447 service request with task"}
+  ],
+
+  "DRSQA_11485_TestData":[
+    {"Label":"ServiceRequestName","Value":"Complaint Against Your Manager"},
+    {"Label":"SRDName","Value":"Complaint Against Your Manager"},
+    {"Label":"SummaryQuestionLabel","Value":"Summary of your Complaint"},
+    {"Label":"DescriptionQuestionLabel","Value":"Detailed Description of the Complaint"},
+    {"Label":"SummaryPrefix","Value":"DRSQA_11485 request"},
+    {"Label":"Description1","Value":"DRSQA_11485 desc"},
+    {"Label":"EndUserComment","Value":"End User comment in DWP"},
+    {"Label":"ApproverComment","Value":"Comment from Approver in DWP with attachment"},
+    {"Label":"AttachmentFileName","Value":"DRSQA_11485.txt"}
+  ],
+
+  "DRSQA_11449_TestData":[
+    {"Label":"ServiceRequestName", "Value":"Underpaid/Overpaid"},
+    {"Label":"Question_1", "Value":"Please describe your issue."},
+    {"Label":"Answer_1", "Value":"DRSQA_11449 Testcase execution"},
+    {"Label":"Question_2","Value": "Date of Payment"},
+    {"Label":"Status","Value": "Waiting Approval"},
+    {"Label":"WaitingYourApprovalStatus","Value":"Waiting your approval"},
+    {"Label":"ApprovedStatus","Value":"Approved"},
+    {"Label":"StatusAfterReopenedCase","Value": "In Progress"}
+  ],
+
+  "DRSQA_11506_TestData":[
+    {"Label":"SRDName", "Value":"Employee Spot Bonus"},
+    {"Label":"EmployeeFullNameLabel", "Value":"Full Name of Employee Nominated"},
+    {"Label":"EmployeeFullNameValue", "Value":"Bobby hill"},
+    {"Label":"AmountLabel", "Value":"What is the Amount?"},
+    {"Label":"AmountValue", "Value":"10,000"},
+    {"Label":"ReasonLabel", "Value":"Detailed Reason For Bonus"},
+    {"Label":"ReasonValue", "Value":"For being an awesome employee"},
+    {"Label":"SummaryLabel", "Value":"Summary"},
+    {"Label":"SummaryValue", "Value":"UI Automation: Case Approval - self-approval"},
+    {"Label":"HR_LOB", "Value":"Human Resource"}
+  ],
+
+  "DRSQA_11507_TestData":[
+    {"Label":"ServiceRequestName", "Value":"Employee Spot Bonus"},
+    {"Label":"EmployeeFullNameLabel", "Value":"Full Name of Employee Nominated"},
+    {"Label":"EmployeeFullNameValue", "Value":"Bobby hill"},
+    {"Label":"AmountLabel", "Value":"What is the Amount?"},
+    {"Label":"AmountValue", "Value":"10,000"},
+    {"Label":"ReasonLabel", "Value":"Detailed Reason For Bonus"},
+    {"Label":"ReasonValue", "Value":"For being an awesome employee"},
+    {"Label":"SummaryLabel", "Value":"Summary"},
+    {"Label":"SummaryValuePrefix", "Value":"UI Automation: Manager approval"},
+    {"Label":"Status", "Value":"Waiting Approval"},
+    {"Label":"WaitingYourApprovalStatus","Value":"Waiting for your approval"},
+    {"Label":"ApprovedStatus","Value":"Approved"},
+    {"Label":"RejectionReason","Value":"Rejecting from level 2 approver"}
+  ],
+
+  "DRSQA_11519_Enable_Disable_NotesAndSummary_Field":[
+    {"Label":"ProviderName","Value":"Helix ITSM pluggable provider"},
+    {"Label":"SettingName","Value":"show.additional.crq.details"},
+    {"Label":"SummaryFieldLabel","Value":"Summary"},
+    {"Label":"NotesFieldLabel","Value":"Notes"},
+    {"Label":"EnableValue","Value":"true"},
+    {"Label":"DisableValue","Value":"false"},
+    {"Label":"ApproverType","Value":"Individual"},
+    {"Label":"ApproverFirstName","Value":"Paul"},
+    {"Label":"ApproverLastName","Value":"Bunyon"}
+  ],
+
+  "DRSQA_11656_service":[
+    {"Label":"AdminMenuConfiguration","Value":"Configuration"},
+    {"Label":"AdminSubMenuConfiguration","Value":"Configuration"},
+    {"Label":"AdminSubMenuFeatureSettings","Value":"Feature Settings"},
+    {"Label":"FeatureSettingName","Value":"Service Health"},
+    {"Label":"AdminMenuServices","Value":"Services"},
+    {"Label":"AdminSubMenuServiceActions","Value":"Service Actions"},
+    {"Label":"AdminSubMenuServiceAvailability","Value":"Service Availability"},
+    {"Label":"ServiceActionType","Value":"Catalog Request"},
+    {"Label":"ServiceActionNamePrefix","Value":"DRSQA_11656_Action_"},
+    {"Label":"ServiceNameInAvailabilityPrefix","Value":"DRSQA_11656_Service_"},
+    {"Label":"RequestValue","Value":"Health Insurance Test"},
+    {"Label":"MyStuffServiceHealthTab","Value":"Service Health"},
+    {"Label":"TextAreaQuestionLabel","Value":"Please provide details regarding your question"},
+    {"Label":"Summary","Value":"DRSQA_11656 - Creating request from Service Health action"},
+    {"Label":"DropdownQuestionLabel","Value":"This question is related to"},
+    {"Label":"DropdownAnswer","Value":"Yourself (the plan member)"}
+  ],
+
+  "DRSQA_11487_TestData":[
+    {"Label":"ServiceRequestName", "Value":"Accounting Complaint"},
+    {"Label":"IssueLabel", "Value":"Please describe your issue"},
+    {"Label":"IssueValue", "Value":"Complaint is regarding Audit work"},
+    {"Label":"RadioAnswer", "Value":"Yes"},
+    {"Label":"RadioIndex", "Value":"1"},
+    {"Label":"InvolvedPersonLabel", "Value":"Who was involved?"},
+    {"Label":"InvolvedPersonName", "Value":"Test_Person"},
+    {"Label":"WaitingYourApprovalStatus", "Value":"Waiting for your approval"},
+    {"Label":"ApprovedStatus", "Value":"Approved"}
+  ],
+
+  "DRSQA_11626_TestData":[
+    {"Label":"WaitingYourApprovalStatus","Value":"Waiting for your approval"},
+    {"Label":"ApprovedStatus","Value":"Approved"},
+    {"Label":"ReopenReason","Value":"Need more information / reopening from DWP"},
+    {"Label":"ExpectedStatusAfterReopen","Value":"In Progress"}
+  ],
+
+  "DRSQA_11463_TestData":[
+    {"Label":"ServiceName","Value":"Ergonomics Facilities Request"},
+    {"Label":"Question_1","Value":"Summary"},
+    {"Label":"Answer_1","Value":"Summary for DRSQA_11463"},
+    {"Label":"Question_2","Value":"Description"},
+    {"Label":"Answer_2","Value":"For Testing purpose"},
+    {"Label":"WaitingYourApprovalStatus","Value":"Waiting for your approval"},
+    {"Label":"ApprovedStatus","Value":"Approved"}
+  ],
+
+  "DRSQA_11499_TestData":[
+    {"Label":"ServiceRequestName","Value":"All Questions"},
+    {"Label":"TextQuestionLabel","Value":"Text Question"},
+    {"Label":"TextQuestionValue","Value":"DRSQA_11499 Text Value"},
+    {"Label":"CheckboxQuestionLabel","Value":"Checkbox Question"},
+    {"Label":"CheckBoxValue","Value":"Orange,Green"},
+    {"Label":"DropdownQuestionLabel","Value":"Dropdown Question"},
+    {"Label":"DropdownValue","Value":"Violet"},
+    {"Label":"DateQuestionLabel","Value":"Date Question"},
+    {"Label":"ToggleQuestionLabel","Value":"Toggle Question"},
+    {"Label":"ToggleValue","Value":"true"},
+    {"Label":"DateTimeQuestionLabel","Value":"Date/Time Question"},
+    {"Label":"RadioQuestionLabel","Value":"Radio Button Question"},
+    {"Label":"RadioOption","Value":"On"},
+    {"Label":"TimeQuestionLabel","Value":"Time Question"},
+    {"Label":"MultiSelectQuestionLabel","Value":"Multi-select Question"},
+    {"Label":"MultiSelectValue","Value":"Dog,Bird"},
+    {"Label":"DynamicDropdownLabel","Value":"Dynamic Dropdown List"},
+    {"Label":"dynamicUser","Value":"Tom Cruise"},
+    {"Label":"AttachmentQuestionLabel","Value":"Attachment Question"},
+    {"Label":"AttachmentFileName","Value":"DRSQA_11499.txt"},
+    {"Label":"LookupITSMQuestionLabel","Value":"Lookup Question from ITSM (End User)"},
+    {"Label":"LookupITSM","Value":"Rose James"},
+    {"Label":"LookupBWFQuestionLabel","Value":"Lookup Question from BWF (Case Template)"},
+    {"Label":"LookupBWF","Value":"Change My Legal Name"},
+    {"Label":"CounterLabel","Value":"Counter"},
+    {"Label":"CounterValue","Value":"1"},
+    {"Label":"CityTableLabel","Value":"Select city"},
+    {"Label":"City","Value":"Pune"},
+    {"Label":"OccupationTableLabel","Value":"Occupation"},
+    {"Label":"Occupation1","Value":"Developer,QA"},
+    {"Label":"updatedDynamicUser","Value":"Peter Pan"}
+  ],
+
+  "DRSQA_11571_service_info":[
+    {"Label":"ServiceRequestName","Value":"Olena service"},
+    {"Label":"SummaryLabel","Value":"Summary"},
+    {"Label":"Summary","Value":"DRSQA_11571 request time off"},
+    {"Label":"TemplateLabel","Value":"Template"},
+    {"Label":"LineOfBusinessLabel","Value":"Line of Business"},
+    {"Label":"LineofBusiness","Value":"Facilities"}
+  ],
+
+  "DRSQA_11459_TestData":[
+    {"Label":"ServiceName","Value":"AllQuestions_ConfidentialService"},
+    {"Label":"TextQuestionLabel","Value":"Text Question"},
+    {"Label":"TextQuestionValue","Value":"DRSQA_11459 Text Value"},
+    {"Label":"CheckboxQuestionLabel","Value":"Checkbox Question"},
+    {"Label":"CheckBoxValue","Value":"Orange,Green"},
+    {"Label":"DropdownQuestionLabel","Value":"Dropdown Question"},
+    {"Label":"DropdownValue","Value":"Violet"},
+    {"Label":"DateQuestionLabel","Value":"Date Question"},
+    {"Label":"ToggleQuestionLabel","Value":"Toggle Question"},
+    {"Label":"ToggleValue","Value":"true"},
+    {"Label":"DateTimeQuestionLabel","Value":"Date/Time Question"},
+    {"Label":"MultiSelectQuestionLabel","Value":"Multi-select Question"},
+    {"Label":"MultiSelectValue","Value":"Dog,Bird"},
+    {"Label":"RadioQuestionLabel","Value":"Radio Button Question"},
+    {"Label":"RadioOption","Value":"On"},
+    {"Label":"LookupBWFQuestionLabel","Value":"Lookup Question from BWF (Case Template)"},
+    {"Label":"LookupBWF","Value":"Change My Legal Name"},
+    {"Label":"LookupITSMQuestionLabel","Value":"Lookup Question from ITSM (End User)"},
+    {"Label":"LookupITSM","Value":"Rose James"},
+    {"Label":"TimeQuestionLabel","Value":"Time Question"},
+    {"Label":"CounterLabel","Value":"Counter"},
+    {"Label":"CounterValue","Value":"1"},
+    {"Label":"AttachmentQuestionLabel","Value":"Attachment Question"},
+    {"Label":"AttachmentFileName","Value":"DRSQA_11459.txt"},
+    {"Label":"CityTableLabel","Value":"Select city"},
+    {"Label":"City","Value":"Pune"},
+    {"Label":"OccupationTableLabel","Value":"Occupation"},
+    {"Label":"Occupation","Value":"Developer,QA"},
+    {"Label":"TemplateLabel","Value":"Template"},
+    {"Label":"TemplateId","Value":"AGGCEME2HPULZAOQMNX3OPQLPURSV1"}
+  ],
+  
+  "DRSQA_11634_Data": [
+    {"Label": "ProviderName", "Value":"Helix Knowledge Management pluggable provider"},
+    {"Label": "url", "Value":"innovation_suite.url"},
+    {"Label": "password", "Value":"__USER_PASSWORD__"},
+    {"Label": "user", "Value":"innovation_suite.system_user"},
+    {"Label": "tenantName", "Value":"innovation_suite.tenant_name"},
+    {"Label": "urlContains", "Value":"comaround"},
+    {"Label": "comaroundArticle","Value": "Install Flash Player"},
+    {"Label":"configuration", "Value":"Configuration"}
+  ],
+
+  "DRSQA_11458_TestData":[
+    {"Label":"ServiceName","Value":"ServiceWithConfidQuestions2"},
+    {"Label":"SummaryLabel","Value":"Summary"},
+    {"Label":"Summary","Value":"DRSQA_11458 Summary"},
+    {"Label":"CounterLabel","Value":"Counter"},
+    {"Label":"CounterValue","Value":"1"},
+    {"Label":"TextFieldLabel","Value":"Text Field"},
+    {"Label":"TextField","Value":"DRSQA_11458 TextField"},
+    {"Label":"TemplateLabel","Value":"Template"},
+    {"Label":"TemplateId","Value":"AGGADG1AAP0ICAPCRWSTPBV4T78VCT"},
+    {"Label":"ApprovedStatus","Value":"Approved"}
+  ],
+
+  "DRSQA_11427_RequestDetails":[
+    {"Label":"ServiceRequestName", "Value":"Cognitive Service"},
+    {"Label":"SatisfactionSurveyFeatureName", "Value":"Satisfaction Survey"},
+    {"Label":"SummaryLabel", "Value":"Summary"},
+    {"Label":"Summary", "Value":"DRSQA_11427 Summary"},
+    {"Label":"DescriptionLabel", "Value":"Description"},
+    {"Label":"Description", "Value":"Description for Test DRSQA_11427"},
+    {"Label":"SurveyComment", "Value":"Survey - excellent DRSQA_11427"},
+    {"Label":"RatingExcellent", "Value":"Excellent"},
+    {"Label":"RatingOkay", "Value":"Okay"},
+    {"Label":"ComplexSurveyServiceName", "Value":"All Questions"},
+    {"Label":"TemplateFieldLabel", "Value":"Template"},
+    {"Label":"SurveyCheckBoxLabel", "Value":"SurveyCheckBox"},
+    {"Label":"SurveyCheckBoxValue", "Value":"checkbox2"},
+    {"Label":"SurveyRadioButtonLabel", "Value":"SurveyRadioButton"},
+    {"Label":"SurveyRadioButtonValue", "Value":"radiobutton1"},
+    {"Label":"SurveyTextAreaLabel", "Value":"SurveyTextArea"},
+    {"Label":"SurveyTextAreaValue", "Value":"area answer"},
+    {"Label":"SurveyTextFieldLabel", "Value":"SurveyTextField"},
+    {"Label":"SurveyTextFieldValue", "Value":"field answer"},
+    {"Label":"SurveyDropDownLabel", "Value":"SurveyDropDown"},
+    {"Label":"SurveyDropDownValue", "Value":"dropdown2"},
+    {"Label":"SurveyDateTimeLabel", "Value":"SurveyDateTime"}
+  ],
+
+  "DRSQA_11565_Data":[
+		{"Label":"RejectReason", "Value":"RejectingApprovalRequest"},
+		{"Label":"CustomerName", "Value":"Paul Bunyon"}
+	],
+
+  "DRSQA_11564_Data":[
+		{"Label":"CustomerName", "Value":"Paul Bunyon"}
+	],
+
+  "DRSQA_11714_TestData":[
+    {"Label":"DWPAdminUserKey", "Value":"DWPAdminUsersWithMyITSuperAdminPermission"},
+    {"Label":"DWPEndUserKey", "Value":"bmcopsenduser"},
+    {"Label":"ChangeAdditionalFields", "Value":"Change coordinator,Change coordinator group,Change Implementer,Change Implementer Group,Change manager,Change manager group,Change reason,Description,Location,Location company,Operational category,Priority,Product category,Service,Department,Related DWP request,Related service request,Password,Rational for approval"},
+    {"Label":"IncidentAdditionalFields", "Value":"Assigned to,Business impact,CI,Company,Contact,Customer,Department,Description,Incident type,Operational category,Owner,Organization,Priority,Resolution category,Resolution note,Service,Support group,RelatedCICount,Reported source,Major Incident"},
+    {"Label":"WorkOrderAdditionalFields", "Value":"ASGRPID,Assigned to,Assignee group,Company,Contact,Customer,Department,Description,Manager group,Operational Categorization Tier 2,Operational Categorization Tier 3,Related DWP request,Related service request,RelatedCICount,Service,Priority,Product category,Request manager,Site,VIP"},
+    {"Label":"ServiceRequestName","Value": "SB_Create_MultiITSM"},
+    {"Label":"SummaryLabel","Value": "Summary"},
+    {"Label":"SummaryValue","Value": "This is a test summary to verify Fulfillment Details fields for Change Request , Incident and work Order"},
+    {"Label":"FulfillmentDetailsLimitedFieldsChange","Value": "Change coordinator,Change coordinator group"},
+    {"Label":"FulfillmentDetailsLimitedFieldsIncident","Value": "Assigned to,Business impact"},
+    {"Label":"FulfillmentDetailsLimitedFieldsWorkOrder","Value": "Assigned to,Assignee group"}
+  ],
+
+  "DRSQA11659_Details":[
+    {"Label":"DWPAdminUserKey", "Value":"DWPAdminUsersWithMyITSuperAdminPermission"},
+    {"Label":"DWPEndUserKey", "Value":"fritzEnduser"},
+    {"Label":"configuration", "Value":"Configuration"},
+    {"Label":"bwfProvider", "Value":"Business Workflows pluggable provider"},
+    {"Label":"rkmProvider", "Value":"RKM pluggable provider"},
+    {"Label":"comaroundProvider","Value": "ComAround pluggable provider"},
+    {"Label":"configSetting","Value": "Studio (expose pages to end users)"},
+    {"Label":"bwfArticle","Value": "FMLA"},
+    {"Label":"rkmArticle","Value": "How To Connect To The Office Printer / Copier"},
+    {"Label":"comAroundArticle","Value": "Install Flash Player"},
+    {"Label":"urlContains","Value":"comaround"}
+  ],
+
+  "DRSQA11686_SB_Create_MultiITSM":[
+    {"Label":"DWPAdminUserKey", "Value":"DWPAdminUsersWithMyITSuperAdminPermission"},
+    {"Label":"DWPEndUserKey", "Value":"bhill"},
+    {"Label":"ChangeAdditionalFields", "Value":"Change coordinator,Change coordinator group,Change Implementer,Change Implementer Group,Change manager,Change manager group,Change reason,Department,Description,Location company,Priority"},
+    {"Label":"IncidentAdditionalFields", "Value":"Assigned to,Business impact,CI,Company,Department,Description,Incident type"},
+    {"Label":"WorkOrderAdditionalFields", "Value":"ASGRPID,Assigned to,Assignee group,Company,Contact,Customer,Department,Description,Manager group,Operational Categorization Tier 2,Operational Categorization Tier 3"},
+    {"Label":"ServiceRequestName", "Value":"SB_Create_MultiITSM"},
+    {"Label":"Summary","Value": "DRSQA11686_SB_Create_MultiITSM_Description for test"},
+    {"Label":"ChangePrefix","Value":"CRQ"},
+    {"Label":"IncidentPrefix","Value":"INC"},
+    {"Label":"WorkOrderPrefix","Value":"WO"},
+    {"Label":"DWPChangeRequestComment","Value": "DRSQA11686_TestDWPChangeRequestComment"},
+    {"Label":"DWPIncidentComment","Value": "DRSQA11686_TestDWPIncidentComment"},
+    {"Label":"DWPWorkOrderComment","Value": "DRSQA11686_TestDWPWorkOrderComment"}
+  ],
+
+  "DRSQA_11513_ServiceEntitlement":[
+    {"Label":"EntitledUserKey","Value":"fritzEnduser"},
+    {"Label":"NotEntitledUserKey","Value":"franzEnduser"},
+    {"Label":"ServiceRequestName","Value":"DRCES44_Service_Entitlement"},
+    {"Label":"ExpectedStatus","Value":"In Progress"},
+    {"Label":"GlobalSearchCatalogItemsTab","Value":"Catalog items"}
+  ],
+
+  "DRSQA_11480_RequestDetails":[
+    {"Label":"ServiceRequestName1","Value":"Dependency1"},
+    {"Label":"ServiceRequestName2","Value":"Dependency2"},
+    {"Label":"ExpectedSrdTitle","Value":"Dependency2 1.0"},
+    {"Label":"Summary1","Value":"Summary for child dependent service 1."},
+    {"Label":"Description1","Value":"Description for child dependent service 1."},
+    {"Label":"Description2","Value":"Description for child dependent service 2."},
+    {"Label":"SubmittedRequestTitle","Value":"2 items ordered"}
+  ],
+
+  "TTID_34408_Details":[
+    {"Label":"configSetting","Value":"To-Dos"},
+    {"Label":"ServiceRequestName","Value":"Dynamic BWF Request"},
+    {"Label":"templateGUID","Value":"AGGBAT55A8OZJASKO60TSKO60TWIGM"},
+    {"Label":"templateIDQuestion","Value":"BWF Case Template GUID"},
+    {"Label":"ToDo1","Value":"ID card Information"},
+    {"Label":"ToDo2","Value":"ID card receipt"},
+    {"Label":"getStarted","Value":"Get started"},
+    {"Label":"detailsLinkText","Value":"Details"},
+    {"Label":"markAsComplete","Value":"Mark as complete"},
+    {"Label":"SubmitAndCompleteButtonText","Value":"Submit and complete"},
+    {"Label":"FullNameQuestionLabel","Value":"Full Name"},
+    {"Label":"EmployeeIdQuestionLabel","Value":"Employee ID"},
+    {"Label":"EmployeeIdValue","Value":"12345"},
+    {"Label":"PhotoQuestionLabel","Value":"Photo"},
+    {"Label":"dwpComment","Value":"DWP Comment"},
+    {"Label":"attachmentName","Value":"TTID_34408_file.txt"}
+  ],
+
+  "DRSQA_11654_Service": [
+    {"Label":"ServiceRequestName","Value":"DRSQA_11654_Service"},
+    {"Label":"SummaryPrefix","Value":"DRSQA_11654_Service"},
+    {"Label":"SummaryLabel","Value":"Summary"},
+    {"Label":"WhereToMoveLabel","Value":"where to move"},
+    {"Label":"WhereToMoveValue","Value":"Pune"},
+    {"Label":"RepeatQuestionLabel","Value":"Repeat1_Question"},
+    {"Label":"RepeatAnswerPrefix","Value":"Repeat1_Answer"},
+    {"Label":"WhenToMoveLabel","Value":"when to move"},
+    {"Label":"Status","Value":"In Progress"}
+  ],
+
+  "DRSQA_11658__Details": [
+    {"Label":"DWPAdminUserKey","Value":"DWPAdminUsersWithMyITSuperAdminPermission"},
+    {"Label":"DWPEndUserKey","Value":"bmcopsenduser"},
+    {"Label":"AdminMenuConfiguration","Value":"Configuration"},
+    {"Label":"AdminSubMenuAttachmentRules","Value":"Attachments & Links"},
+    {"Label": "richtextCommentValue","Value": "3"},
+    {"Label": "ServiceRequestName","Value": "SB_CreateIncident"},
+    {"Label": "Summary","Value": "Submitting request which will create incident"},
+    {"Label": "Attachment1","Value": "DRSQA_11658__Attach1.txt"},
+    {"Label": "Attachment2","Value": "DRSQA_11658__Attach2.txt"},
+    {"Label": "Attachment3","Value": "DRSQA_11658__Attach3.txt"},
+    {"Label": "Comment1","Value": "Addition of 3 attachments on DWP"},
+    {"Label": "Attachment4","Value": "DRSQA_11658__Attach4.txt"},
+    {"Label": "Attachment5","Value": "DRSQA_11658__Attach5.txt"},
+    {"Label": "Attachment6","Value": "DRSQA_11658__Attach6.txt"},
+    {"Label": "Comment2","Value": "Addition of 3 attachments in fulfillemnt request"},
+    {"Label":"ServiceName2","Value":"Complaint Against Your Manager"},
+    {"Label":"Summary2","Value":"Submitting complaint"},
+    {"Label":"Description","Value":"Description adding"}
+   ],
+  
+  "DRSQA_11439_Data":[
+    {"Label":"systemMessageForJoiningTheSession", "Value": "System Message: %s has joined the session"},
+    {"Label":"message1", "Value": "What are you try to log into?"},
+    {"Label":"message2", "Value": "My laptop."},
+    {"Label":"message3", "Value": "can I close ticket"},
+    {"Label":"message4", "Value": "Yes, thank you."},
+    {"Label":"topic", "Value": "MSSQL"},
+    {"Label":"initialMsg", "Value": "I cannot login"}
+  ],
+
+  "DRSQA_11473_RequestDetails":[
+    {"Label":"AlternateApprover", "Value":"David Murphy"},
+    {"Label":"ServiceRequestName", "Value":"Simple Change SRD"},
+    {"Label": "WaitingStatus","Value": "Waiting approval"},
+    {"Label": "What do you want", "Value":"Everything"},
+    {"Label": "Could I get you something", "Value": "Water"},
+    {"Label": "Pick One", "Value": "Car"},
+    {"Label": "Status","Value": "Approved"},
+    {"Label": "RejectReason","Value": "Alternative Approver Rejecting Simple Change SRD service"},
+    {"Label": "waitingApprovalStatus","Value": "Waiting Approval"}
+  ],
+
+  "DRSQA_11534_Anonymization":[
+    {"Label": "ServiceRequestName","Value": "Complaint Against Your Manager"},
+    {"Label": "Summary1","Value": "DRCES-910 request 1"},
+    {"Label": "Description1","Value": "DRCES-910 desc 1"},
+    {"Label": "Summary2","Value": "DRCES-910 request 2"},
+    {"Label": "Description2","Value": "DRCES-910 desc 2"},
+    {"Label": "BWFComment1","Value": "DRCES-910 comment from BWF before anon"},
+    {"Label": "BWFComment2","Value": "DRCES-910 comment from BWF after anon"},
+    {"Label": "BWFComment3","Value": "DRCES-910 comment from BWF with Requester"},
+    {"Label": "DWPComment","Value": "DRCES-910 comment from DWP"},
+    {"Label": "ApproverComment","Value": "DRCES-910 comment from DWP Approver"},
+    {"Label": "AuthorFullName","Value": "Elizabeth Peters"},
+    {"Label": "AuthorAnonymized","Value": "Case Agent"},
+    {"Label": "RequesterFullName","Value": "Steve Waugh"},
+    {"Label": "ApproverFullName","Value": "Sam Adam"},
+    {"Label": "Requester2FullName","Value": "Fritz Schulz"},
+    {"Label": "CollaboratorFullName","Value": "Rose James"},
+    {"Label": "ServiceRequestName2","Value": "Office Move"},
+    {"Label": "where","Value": "Kyiv"},
+    {"Label": "SummaryLabel","Value": "Summary"},
+    {"Label": "DescriptionLabel","Value": "Description"}
+  ],
+
+  "DRSQA_18318_Data":[
+    {"Label": "initialMsg", "Value": "Hello, how can I help you today?"},
+    {"Label": "topic", "Value": "MSSQL"},
+    {"Label": "endUserMessage1", "Value": "What database?"},
+    {"Label": "endUserMessage2", "Value": "What version do you need?"},
+    {"Label": "endUserMessage3", "Value": "Ok I put the work order to upgrade chat.example.com with Oracle 21c"}
+  ],
+
+  "DRSQA_18317_Data": [
+    {"Label": "initialMsg", "Value": "Hello, how can I help you today?"},
+    {"Label": "topic", "Value": "MSSQL"},
+    {"Label": "endUserMessage1", "Value": "What database?"},
+    {"Label": "endUserMessage2", "Value": "What version do you need?"},
+    {"Label": "endUserMessage3", "Value": "Ok I put the work order to upgrade chat.example.com with Oracle 21c"}
+  ],
+
+  "DRSQA_18319_Data":[
+    {"Label": "initialMsg", "Value": "Hello, how can I help you?"},
+    {"Label": "topic", "Value": "MSSQL"},
+    {"Label": "endUserMessage1", "Value": "Which department are you working for?"},
+    {"Label": "endUserMessage2", "Value": "You are not authorized to use salesforce software because it is only for sales department. Please check with you manager for approval"},
+    {"Label": "endUserMessage3", "Value": "Access is provided. Can you please check?"}
+  ]
+
+}

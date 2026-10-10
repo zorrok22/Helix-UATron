@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HelixRemediateSuite" parallel="none" thread-count="1">
+    <test name="HelixRemediateTest">
+        <classes>
+            <class name="ITOM.HelixRemediate.HelixRemediateTests"/>
+        </classes>
+    </test>
+</suite>

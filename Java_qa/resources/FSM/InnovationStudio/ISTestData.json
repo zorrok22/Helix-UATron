@@ -1,0 +1,23 @@
+{
+	"FSM_WorkOrderAssignments":[
+		{"Label":"AssignmentType","Value":"Work Order Assignment"},
+		{"Label":"SchedulingOption","Value":"Option 1"},
+		{"Label":"companyName","Value":"Calbro Services"},
+		{"Label":"supportGroup","Value":"Field Service Nevada - LV"},
+		{"Label":"inventoryType","Value":"Warehouse"},
+		{"Label":"inventoryLocation","Value":"WAR: Nevada Warehouse"},
+		{"Label":"workOrderTemplate","Value":"Install UPS - Las Vegas"},
+	    {"Label":"durationTime","Value":"0.5"}
+	],
+	
+	"FSM_Timeline":[
+		{"Label":"consoleType","Value":"FSM Timelines"},
+		{"Label":"consoleHeader","Value":"FSM Timeline"},
+		{"Label":"supportGroup","Value":"Field Service Nevada - LV"},
+		{"Label":"routeName","Value":"Nevada Route 1"},
+		{"Label":"inventoryType","Value":"Warehouse"},
+		{"Label":"inventoryLocation","Value":"WAR: Nevada Warehouse"},
+		{"Label":"workOrderTemplate","Value":"Install UPS - Las Vegas"}
+	]
+
+}

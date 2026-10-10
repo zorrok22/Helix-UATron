@@ -1,0 +1,28 @@
+[
+	{
+		"method": "POST",
+		"body": {
+			"compatibility": "aiops",
+			"type": "rules",
+			"published": true,
+			"attributes": {
+				"compatibility": "aiops",
+				"criticality": 0,
+				"_labels": [],
+				"_labels_values": {}
+			},
+			"name": "<SERVICE_NAME>",
+			"kind": "BusinessService",
+			"contents": {
+				"nodes": {
+					<NODE_IDS>
+				}
+			},
+			"templates": {},
+			"metadata": {
+				"_associatedElements": "[{\"type\":\"metric_group\",\"label\":\"tempId#1\",\"elements\":[{\"element_type\":\"metrics_kpi\",\"selectors\":[{\"selector_type\":\"metric_dynamic_entity_ade\",\"value\":{\"metric\":\"Utilization\",\"node_kind\":\"Host\",\"entityTypeId\":\"NUK_CPU\",\"hostnameRegex\":\".*\",\"entityRegex\":\".*\"}},{\"selector_type\":\"metric_dynamic_entity_ade\",\"value\":{\"metric\":\"Capacity\",\"node_kind\":\"Host\",\"entityTypeId\":\"NUK_FileSystem\",\"hostnameRegex\":\".*\",\"entityRegex\":\".*\"}},{\"selector_type\":\"metric_dynamic_entity_ade\",\"value\":{\"metric\":\"Used\",\"node_kind\":\"Host\",\"entityTypeId\":\"NUK_Memory\",\"hostnameRegex\":\".*\",\"entityRegex\":\".*\"}},{\"selector_type\":\"metric_dynamic_entity_ade\",\"value\":{\"metric\":\"LDldDiskSpaceUsed\",\"node_kind\":\"Host\",\"entityTypeId\":\"NT_LOGICAL_DISKS\",\"hostnameRegex\":\".*\",\"entityRegex\":\".*\"}},{\"selector_type\":\"metric_dynamic_entity_ade\",\"value\":{\"metric\":\"MEMmemVMUsed\",\"node_kind\":\"Host\",\"entityTypeId\":\"NT_MEMORY\",\"hostnameRegex\":\".*\",\"entityRegex\":\".*\"}},{\"selector_type\":\"metric_dynamic_entity_ade\",\"value\":{\"metric\":\"CPUprcrProcessorTimePercent\",\"node_kind\":\"Host\",\"entityTypeId\":\"NT_CPU\",\"hostnameRegex\":\".*\",\"entityRegex\":\".*\"}}]}]}]"
+			},
+			"temp_key": "$$$$_<TEMP_KEY>"
+		}
+	}
+]

@@ -1,0 +1,19 @@
+{
+  "code": "innovation_studio",
+  "is_remote": false,
+  "name": "__connectorName__",
+  "target_id": "__restapiTargetURL__",
+  "credentials": [
+    {
+      "security_scheme": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "AR-JWT"
+      },
+      "params": {
+        "username": "__username__",
+        "password": "__password__"
+      }
+    }
+  ]
+}

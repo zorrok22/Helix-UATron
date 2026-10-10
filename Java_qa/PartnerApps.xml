@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="PartnerApps_SolQA_Automation_Suite" configfailurepolicy="continue" thread-count="3" parallel="classes">
+    <listeners>
+        <listener class-name="util.Listener"/>
+    </listeners>
+    <test name="PartnerApps_SolQA_Automation Suite">
+        <classes>
+            <class name = "ITSM.PartnerApps.PartnerApps">
+                <methods>
+                    <include name="Verify_Functionality_Of_HPM"/>
+                    <include name="Verify_Functionality_Of_CSM"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

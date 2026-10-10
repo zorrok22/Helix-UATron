@@ -1,0 +1,75 @@
+################################# REPORTING INFO #############################
+setupName=__STACK_NAME__
+productVersion=__productVersion__
+postgresTableName=__postgresTableName__
+postgresDatabase=__postgresDatabase__
+postgresUrl=__postgresUrl__
+postgresUser=__postgresUser__
+postgresPwd=__postgresPwd__
+serviceName=__serviceName__
+deployment_job_id=__deployment_job_id__
+
+################################# LOCATOR HEALING CONFIG #############################
+locatorHealingEnabled=false
+
+############################## ITSM CONFIGURATION ##############################
+STACK_NAME=__STACK_NAME__
+HOST_DOMAIN=__HOST_DOMAIN__
+DWPCatalog_URL=__DWPC_URL__
+adminUserName=__adminUserName__
+adminPassword=__adminPassword__
+browser=GC
+headless=false
+DefaultTimeout=50
+client=gc
+
+############################# ITSM URLs #####################################
+RSSO_URL=https://${STACK_NAME}-rsso.${HOST_DOMAIN}
+IS_URL=https://${STACK_NAME}-is.${HOST_DOMAIN}
+ITSM_URL=https://${STACK_NAME}.${HOST_DOMAIN}
+SmartIT_URL=https://${STACK_NAME}-smartit.${HOST_DOMAIN}
+DWP_URL=https://${STACK_NAME}-dwp.${HOST_DOMAIN}/dwp/app/#/
+DWP_Admin_Console=https://${STACK_NAME}-dwp.${HOST_DOMAIN}/dwp/admin
+DWPC_URL=${DWPCatalog_URL}
+CMDB_URL=https://${STACK_NAME}-restapi.${HOST_DOMAIN}/cmdb/index.html#/dashboard
+SSP_LIVECHAT_URL=https://${STACK_NAME}-vc.${HOST_DOMAIN}/eschat
+ARServerAlias=__ARServerAlias__
+IsMSPEnabled=__isMSPEnabled__
+runCounter=__runcounter__
+
+###################### Innovation Suite demo user (HelixGPT preconditions) ######################
+IS_DEMO_USERNAME=__IS_DEMO_USERNAME__
+IS_DEMO_PASSWORD=__IS_DEMO_PASSWORD__
+
+######################  BMC Helix GPT CONFIGURATION  ######################
+AZURE_OPENAI_ENDPOINT=__AZURE_OPENAI_ENDPOINT__
+AZURE_OPENAI_API_KEY=__AZURE_OPENAI_API_KEY__
+AZURE_OPENAI_DEPLOYMENT_NAME=__AZURE_OPENAI_DEPLOYMENT_NAME__
+AZURE_OPENAI_API_VERSION=2024-10-21
+
+###################### ADE REMEDIATE/PLATFORM CONFIGURATION  ######################
+ADE_USERNAME=__adetenantadminuser__
+ADE_PASSWORD=__adetenantadminpassword__
+ADE_PLATFORM_URL=__ADEPortalURL__
+ADE_SMART_GRAPH_URL=__ADESmartGraphURL__
+CMDBURL=__CMDBURL__
+CLUSTER_CI=__CLUSTER_CI__
+PA_AGENT=__PA_AGENT__
+k8s_cluster=Kubernetes Cluster
+
+###################### Log analytics / logstack ######################
+logstackAdminPassword=__logstackAdminPassword__
+
+###################### HKM (Smart Recorder) ######################
+HKM_USERNAME=__HKM_USERNAME__
+HKM_PASSWORD=__HKM_PASSWORD__
+
+###################### SNOW Details (optional integrations) ######################
+SNOW_URL=https://your-instance.service-now.com
+SNOW_USERNAME=__SNOW_USERNAME__
+SNOW_PASSWORD=__SNOW_PASSWORD__
+SNOW_CLIENT_ID=__SNOW_CLIENT_ID__
+SNOW_SECRET=__SNOW_SECRET__
+SNOW_GrantType=password
+SNOW_EmailID=__SNOW_EMAIL__
+SNOW_Email_Password=__SNOW_EMAIL_PASSWORD__

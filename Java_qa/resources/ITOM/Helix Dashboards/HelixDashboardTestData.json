@@ -1,0 +1,118 @@
+{
+  "DRSQA_12507_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"helixDashboard","Value":"Helix Dashboard"},
+        {"Label":"queryType","Value":"Optimize Services"},
+        {"Label":"Service","Value":"Datamarts"},
+        {"Label":"datamartsBrowser","Value":"AWS_EBS_TEMPL"},
+        {"Label":"dashboardTitle","Value":"Automation Test Optimization Dashboard"},
+        {"Label":"dashboardDescription",  "Value":"Automation Test Optimization Dashboard Description"},
+        {"Label":"panelTitle","Value":"Automation Test Optimization Panel"},
+        {"Label":"panelDescription",  "Value":"Automation Test Optimization Panel Description"}
+  ],
+
+  "DRSQA_12540_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"folderNames", "Value":"Helix Common Services,BMC Helix Audit Dashboard"},
+        {"Label":"operation", "Value":"Operation"},
+        {"Label":"resourceType","Value":"Resource Type"},
+        {"Label":"resourceName", "Value":"Resource Name"},
+        {"Label":"application", "Value":"Application"},
+        {"Label":"actor", "Value":"Actor"},
+        {"Label":"allFilters", "Value":"Operation, Resource Type, Actor, Resource Name, Application"},
+
+        {"Label":"operation_case1", "Value":"CREATE, DELETE, UPDATE"},
+        {"Label":"resourceType_case1","Value":"Dashboard"},
+        {"Label":"resourceName_case1", "Value":"All"},
+        {"Label":"application_case1", "Value":"Dashboards"},
+        {"Label":"actor_case1", "Value":"All"},
+
+        {"Label":"operation_case2", "Value":"CREATE, DELETE, UPDATE"},
+        {"Label":"resourceType_case2","Value":"Dashboard"},
+        {"Label":"resourceName_case2", "Value":"All"},
+        {"Label":"application_case2", "Value":"Dashboards"},
+        {"Label":"actor_case2", "Value":"pbunyon@ocitenant1.928620996"},
+
+        {"Label":"operation_case3", "Value":"CREATE, DELETE"},
+        {"Label":"resourceType_case3","Value":"Dashboard"},
+        {"Label":"resourceName_case3", "Value":"All"},
+        {"Label":"application_case3", "Value":"Dashboards"},
+        {"Label":"actor_case3", "Value":"pbunyon@ocitenant1.928620996"},
+
+        {"Label":"operation_case4", "Value":"ENABLE, DISABLE, RUN_NOW, CREATE, DELETE, UPDATE"},
+        {"Label":"resourceType_case4","Value":"pdf, xls"},
+        {"Label":"resourceName_case4", "Value":"All"},
+        {"Label":"application_case4", "Value":"Dashboards"},
+        {"Label":"actor_case4", "Value":"All"},
+
+        {"Label":"operation_case5", "Value":"ENABLE, DISABLE"},
+        {"Label":"resourceType_case5","Value":"pdf, xls"},
+        {"Label":"resourceName_case5", "Value":"All"},
+        {"Label":"application_case5", "Value":"Dashboards"},
+        {"Label":"actor_case5", "Value":"All"},
+
+        {"Label":"operation_case6", "Value":"ENABLE, DISABLE"},
+        {"Label":"resourceType_case6","Value":"pdf, xls"},
+        {"Label":"resourceName_case6", "Value":"All"},
+        {"Label":"application_case6", "Value":"Dashboards"},
+        {"Label":"actor_case6", "Value":"pbunyon@ocitenant1.928620996"},
+
+        {"Label":"operation_case7", "Value":"ENABLE, DISABLE"},
+        {"Label":"resourceType_case7","Value":"pdf, xls"},
+        {"Label":"resourceName_case7", "Value":"All"},
+        {"Label":"application_case7", "Value":"Dashboards"},
+        {"Label":"actor_case7", "Value":"All"},
+
+        {"Label":"operation_case8", "Value":"GROUP_USERS_UPDATED"},
+        {"Label":"resourceType_case8","Value":"Group"},
+        {"Label":"resourceName_case8", "Value":"All"},
+        {"Label":"application_case8", "Value":"ims"},
+        {"Label":"actor_case8", "Value":"All"},
+
+        {"Label":"operation_case9", "Value":"GROUP_USERS_UPDATED"},
+        {"Label":"resourceType_case9","Value":"Group"},
+        {"Label":"resourceName_case9", "Value":"All"},
+        {"Label":"application_case9", "Value":"ims"},
+        {"Label":"actor_case9", "Value":"pbunyon"}
+
+  ],
+
+  "DRSQA_12539_Data":[
+        {"Label":"menuItem","Value":"Report Scheduler"},
+        {"Label":"schedulerName", "Value":"Automation Test Scheduler"},
+        {"Label":"schedulerDescription", "Value":"Automation Test Scheduler Description"},
+        {"Label":"dashboardTitle","Value":"Dashboards/Automation Test Optimization Dashboard"},
+        {"Label":"recepientsIds", "Value":"test@example.com"},
+        {"Label":"recepientsBCCIDs", "Value":"bcc-test@example.com"}
+	],
+
+	"DRSQA_12432_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"helixDashboard","Value":"Helix Dashboard"},
+        {"Label":"queryType","Value":"Optimize Services"},
+        {"Label":"Service","Value":"Datamarts"},
+        {"Label":"datamartsBrowser","Value":"AWS_EBS_TEMPL"},
+        {"Label":"dashboardTitle","Value":"Automation Test Optimization Dashboard"},
+        {"Label":"dashboardDescription",  "Value":"Automation Test Optimization Dashboard Description"},
+        {"Label":"panelTitle","Value":"Automation Test Optimization Panel"},
+        {"Label":"panelDescription",  "Value":"Automation Test Optimization Panel Description"}
+  ],
+
+      "DRSQA_12361_Data":[
+            {"Label":"menuItem","Value":"Dashboards"},
+            {"Label":"dataSource","Value":"BMC Helix"},
+            {"Label":"queryType","Value":"Metric"},
+            {"Label":"sourceOption","Value":"Optimize"}
+      ],
+
+      "DRSQA_12406_Data":[
+            {"Label":"filter1","Value":"Status"},
+            {"Label":"filter2","Value":"Company"},
+            {"Label":"filter3","Value":"Priority"}
+  ],
+
+      "DRSQA_12414_Data":[
+            {"Label":"filter1","Value":"Company"},
+            {"Label":"filter2","Value":"Case ID"}
+  ]
+}

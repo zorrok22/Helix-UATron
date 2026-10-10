@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Apex_P0_SolQA_Automation_Suite" configfailurepolicy="continue" thread-count="3" parallel="classes">
+	<listeners>
+		<listener class-name="util.Listener"/>
+	</listeners>
+	  <test name="Apex_P0 Suite">
+		  <classes>
+			  <class name = "Apex_MAT.BWFTests_Apex">
+			  	<methods>
+              		<include name="DRSQA_15633_Apex_BWF_Create_Case_manually_from_BWFA_console_DRSQA_15631_Apex_BWF_Search_view_Case_record_from_Case_console"/>
+              		<include name="DRSQA_15632_Apex_BWF_Manage_Catalog_cross_launch"/>
+              	</methods>
+			  </class>
+			  <class name = "Apex_MAT.DWP_BWF_Apex">
+			  	<methods>
+			  		<include name="DRSQA_15630_Apex_Login_to_ITSM_application_with_correct_and_incorrect_credentials"/>
+			  		<include name="DRSQA_15635_Apex_DWP_Bi_directional_communication_between_DWP_request_BWF_case_via_new_request"/>
+			  	</methods>
+			  </class>
+			  <class name = "Apex_MAT.DWP_SmartIT_Apex">
+			  	<methods>
+              		<include name="DRSQA_15666_DWP_Search_for_Catalog_published_services_in_DWP_Catalog_tab"/>
+              		<!-- <include name="DRSQA_15634_Apex_DWP_Bi_directional_communication_between_DWP_request_Remedy_ITSM_ticket_via_new_request"/> -->
+              	</methods>
+			  </class>
+			  <class name = "Apex_MAT.DWPTests_Apex">
+			      <methods>
+              		<include name="DRSQA_15662_Apex_DWP_Search_ITSM_knowledge_article"/>
+              		<!--<include name="DRSQA_12067_Approval_Operation_on_DWP"/>-->
+              	</methods>
+              </class>
+			  <class name = "Apex_MAT.ITSMTest_Apex">
+			  	<methods>
+              		<include name="DRSQA_12053_ITSM_Creating_and_Testing_Release_Lifecycle_in_ITSM"/>
+              		<include name="DRSQA_12054_ITSM_Creating_and_Testing_Problem_Lifecycle_in_ITSM"/>
+              		<include name="DRSQA_12055_ITSM_Create_Knowledge_article_from_Knowledge_Management_console"/>
+              		<include name="DRSQA_12056_ITSM_Create_Work_Order_from_Work_Order_console_ITSM"/>
+              		<include name="DRSQA_12057_Create_ChangeRequest_from_ITSM"/>
+              		<include name="DRSQA_12058_ITSM_Create_and_Test_Incident_Lifecycle_on_ITSM"/>
+              	</methods>
+			  </class>
+			  <class name = "Apex_MAT.SmartIT_PV_Apex">
+			      <methods>
+              		<include name="DRSQA_12059_SmartIT_Creating_Incident_with_PV"/>
+              		<include name="DRSQA_12060_SmartIT_Creating_Workorder_with_PV"/>
+              		<include name="DRSQA_12061_Create_Change_With_PV_In_SmartIT"/>
+              		<!--<include name="DRSQA_12062_SmartIT_Smart_Recorder_PV_Test_Mail_Service"/>-->
+              	</methods>
+              </class>
+              <class name = "Apex_MAT.DWP_IS_Apex">
+			      <methods>
+                    <include name="DRSQA_15662_Apex_DWP_Search_BWF_knowledge_article"/>
+                  </methods>
+              </class>
+              <class name = "Apex_MAT.BWF_IS_Apex">
+			      <methods>
+                    <include name="DRSQA_12052_BWF_Create_Knowledge_article_manually_from_BWFA_console"/>
+                  </methods>
+              </class>
+		  </classes>
+	  </test>
+</suite>

@@ -1,0 +1,20 @@
+{
+  "entityType": "service",
+  "showHierarchy": false,
+  "filter": {
+    "severity": [
+      "critical",
+      "major",
+      "minor",
+      "ok"
+    ],
+    "searchText": "<SERVICE_NAME>",
+    "labels": {},
+    "attributes": {},
+    "kind": []
+  },
+  "sortBy": "HEALTH",
+  "sortDirection": "descending",
+  "startIndex": 0,
+  "endIndex": 199
+}

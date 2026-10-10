@@ -1,0 +1,119 @@
+{
+
+  "DRSQA_12358_TestData_user_fixed": [
+    {"Label": "FirstName", "Value": "FixedLicense"},
+    {"Label": "LastName", "Value": "User"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseuser"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12358_TestData_user_floating": [
+    {"Label": "FirstName", "Value": "FloatingLicense"},
+    {"Label": "LastName", "Value": "User"},
+    {"Label": "EmailAddress", "Value": "floatinglicenseuser@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "floatinglicenseuser"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12358_TestData_user_config": [
+    {"Label": "FirstName", "Value": "ConfigLicense"},
+    {"Label": "LastName", "Value": "User"},
+    {"Label": "EmailAddress", "Value": "configlicenseuser@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "configlicenseuser"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12358_TestData_user_read": [
+    {"Label": "FirstName", "Value": "ReadLicense"},
+    {"Label": "LastName", "Value": "User"},
+    {"Label": "EmailAddress", "Value": "readlicenseuser@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "readlicenseuser"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12358_TestData_duplicate_user": [
+    {"Label": "FirstName", "Value": "FixedLicense"},
+    {"Label": "LastName", "Value": "DuplicateUser"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseduplicateuser"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+  "TTWeb_8576_TestData_user_floating": [
+    {"Label": "FirstName", "Value": "FloatingLicense_8576"},
+    {"Label": "LastName", "Value": "User_8576"},
+    {"Label": "EmailAddress", "Value": "floatinglicenseuser_8576@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "floatinglicenseuser_8576"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12300_TestData_user_read": [
+    {"Label": "FirstName", "Value": "ReadLicense_DRSQA_12300_new"},
+    {"Label": "LastName", "Value": "User_DRSQA_12300"},
+    {"Label": "EmailAddress", "Value": "readlicenseuser_DRSQA_12300@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "readlicenseuser_DRSQA_12300_latest"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12301_TestData_user_fixed": [
+    {"Label": "FirstName", "Value": "FixedLicense_8578"},
+    {"Label": "LastName", "Value": "User_8578"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser_8578@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseuser_8578"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"}
+  ],
+
+  "DRSQA_12302_TestData_user_fixed": [
+    {"Label": "FirstName", "Value": "FixedLicense_8579"},
+    {"Label": "LastName", "Value": "User_8579"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser_85789@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseuser_8579_1"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"},
+    {"Label": "newLoginName", "Value": "newLoginName_"}
+  ],
+
+  "DRSQA_12303_TestData_user_fixed": [
+    {"Label": "FirstName", "Value": "FixedLicense_8580"},
+    {"Label": "LastName", "Value": "User_8580"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser_8580@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseuser_8580"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"},
+    {"Label": "newName", "Value": "newName_8580"}
+  ],
+
+  "DRSQA_12304_TestData_user_fixed": [
+    {"Label": "FirstName", "Value": "FixedLicense_8581"},
+    {"Label": "LastName", "Value": "User_8581"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser_8581@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseuser_8581"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"},
+    {"Label": "newEmail", "Value": "newEmail_8581@petramco.com"}
+  ],
+
+  "DRSQA_12306_TestData_user_fixed": [
+    {"Label": "FirstName", "Value": "FixedLicense_8594"},
+    {"Label": "LastName", "Value": "User_8594"},
+    {"Label": "EmailAddress", "Value": "fixedlicenseuser_8594@petramco.com"},
+    {"Label": "Company", "Value": "Calbro Services"},
+    {"Label": "LoginID", "Value": "fixedlicenseuser_8594"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Phone", "Value": "123456789"}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "",
+	"name": "<POLICY_NAME>",
+	"description": "<POLICY_NAME>",
+	"execution_order": 9999,
+	"enabled": true,
+	"selection_criteria": "( host EQUALS '<LOGSTACK_HOST>' )",
+	"configurations": [
+		{
+			"name": "TEST1",
+			"type": "ALERT",
+			"details": {
+				"groupBy": [
+					"host"
+				],
+				"time_window": {
+					"duration": 1,
+					"unit": "MINUTES"
+				},
+				"conditionals": [
+					{
+						"count": 1,
+						"severity": "CRITICAL"
+					}
+				],
+				"destination": {
+					"details": {
+						"class": "LOGALERT_EV",
+						"source_hostname": "$.host",
+						"msg": "Log event <POLICY_NAME> just got triggered. Investigate the issue",
+						"additional_params": {}
+					},
+					"type": "BHOM_EVENT"
+				}
+			},
+			"display_order": 0
+		}
+	]
+}

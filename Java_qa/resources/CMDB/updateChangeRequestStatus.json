@@ -1,0 +1,7 @@
+{
+	"values": {
+		"Change Request Status": "<ChangeRequestStatus>",
+		"Infrastructure Change ID": "<infrastructure_change_id>",
+		"Status Reason": "<Status Reason>"
+	}
+}

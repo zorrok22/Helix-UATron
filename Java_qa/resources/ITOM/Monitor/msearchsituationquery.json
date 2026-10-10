@@ -1,0 +1,119 @@
+{
+	"track_total_hits": true,
+	"size": 25,
+	"query": {
+		"bool": {
+			"should": [
+				{
+					"bool": {
+						"must": [
+							{
+								"term": {
+									"_relationships.rstat": "primary"
+								}
+							},
+							{
+								"bool": {
+									"must_not": [
+										{
+											"term": {
+												"status": "CLOSED"
+											}
+										}
+									]
+								}
+							}
+						],
+						"filter": [
+							{
+								"terms": {
+									"_service_key.keyword": [
+										"<SERVICE_KEY>"
+									]
+								}
+							},
+							{
+								"range": {
+									"creation_time": {
+										"lte": <END_TIME>
+									}
+								}
+							},
+							{
+								"range": {
+									"_relationships.evcount": {
+										"gt": 0
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"bool": {
+						"must": [
+							{
+								"term": {
+									"_relationships.rstat": "primary"
+								}
+							},
+							{
+								"bool": {
+									"must": [
+										{
+											"term": {
+												"status": "CLOSED"
+											}
+										}
+									]
+								}
+							},
+							{
+								"bool": {
+									"must_not": [
+										{
+											"term": {
+												"state.keyword": "HIDDEN"
+											}
+										}
+									]
+								}
+							}
+						],
+						"filter": [
+							{
+								"terms": {
+									"_service_key.keyword": [
+										"<SERVICE_KEY>"
+									]
+								}
+							},
+							{
+								"range": {
+									"creation_time": {
+										"lt": <END_TIME>
+									}
+								}
+							},
+							{
+								"range": {
+									"_modified_time": {
+										"gte": <START_TIME>
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	],
+	"from": 0
+}

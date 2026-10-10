@@ -1,0 +1,97 @@
+name: Build Docker Image
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      # Match Java_qa/Dockerfile: repo-root context uses Java_qa, Python_qa, and root .dockerignore
+      - "Java_qa/**"
+      - "Python_qa/**"
+      - ".dockerignore"
+      - ".github/workflows/build-docker-image.yml"
+  workflow_dispatch:
+    inputs:
+      push_image:
+        description: "Push image to Docker Hub?"
+        required: false
+        default: true
+        type: boolean
+
+env:
+  IMAGE_NAME: bmchelixhub/solqa-automation
+  PUSH_IMAGE: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.event.inputs.push_image == 'true') }}
+
+jobs:
+  build:
+    name: Build Docker Image
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Extract version from pom.xml
+        id: version
+        run: |
+          VERSION=$(grep -m1 '<version>' Java_qa/pom.xml | sed 's/.*<version>\(.*\)<\/version>.*/\1/' | tr -d '[:space:]')
+          echo "VERSION=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Extracted version: $VERSION"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3
+
+      - name: Log in to Docker Hub
+        if: ${{ env.PUSH_IMAGE == 'true' }}
+        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9 # v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Compute Docker image tags
+        id: image_tags
+        shell: bash
+        run: |
+          {
+            echo "tags<<EOF"
+            echo "docker.io/${{ env.IMAGE_NAME }}:uatron-automation-${{ steps.version.outputs.VERSION }}"
+            if [[ "${GITHUB_REF}" == "refs/heads/main" ]]; then
+              echo "docker.io/${{ env.IMAGE_NAME }}:uatron-automation-latest"
+            fi
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # v6
+        with:
+          # Repo root context + Java_qa/Dockerfile (see Dockerfile header): root .dockerignore trims
+          # context; multi-stage Maven build then eclipse-temurin:17 runtime; COPY Python_qa for DeepEval.
+          context: .
+          file: Java_qa/Dockerfile
+          push: ${{ env.PUSH_IMAGE == 'true' }}
+          tags: ${{ steps.image_tags.outputs.tags }}
+          labels: |
+            org.opencontainers.image.revision=${{ github.sha }}
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            com.bmchelixhub.commit-id=${{ github.sha }}
+            com.bmchelixhub.commit-short=${{ github.sha }}
+            com.bmchelixhub.version=${{ steps.version.outputs.VERSION }}
+            com.bmchelixhub.build-date=${{ github.event.repository.updated_at }}
+            com.bmchelixhub.built-by=${{ github.actor }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Print image details
+        run: |
+          echo "============================================="
+          echo " Docker Image Build Complete"
+          echo "============================================="
+          echo " Tags:"
+          printf '%s\n' "${{ steps.image_tags.outputs.tags }}" | sed 's/^/  - /'
+          echo " Commit: ${{ github.sha }}"
+          echo " Built by: ${{ github.actor }}"
+          echo " Push: ${{ env.PUSH_IMAGE }}"
+          echo "============================================="

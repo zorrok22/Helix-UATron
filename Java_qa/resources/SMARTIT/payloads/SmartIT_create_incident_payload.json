@@ -1,0 +1,158 @@
+{
+  "type": "incident",
+  "impact": "4-Minor/Localized",
+  "urgency": "4-Low",
+  "resolution": "",
+  "templateId": "",
+  "serviceType": "User Service Restoration",
+  "brokerVendorName": "",
+  "id": "${id}",
+  "displayId": "${displayId}",
+  "summary": "Performance_Incident_Add_WorkLog_Created",
+  "desc": "Performance_Incident_Add_WorkLog_Created",
+  "numAttachments": 0,
+  "status": {
+    "value": "In Progress"
+  },
+  "assignee": {
+    "type": "person",
+    "firstName": "Abathur",
+    "lastName": "Zerg",
+    "fullName": "Abathur Zerg",
+    "department": "",
+    "email": "",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "Mexico City",
+        "address": {
+          "street": "Torre Esmeralda II\nBlvd. Manuel Avila, Camacho No 36, Piso 23",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "address": "Torre Esmeralda II\nBlvd. Manuel Avila, Camacho No 36, Piso 23\nMexico City, \nMexico"
+        },
+        "region": "Americas",
+        "siteGroup": "Marketing",
+        "siteId": "GTE000000000042"
+      }
+    },
+    "phone": "52 55 555-0017",
+    "thumbnailMime": "",
+    "thumbnail": "",
+    "site": {
+      "name": "Mexico City",
+      "address": {
+        "street": "Torre Esmeralda II\nBlvd. Manuel Avila, Camacho No 36, Piso 23",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "address": "Torre Esmeralda II\nBlvd. Manuel Avila, Camacho No 36, Piso 23\nMexico City, \nMexico"
+      },
+      "region": "Americas",
+      "siteGroup": "Marketing",
+      "siteId": "GTE000000000042"
+    },
+    "organization": "Latin America Support",
+    "loginId": "azerg",
+    "available": "OFFLINE",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "LA Support 3",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Latin America Support",
+        "id": "GGP000000000015",
+        "assignedToGroup": false,
+        "persons": [],
+        "supportGroups": "LA Support 3"
+      }
+    ],
+    "id": "azerg",
+    "createDate": 1746782455419,
+    "supportGroup": "LA Support 3",
+    "supportGroupId": "GGP000000000015",
+    "supportOrganization": "Latin America Support"
+  },
+  "supportGroup": {
+    "name": "LA Support 3",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "Latin America Support",
+    "id": "GGP000000000015",
+    "assignedToGroup": false,
+    "persons": [],
+    "supportGroups": "LA Support 3"
+  },
+  "customer": {
+    "firstName": "John",
+    "lastName": "Watson",
+    "fullName": "John Watson",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "Macquarie Park",
+        "address": {
+          "street": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "country": "Australia",
+          "zip": "2113",
+          "address": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+        },
+        "region": "Asia-Pac",
+        "siteGroup": "Engineering",
+        "siteId": "GTE000000000037"
+      }
+    },
+    "site": {
+      "name": "Macquarie Park",
+      "address": {
+        "street": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "country": "Australia",
+        "zip": "2113",
+        "address": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+      },
+      "region": "Asia-Pac",
+      "siteGroup": "Engineering",
+      "siteId": "GTE000000000037"
+    },
+    "email": "jwatson@petramco.com",
+    "phone": "61288992915",
+    "loginId": "jwatson",
+    "personId": "GPL000000000165",
+    "thumbnail": "",
+    "organization": "Engineering",
+    "department": "Development",
+    "jid": "jwatson_000000000000001",
+    "displayId": "GPL000000000165",
+    "isSupportStaff": true,
+    "instanceId": "IDGAA5V0HI5R3ANATVT5TCG5JKBUOV",
+    "profileStatus": "Enabled",
+    "clientType": "Office-Based Employee",
+    "clientSensitivity": "Standard",
+    "assignmentAvailability": false,
+    "isVIP": false,
+    "customFields": {},
+    "id": "jwatson",
+    "createDate": 1746782455419,
+    "modifiedDate": 1746782455419,
+    "fullNameWithNoMiddleName1": "John Watson",
+    "fullNameWithNoMiddleName2": "Watson John"
+  },
+  "noCategories": 0,
+  "ticketType": "incident",
+  "priority": "Low",
+  "serviceCIRequired": false,
+  "CIRequiredOnResolved": false,
+  "attachments": [],
+  "manager": {},
+  "managerGroup": {},
+  "coordinator": {},
+  "coordinatorGroup": {},
+  "resNote": "",
+  "customerLocationMap": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+}

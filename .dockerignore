@@ -1,0 +1,33 @@
+# Build context is repo root (see Java_qa/Dockerfile). Keep context small so
+# `docker build` does not send local venvs, caches, or build outputs to the daemon.
+
+**/.git
+
+# Local Python environments (often ~1GB+ under Python_qa/.venv)
+**/.venv
+**/venv
+**/__pycache__
+**/*.py[cod]
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+
+# DeepEval / runtime noise
+**/.deepeval
+**/.deepeval-cache.json
+**/.deepeval_telemetry.txt
+**/applog.txt
+
+# Java build output (rebuilt inside the image)
+Java_qa/target
+
+# IDE / OS
+**/.idea
+**/.vscode
+**/.settings
+**/.DS_Store
+Thumbs.db
+
+# Large or generated trees not needed for this image
+**/node_modules
+Python_qa/reports

@@ -1,0 +1,6 @@
+{
+	"page_index": 1,
+	"search_string": "{\"name\":\"<SEARCH_NAME>\"}",
+	"page_size": 50,
+	"sort_criteria": "last_heartbeat_time DESC"
+}

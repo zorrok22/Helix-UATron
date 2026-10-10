@@ -1,0 +1,115 @@
+{
+	"size": 0,
+	"aggs": {
+		"result": {
+			"terms": {
+				"field": "fingerprint.keyword",
+				"size": 9999,
+				"order": {
+					"max_creation_time": "desc"
+				},
+				"min_doc_count": 1
+			},
+			"aggs": {
+				"max_creation_time": {
+					"max": {
+						"field": "creation_time"
+					}
+				},
+				"latest_doc": {
+					"top_hits": {
+						"size": 1,
+						"sort": [
+							{
+								"creation_time": {
+									"order": "desc"
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"query": {
+		"bool": {
+			"must": [
+				{
+					"range": {
+						"creation_time": {
+							"gte": <START_TIME>,
+							"lte": <END_TIME>
+						}
+					}
+				},
+				{
+					"range": {
+						"_relationships.evcount": {
+							"gt": 0
+						}
+					}
+				},
+				{
+					"term": {
+						"class": "Situation"
+					}
+				},
+				{
+					"term": {
+						"algorithm_name": "ml"
+					}
+				},
+				{
+					"exists": {
+						"field": "fingerprint.keyword"
+					}
+				},
+				{
+					"bool": {
+						"should": [
+							{
+								"wildcard": {
+									"msg.keyword": {
+										"value": "*<SERVICE_KEY>*",
+										"case_insensitive": true
+									}
+								}
+							},
+							{
+								"wildcard": {
+									"location.keyword": {
+										"value": "*<SERVICE_KEY>*",
+										"case_insensitive": true
+									}
+								}
+							},
+							{
+								"wildcard": {
+									"source_hostname.keyword": {
+										"value": "*<SERVICE_KEY>*",
+										"case_insensitive": true
+									}
+								}
+							},
+							{
+								"wildcard": {
+									"_service_name.keyword": {
+										"value": "*<SERVICE_KEY>*",
+										"case_insensitive": true
+									}
+								}
+							}
+						]
+					}
+				}
+			],
+			"must_not": [
+				{
+					"term": {
+						"fingerprint.keyword": ""
+					}
+				}
+			]
+		}
+	}
+}

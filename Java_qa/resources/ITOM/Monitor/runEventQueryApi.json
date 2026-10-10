@@ -1,0 +1,28 @@
+{
+  "slotList": [
+    "severity",
+    "priority",
+    "creation_time",
+    "source_hostname",
+    "source_port",
+    "source_address",
+    "class",
+    "msg",
+    "status",
+    "_identifier",
+    "_handle",
+    "_notes",
+    "_ci_id",
+    "tag",
+    "location",
+    "user_assigned",
+    "_operations",
+    "object_class"
+  ],
+  "sortCriteria": [
+    {
+      "attributeName": "creation_time",
+      "sortOrder": 2
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "ml_situation_config",
+	"description": "ml_situation_config_description",
+	"enable": true,
+	"configuration": {
+		"correlation_window": 5,
+		"merge_window": 5,
+		"fingerprint_idle_interval_for_expiry": 14400,
+		"offline_fingerprint_interval": 60,
+		"show_policy_based_situations": true
+	}
+}

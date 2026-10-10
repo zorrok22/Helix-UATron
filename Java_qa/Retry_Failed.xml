@@ -1,0 +1,12 @@
+<suite verbose="2" name="Retry_Automation_Suite" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="util.Listener"/>
+	</listeners>
+	<suite-files>
+		<suite-file path="testng-failed_P0.xml" />
+		<suite-file path="testng-failed_P1.xml" />
+		<suite-file path="testng-failed_P2.xml" />
+		<suite-file path="testng-failed_P3.xml" />
+		<suite-file path="testng-failed_HelixGPT.xml" />
+	</suite-files>
+</suite>

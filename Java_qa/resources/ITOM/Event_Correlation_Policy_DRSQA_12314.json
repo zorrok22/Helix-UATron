@@ -1,0 +1,50 @@
+{
+  "name": "Solqa Automation Correlation Policy",
+  "types": [
+    "CORRELATION"
+  ],
+  "description": "Correlation Policy",
+  "executionOrder": 9999,
+  "selectorCriteriaList": [
+    "( source_hostname contains '__ci__' )"
+  ],
+  "enabled": true,
+  "configurations": [
+    {
+      "type": "CORRELATION",
+      "configOrder": 1,
+      "definition": {
+        "children": [
+          {
+            "newEvent": {
+              "severity": "MAJOR",
+              "msg": "corr___uniquemsg__",
+              "location": "pune",
+              "priority": "PRIORITY_2",
+              "newEventClass": "EVENT",
+              "status": "OPEN"
+            },
+            "children": [],
+            "within": 15,
+            "minCount": 3,
+            "label": "",
+            "type": "aggregate",
+            "conditions": [
+              {
+                "slotName": "$NEW.msg",
+                "slotOperator": "equals",
+                "conditionOrder": 0,
+                "conditionOperator": "",
+                "conditionBracket": "(",
+                "endBracket": ")",
+                "slotValue": "__uniquemsg__"
+              }
+            ]
+          }
+        ],
+        "label": "policy",
+        "type": "root"
+      }
+    }
+  ]
+}

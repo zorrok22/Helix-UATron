@@ -1,0 +1,32 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Server is not able to connect to LAN",
+    "Incident Description": "Server cannot connect to the local area network.",
+    "Status": "Assigned",
+    "Template Name": "Can't connect to network",
+    "CI": "Optiplex 9020",
+    "AssignToMe": false
+  },
+  "GPTData": {
+    "input1": "Share list of peoples who can be associated with Optiplex 9020 service/CI?",
+    "context1": "The user requests people or support entities associated with the 'Optiplex 9020' service or Configuration Item (CI). The response should identify individuals and/or groups linked to this specific asset. Core requirement: association with Optiplex 9020 and people/group identification. Return people, support groups, or both types of entities connected to this CI. Each returned entity needs at least one identifier (Name, Login ID, Group Name, etc.). Enhancement fields include Email, Role, Department, Contact Status, or Responsibility details. System messages about CI associations are acceptable contextual elements.",
+    "expected_components1": "An association-focused response listing people and/or support groups connected to 'Optiplex 9020' CI/service. Essential elements: entity identification and Optiplex 9020 association confirmation. Each returned item should include entity identifier (person name, login ID, or group name) with clear CI relationship. Optional enhancements include contact details, roles, responsibilities, or organizational information. System text and formatting variations are acceptable elements.",
+
+    "input2": "Get all support groups related with asset named Optiplex 9020",
+    "context2": "The user seeks support groups that have a relationship or responsibility for the asset named 'Optiplex 9020'. The response should focus specifically on support group entities linked to this asset. Core requirement: support group identification and asset association. Each returned group needs at least one identifier (Group Name, Group ID, or equivalent). Enhancement fields may include Group Description, Company, Department, Role, Responsibility, or Contact information. System messages about asset-group relationships are acceptable contextual elements.",
+    "expected_components2": "A group-focused response listing support groups associated with asset 'Optiplex 9020'. Essential elements: support group identification and asset relationship confirmation. Each record should include group identifier (Group Name or equivalent) with clear Optiplex 9020 connection. Optional details include group responsibilities, organizational context, or contact information. System guidance and formatting options are acceptable enhancement elements.",
+
+    "input3": "Get person details who is related to asset named Optiplex 9020",
+    "context3": "The user requests detailed information about people who have a relationship or responsibility for the asset named 'Optiplex 9020'. The response should focus on individual persons linked to this specific asset. Core requirement: person identification and asset association with detailed information. Each returned person needs at least one identifier (Name, Login ID, or Employee ID). Enhancement fields include Email, Phone, Role, Department, Responsibility, or Contact Status. System messages about asset-person relationships are acceptable contextual elements.",
+    "expected_components3": "A person-detailed response showing individuals connected to asset 'Optiplex 9020' with comprehensive information. Essential elements: person identification and asset relationship confirmation with detailed attributes. Each record should include person identifier plus available details like Email, Login ID, Role, Department, or responsibilities. Optional enhancements include contact information, organizational context, or relationship types. System text and formatting variations are acceptable elements.",
+
+    "input4": "Get people related to asset named Latitude E6430 and Optiplex 9020",
+    "context4": "The user seeks people who have relationships with either or both assets: 'Latitude E6430' and 'Optiplex 9020'. The response should identify individuals associated with these specific assets. Core requirement: person identification and asset association for multiple assets. Each returned person needs identifier and clear indication of which asset(s) they're connected to. Enhancement fields include Email, Role, Department, Responsibility, or Contact details. Multiple asset associations and grouped results are acceptable. System messages about multi-asset queries are acceptable contextual elements.",
+    "expected_components4": "A multi-asset response showing people connected to 'Latitude E6430' and/or 'Optiplex 9020' assets. Essential elements: person identification and asset association clarity for each requested asset. Each record should include person identifier with indication of which asset(s) they're related to. Optional details include contact information, roles, or relationship types. Asset grouping, duplicate handling, and system guidance are acceptable enhancement elements.",
+
+    "input5": "Get person with primary contact related to asset named Latitude E6430 and Optiplex 9020",
+    "context5": "The user specifically requests people who are designated as 'primary contacts' for assets 'Latitude E6430' and 'Optiplex 9020'. The response should filter for primary contact relationships only. Core requirement: person identification, asset association, and primary contact designation. Each returned person needs identifier and explicit primary contact confirmation for the specified asset(s). Enhancement fields include Email, Phone, Role, Department, or Contact Status. System messages about primary contact filtering are acceptable contextual elements.",
+    "expected_components5": "A primary-contact focused response showing people designated as primary contacts for 'Latitude E6430' and 'Optiplex 9020' assets. Essential elements: person identification, asset association, and primary contact confirmation. Each record should include person identifier with explicit primary contact designation for the relevant asset(s). When no primary contacts exist: clear 'no primary contacts found' message. Optional details include contact information and system guidance are acceptable elements."
+  }
+}

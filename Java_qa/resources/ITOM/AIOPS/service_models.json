@@ -1,0 +1,38 @@
+{
+  "add_ci_incl_related_to_service": {
+    "nodes": {
+      "node1": {
+        "type": "Cloud & Container Orchestration",
+        "kind": "Namespace",
+        "required_content": true,
+        "ci_name": "test-cattle-system",
+        "filter": [
+          {
+            "set_variable": true,
+            "variable_name": "Select namespace",
+            "attrname": "name",
+            "attrvalue": "test-cattle-system_<RANDOM_STR>"
+          }
+        ]
+      }
+    }
+  },
+
+  "add_ci_incl_related_to_service_DynatraceConnector": {
+    "nodes": {
+      "node1": {
+        "type": "Hosts & Host Containers",
+        "kind": "Host",
+        "required_content": true,
+        "ci_name": "linuxa.sw.bmc.local",
+        "filter": [
+          {
+            "set_variable": true,
+            "attrname": "name",
+            "attrvalue": "linuxa.sw.bmc.local_<RANDOM_STR>"
+          }
+        ]
+      }
+    }
+  }
+}

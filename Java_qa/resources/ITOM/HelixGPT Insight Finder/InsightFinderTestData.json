@@ -1,0 +1,199 @@
+{
+  "DRSQA_15290_Data":[
+        {"Label":"serviceName","Value":"ML-TSOM"},
+        {"Label":"question1","Value":"Give me service health metrics of '%SERVICE_NAME%'"},
+        {"Label":"expectedHeader1","Value":"%SERVICE_NAME% Service Health"},
+		
+		{"Label":"question2","Value":"Show me service health metric of '%SERVICE_NAME%'"},
+		{"Label":"expectedHeader2","Value":"%SERVICE_NAME% Service Health"},
+		
+		{"Label":"question3","Value":"show me health score metric of '%SERVICE_NAME%'"},
+		{"Label":"expectedHeader3","Value":"%SERVICE_NAME% Health Score"},
+		
+		{"Label":"question4","Value":"show me current service health metric of '%SERVICE_NAME%'"},
+		{"Label":"expectedHeader4","Value":"Health Metric %SERVICE_NAME% Service"},
+				
+		{"Label":"question5","Value":"show me latest service heath metric of '%SERVICE_NAME%'"},
+		{"Label":"expectedHeader5","Value":"Health Metric for %SERVICE_NAME% Service"},
+
+		{"Label":"dashboardTitle","Value":"DRSQA_15290"},
+		{"Label":"dashboardDescription","Value":"Description of DRSQA_15290"}
+				
+   ],
+   "DRSQA_15291_Data":[
+        {"Label":"serviceName","Value":"ML-TSOM"},
+  		{"Label":"question1","Value":"show me count of prediction events"},
+  		{"Label":"expectedHeader1","Value":"Total Count of Prediction Events"},
+		
+		{"Label":"question2","Value":"list all prediction events"},
+		{"Label":"expectedHeader2","Value":"Prediction Events"},
+		
+		{"Label":"question3","Value":"show me list of closed Prediction events"},
+		{"Label":"expectedHeader3","Value":"Closed Prediction Events"},
+		
+		{"Label":"question4","Value":"show me count of open Prediction events"},
+		{"Label":"expectedHeader4","Value":"Open Prediction Events"},
+				
+		{"Label":"question5","Value":"show me the list of prediction events created in last 24 hours"},
+		{"Label":"expectedHeader5","Value":"Prediction Events Last 24 Hours"},
+		
+		{"Label":"question6","Value":"show me the list of closed predictions related to service '%SERVICE_NAME%'"},
+		{"Label":"expectedHeader6","Value":"Closed Predictions for Service '%SERVICE_NAME%'"},
+		
+		{"Label":"question7","Value":"show me the list of predictions having message 'Prediction Event'"},
+		{"Label":"expectedHeader7","Value":"Prediction Events Message 'Prediction Event'"},
+		
+		{"Label":"question8","Value":"show me the list of predictions related to service '%SERVICE_NAME%'"},
+		{"Label":"expectedHeader8","Value":"Predictions Service %SERVICE_NAME%"},
+		
+		{"Label":"dashboardTitle","Value":"DRSQA_15291"},
+		{"Label":"dashboardDescription","Value":"Description of DRSQA_15291"}
+   ],
+   
+   "DRSQA_15303_Data":[
+        {"Label":"question1","Value":"Show me open situations"},
+     	{"Label":"expectedHeader1","Value":"Open Situations"},
+   		
+   		{"Label":"question2","Value":"update for last 2 days"},
+   		{"Label":"expectedHeader2","Value":"Open Situations Last 2 Days"},
+		{"Label":"timeColumnName","Value":"Creation Time"},
+		
+		{"Label":"dashboardTitle","Value":"DRSQA_15303"},
+		{"Label":"dashboardDescription","Value":"Description of DRSQA_15303"}
+    ],
+	
+	"DRSQA_15293_Data":[
+	    {"Label":"question1","Value":"show all open cases"},
+	 	{"Label":"expectedHeader1","Value":"Open Cases Status Details"},
+		
+		{"Label":"question2","Value":"List BWF roles assigned to Peter"},
+		{"Label":"expectedHeader2","Value":"Roles Assigned to Peter"},
+		
+		{"Label":"question3","Value":"What is the most common type of case logged in last 6 months via 'service request'"},
+		{"Label":"expectedHeader3","Value":"Most Common Type Service Request Type 6 Months"},
+		
+		{"Label":"question4","Value":"What is the most common type of case logged in last 6 months via email"},
+		{"Label":"expectedHeader4","Value":"Most Common Case Type via Email 6 Months"},
+				
+		{"Label":"question5","Value":"List top 5 most common use cases logged via DWP in last 6 months"},
+		{"Label":"expectedHeader5","Value":"Top 5 Most Commson Service Request 6 Months)"},
+		
+		{"Label":"question6","Value":"List top 5 most common use cases logged via email in last 6 months"},
+		{"Label":"expectedHeader6","Value":"Top 5 Most Common Email 6 Months"},
+		
+		{"Label":"question7","Value":"Which type of cases have the longest time for which cases are put in 'Pending' status"},
+		{"Label":"expectedHeader7","Value":"Case Types with Longest Average Pending Duration"},
+		
+		{"Label":"dashboardTitle","Value":"DRSQA_15293"},
+		{"Label":"dashboardDescription","Value":"Description of DRSQA_15293"}
+	  ],
+	  
+	  "DRSQA_15302_Data":[
+	    {"Label":"question1","Value":"Show me open events for last 7 days"},
+	    {"Label":"expectedHeader1","Value":"Open Events Last 7 Days"},
+	     		
+	    {"Label":"question2","Value":"update for last 2 days"},
+	    {"Label":"expectedHeader2","Value":"Open Events Last 2 Days"},
+		{"Label":"timeColumnName","Value":"Creation Time"},
+	  		
+	    {"Label":"dashboardTitle","Value":"DRSQA-15302"},
+	  	{"Label":"dashboardDescription","Value":"Description of DRSQA-15302"}
+	   ],
+	   
+	   "DRSQA_13613_Data":[
+	   	{"Label":"question1","Value":"show me all open incidents"},
+	   	{"Label":"expectedHeader1","Value":"Open Incident Records"},
+	   	     		
+	   	{"Label":"question2","Value":"show me incident created last week"},
+	   	{"Label":"expectedHeader2","Value":"Incident Records Created Week"},
+		
+		{"Label":"question3","Value":"show close incident"},
+	    {"Label":"expectedHeader3","Value":"Closed Incident Records"},
+				
+		{"Label":"question4","Value":"show changes created last month"},
+	    {"Label":"expectedHeader4","Value":"Change Records Created Month"},		
+	   	  		
+	   	{"Label":"dashboardTitle","Value":"DRSQA-13613"},
+	   	{"Label":"dashboardDescription","Value":"Description of DRSQA-13613"}
+	   ],
+	   
+	   "DRSQA_13614_Data":[
+	   	{"Label":"question1","Value":"Show all Business Services"},
+	   	{"Label":"expectedHeader1","Value":"Business Services"},
+	   	     		
+	   	{"Label":"question2","Value":"Show me the distribution of CIs by Class"},
+	   	{"Label":"expectedHeader2","Value":"Configuration Items Count by Class"},
+	   
+	   	{"Label":"question3","Value":"show me a list of Business Services by Category"},
+	   	{"Label":"expectedHeader3","Value":"Business Services by Category"},
+	   		
+	   	{"Label":"question4","Value":"Provide count of CIs by owner"},
+	   	{"Label":"expectedHeader4","Value":"Configuration Items by Owner"},	
+		
+		{"Label":"question5","Value":"Give me virtual CIs by type"},
+	    {"Label":"expectedHeader5","Value":"Virtual Configuration Items by Type"},		
+	   	  		
+	   	{"Label":"dashboardTitle","Value":"DRSQA-13614"},
+	   	{"Label":"dashboardDescription","Value":"Description of DRSQA-13614"}
+	   ],
+	   
+	   "DRSQA_15292_Data":[
+	   	{"Label":"question1","Value":"give me all open incidents"},
+	   	{"Label":"expectedHeader1","Value":"Open Incident Records"}
+	   ],
+	   
+	   "DRSQA_13612_Data":[
+	      	{"Label":"question1","Value":"show me Network utilization of device %DEVICE_NAME%"},
+	      	{"Label":"expectedHeader1","Value":"Network Utilization %DEVICE_NAME%"},
+	      	     		
+	      	{"Label":"question2","Value":"show me memory utilization of device %DEVICE_NAME%"},
+	      	{"Label":"expectedHeader2","Value":"Memory Utilization %DEVICE_NAME%"},
+	      	
+	      	{"Label":"question3","Value":"show me Disk utilization of device %DEVICE_NAME%"},
+	      	{"Label":"expectedHeader3","Value":"Disk Utilization %DEVICE_NAME%"},	
+	   	    
+			{"Label":"dashboardTitle","Value":"DRSQA-13612"},
+	      	{"Label":"dashboardDescription","Value":"Description of DRSQA-13612"}
+	   ],
+	   
+	   "DRSQA_16623_Data":[
+	   	    {"Label":"question1","Value":"show me Processor utilization of device %DEVICE_NAME%"},
+	   	    {"Label":"expectedHeader1","Value":"Processor Utilization %DEVICE_NAME%"},
+	   	      		
+	   	    {"Label":"question2","Value":"show me CPU utilization of device %DEVICE_NAME%"},
+	   	    {"Label":"expectedHeader2","Value":"CPU Utilization %DEVICE_NAME%"},
+			
+			{"Label":"dashboardTitle","Value":"DRSQA-16623"},
+		    {"Label":"dashboardDescription","Value":"Description of DRSQA-16623"}
+	   ],
+	   
+
+	   "DRSQA_15368_Data":[
+	   	    {"Label":"question1","Value":"show the most common type of case logged in last 6 months via service request"},
+	   	    {"Label":"expectedHeader1","Value":"Most Common Case Type Service Requests 6 Months"}
+	   ],
+	   
+	   "DRSQA_17108_Data":[
+	        {"Label":"question1","Value":"show me the incidents assigned"},
+	        {"Label":"expectedHeader1","Value":"Incidents Assigned"},
+	      		
+	      	{"Label":"question2","Value":"List of high priority change request where i am the submitter"},
+	      	{"Label":"expectedHeader2","Value":"High Priority Change Requests Submitted by Me"},
+			
+			{"Label":"question3","Value":"Add the Prompt which template has been used most for the work order creation"},
+		    {"Label":"expectedHeader3","Value":"Most Used Work Order Template"},
+			
+			{"Label":"question4","Value":"Give me incidents under the support groups  that i am part of"},
+			{"Label":"expectedHeader4","Value":"Incidents Assigned to Support Group"},
+			
+			{"Label":"question5","Value":"Show the incident creation template that has been used the highest number of times"},
+			{"Label":"expectedHeader5","Value":"Incident Template with Highest Usage"},
+			
+			{"Label":"question6","Value":"Show me release count with high Priority"},
+			{"Label":"expectedHeader6","Value":"High Priority Release"},
+			
+			{"Label":"question7","Value":"Count of release details with different risk level"},
+			{"Label":"expectedHeader7","Value":"Release Risk Level"}
+	   		
+	   ]      			
+}

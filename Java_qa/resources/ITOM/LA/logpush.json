@@ -1,0 +1,50 @@
+[{
+ "input": {
+ "type": "log"
+ },
+ "timestamp": "<EPOCH_TIME>",
+ "auth": "-",
+ "host_name": "<HOST_NAME>",
+ "@timestamp": "<TIME_STAMP>",
+ "agent": {
+ "type": "filebeat",
+ "id": "e2043b6b-03b4-45a8-8122-a5bf7da71b4e",
+ "hostname": "<HOST_NAME>",
+ "tc_id": "Gyp6ays77h",
+ "version": "7.7.1"
+ },
+ "ident": "-",
+ "httpversion": "1.1",
+ "@version": "1",
+ "request": "/",
+ "bytes": "590",
+ "response": "401",
+ "ecs": {
+ "version": "1.5.0"
+ },
+ "tags": ["MANUAL_PUSH"],
+ "log": {
+ "offset": 0,
+ "file": {
+ "path": "<file path>"
+ }
+ },
+ "verb": "GET",
+ "host": {
+ "os": {
+ "family": "windows",
+ "version": "10.0",
+ "platform": "windows",
+ "build": "14393.3750",
+ "kernel": "10.0.14393.3750 (rs1_release.200601-1853)",
+ "name": "Windows Server 2016 Standard"
+ },
+ "mac": ["00:50:56:8f:32:8c", "00:00:00:00:00:00:00:e0", "00:00:00:00:00:00:00:e0"],
+ "id": "317c191e-b88f-4e58-844d-e0158dce6d6a",
+ "name": "host name",
+ "architecture": "x86_64",
+ "ip_address": "172.253.122.100",
+ "host_name": "<HOST_NAME>"
+ },
+ "message": "<MSG>"
+}]

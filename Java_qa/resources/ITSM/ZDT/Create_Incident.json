@@ -1,0 +1,27 @@
+{
+    "fields": [
+        "summary",
+        "impact",
+        "priority",
+        "urgency",
+        "incidentType",
+        "customer",
+        "assignee",
+        "assigneeGroup",
+        "assigneeGroupId",
+        "assigneeSupportOrganization",
+        "assigneeSupportCompany"
+    ],
+    "summary": "Printer is not working",
+    "impact": 2000,
+    "priority": 2,
+    "urgency": 4000,
+    "incidentType": 0,
+    "assigneeGroupId": "SMO000000000213",
+    "assigneeGroup": "BMCOpsMonitoring Support Group1",
+    "assigneeSupportCompany": "BMCOpsMonitoring",
+    "assigneeSupportOrganization": "BMCOpsMonitoring Support Org",
+    "customer": {
+    "loginId": "bmcopssupportagent"
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"from": 0,
+	"size": 0,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"range": {
+									"creation_time": {
+										"gte": "<START_TIME>",
+										"lt": "<END_TIME>"
+									}
+								}
+							},{
+								"term": {
+									"_relationships.rstat": "secondary"
+								}
+							}
+						]
+					}
+				}
+			],
+			"must_not": [
+				{
+					"term": {
+						"class": "INCIDENT_INFO"
+					}
+				},
+				{
+					"term": {
+						"class": "Prediction"
+					}
+				},
+				{
+					"term": {
+						"class": "Change"
+					}
+				},
+				{
+					"term": {
+						"class": "Situation"
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

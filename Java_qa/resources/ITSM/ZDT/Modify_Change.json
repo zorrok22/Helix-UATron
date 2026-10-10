@@ -1,0 +1,9 @@
+{
+    "coordinator": {
+        "loginId": "bmcopssupportagent"
+    },
+    "coordinatorGroupId": "SMO000000000213",
+    "coordinatorGroup": "BMCOpsMonitoring Support Group1",
+    "coordinatorGroupOrganization": "BMCOpsMonitoring Support Org",
+    "coordinatorGroupCompany": "BMCOpsMonitoring"
+}

@@ -1,0 +1,259 @@
+[HARDWARE]
+CPU temperature is above the threshold of 80 degree Celsius
+Memory module 'DIMM 1' has failed
+Disk 'sda' is reporting SMART predictive failure
+RAID controller battery is degraded or charging failed
+RAID array 'Virtual Disk 0' is in degraded state
+Power supply 'PSU 1' is not operational
+Fan 'FAN 3' is either stalled or running abnormally fast
+System event log contains critical hardware errors
+IPMI SEL has logged a hardware failure event
+BMC communication failure, device unreachable
+Hard drive 'sdb' is offline or not responding
+NIC 'eth0' link status is down unexpectedly
+Number of bad sectors on disk 'nvme0n1' exceeds normal threshold
+CPU usage is consistently over 90% for more than 5 minutes
+Memory usage is above 95%, system under memory pressure
+Filesystem '/var/log' is 95% full
+SMART error detected on SSD 'sdc' predictive failure
+Disk read latency on 'nvme0n1' exceeds 100 ms
+I/O utilization on disk 'sdd' is over 90% for extended period
+Battery on UPS 'APC-SITE1' has failed or needs replacement
+Input power loss detected on UPS 'UPS-RoomA'
+Output load on UPS 'UPS-DC1' is over 90% capacity
+Runtime remaining on UPS 'UPS-Lab' is below 5 minutes
+PDU outlet 'Outlet 4' is overloaded or disconnected
+Ambient temperature in rack 'Rack 5' is above 30 degree Celsius
+Humidity level in data center is outside acceptable range (too high)
+Water leak detected near sensor 'SL-Zone3'
+Smoke detected by environmental sensor 'ES-12'
+[STORAGE]
+LUN 'LUN01' is inaccessible from storage array
+Multipath I/O path to storage has failed
+Volume 'vol_data' has less than 10% free space remaining
+Disk group 'DG_Storage' is in degraded mode
+Storage controller cache is disabled due to battery failure
+[NETWORK]
+Interface 'GigabitEthernet0/1' is down
+CRC errors on switch port 'Gi1/0/24' exceed normal threshold
+Fan on network switch 'SW-Core-01' has failed
+Redundant power supply on router 'RT-HQ' is not functioning
+Wireless access point 'AP-23' has low signal strength (-85 dBm)
+Firewall session count exceeds 90% of maximum capacity
+HA failover occurred on firewall 'FW-Primary'
+Interface status down: "GigabitEthernet0/1" on {Node} is now offline
+High error rate detected on interface "{Interface}" CRC errors exceed threshold
+Port flapping detected on "{Interface}" frequent up/down transitions
+Interface utilization on "{Interface}" exceeds 90% threshold
+Latency to {Node} has exceeded 500 ms for more than 5 minutes
+Packet loss to {Node} exceeds 10% possible network congestion or failure
+SNMP timeout or unreachable - device not responding to SNMP queries
+Network device CPU usage over 90% potential resource exhaustion
+Network device memory usage over 95% system under memory pressure
+Device has been rebooted unexpectedly last reboot time changed
+New network device detected unapproved device connected to the network
+Trunk port has dropped VLANs unexpected change in allowed VLANs
+STP state change detected port transitioned from blocking to forwarding
+Duplicate IP address detected on the network
+DHCP server unavailable or response time degraded
+DNS query latency exceeds acceptable threshold (>1 sec)
+RADIUS/TACACS authentication failures exceed normal baseline
+BGP session with neighbour {IP} has gone down
+OSPF neighbour relationship with {RouterID} lost
+Switch port is operating at half-duplex may cause performance degradation
+ARP table size on {Device} has increased abnormally possible scan or attack
+NetFlow traffic anomaly detected unusual bandwidth usage or top talker identified
+Configuration change detected on {Device} possible unauthorized access
+Firmware upgrade required known vulnerability or end-of-life version detected
+Link flap detected between {Device A} and {Device B} unstable connection
+[AWSI]
+EC2 instance unreachable via SSH or ICMP ping
+Instance status check failed: System (hypervisor) issue detected
+Instance status check fail: Instance (OS) issue detected
+Underlying host degraded possible hardware failure affecting instance
+Instance scheduled for retirement due to host hardware failure
+Instance stopped due to host failure (hardware issue in AWS data center)
+EBS volume 'vol-xxxx' attached to instance is experiencing high latency (> 1000 ms)
+EBS volume 'vol-xxxx' I/O limit exceeded or throttled
+Instance CPU credit balance is exhausted (for T-series burstable instances)
+Instance memory usage is above 95% potential resource exhaustion
+Disk space on '/' partition is below 10% free
+Swap usage on instance is consistently high (> 90%)
+Instance network packets dropped or unusually high retransmissions
+Instance metadata service unreachable potential hypervisor communication issue
+Instance has been flagged by AWS Health as affected by an ongoing service disruption
+[ORACLE]
+Database instance is down unable to connect via SQL*Net
+High number of active sessions detected possible blocking or deadlock
+Tablespace '{TABLESPACE_NAME}' is 90% full needs extension or cleanup
+Redo log switch frequency too high potential performance bottleneck
+Archive destination '{DESTINATION}' is full archiving has stopped
+SQL query '{SQL_ID}' is consuming excessive CPU or I/O resources
+Session wait event: 'enq: TX - row lock contention' blocking session detected
+Database CPU usage exceeds 90% for more than 5 minutes
+Shared pool free memory is below threshold possible library cache issue
+Library cache hit ratio dropped below 90% inefficient SQL reuse
+PGA memory usage is above 95% insufficient memory allocation
+SGA memory usage is critically high may cause swapping or slowdown
+Database is running in NOARCHIVELOG mode risk of data loss
+Listener is down clients cannot connect to the database
+Data guard standby database is not in sync with primary
+ASM disk group '{DISKGROUP}' is low on space (<10%)
+RMAN backup failed or took longer than expected
+Job scheduler job '{JOB_NAME}' failed or is overdue
+Number of invalid objects in the database exceeds acceptable threshold
+Connection rate to the database is abnormally high possible DoS or misbehaviour
+Long-running transaction detected could lead to undo/rollback issues
+UNDO tablespace is overused long queries causing excessive undo generation
+Index fragmentation detected on '{INDEX_NAME}' recommend rebuild
+Missing index on frequently queried column performance impact likely
+Database alert log contains ORA- errors critical internal database errors logged
+[KUBERNATE]
+Kubernetes API Server is unreachable or timing out
+etcd instance unhealthy - member not responding or leader unavailable
+Controller Manager pod is down or restarting frequently
+Scheduler pod is not functioning - scheduling disabled or crashing
+Cluster has no healthy control plane nodes
+High number of evicted pods across the cluster
+Kubernetes version outdated - CVEs or deprecated APIs detected
+Certificate expiration within 7 days - control plane or kubelet certs
+Cluster disk pressure - nodes running low on storage space
+Cluster memory pressure - insufficient allocatable memory across nodes
+Node '{NODE_NAME}' is NotReady - kubelet not responding or node unreachable
+Node '{NODE_NAME}' has high CPU usage (>90%) for more than 5 minutes
+Node '{NODE_NAME}' has high memory usage (>95%) - potential OOM risk
+Node '{NODE_NAME}' has disk pressure - low available storage
+Node '{NODE_NAME}' has PID pressure - too many processes running
+Node '{NODE_NAME}' rebooted unexpectedly
+Node '{NODE_NAME}' is reporting kernel OOM kills in logs
+Node '{NODE_NAME}' is tainted and not accepting new pods
+Node '{NODE_NAME}' failed to report status for more than 5 minutes
+Node '{NODE_NAME}' has unmounted or inaccessible volumes
+Pod '{POD_NAME}' is in Pending state - scheduling issue or resource constraint
+Pod '{POD_NAME}' is in CrashLoopBackOff - repeatedly crashing and restarting
+Pod '{POD_NAME}' is Evicted - due to node resource constraints
+Pod '{POD_NAME}' is Not Running - in Unknown, Error, or Failed state
+Container '{CONTAINER_NAME}' in Pod '{POD_NAME}' is restarting frequently
+Pod '{POD_NAME}' is exceeding its memory limit - possible OOMKill
+Pod '{POD_NAME}' is missing required labels or annotations
+Deployment '{DEPLOYMENT_NAME}' is not available - replicas not ready
+StatefulSet '{STATEFULSET_NAME}' has unhealthy or missing pods
+Job '{JOB_NAME}' failed or took longer than expected to complete
+Service '{SERVICE_NAME}' has no endpoints - pods not registered or failing readiness
+Ingress controller is down or not responding
+Network latency between pods or services is abnormally high
+DNS lookup failures in pods - CoreDNS misconfigured or unreachable
+Pod '{POD_NAME}' cannot reach external network - CNI or firewall issue
+Kubernetes network plugin (e.g., Calico, Flannel) is degraded or not working
+Network policy enforcement failure - traffic not being restricted as intended
+API server request rate limiting triggered - potential DDoS or misbehaving client
+Pod '{POD_NAME}' is running as root user - security best practice violation
+Pod '{POD_NAME}' is using a privileged container - elevated access risk
+Image '{IMAGE_NAME}' used in deployment has known vulnerabilities (CVEs)
+RBAC permission issue - service account lacks required privileges
+Secret '{SECRET_NAME}' is exposed in logs or config maps
+PodSecurityPolicy (or equivalent) violation detected
+Audit log shows unauthorized access attempts or privilege escalation
+PersistentVolumeClaim '{PVC_NAME}' is in Pending state - no matching PV found
+StorageClass '{STORAGECLASS_NAME}' is not provisioned or misconfigured
+PersistentVolume '{PV_NAME}' is in Failed state - backend storage error
+CSI driver is unhealthy or not responding
+Pod '{POD_NAME}' cannot mount volume - permission denied or timeout
+[SOFTWARE]
+Application '{APP_NAME}' is unreachable or down
+HTTP response code 5xx returned - internal server error detected
+Application '{APP_NAME}' failed to start after deployment
+Application '{APP_NAME}' is not responding to health checks
+Connection timeout to application endpoint '{URL}'
+Application '{APP_NAME}' is returning frequent redirects (3xx) unexpectedly
+Service '{SERVICE_NAME}' has been restarted multiple times in the last hour
+Application '{APP_NAME}' failed dependency check - required service down
+Response time for '{ENDPOINT}' exceeds threshold (>2000 ms)
+Throughput for '{APP_NAME}' dropped below normal baseline
+Application '{APP_NAME}' is experiencing high latency spikes
+Number of concurrent users exceeded expected threshold - potential overload
+Thread pool saturation in '{APP_NAME}' - unable to process new requests
+Application '{APP_NAME}' is using more than 90% CPU consistently
+Memory usage for '{APP_NAME}' exceeds 95% - possible memory leak or GC pressure
+Garbage collection pause duration too long - affecting application responsiveness
+Application '{APP_NAME}' log file size exceeds limit - disk space risk
+Application '{APP_NAME}' temp directory is full - cleanup required
+Application '{APP_NAME}' cannot write to log file - permission denied or file locked
+Disk I/O latency for '{APP_NAME}' exceeds acceptable threshold
+Application '{APP_NAME}' is using excessive disk space - nearing quota
+Application '{APP_NAME}' failed to connect to database '{DB_NAME}'
+SQL query execution time exceeds acceptable threshold (>5 sec)
+High number of open database connections from '{APP_NAME}'
+Application '{APP_NAME}' connection pool exhausted - no available DB connections
+Deadlock detected in database during transaction from '{APP_NAME}'
+Application '{APP_NAME}' is receiving frequent timeouts from backend API
+External API call from '{APP_NAME}' is failing with HTTP 401 Unauthorized
+Rate limiting triggered for '{APP_NAME}' calling external service
+Application '{APP_NAME}' received invalid response from downstream service
+OAuth token expired or invalid for integration used by '{APP_NAME}'
+Webhook from '{APP_NAME}' is failing or timing out
+Third-party integration failure - service '{SERVICE}' unavailable
+Application '{APP_NAME}' generated critical error: '{ERROR_MESSAGE}'
+NullPointerException or similar runtime exception detected in logs
+Application '{APP_NAME}' failed business transaction '{TXN_NAME}'
+Invalid input validation error in '{APP_NAME}' - potential user misuse or attack
+Business rule violation detected by '{APP_NAME}' - alerting security team
+Application '{APP_NAME}' login failed attempts exceed threshold - possible brute force attack
+Unauthorized access attempt detected in '{APP_NAME}' logs
+Session timeout or cookie expiration issue affecting user experience
+Certificate for '{APP_NAME}' will expire within 7 days
+Application '{APP_NAME}' is using outdated TLS version (<TLS 1.2)
+CSRF or XSS attack pattern detected in '{APP_NAME}' request logs
+Application '{APP_NAME}' deployed version mismatch - unexpected build detected
+Configuration change detected in '{APP_NAME}' - unauthorized or unlogged update
+Application '{APP_NAME}' missing required environment variables
+Rollback initiated for '{APP_NAME}' due to failed deployment
+Application '{APP_NAME}' deployment stuck in progress - manual intervention needed
+Application '{APP_NAME}' container image pull failed - registry unreachable or tag invalid
+[DATABASE]
+SQL Server service is not running
+SQL Server instance is unreachable
+Connection timeout to SQL Server
+Too many failed login attempts
+Database is in Suspect mode
+Failover occurred in AlwaysOn Availability Group
+Mirroring session suspended
+Query execution time exceeds threshold (&gt;500 ms)
+High CPU usage on SQL Server (&gt;90%)
+Page latch waits are abnormally high
+Page I/O latch waits increasing
+Blocking sessions detected
+Deadlock occurred
+Plan cache flush detected
+High number of compiles/recompiles per second
+Transaction log is full
+TempDB is full or under heavy contention
+Max worker threads exceeded
+Memory usage above 95%
+Buffer pool pressure detected
+Disk space low on data/log drive
+TempDB contention on allocation pages (PFS, GAM, SGAM)
+Missing index on frequently executed query
+Index fragmentation &gt; 30%
+Unused or duplicate indexes found
+Statistics outdated or not updated
+Auto-update statistics disabled
+Index rebuild failed
+Replication latency exceeds threshold (&gt;60 sec)
+Log shipping delay too high
+AlwaysOn Availability Group unhealthy
+Suspended data movement in AG
+Database mirroring broken
+Unsent log in mirrored database
+Failed login attempts exceed threshold
+Unauthorized schema change detected
+Privilege escalation detected
+Audit log disabled
+Certificate expiration within 7 days
+Kerberos authentication failed
+Error 17: Insufficient resources
+Error 823: Disk I/O error
+Error 9001: Log is unavailable
+Severity 17+ error logged
+Deadlock graph captured
+SQL Server error log size too large

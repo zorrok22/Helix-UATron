@@ -1,0 +1,40 @@
+{
+	"size": 9999,
+	"query": {
+		"bool": {
+			"must": [
+				{
+					"range": {
+						"_relationships.evcount": {
+							"gt": 0
+						}
+					}
+				},
+				{
+					"term": {
+						"fingerprint.keyword": "<SERVICE_KEY>"
+					}
+				},
+				{
+					"term": {
+						"class": "Situation"
+					}
+				}
+			],
+			"must_not": [
+				{
+					"term": {
+						"incident_id.keyword": ""
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

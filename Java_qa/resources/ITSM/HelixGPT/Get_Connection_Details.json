@@ -1,0 +1,10 @@
+{
+    "values": {
+      "dataPageType": "com.bmc.arsys.rx.application.record.datapage.RecordInstanceDataPageQuery",
+      "pageSize": "50",
+      "startIndex": "0",
+      "recorddefinition": "com.bmc.dsom.hgm:${1}",
+      "shouldIncludeTotalSize": "false",
+      "propertySelection": "1,2,3,4,5,6,7,8,16,379,399,490000200,490000201,490000202,490000205,490000206,490000375,490000376,490000377,490000378"
+    }
+  }

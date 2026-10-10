@@ -1,0 +1,14 @@
+{
+  "increments": {
+    "nodes": [
+      {
+        "staticNodeIds": [
+          "<NODE_IDS>"
+        ],
+        "compatibleOnly": "false",
+        "id": "<SERVICE_MODEL_KEY>"
+      }
+    ],
+    "links": []
+  }
+}

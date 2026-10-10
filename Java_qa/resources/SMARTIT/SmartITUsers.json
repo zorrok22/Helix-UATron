@@ -1,0 +1,131 @@
+{
+  "bmcopssupportagent" : [
+    {"Label" : "UserName", "Value" : "bmcopssupportagent"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+
+  "bmcopsenduser" : [
+    {"Label" : "UserName", "Value" : "bmcopsenduser"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+ 
+  "ppanUser" : [
+    {"Label" : "UserName", "Value" : "ppan"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+
+  "pbunyon" : [
+    {"Label" : "UserName", "Value" : "pbunyon"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+
+  "nishaUser" : [
+    {"Label" : "UserName", "Value" : "nisha"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+
+  "canandaUser" : [
+    {"Label" : "UserName", "Value" : "cananda"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+
+  "iallenUser" : [
+    {"Label" : "UserName", "Value" : "iallen"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"},
+    {"Label" : "iallenFullName","Value" : "Irwin Allen"}
+  ],
+  
+  "creyUser" : [
+    {"Label" : "UserName", "Value" : "crey"},
+    {"Label" : "Password", "Value" : "__USER_PASSWORD__"}
+  ],
+
+  "lgreenUser": [
+    { "Label": "UserName", "Value": "lgreen" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ],
+
+  "cluong": [
+    { "Label": "UserName", "Value": "cluong" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ],
+
+  "iallen": [
+    { "Label": "UserName", "Value": "iallen" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ],
+
+  "vpawarUser": [
+    { "Label": "UserName", "Value": "vpawar" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ],
+
+  "pshahUser" : [ 
+    {"Label" : "UserName","Value" : "pshah"}, 
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"} 
+  ],
+
+  "stagore": [
+    {"Label": "UserName", "Value": "stagore"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "DBriggsUser": [
+    {"Label": "UserName", "Value": "DBriggs"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+  
+  "RSSOAdmin" : [
+    {"Label" : "UserName","Value" : "Admin"}, 
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"} 
+  ],
+
+  "AdminUser" : [
+    {"Label" : "UserName","Value" : "hannah_admin"}, 
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"} 
+  ],
+
+  "jholder" : [
+    {"Label" : "UserName","Value" : "jholder"},
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"}
+  ],
+  
+  "ipiatti" : [
+    {"Label" : "UserName","Value" : "ipiatti"},
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"},
+    {"Label" : "ipiattiFullName","Value" : "Ignacio Piatti"}
+  ],
+  "yanandaUser":[
+    {"Label":"UserName", "Value":"yananda"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"},
+    {"Label":"FullName", "Value":"Yoga Ananda"}
+    ],
+    
+
+  "hkmUser":[
+    {"Label":"UserName","Value":"managersolQA1"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "ejohnUser" : [
+    {"Label" : "UserName","Value" : "ejohn"},
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"}
+  ],
+
+  "ctheronUser" : [
+    {"Label" : "UserName","Value" : "ctheron"},
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"}
+  ],
+
+  "nadamUser" : [
+    {"Label" : "UserName","Value" : "nadam"},
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"},
+    {"Label" : "Full Name","Value" : "Nancy Adam"}
+  ],
+
+  "iazalea" : [
+    {"Label" : "UserName","Value" : "iazalea"},
+    {"Label" : "Password","Value" : "__USER_PASSWORD__"},
+    {"Label" : "FullName","Value" : "Iggy Azalea"}
+  ]
+}

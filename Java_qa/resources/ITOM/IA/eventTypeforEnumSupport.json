@@ -1,0 +1,21 @@
+{
+    "class": "EVENT",
+    "severity": "CRITICAL",
+    "object": "India Super",
+    "msg": "service is not running",
+    "source_identifier": "host-01-12",
+    "host": "host-01-12", 
+    "source_hostname": "host-01-12",
+    "status": "OPEN",
+    "priority": "PRIORITY",
+    "details": "Testing by sdk automation",
+    "itsm_company": "Petramco",
+    "incident_company": "Petramco",
+    "al_is_predicted ": "true",
+    "p_host_class": "test",
+    "is_updated": "false",
+            "test": "may24",
+    "incident_id": ""
+   
+}
+

@@ -1,0 +1,11 @@
+{
+  "DRSQA_17021_Data": [
+    {"Label": "FirstName", "Value": "Christina"},
+    {"Label": "LastName", "Value": "Chapman"},
+    {"Label": "LoginID", "Value": "cchapman"},
+    {"Label": "Role", "Value": "Operator"},
+	{"Label": "AuthProfileBaseName", "Value": "TestAuthProfile_"},
+    {"Label": "UserGroup", "Value": "Operators"}
+  ]
+}
+

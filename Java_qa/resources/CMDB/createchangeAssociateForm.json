@@ -1,0 +1,16 @@
+{
+	"values": {
+		"Form Name02": "CHG:Infrastructure Change",
+		"Request ID02": "<infra_change_id>",
+		"Form Name01": "<form_name>",
+		"Request Description01": "<name>",
+		"Request ID01": "<recon_id>",
+		"Association Type01": "Related to",
+		"Request Type01": "Configuration Item",
+		"Submitter": "pbunyon",
+		"Data_Set_ID01": "BMC.ASSET",
+		"Parent_DataSet_ID01": "BMC.ASSET",
+		"z1D_Local_DataSetID_store": "BMC.ASSET",
+		"Status": "Enabled"
+	}
+}

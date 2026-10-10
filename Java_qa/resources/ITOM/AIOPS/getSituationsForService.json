@@ -1,0 +1,75 @@
+{
+  "eventGroupID": 0,
+  "startIndex": 1,
+  "view": "events",
+  "slotList": [
+    "status",
+    "severity",
+    "priority",
+    "creation_time",
+    "_modified_time",
+    "source_hostname",
+    "class",
+    "_relationships",
+    "msg",
+    "_identifier",
+    "_handle",
+    "_notes",
+    "mc_action_count",
+    "_ci_id",
+    "source_hostname",
+    "source_identifier",
+    "user_assigned",
+    "apm_application_id",
+    "apm_nodeID",
+    "apm_application",
+    "al_parameter_id",
+    "object_class",
+    "TSIMServerID",
+    "incident_id",
+    "an_analysis_type",
+    "an_parameter_name"
+  ],
+  "totalResultCount": 200,
+  "caseInsensitive": true,
+  "sortCriteria": [
+    {
+      "attributeName": "creation_time",
+      "sortOrder": 2
+    }
+  ],
+  "advanceFilter": {
+    "severity": "CRITICAL,MAJOR,MINOR,WARNING,INFO",
+    "filterConditions": [
+      {
+        "condition_bracket": "(",
+        "end_bracket": ")",
+        "condition_order": 0,
+        "condition_operator": "",
+        "slot_operator": "equals",
+        "slot_value": "Situation",
+        "slot_name": "class"
+      },
+      {
+        "condition_bracket": "(",
+        "end_bracket": ")",
+        "condition_order": 1,
+        "condition_operator": "AND",
+        "slot_operator": "equals",
+        "slot_value": "<SERVICE_NAME>",
+        "slot_name": "_service_name"
+      }
+    ],
+    "global_filter": 0,
+    "eventClass": "Situation",
+    "devices": "",
+    "groups": "",
+    "filterId": "",
+    "application": "",
+    "filter_type": 1,
+    "service": "<SERVICE_NAME>",
+    "name": "",
+    "status": "OPEN,ACK,ASSIGNED",
+    "monitors": ""
+  }
+}

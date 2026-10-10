@@ -1,0 +1,8 @@
+{
+    "values": {
+      "dataPageType": "com.bmc.arsys.rx.application.namedlist.datapage.NamedListV2DataPageQuery",
+      "pageSize": "50",
+      "startIndex": "0",
+      "namedlistdefinition": "com.bmc.dsom.hgm:DataSources"
+    }
+}

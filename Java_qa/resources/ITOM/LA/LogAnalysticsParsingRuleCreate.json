@@ -1,0 +1,47 @@
+{
+	"id": "",
+	"name": "<POLICY_NAME>",
+	"description": "<POLICY_NAME>",
+	"params": [
+		{
+			"name": "format",
+			"secret": false,
+			"dataType": "enum",
+			"context": {
+				"isParserTypeValue": "true"
+			},
+			"value": "nginx"
+		},
+		{
+			"name": "log_field_selection",
+			"secret": false,
+			"dataType": "boolean",
+			"context": {
+				"is_parser_filter_key": "true",
+				"isParserAttribute": "true"
+			},
+			"value": "false"
+		},
+		{
+			"name": "expression",
+			"secret": false,
+			"dataType": "String",
+			"context": {
+				"isParserAttribute": "true"
+			},
+			"value": "/^(?<time>\\d{4}\\/\\d{2}\\/\\d{2} \\d{2}:\\d{2}:\\d{2}) \\[(?<log_level>\\w+)\\] (?<pid>\\d+).(?<tid>\\d+): (?<usid>\\S{7}) (?<client>[client]+) (?<ipaddesss>\\S+):(?<message>.*)/"
+		},
+		{
+			"name": "time_format",
+			"secret": false,
+			"dataType": "String",
+			"context": {
+				"isParserAttribute": "true"
+			},
+			"value": "%Y/%m/%d %H:%M:%S"
+		}
+	],
+	"integration_template_id": "<TEMPLATE_ID>",
+	"collection_type": "FILE",
+	"rule_type": "PARSER"
+}

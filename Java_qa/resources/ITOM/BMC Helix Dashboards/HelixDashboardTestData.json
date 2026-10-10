@@ -1,0 +1,196 @@
+{
+  "DRSQA_12507_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"helixDashboard","Value":"Helix Dashboard"},
+        {"Label":"queryType","Value":"Optimize Services"},
+        {"Label":"Service","Value":"Datamarts"},
+        {"Label":"datamartsBrowser","Value":"AWS_EBS_TEMPL"},
+        {"Label":"dashboardTitle","Value":"Automation Test Optimization Dashboard"},
+        {"Label":"dashboardDescription",  "Value":"Automation Test Optimization Dashboard Description"},
+        {"Label":"panelTitle","Value":"Automation Test Optimization Panel"},
+        {"Label":"panelDescription",  "Value":"Automation Test Optimization Panel Description"}
+  ],
+
+  "DRSQA_12447_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"etlServiceNames",  "Value":"Amazon Web Services,BMC - Helix Operations Management Extractor"},
+        {"Label":"etlFolderNames",  "Value":"Marketplace Content,ETL Health"}
+  ],
+
+  "DRSQA_12540_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"folderNames", "Value":"Helix Common Services,BMC Helix Audit Dashboard"},
+        {"Label":"operation", "Value":"Operation"},
+        {"Label":"resourceType","Value":"Resource Type"},
+        {"Label":"resourceName", "Value":"Resource Name"},
+        {"Label":"application", "Value":"Application"},
+        {"Label":"actor", "Value":"Actor"},
+        {"Label":"allFilters", "Value":"Operation, Resource Type, Actor, Resource Name, Application"},
+      
+        {"Label":"operation_case1", "Value":"CREATE"},
+        {"Label":"resourceType_case1","Value":"All"},
+        {"Label":"resourceName_case1", "Value":"All"},
+        {"Label":"application_case1", "Value":"Dashboards"},
+        {"Label":"actor_case1", "Value":"All"},
+
+        {"Label":"operation_case2", "Value":"CREATE"},
+        {"Label":"resourceType_case2","Value":"All"},
+        {"Label":"resourceName_case2", "Value":"All"},
+        {"Label":"application_case2", "Value":"Dashboards"},
+        {"Label":"actor_case2", "Value":"Paul Bunyon"},
+
+        {"Label":"operation_case3", "Value":"CREATE"},
+        {"Label":"resourceType_case3","Value":"All"},
+        {"Label":"resourceName_case3", "Value":"All"},
+        {"Label":"application_case3", "Value":"Dashboards"},
+        {"Label":"actor_case3", "Value":"Paul Bunyon"},
+
+        {"Label":"operation_case4", "Value":"EVENT_POLICY_ENABLE, EVENT_POLICY_DISABLE, CREATE"},
+        {"Label":"resourceType_case4","Value":"All"},
+        {"Label":"resourceName_case4", "Value":"All"},
+        {"Label":"application_case4", "Value":"Dashboards"},
+        {"Label":"actor_case4", "Value":"All"},
+
+        {"Label":"operation_case5", "Value":"EVENT_POLICY_ENABLE, EVENT_POLICY_DISABLE"},
+        {"Label":"resourceType_case5","Value":"All"},
+        {"Label":"resourceName_case5", "Value":"All"},
+        {"Label":"application_case5", "Value":"ems"},
+        {"Label":"actor_case5", "Value":"All"},
+
+        {"Label":"operation_case6", "Value":"EVENT_POLICY_ENABLE, EVENT_POLICY_DISABLE"},
+        {"Label":"resourceType_case6","Value":"All"},
+        {"Label":"resourceName_case6", "Value":"All"},
+        {"Label":"application_case6", "Value":"ems"},
+        {"Label":"actor_case6", "Value":"pbunyon"},
+
+        {"Label":"operation_case7", "Value":"EVENT_POLICY_ENABLE, EVENT_POLICY_DISABLE"},
+        {"Label":"resourceType_case7","Value":"All"},
+        {"Label":"resourceName_case7", "Value":"All"},
+        {"Label":"application_case7", "Value":"ems"},
+        {"Label":"actor_case7", "Value":"All"},
+
+        {"Label":"operation_case8", "Value":"GROUP_USERS_UPDATED"},
+        {"Label":"resourceType_case8","Value":"All"},
+        {"Label":"resourceName_case8", "Value":"All"},
+        {"Label":"application_case8", "Value":"ims"},
+        {"Label":"actor_case8", "Value":"All"},
+
+        {"Label":"operation_case9", "Value":"GROUP_USERS_UPDATED"},
+        {"Label":"resourceType_case9","Value":"All"},
+        {"Label":"resourceName_case9", "Value":"All"},
+        {"Label":"application_case9", "Value":"ims"},
+        {"Label":"actor_case9", "Value":"ims_service_account"}
+
+      ],
+
+  "DRSQA_12539_Data":[
+        {"Label":"menuItem","Value":"Report Scheduler"},
+        {"Label":"schedulerName", "Value":"Automation Test Scheduler"},
+        {"Label":"schedulerDescription", "Value":"Automation Test Scheduler Description"},
+        {"Label":"dashboardTitle","Value":"Dashboards/Automation Test Optimization Dashboard"},
+        {"Label":"recepientsIds", "Value":"test@example.com"},
+        {"Label":"recepientsBCCIDs", "Value":"bcc-test@example.com"}
+	  ],
+
+	"DRSQA_12432_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"helixDashboard","Value":"Helix Dashboard"},
+        {"Label":"queryType","Value":"Optimize Services"},
+        {"Label":"Service","Value":"Datamarts"},
+        {"Label":"datamartsBrowser","Value":"AWS_EBS_TEMPL"},
+        {"Label":"dashboardTitle","Value":"Automation Test Optimization Dashboard"},
+        {"Label":"dashboardDescription",  "Value":"Automation Test Optimization Dashboard Description"},
+        {"Label":"panelTitle","Value":"Automation Test Optimization Panel"},
+        {"Label":"panelDescription",  "Value":"Automation Test Optimization Panel Description"}
+      ],
+      "DRSQA_12361_Data":[
+            {"Label":"menuItem","Value":"Dashboards"},
+            {"Label":"dataSource","Value":"BMC Helix"},
+            {"Label":"queryType","Value":"Metric"},
+            {"Label":"sourceOption","Value":"Optimize"}
+      ],
+
+      "DRSQA-12406_Data":[
+            {"Label":"filter1","Value":"Status"},
+            {"Label":"filter2","Value":"Company"},
+            {"Label":"filter2","Value":"Priority"}
+      ],
+
+      "DRSQA-12414_Data":[
+            {"Label":"filter1","Value":"Company"},
+            {"Label":"filter2","Value":"Case ID"}
+
+      ],
+      "DRSQA_12353_Data":[
+            {"Label":"menuItem","Value":"Dashboards"},
+            {"Label":"queryType","Value":"Service Management"},
+            {"Label":"panelTitle","Value":"My Incident Details"},
+            {"Label":"panelDescription","Value":"Custom ITSM incident summary"},
+            {"Label":"dashboardDescription","Value":"Custom ITSM dashboard created by Report Editor"}
+
+  ],
+      "DRSQA_12377_Data":[
+            {"Label":"menuItem","Value":"Dashboards"},
+            {"Label":"dataSource","Value":"BMC Helix"},
+            {"Label":"queryType","Value":"Event"},
+            {"Label":"panelTitle","Value":"Combination Chart Panel"},
+            {"Label":"xAxisTitle","Value":"SEVERITY"},
+            {"Label":"yAxisTitle","Value":"COUNT OF METRICS"},
+            {"Label":"chartType","Value":"BAR"}
+      ],
+      "DRSQA_12343_Data":[
+            {"Label":"menuItem","Value":"Dashboards"},
+            {"Label":"dataSource","Value":"BMC Helix"},
+            {"Label":"queryType","Value":"Event"},
+            {"Label":"panelTitle","Value":"Events Cross Tab"},
+            {"Label":"panelDescription","Value":"Cross tab visualization for event data"},
+            {"Label":"rowField","Value":"class"},
+            {"Label":"columnField","Value":"al_old_severity"}
+      ],
+      "DRSQA_15762_Data":[
+            {"Label":"expectedFolderNames", "Value":"AIOps Value Dashboard,Prediction Analysis"}
+  ],
+  
+      "DRSQA_16700_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+		{"Label":"BhomfolderName", "Value":"BHOM Usage Reporting"},
+        {"Label":"expectedDashboardNames", "Value":"BHOM Usage Reporting Dashboard,BHOM Usage Reporting Dashboard (Details View),BHOM Usage Reporting Dashboard - Monthly Monitoring and Event Management Data (Tabular View),BHOM Usage Reporting Dashboard - Monthly Event Management Data (Tabular View),BHOM Usage Reporting Dashboard - Current Monitoring and Event Management Data (Tabular View),BHOM Usage Reporting Dashboard - Current Event Management Data (Tabular View)"},
+		{"Label":"Dashboard_1", "Value":"BHOM Usage Reporting Dashboard"},
+		{"Label":"Dashboard_2", "Value":"BHOM Usage Reporting Dashboard - Monthly Event Management Data (Tabular View)"},
+		{"Label":"Dashboard_3", "Value":"BHOM Usage Reporting Dashboard - Current Monitoring and Event Management Data (Tabular View)"},
+		{"Label":"Dashboard_4", "Value":"BHOM Usage Reporting Dashboard - Monthly Monitoring and Event Management Data (Tabular View)"}
+  ],
+  
+  "DRSQA_12431_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"helixDashboard","Value":"Helix Dashboard"},
+        {"Label":"visualizationPlugin","Value":"Helix Time Series Forecast"},
+        {"Label":"forecastAlertText","Value":"The time period must be greater than or equal to 7 days."},
+        {"Label":"timeRange1","Value":"Last 7 days"},
+        {"Label":"queryType","Value":"Metric"},
+        {"Label":"source","Value":"Optimize"},
+        {"Label":"metric","Value":"AvailableSpace"},
+        {"Label":"labelName","Value":"entityName"},
+        {"Label":"labelValueFilter","Value":"host-01"},
+  	    {"Label":"timeRange2","Value":"Last 30 days"},
+  	    {"Label":"panelTitlePrefix","Value":"AutomationDashboard_"},
+  	    {"Label":"tooltipMode","Value":"Hidden"},
+  	    {"Label":"algorithmType","Value":"CUBIC"},
+  	    {"Label":"futurePeriod","Value":"2 weeks"}
+   ],
+   
+   "DRSQA_17341_Data":[
+        {"Label":"menuItem","Value":"Dashboards"},
+        {"Label":"helixDashboard","Value":"Helix Dashboard"},
+        {"Label":"dataSource","Value":"Grafana"},
+        {"Label":"queryType","Value":"Random Walk"},
+        {"Label":"visualizationPlugin","Value":"Helix Time Series Forecast"},
+        {"Label":"forecastAlertText","Value":"The time period must be greater than or equal to 7 days."},
+        {"Label":"timeRange","Value":"Last 30 days"},
+        {"Label":"axisPlacement","Value":"Right"},
+        {"Label":"softMin","Value":"10"},
+        {"Label":"softMax","Value":"50"},
+        {"Label":"dashboardNamePrefix","Value":"TestDashboard_"}
+   ]
+
+}

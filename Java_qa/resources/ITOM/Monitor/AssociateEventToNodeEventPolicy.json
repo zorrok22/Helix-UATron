@@ -1,0 +1,79 @@
+{
+	"name": "<POLICY_NAME>",
+	"types": [
+		"REFINE"
+	],
+	"description": "<POLICY_NAME>",
+	"executionOrder": 9999,
+	"selectorCriteria": "",
+	"selectorCriteriaList": [
+		"class equals 'NAGIOS_EV1'"
+	],
+	"timeframes": [
+		"-1"
+	],
+	"enabled": true,
+	"configurations": [
+		{
+			"type": "REFINE",
+			"configOrder": 1,
+			"definition": {
+				"label": "enrich2",
+				"children": [
+					{
+						"label": "AssociateEventToNode",
+						"children": [
+							{
+								"type": "objectData",
+								"value": {
+									"skipnodeassociation": false,
+									"skipserviceassociation": false,
+									"nodeselectioncriteria": [
+										{
+											"conditionOrder": 0,
+											"conditionOperator": "",
+											"slotName": "name",
+											"slotOperator": "has_subword",
+											"slotValue": "$NEW.source_hostname",
+											"conditionBracket": "",
+											"endBracket": ""
+										}
+									],
+									"nodeattributes": "[\"platform\",\"type\"]",
+									"nodekind": "Host"
+								}
+							}
+						],
+						"type": "function",
+						"name": "AssociateEventToNode"
+					},
+					{
+						"label": "enrich1",
+						"children": [
+							{
+								"children": [
+									{
+										"type": "data",
+										"value": "$NODE.platform",
+										"children": []
+									},
+									{
+										"type": "data",
+										"value": "$NODE.type",
+										"children": []
+									}
+								],
+								"type": "function",
+								"name": "Concat"
+							}
+						],
+						"type": "enrich",
+						"key": "$NEW.details",
+						"value": null
+					}
+				],
+				"type": "root"
+			}
+		}
+	]
+}

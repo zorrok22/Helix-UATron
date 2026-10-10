@@ -1,0 +1,14 @@
+[
+	{
+		"method": "PATCH",
+		"body": {
+			"key": "<DESTINATION_KEY>",
+			"depended_upon": {
+				"<SOURCE_KEY>": {
+					"_associatedElements": "[{\"type\":\"health_processing\",\"elements\":[{\"element_type\":\"link_health_processing\",\"propagation\":\"<PROPOGATION_STATUS>\",\"selectors\":[]}]}]"
+				}
+				<CHILD_LIST>
+			}
+		}
+	}
+]

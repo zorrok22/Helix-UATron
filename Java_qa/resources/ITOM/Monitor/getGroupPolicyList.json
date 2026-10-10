@@ -1,0 +1,9 @@
+{
+	"recordsPerPage": 50,
+	"pageIndex": 1,
+	"searchString": "<GROUP_NAME>",
+	"sortCriteria": {
+		"attribute": "updatedTime",
+		"order": "DESC"
+	}
+}

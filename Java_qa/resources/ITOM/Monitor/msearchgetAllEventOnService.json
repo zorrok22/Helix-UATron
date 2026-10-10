@@ -1,0 +1,201 @@
+{
+	"track_total_hits": true,
+	"from": 0,
+	"size": 10000,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"should": [
+							{
+								"bool": {
+									"must": [
+										{
+											"range": {
+												"creation_time": {
+													"gte": 1,
+													"lt": <END_TIME>
+												}
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"term": {
+															"status": {
+																"value": "CLOSED"
+															}
+														}
+													},
+													{
+														"term": {
+															"status": {
+																"value": "BLACKOUT"
+															}
+														}
+													},
+													{
+														"terms": {
+															"class": [
+																"INCIDENT_INFO",
+																"Change"
+															]
+														}
+													},
+													{
+														"term": {
+															"_relationships.rstat": "primary"
+														}
+													}
+												]
+											}
+										},
+										{
+											"terms": {
+												"severity": [
+													"CRITICAL",
+													"MAJOR",
+													"MINOR",
+													"WARNING"
+												]
+											}
+										},
+										{
+											"bool": {
+												"should": [
+													{
+														"terms": {
+															"_service_key.keyword": [
+																"<SERVICE_KEY>"
+															],
+															"boost": 1
+														}
+													},
+													{
+														"terms": {
+															"_impacted_service_key.keyword": [
+																"<SERVICE_KEY>"
+															],
+															"boost": 1
+														}
+													}
+												],
+												"minimum_should_match": 1
+											}
+										}
+									]
+								}
+							},
+							{
+								"bool": {
+									"must": [
+										{
+											"bool": {
+												"must_not": [
+													{
+														"term": {
+															"status": {
+																"value": "CLOSED"
+															}
+														}
+													},
+													{
+														"term": {
+															"status": {
+																"value": "BLACKOUT"
+															}
+														}
+													}
+												]
+											}
+										},
+										{
+											"terms": {
+												"severity": [
+													"CRITICAL",
+													"MAJOR",
+													"MINOR",
+													"WARNING"
+												]
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"terms": {
+															"class": [
+																"INCIDENT_INFO",
+																"Change"
+															]
+														}
+													},
+													{
+														"term": {
+															"_relationships.rstat": "primary"
+														}
+													}
+												]
+											}
+										}
+									],
+									"filter": [
+										{
+											"range": {
+												"_modified_time": {
+													"gte": <START_TIME>,
+													"lt": null
+												}
+											}
+										},
+										{
+											"range": {
+												"creation_time": {
+													"gte": 1,
+													"lt": <END_TIME>
+												}
+											}
+										},
+										{
+											"bool": {
+												"should": [
+													{
+														"terms": {
+															"_service_key.keyword": [
+																"<SERVICE_KEY>"
+															],
+															"boost": 1
+														}
+													},
+													{
+														"terms": {
+															"_impacted_service_key.keyword": [
+																"<SERVICE_KEY>"
+															],
+															"boost": 1
+														}
+													}
+												],
+												"minimum_should_match": 1
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc",
+				"unmapped_type": "boolean"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"values": {
+		"Submitter": "<Submitter>",
+		"Short Description": "<Short Description>",
+		"Assignee Groups": "<Assignee Groups>",
+		"Description": "New activity log from REST API",
+		"Detailed Description": "<Detail Description>",
+		"Work Log Submitter": "<Submitter>",
+		"Incident Number": "<incident_id>",
+		"Work Log Type": "General Information"
+	}
+}

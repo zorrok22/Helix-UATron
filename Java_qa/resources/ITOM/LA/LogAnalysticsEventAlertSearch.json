@@ -1,0 +1,6 @@
+{
+	"page_index": 1,
+	"search_string": "name='<POLICY_NAME>'and type='Alert'",
+	"page_size": 2000,
+	"sort_criteria": "name ASC"
+}

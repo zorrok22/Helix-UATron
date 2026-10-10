@@ -1,0 +1,10 @@
+{
+	"name": "ml_situation_config",
+	"description": "ml_situation_config_description",
+	"enable": true,
+	"configuration": {
+		"show_policy_based_situations": true,
+		"incident_filter_type": "include",
+		"incident_service_key_list": ""
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "id": "${0}",
+    "resourceType": "com.bmc.arsys.rx.services.record.domain.RecordInstance",
+    "displayId": "000000000000701",
+    "recordDefinitionName": "com.bmc.dsom.hgm:Toolkit",
+    "permittedGroupsBySecurityLabels": {
+      
+    },
+    "permittedUsersBySecurityLabels": {
+      
+    },
+    "permittedRolesBySecurityLabels": {
+      
+    },
+    "fieldInstances": {
+      "6": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 6,
+        "value": "2025-10-13T16:17:09.000Z",
+        "permissionType": null
+      },
+      "490000151": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 490000151,
+        "value": "{\n    \"include_documents\": false,\n    \"mfs\": {},\n    \"itsm\": {\n        \"response_fields\": {\n            \"Incident\": [\n                \"Incident Number\",\n                \"Record ID\",\n                \"Description\",\n                \"Priority\",\n                \"Status\",\n                \"Submit Date\",\n                \"mc_ueid\",\n                \"Assignee\",\n                \"Assignee Login ID\",\n                \"Assigned Group\"\n            ],\n            \"Change\": [\n                \"Infrastructure Change ID\",\n                \"Record ID\",\n                \"Description\",\n                \"Last Name\",\n                \"First Name\",\n                \"CAB Manager Login\",\n                \"1000000403\",\n                \"Support Group Name\",\n                \"ASGRP\",\n                \"ASCHG\"\n            ]\n        }\n    },\n    \"Connections\": {\n        \"xmatters\": \"AGGFV7W2IC923ASTJ41GSTJ41GQYM2\",\n        \"msteams\": \"AGGFV7W2IC923ASVI74TSVI74TLIN0\",\n        \"pagerduty\": \"AGGHRHU0JR5COASX6BX6SX6BX6EKQD\"\n    },\n    \"xmatters\": {\n        \"enabled\": ${1},\n        \"xmatters_group_mapping\": {\n            \"AU Support 1\": \"DSOM Helix Communication Managers APAC Weekdays DL\",\n            \"CA Support 1\": \"DSOM Support Saas Weekend Americas DL\",\n            \"DE Support 1\": \"ARC/QuickStart EMEA AP on-call\",\n            \"IN Support 1\": \"24x7 DSM Helix ITSM Manager OnCall APAC DL\",\n            \"LA Support 1\": \"Wintel Disruption DL\",\n            \"LA Support 3\": \"AMI for Security DL\",\n            \"GB Support 1\": \"24x7 DSM Helix ITSM Manager OnCall APAC DL\",\n            \"US Support 1\": \"DBA-DS-AMERICAS-Evening-WEEKEND-DL\"\n        }\n    },\n    \"pagerduty\": {\n        \"enabled\": ${2},\n        \"pagerduty_schedule_mapping\": {\n            \"AU Support 1\": \"DSOM Helix Communication Managers APAC Weekdays DL\",\n            \"CA Support 1\": \"DSOM Support Saas Weekend Americas DL\",\n            \"DE Support 1\": \"ARC/QuickStart EMEA AP on-call\",\n            \"IN Support 1\": \"24x7 DSM Helix ITSM Manager OnCall APAC DL\",\n            \"LA Support 1\": \"Wintel Disruption DL\",\n            \"LA Support 3\": \"AMI for Security DL\",\n            \"GB Support 1\": \"24x7 DSM Helix ITSM Manager OnCall APAC DL\",\n            \"US Support 1\": \"DBA-DS-AMERICAS-Evening-WEEKEND-DL\"\n        }\n    }\n}",
+        "permissionType": null
+      }
+    }
+  }

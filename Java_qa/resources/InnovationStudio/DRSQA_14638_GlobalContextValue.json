@@ -1,0 +1,14 @@
+{
+    "docsSiteMode": "desktop",
+    "productArea": {
+          "name": "CMDB",
+          "version": "${version}",
+          "hosting": "${productAreaHosting}",
+          "customerEnvironment": "${productAreaCustomerEnvironment}"
+    },
+    "subProductLevel1": {
+          "name": "CMDB Portal",
+          "version": "${version}"
+    }
+}
+

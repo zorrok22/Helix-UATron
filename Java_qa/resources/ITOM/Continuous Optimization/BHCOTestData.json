@@ -1,0 +1,10 @@
+{
+  "DRSQA_12507_Data":[
+		{"Label":"reportName","Value":"Automation Test Optimization Report"},
+		{"Label":"addDashboardReport", "Value":"Add Helix Dashboard report"},
+		{"Label":"reportDescription",  "Value":"Automation Test Optimization Report Description"},
+		{"Label":"reportLevelValue","Value":"Current domain only"},
+		{"Label":"serviceName",  "Value":"Amazon Web Services - AWS API Extractor"},
+		{"Label":"reportFormats",  "Value":"PDF,XLS"}
+  ]
+}

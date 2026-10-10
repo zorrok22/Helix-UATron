@@ -1,0 +1,30 @@
+{
+  "values": {
+    "Remedy Login ID": "_remedy_login_id_",
+    "First Name": "__First_Name__",
+    "Middle Initial": "REST",
+    "Last Name": "__Last_Name__",
+    "Client Type": "Office-Based Employee",
+    "Company": "__Company__",
+    "Organization": "Human Resources",
+    "Department": "Benefits",
+    "Internet E-mail": "_email_",
+    "JobTitle": "Software Engineer",
+    "z1D Password": "abc",
+    "Phone Number Business": "9096500262",
+    "Phone Number Home": "9096500262",
+    "Profile Status": "Enabled",
+    "Site ID": "STE_SOLN0002845",
+    "Site": "Boston Support Center",
+    "Site City": "Boston",
+    "Site Country": "United States",
+    "Site Group": "United States",
+    "Site State Province": "Massachusetts",
+    "Site Zip/Postal Code": "02101",
+    "Site Street": "350 Seventh Avenue, 18th Floor",
+    "Region": "Americas",
+    "Unrestricted Access": "Yes",
+    "VIP": "No",
+    "License Type": "__License_Type__"
+  }
+}

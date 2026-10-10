@@ -1,0 +1,24 @@
+pipeline {
+    agent { label 'master' }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+                echo "Checking contents..."
+                bat 'dir'
+            }
+        }
+
+        stage('Build Java Project') {
+            steps {
+                dir('Java_qa') {
+                    bat '''
+                        dir
+                        mvn clean install -DskipTests
+                    '''
+                }
+            }
+        }
+    }
+}

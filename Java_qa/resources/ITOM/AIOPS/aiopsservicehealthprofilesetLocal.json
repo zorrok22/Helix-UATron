@@ -1,0 +1,11 @@
+[
+	{
+		"method": "PATCH",
+		"body": {
+			"key": "<SERVICE_KEY>",
+			"metadata": {
+				"_associatedElements": "[{\"type\":\"health_processing\",\"elements\":[{\"element_type\":\"health_processing\",\"statusMapping\":{},\"selectors\":[],\"scoreMapping\":{\"event\":{\"critical\":{\"threshold\":25},\"major\":{\"threshold\":20},\"minor\":{\"threshold\":15},\"warning\":{\"threshold\":10}},\"metric\":{\"critical\":{\"threshold\":20},\"major\":{\"threshold\":16},\"minor\":{\"threshold\":12},\"warning\":{\"threshold\":8}}},\"propagation\":\"enabled\",\"globalConfigurationBalancingRules\":\"enabled\"}]}]"
+			}
+		}
+	}
+]

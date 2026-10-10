@@ -1,0 +1,43 @@
+[
+    {
+        "class": "EVENT",
+        "severity": "CRITICAL",
+        "object": "test event",
+        "msg":  "NUK_Memory Used memory > 90.",
+        "source_identifier": "{hostname}",
+        "host": "{hostname}",
+        "source_hostname": "{hostname}",
+        "status": "OPEN",
+        "priority": "PRIORITY",
+        "details": "Testing by sdk automation",
+        "itsm_company": "Calbro Service",
+        "incident_company": "Petramco",
+        "al_is_predicted ": "true",
+        "p_host_class": "test",
+        "is_updated": "false",
+        "test": "may24",
+        "incident_id": "",
+        "componentalias": "BMC_ComputerSystem:Optiplex 9020"
+    },
+    {
+        "class": "EVENT",
+        "severity": "CRITICAL",
+        "object": "test event",
+        "msg":  "vmxnet3_Ethernet_Adapter Network utilization > 90.",
+        "source_identifier": "{hostname}",
+        "host": "{hostname}",
+        "source_hostname": "{hostname}",
+        "status": "OPEN",
+        "priority": "PRIORITY",
+        "details": "Testing by sdk automation",
+        "itsm_company": "Calbro Service",
+        "incident_company": "Petramco",
+        "al_is_predicted ": "true",
+        "p_host_class": "test",
+        "is_updated": "false",
+        "test": "may24",
+        "incident_id": "",
+        "componentalias": "BMC_ComputerSystem:Optiplex 9020"
+    }
+]
+

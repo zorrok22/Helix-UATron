@@ -1,0 +1,21 @@
+{
+  "class": "EVENT",
+  "severity": "CRITICAL",
+  "object": "test event",
+  "msg":  "Create_user",
+  "source_identifier": "host-01-06",
+  "host": "host-01-06",
+  "source_hostname": "host-01-06",
+  "status": "OPEN",
+  "priority": "PRIORITY_2",
+  "details": "2",
+  "itsm_company": "Calbro Service",
+  "incident_company": "Petramco",
+  "al_is_predicted ": "true",
+  "p_host_class": "test",
+  "is_updated": "false",
+  "test": "may24",
+  "incident_id": "",
+  "componentalias": "BMC_ComputerSystem:Optiplex 9020",
+  "NAMESPACE":"ams-monitoring-p-967dq"
+}

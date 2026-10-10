@@ -1,0 +1,8 @@
+{
+  "ActiveDefectList":[
+    { "Label": "TTID_3294", "Value": "https://jira.example.com/browse/DRSMP-7248"},
+    { "Label": "DRSQA11735", "Value": "https://jira.example.com/browse/DRM88-9897"},
+    { "Label": "DRSQA11736", "Value": "https://jira.example.com/browse/DRSQA-18429"}
+  
+      ]
+}

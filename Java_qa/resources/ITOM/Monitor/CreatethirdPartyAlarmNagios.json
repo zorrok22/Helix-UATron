@@ -1,0 +1,39 @@
+{
+	"entityThresholds": [
+		{
+			"metricDetails": {
+				"entityTypeId": "nagios_<Tenant_ID>",
+				"metricId": "param0",
+				"label": "param0",
+				"unit": "#",
+				"path": "nagios/1.0.0/nagios_<Tenant_ID>/param0"
+			},
+			"entityDetails": {},
+			"order": 0,
+			"isEvaluationCriteriaValid": false,
+			"alarmConfigurations": [
+				{
+					"condition": {
+						"comparison": "above",
+						"baseline": false,
+						"threshold": 1,
+						"duration": 1,
+						"numPolls": -1
+					},
+					"action": {
+						"severity": "CRITICAL",
+						"autoClose": true,
+						"closeDuration": 0
+					},
+					"configOrder": 0
+				}
+			],
+			"type": "ALL",
+			"evaluationCriteria": ""
+		}
+	],
+	"enabled": true,
+	"policyName": "<Policy_Name>",
+	"description": "<Policy_Name>",
+	"executionOrder": 9999
+}

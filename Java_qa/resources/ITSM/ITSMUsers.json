@@ -1,0 +1,73 @@
+{
+  "bmcopssupportagent":[
+    {"Label":"UserName","Value":"bmcopssupportagent"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "bmcOpsManagerUser": [
+    {"Label": "UserName", "Value": "bmcopsl1manager"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "pbunyon": [
+    {"Label": "UserName", "Value": "pbunyon"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "ppanUser": [
+    {"Label": "UserName", "Value": "ppan"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "khardisonUser": [
+    {"Label": "UserName", "Value": "khardison"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+  
+  "tesser":[
+    {"Label":"UserName","Value":"Seth"},
+    {"Label":"Password","Value":"__USER_PASSWORD__"}
+  ],
+
+  "klykosUser": [
+    {"Label": "UserName", "Value": "klykos"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "BhillEmailUser": [
+    {"Label": "UserName", "Value": "bhill@bwflabs.localdomain"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "hannah_admin": [
+    {"Label": "UserName", "Value": "hannah_admin"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "CSMUsers": [
+    {"Label":"IncorrectUserName", "Value":"Zekey"},
+    {"Label":"IncorrectPassword", "Value":"__USER_PASSWORD__"},
+    {"Label":"CSMUserName", "Value":"ZekeY"},
+    {"Label":"CSMPassword", "Value":"__USER_PASSWORD__"}
+  ],
+
+  "cbhagatUser": [
+    {"Label": "UserName", "Value": "cbhagat"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+  
+  "rjames": [
+      {"Label": "UserName", "Value": "rjames"},
+      {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "bhillUser": [
+    {"Label": "UserName", "Value": "bhill"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "itsmAdminUser": [
+    {"Label": "UserName", "Value": "Demo"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ]
+}

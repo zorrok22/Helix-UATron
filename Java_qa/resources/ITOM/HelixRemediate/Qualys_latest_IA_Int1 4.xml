@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE SCAN SYSTEM "https://qualysguard.qg2.apps.qualys.com/scan-1.dtd">
+<SCAN value="scan/15897433200184569677567434">
+    <HEADER>
+        <KEY value="USERNAME">securityuser-0.2449061528744255</KEY>
+        <KEY value="COMPANY">BMC Software</KEY>
+        <KEY value="DATE">2019-10-12T11:20:32Z</KEY>
+        <KEY value="TITLE">RHEL-9</KEY>
+        <KEY value="STATUS">FINISHED</KEY>
+    </HEADER>
+   
+	
+	<IP name="host-56" value="192.0.2.18">
+		<OS>Linux RHEL-9</OS>
+        <VULNS>
+            <CAT value="ALL CATEGORY">
+                <VULN cveid="CVE-2024-4032" number="4032" severity="3">
+                    <TITLE>Python-Low/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-4032</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+				<VULN cveid="CVE-2024-21131" number="1107" severity="5">
+                    <TITLE>Java-Important/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-21131</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+            </CAT>
+        </VULNS>
+    </IP>
+	<IP name="host-26" value="192.0.2.17">
+		<OS>Linux RHEL-9</OS>
+                <VULNS>
+            <CAT value="ALL CATEGORY">
+                <VULN cveid="CVE-2024-4032" number="4032" severity="3">
+                    <TITLE>Python-Low/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-4032</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+				<VULN cveid="CVE-2024-21131" number="1107" severity="5">
+                    <TITLE>Java-Important/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-21131</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+            </CAT>
+        </VULNS>
+    </IP>
+	<IP name="host-23" value="192.0.2.13">
+		<OS>Linux RHEL-9</OS>
+                <VULNS>
+            <CAT value="ALL CATEGORY">
+                <VULN cveid="CVE-2024-4032" number="4032" severity="3">
+                    <TITLE>Python-Low/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-4032</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+				<VULN cveid="CVE-2024-21131" number="1107" severity="5">
+                    <TITLE>Java-Important/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-21131</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+            </CAT>
+        </VULNS>
+    </IP>
+	<IP name="host-22" value="192.0.2.14">
+		<OS>Linux RHEL-9</OS>
+                <VULNS>
+            <CAT value="ALL CATEGORY">
+                <VULN cveid="CVE-2024-4032" number="4032" severity="3">
+                    <TITLE>Python-Low/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-4032</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+				<VULN cveid="CVE-2024-21131" number="1107" severity="5">
+                    <TITLE>Java-Important/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-21131</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+            </CAT>
+        </VULNS>
+    </IP>
+	<IP name="host-21" value="192.0.2.16">
+		<OS>Linux RHEL-9</OS>
+                <VULNS>
+            <CAT value="ALL CATEGORY">
+                <VULN cveid="CVE-2024-4032" number="4032" severity="3">
+                    <TITLE>Python-Low/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-4032</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+				<VULN cveid="CVE-2024-21131" number="1107" severity="5">
+                    <TITLE>Java-Important/Sec</TITLE>
+                    <LAST_UPDATE>2023-08-09T00:03:57Z</LAST_UPDATE>
+                    <CVE_ID_LIST>
+                        <CVE_ID>
+                            <ID>CVE-2024-21131</ID>
+                            <URL>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131</URL>
+                        </CVE_ID>
+						
+                    </CVE_ID_LIST>
+                </VULN>
+            </CAT>
+        </VULNS>
+    </IP>
+	
+</SCAN>

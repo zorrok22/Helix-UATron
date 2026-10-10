@@ -1,0 +1,51 @@
+{
+  "LoginTest": [
+    {"Label": "TestDescription", "Value": "Valid login to BCM"},
+    {"Label": "ExpectedWelcomeText", "Value": "Welcome to BMC Client Management"},
+    {"Label": "ExpectedProductName", "Value": "Client Management"}
+  ],
+  "LogoutTest": [
+    {"Label": "TestDescription", "Value": "Logout from BCM"},
+    {"Label": "ExpectedLoginPageTitle", "Value": "BMC Client Management"}
+  ],
+  "FeatureUsageTest": [
+    {"Label": "TestDescription", "Value": "Use different BCM features"},
+    {"Label": "SearchDevice", "Value": "test-device-001"},
+    {"Label": "ExpectedWelcomeText", "Value": "Welcome to BMC Client Management"}
+  ],
+  "IdleTimeoutTest": [
+    {"Label": "TestDescription", "Value": "RSSO token period validation"},
+    {"Label": "IdleMinutes", "Value": "5"},
+    {"Label": "ExpectedBehavior", "Value": "Session should remain active or redirect to login based on RSSO token expiry"},
+    {"Label": "Note", "Value": "This test validates RSSO token period - adjust IdleMinutes based on actual token expiry configuration"}
+  ],
+  "RssoAccountNotInBCMTest": [
+    {"Label": "TestDescription", "Value": "Try to login with RSSO account not registered in BCM"},
+    {"Label": "ExpectedBehavior", "Value": "Login should fail or show access denied message"}
+  ],
+  "MenuItems": [
+    {"Label": "Preferences", "Value": "Preferences"},
+    {"Label": "JavaConsole", "Value": "Java Console Installation"},
+    {"Label": "SSLCertificate", "Value": "SSL Certificate"},
+    {"Label": "SignOut", "Value": "Sign out"}
+  ],
+  "URLs": [
+    {"Label": "LoginPage", "Value": "/webconsole/"},
+    {"Label": "HomePage", "Value": "/webconsole/home"}
+  ],
+  "DRSQA_11591_TestData": [
+    {"Label": "TestDescription", "Value": "BCM to CMDB integration test - verify jobs and data sync"},
+    {"Label": "JobsMenu", "Value": "Jobs"},
+    {"Label": "ManageAtriumIntegratorMenuItem", "Value": "Manage Atrium Integrator"},
+    {"Label": "ManageReconciliationMenuItem", "Value": "Manage Reconciliation"},
+    {"Label": "BCM_Hardware_Delete_Job", "Value": "BCM_Hardware_Delete"},
+    {"Label": "BCM_Hardware_Input_Job", "Value": "BCM_Hardware_Input"},
+    {"Label": "BCM_Software_Delete_Job", "Value": "BCM_Software_Delete"},
+    {"Label": "BCM_Software_Input_Job", "Value": "BCM_Software_Input"},
+    {"Label": "BCM_Identification_Merge_Job", "Value": "BCM - Identification and Merge"},
+    {"Label": "SearchClassName", "Value": "BMC.CORE:BMC_ComputerSystem"},
+    {"Label": "SearchAttributeName", "Value": "Name"},
+    {"Label": "SearchDeviceName", "Value": "Optiplex 9020"},
+    {"Label": "DatasetName", "Value": "BMC.ASSET"}
+  ]
+}

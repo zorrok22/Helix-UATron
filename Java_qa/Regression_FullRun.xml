@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Petramco_All_Regression_Suite" verbose="2" preserve-order="true" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="util.Listener"/>
+    </listeners>
+
+    <test name="Petramco Regression P1" parallel="classes" thread-count="3">
+        <!-- ================= GROUP CONFIGURATION ================= -->
+        <!-- Runs Petramco regression group P1 -->
+        <!-- Note: if you override groups at runtime (e.g., -Dgroups), it may bypass this sequencing -->
+        <groups>
+            <run>
+                <include name="Regression_P1"/>
+            </run>
+        </groups>
+        <!-- ================= CLASSES ================= -->
+        <!-- Group annotations decide what actually runs -->
+        <classes>
+            <class name="ITSM.DWP.DWP_DWPC"/>
+            <class name="ITSM.SmartIT.SmartIT_PV"/>
+            <class name="ITSM.DWP.DWP_BWF"/>
+            <class name="ITSM.BWF.BWF_ITSM"/>
+            <class name="ITSM.BWF.BWFTests"/>
+            <class name="ITSM.DWP.DWP_HKM"/>
+            <class name="ITSM.DWP.DWP_ITSM"/>
+            <class name="ITSM.DWP.DWPTests"/>
+            <class name="ITSM.ITSM.ITSMTest"/>
+            <class name="ITSM.ITSM.ITSM_Dashboard"/>
+            <class name="ITSM.ITSM.ITSM_IS_SmartIT"/>
+            <class name="ITSM.SmartIT.SmartIT_ITSM_DWPC"/>
+            <class name="ITSM.CMDB.CMDBTests"/>
+            <class name="ITSM.ITSM.ITSM_CSM"/>
+            <class name="ITSM.DWP.DWP_SmartIT"/>
+        </classes>
+    </test>
+
+    <test name="Petramco Regression P2" parallel="classes" thread-count="3">
+        <!-- ================= GROUP CONFIGURATION ================= -->
+        <!-- Runs Petramco regression group P2 -->
+        <groups>
+            <run>
+                <include name="Regression_P2"/>
+            </run>
+        </groups>
+        <!-- ================= CLASSES ================= -->
+        <!-- Group annotations decide what actually runs -->
+        <classes>
+            <class name="ITSM.DWP.DWP_DWPC"/>
+            <class name="ITSM.SmartIT.SmartIT_PV"/>
+            <class name="ITSM.DWP.DWP_BWF"/>
+            <class name="ITSM.BWF.BWF_ITSM"/>
+            <class name="ITSM.BWF.BWFTests"/>
+            <class name="ITSM.DWP.DWP_HKM"/>
+            <class name="ITSM.DWP.DWP_ITSM"/>
+            <class name="ITSM.DWP.DWPTests"/>
+            <class name="ITSM.ITSM.ITSMTest"/>
+            <class name="ITSM.ITSM.ITSM_Dashboard"/>
+            <class name="ITSM.ITSM.ITSM_IS_SmartIT"/>
+            <class name="ITSM.SmartIT.SmartIT_ITSM_DWPC"/>
+            <class name="ITSM.CMDB.CMDBTests"/>
+            <class name="ITSM.ITSM.ITSM_CSM"/>
+            <class name="ITSM.DWP.DWP_SmartIT"/>
+        </classes>
+    </test>
+
+    <test name="Petramco Regression P3" parallel="classes" thread-count="3">
+        <!-- ================= GROUP CONFIGURATION ================= -->
+        <!-- Runs Petramco regression group P3 -->
+        <groups>
+            <run>
+                <include name="Regression_P3"/>
+            </run>
+        </groups>
+        <!-- ================= CLASSES ================= -->
+        <!-- Group annotations decide what actually runs -->
+        <classes>
+            <class name="ITSM.DWP.DWP_DWPC"/>
+            <class name="ITSM.SmartIT.SmartIT_PV"/>
+            <class name="ITSM.DWP.DWP_BWF"/>
+            <class name="ITSM.BWF.BWF_ITSM"/>
+            <class name="ITSM.BWF.BWFTests"/>
+            <class name="ITSM.DWP.DWP_HKM"/>
+            <class name="ITSM.DWP.DWP_ITSM"/>
+            <class name="ITSM.DWP.DWPTests"/>
+            <class name="ITSM.ITSM.ITSMTest"/>
+            <class name="ITSM.ITSM.ITSM_Dashboard"/>
+            <class name="ITSM.ITSM.ITSM_IS_SmartIT"/>
+            <class name="ITSM.SmartIT.SmartIT_ITSM_DWPC"/>
+            <class name="ITSM.CMDB.CMDBTests"/>
+            <class name="ITSM.ITSM.ITSM_CSM"/>
+            <class name="ITSM.DWP.DWP_SmartIT"/>
+        </classes>
+    </test>
+</suite>

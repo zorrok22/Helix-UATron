@@ -1,0 +1,17 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Update the Password",
+    "Incident Description": "Auto Desc",
+    "Status": "In Progress",
+    "Member": "pbunyon",
+    "Bot": "SolQA_April_APP",
+    "Bot2": "SolQA_App2",
+    "Template Name":"Email System Password Reset"
+  },
+  "Incident_data": [
+    "Cannot Connect to VPN",
+    "In Progress",
+    "Low"
+  ]
+}

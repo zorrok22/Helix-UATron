@@ -1,0 +1,10 @@
+{
+	"startTime": <START_TIME>,
+	"endTime": <END_TIME>,
+	"timeSlicesNumber": 1,
+	"includeMaxSeverity": true,
+	"linkModelNodes": false,
+	"rcaNodes": [],
+	"serviceKey": "<SERVICE_KEY>",
+	"includeDownstream": true
+}

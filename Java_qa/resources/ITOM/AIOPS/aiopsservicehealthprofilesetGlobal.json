@@ -1,0 +1,11 @@
+[
+	{
+		"method": "PATCH",
+		"body": {
+			"key": "<SERVICE_KEY>",
+			"metadata": {
+				"_associatedElements": "[{\"type\":\"health_processing\",\"elements\":[{\"element_type\":\"health_processing\",\"statusMapping\":{},\"selectors\":[],\"scoreMapping\":{},\"propagation\":\"enabled\",\"globalConfigurationBalancingRules\":\"enabled\"}]}]"
+			}
+		}
+	}
+]

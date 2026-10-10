@@ -1,0 +1,8 @@
+{
+	"Apex_AdminUser_Alex": [
+			{"Label": "UserName","Value": "Alex"},
+			{"Label":"Password", "Value":"__USER_PASSWORD__"},
+			{"Label":"FirstName", "Value":"Alexis"},
+			{"Label":"FullName", "Value":"Alex Alexis"}
+	]
+}

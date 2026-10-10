@@ -1,0 +1,17 @@
+{
+    "fields": [
+      "id",
+      "assigneeGroupId",
+      "assignee",
+      "assigneeGroup",
+      "assigneeSupportOrganization",
+      "assigneeSupportCompany"
+    ],
+    "assignee": {
+      "loginId": "Allen"
+    },
+    "assigneeGroupId": "SGP000000000010",
+    "assigneeGroup": "Frontoffice Support",
+    "assigneeSupportCompany": "Calbro Services",
+    "assigneeSupportOrganization": "IT Support"
+  }

@@ -1,0 +1,19 @@
+[
+	{
+		"class": "Change",
+		"change_company": "Petramco",
+		"change_coordinator": "pbunyon",
+		"change_id": "<CHANGEID>",
+		"change_priority": "Medium",
+		"change_status": "Implementation In Progress",
+		"details": "<Details>",
+		"impact": "2-Significant/Large",
+		"msg": "<Summary>",
+		"object": "<ServiceName>",
+		"priority": "PRIORITY_2",
+		"priority_ordinal": "40",
+		"severity": "CRITICAL",
+		"source_hostname": "<ServiceName>",
+		"source_identifier": "Change"
+	}
+]

@@ -1,0 +1,39 @@
+/Java_qa/target/
+*.config
+!**/*.config.example
+
+# Python
+__pycache__/
+*.py[cod]
+Python_qa/.pytest_cache/
+.venv/
+venv/
+
+# Local secrets and generated DeepEval state
+.env
+.env.*
+!.env.example
+!**/.env.example
+Python_qa/test_config_local.py
+.deepeval
+.deepeval-cache.json
+.deepeval_telemetry.txt
+**/.deepeval
+**/.deepeval-cache.json
+**/.deepeval_telemetry.txt
+
+# ITOM IA local artifacts (copy from your environment; never commit)
+**/credential.db
+**/encryption_key
+semgrep-results.json
+**/servercerts/*.pem
+!**/servercerts/README.md
+
+# Large ONNX model (~87MB) — obtain locally or use Git LFS in your fork
+**/model.onnx
+
+.classpath
+.project
+
+# Local list of literals for scripts/sanitize_passwords.py
+scripts/password_literals.local.txt

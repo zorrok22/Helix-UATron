@@ -1,0 +1,19 @@
+{
+    "name": "${0}",
+    "dataSourceId": "${1}",
+    "crawlBudget": 500,
+    "crawlDepth": 0,
+    "url": "https://python.langchain.com/v0.1/docs/modules/tools/toolkits/",
+    "authType": "None",
+    "clientSecret": null,
+    "accessTokenSecret": null,
+    "consumerKey": null,
+    "keyCert": null,
+    "tokenType": null,
+    "clientId": null,
+    "accessToken": null,
+    "username": null,
+    "password": null,
+    "customHeaders": null,
+    "configuration": "{\"host\":\"\",\"port\":\"\"}"
+  }

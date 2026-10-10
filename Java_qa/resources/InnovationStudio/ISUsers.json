@@ -1,0 +1,44 @@
+{
+    "bmcopsenduser":[
+        {"Label":"UserName","Value":"bmcopsenduser"},
+        {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+    ],
+    "bmcopssupportagent":[
+        {"Label":"UserName","Value":"bmcopssupportagent"},
+        {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+    ],
+
+    "Liam":[
+        {"Label":"UserName","Value":"Liam"},
+        {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+    ],
+
+    "portfolioMasterUser":[
+        {"Label":"UserName","Value":"portfolio.master"},
+        {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+    ],
+
+    "Fritz":[
+        {"Label":"UserName","Value":"Fritz"},
+        {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+    ],
+
+    "Elizabeth":[
+        {"Label":"UserName","Value":"Elizabeth"},
+        {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+     ],
+	
+	"vgoodman":[
+	       {"Label":"UserName","Value":"vgoodman"},
+	       {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+	   ],
+	   "rbacUser":[
+	   	   {"Label":"UserName","Value":"__RBAC_USER_EMAIL__"},
+	   	   {"Label":"Password",  "Value":"__RBAC_USER_PASSWORD__"}
+	   ],
+
+       "pbunyon":[
+	   	   {"Label":"UserName","Value":"pbunyon"},
+	   	   {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+	   ]
+}

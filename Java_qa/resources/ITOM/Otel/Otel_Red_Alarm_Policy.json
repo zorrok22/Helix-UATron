@@ -1,0 +1,104 @@
+{
+  "policyName": "__alarm_policy_name__",
+  "description": "Otel-Service-TotalOperations",
+  "enabled": true,
+  "executionOrder": 9999,
+  "entityThresholds": [
+    {
+      "metricDetails": {
+        "entityTypeId": "OTel_Service",
+        "metricId": "Rate",
+        "label": "Rate",
+        "unit": "per_second",
+        "path": "OTel/1.0.0/OTel_Service/Rate"
+      },
+      "type": "ALL",
+      "evaluationCriteria": "",
+      "alarmConfigurations": [
+        {
+          "condition": {
+            "comparison": "above",
+            "threshold": 0,
+            "duration": 0,
+            "occurrence": 0,
+            "baseline": false,
+            "numPolls": -1,
+            "baselineType": 0
+          },
+          "action": {
+            "severity": "CRITICAL",
+            "autoClose": true,
+            "closeDuration": 0
+          },
+          "configOrder": 0
+        }
+      ],
+      "order": 0,
+      "isEvaluationCriteriaValid": false
+    },
+    {
+      "metricDetails": {
+        "entityTypeId": "OTel_Service",
+        "metricId": "Error",
+        "label": "Error",
+        "unit": "count",
+        "path": "OTel/1.0.0/OTel_Service/Error"
+      },
+      "type": "ALL",
+      "evaluationCriteria": "",
+      "alarmConfigurations": [
+        {
+          "condition": {
+            "comparison": "above",
+            "threshold": 0,
+            "duration": 0,
+            "occurrence": 0,
+            "baseline": false,
+            "numPolls": -1,
+            "baselineType": 0
+          },
+          "action": {
+            "severity": "CRITICAL",
+            "autoClose": true,
+            "closeDuration": 0
+          },
+          "configOrder": 0
+        }
+      ],
+      "order": 1,
+      "isEvaluationCriteriaValid": false
+    },
+    {
+      "metricDetails": {
+        "entityTypeId": "OTel_Service",
+        "metricId": "Duration_P95",
+        "label": "Duration_P95",
+        "unit": "milliseconds",
+        "path": "OTel/1.0.0/OTel_Service/Duration_P95"
+      },
+      "type": "ALL",
+      "evaluationCriteria": "",
+      "alarmConfigurations": [
+        {
+          "condition": {
+            "comparison": "above",
+            "threshold": 0,
+            "duration": 0,
+            "occurrence": 0,
+            "baseline": false,
+            "numPolls": -1,
+            "baselineType": 0
+          },
+          "action": {
+            "severity": "CRITICAL",
+            "autoClose": true,
+            "closeDuration": 0
+          },
+          "configOrder": 0
+        }
+      ],
+      "order": 2,
+      "isEvaluationCriteriaValid": false
+    }
+  ]
+}

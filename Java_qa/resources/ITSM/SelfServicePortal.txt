@@ -1,0 +1,100 @@
+<!-- ******* IMPORTANT *******
+   The SSP Config items for type of item allows you to ONLY include the settings that are modified and DO NOT require
+   you to copy/use the entire base entry with all of its settings.  This is called Level 2 Overlay.
+   
+   Because of this no settings from the base form are automatically copied for you.
+   You will need to manually copy the xml element definitions that you intend to
+   modify into this area.
+   
+   This does require you to use complete top level XML elements.  If an element does not contain any sub-xml then include just the
+   item itself.  If an item is more complex XML such as <ar_form></arform> then you must include the entire <ar_form> entry
+   including the begging and ending xml elements.
+
+   ONLY copy the entries you intend to modify.  If you copy entries that you do not modify
+   then you will limit the ability to upgrade without additional manual effort.
+   
+-->
+// When an chat session cache expires and is removed from memory in minutes
+<sessioncachetimeout>30</sessioncachetimeout> 
+
+// If set to false, will hide Incident or Word Oder ID creation message from VIP users in Chatbot
+<showIncidentMessageToVIPs>true</showIncidentMessageToVIPs>
+
+// If set to false, will hide queue wait time from VIP users in Chatbot
+<showWaitingTimeMessageToVIPs>true</showWaitingTimeMessageToVIPs>
+
+// If set to true, a message would be shown when an invitee joins the chat as a Monitor
+<showMonitorJoinedChatMsg>true</showMonitorJoinedChatMsg>
+
+// Buffer time for the disconnected agent. If agent didn't come back online within configured time, then chats will be released to support queue based on 
+// the releaseAssignedChatsOnAgentDisconnect flag
+<agentUnloadTimeoutInSec>60</agentUnloadTimeoutInSec>
+
+// Attribute is used to take action on the assigned chats of the offline agent.
+<releaseAssignedChatsOnAgentDisconnect>true</releaseAssignedChatsOnAgentDisconnect>
+
+// Setting to make typing notifications work across pods
+<sendTypingUpdateToOtherCNSNodes>true</sendTypingUpdateToOtherCNSNodes>
+
+/ Setting to show agents unavailable (busy) message to the end user. 
+// 0: OOTB value to keep feature turned off.
+// Greater than 0: Enable this feature. If available agents count is less than the configured number, then end user will get agents unavailable(busy) message
+<showBusyMessageForMinimumAgentAvailabilityCount>0</showBusyMessageForMinimumAgentAvailabilityCount>
+
+// Ignore company while determining chat queue position, OOTB value is false
+<ignoreCompanyForQueuePosition>false</ignoreCompanyForQueuePosition>
+
+// Agent connection auto retry limit, if the connection is not successful within the limit, then error message is shown to the agent
+// 2: OOTB to retry two times.
+// 0: To turn off retry
+<agentConnectionRetryLimit>20</agentConnectionRetryLimit>
+
+// Redirect SSP Chat UI request to Chatbot UI when the Chatbot URL is configured here. 
+// OOTB it is empty, so request is routed to SSP UI
+<redirectChatToChatbotURL></redirectChatToChatbotURL>
+
+// Setting to show only the support queues in dashboard that the supervisor has access for when this is true. By default dashboard shows all support queues for the company irrespective of permissions.
+<showOnlyPermittedSupportQueuesInDashboard>false</showOnlyPermittedSupportQueuesInDashboard>
+
+// Setting to enabled country based routing. OOTB value is false, that is topics will be derived only by the company.
+<countryBasedChatRouting>false</countryBasedChatRouting>
+
+// If country based routing is enabled, OOTB system will use Site and Region fields of CTM:People table and get the corresponding country from 'SIT:Site Alias Company LookUp' table using site & region. If customer wants to use any of the CTM:People fields for the country field, that field Id can be entered here. If this field is not blank, system will use this field to derive the user country.
+<countryBasedChatRoutingFieldId></countryBasedChatRoutingFieldId>
+
+// Setting to enable ChatGPT conversation summary as work note, OOTB value is false
+<chatGPTSummaryNotes>true</chatGPTSummaryNotes>
+// Skill ID
+<skillId>AGGBZF0OBQ0PJAT0PWLXT0PWLX9QNN</skillId>
+// ChatGPT service URL
+<gptServiceUrl>http://helix-gpt-assistant:8001/api/v1.0/messages</gptServiceUrl>
+// Setting to enable HelixGPT conversation summary for Chatbot transfer, OOTB value is false
+<summarizeChatForChatbotTransfer>true</summarizeChatForChatbotTransfer>
+// Setting to enable HelixGPT conversation summary for agent transfers, OOTB value is false
+<summarizeChatForAgentTransfer>true</summarizeChatForAgentTransfer>
+
+// Survey ratings enabled or not, OOTB value is false
+<surveyEnabled>false</surveyEnabled>
+
+// Survey feedback threshold, OOTB value is 3. Feedback question will be presented if user selects the survey rating 3 or lower.
+<surveyFeedbackRequiredThreshold>3</surveyFeedbackRequiredThreshold>
+
+// Survey feedback enabled or not, OOTB value is false
+<surveyFeedbackEnabled>false</surveyFeedbackEnabled>
+
+// If Microsoft translations API is used and subscription key needs region value, then this value has to be added in the overlay
+<msTranslationSubscriptionRegion>westus</msTranslationSubscriptionRegion>
+
+// Enable ability for supervisors to override 'available for' for their agents. When 'true', agents cannot set their availability, 
+// only supervisors can do from Dashboard.  OOTB value is false.
+<adminOverrideAvailableFor>false</adminOverrideAvailableFor>
+
+// Auto-assigned chat sessions will be released after this time in seconds. OOTB value is -1, 
+// which means chats will not be released by system automatically
+<autoAssignReleaseThreshold>-1</autoAssignReleaseThreshold>
+
+// Typing test settings
+<testTypingUpdateToOtherCNSNodes>true</testTypingUpdateToOtherCNSNodes> <countOfTypingUpdatesToSend>800000</countOfTypingUpdatesToSend>
+
+// Turn on/off overlay update
+<shouldUpdateOverlays>true</shouldUpdateOverlays>

@@ -1,0 +1,15 @@
+{
+  "DRSQA_12437_TestData": [
+    {"Label": "msg", "Value": "DRSQA_12437_L1_Event_"},
+    {"Label": "status", "Value": "OPEN"},
+    {"Label": "severity", "Value": "CRITICAL"}
+  ],
+
+  "DRSQA_14595_TestData": [
+    {"Label": "msg", "Value": "DRSQA_14595_L2_Event_"},
+    {"Label": "status", "Value": "OPEN"},
+    {"Label": "severity", "Value": "CRITICAL"},
+    {"Label": "added by note", "Value": "added a note"}
+  ]
+
+}

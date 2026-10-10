@@ -1,0 +1,9 @@
+{
+    "name": "${0}",
+    "dataSourceId": "${1}",
+    "url": "https://your-xwiki-host/xwiki",
+    "authType": "Basic",
+    "username": "__XWIKI_USERNAME__",
+    "password": "__XWIKI_PASSWORD__",
+    "space": "YourSpace/"
+  }

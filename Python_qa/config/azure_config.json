@@ -1,0 +1,10 @@
+{
+    "azure_config": {
+        "provider": "Azure OpenAI",
+        "model": "gpt-5.2-helix-ai"
+    },
+    "google_vertex_config": {
+        "provider": "Google Vertex AI",
+        "model": "gemini-2.5-flash"
+    }
+}

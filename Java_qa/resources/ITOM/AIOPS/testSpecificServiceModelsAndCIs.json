@@ -1,0 +1,45 @@
+{
+  "DRSQA_12482": {
+    "ServiceModels": ["ML-ERIC-COM-1", "ML-ERIC-COM-2"],
+    "CIs": ["host-24", "PSR Cluster", "VMware vCenter Server 8.0 on vcenter.example.com", "host-25"]
+  },
+
+  "DRSQA_12481": {
+    "ServiceModels": ["ML-ERIC-COM-1", "ML-ERIC-COM-2"],
+    "CIs": ["PSR Cluster", "host-25"]
+  },
+
+  "DRSQA_13104": {
+    "ServiceModel": "ML-HW-AIX",
+    "CI": "qa-host-02.example.com",
+    "EventMsgs": ["Auto - LPAR experiencing sustained high CPU utilization of 75%_AVBjd",
+      "Auto - LPAR experiencing sustained high CPU utilization of 75%_ooZeD",
+      "Auto - LPAR experiencing sustained high CPU utilization of 75%_yA2aa",
+      "Auto - LPAR experiencing sustained high CPU utilization of 75%_aPoni"
+    ]
+  },
+  
+  "DRSQA_16350": {
+      "events": [
+        {
+          "class": "NAGIOS_EV1",
+          "severity": "CRITICAL",
+          "msg": "ORA112DB Memory > 85%",
+          "source_identifier": "ns_123456789",
+          "source_hostname": "host-01-03",
+          "category": "Operations Management",
+          "priority": "PRIORITY_1",
+          "location": "Pune",
+          "class_slots": {
+            "pn_severity": "CRITICAL"
+          }
+        }
+      ],
+	  "UpdateIncident": [
+	  	{"Label": "Customer Name", "Value": "Paul Bunyon"},
+	  	{"Label": "Contact", "Value": "Paul Bunyon"},
+	  	{"Label": "Service", "Value": "ml-Group-Policy-fzmc"},
+	  	{"Label": "ProductCategory", "Value": ""},
+	  ],
+  }
+}

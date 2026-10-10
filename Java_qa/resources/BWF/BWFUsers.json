@@ -1,0 +1,78 @@
+{
+  "opsSupportAgent":[
+    {"Label":"UserName","Value":"bmcopssupportagent"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"},
+    {"Label":"FullName", "Value":"BMCOps SupportAgent"}
+  ],
+
+  "Elizabeth":[
+    {"Label":"UserName","Value":"Elizabeth"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"}
+  ],
+
+  "Peter":[
+    {"Label":"UserName","Value":"Peter"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"}
+  ],
+
+  "MorwennaUser":[
+    {"Label":"UserName","Value":"Morwenna"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "LiamUsers":[
+    {"Label":"UserName","Value":"Liam"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+
+  "pbunyon": [
+    {"Label": "UserName", "Value": "pbunyon"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "FriedaUser": [
+    {"Label": "UserName", "Value": "Frieda"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Frieda Hoffmann"}
+  ],
+
+  "MonikaUser": [
+    {"Label": "UserName", "Value": "Monika"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "aallbrookUser": [
+    {"Label": "UserName", "Value": "aallbrook"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Allen Allbrook"}
+  ],
+  "SpecialUser_BWFWithLASupportGroupPermission":[
+    {"Label":"UserName", "Value":"rwelch@petramco.com"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"},
+    {"Label":"FullName", "Value":"Raquel Welch"}
+  ],
+
+  "WorkforceAdministrationCaseUsers":[
+    {"Label":"UserName","Value":"Liam"},
+    {"Label":"Password",  "Value":"__USER_PASSWORD__"}
+  ],
+  
+  "sadamUser": [
+    {"Label": "UserName", "Value": "sadam"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Sam Adam"}
+  ],
+  "yanandaUser":[
+    {"Label":"UserName", "Value":"yananda"},
+    {"Label":"Password", "Value":"__USER_PASSWORD__"},
+    {"Label":"FullName", "Value":"Yoga Ananda"}
+  ],
+  "hannah_admin":[
+    {"Label":"UserName","Value":"hannah_admin"},
+    {"Label":"Password","Value":"__USER_PASSWORD__"}
+  ],
+  "SpecialCharacterUser": [
+    { "Label": "UserName", "Value": "R!%^*<>@#$()-=+{[]}|:.?T" },
+    { "Label": "Password", "Value": "__USER_PASSWORD__" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+   "DRSQA_11808_Data" : [
+    {"Label":"customerNameFritz", "Value": "(Fritz) Fritz"},
+    {"Label":"systemMessageForClosingTheBrowser", "Value": "System Message: %s has closed the browser"},
+    {"Label":"systemMessageForJoiningTheSession", "Value": "System Message: %s has joined the session"},
+    {"Label":"message1", "Value": "Which Printer can I help you with"},
+    {"Label":"message2", "Value": "SJC-1234"},
+    {"Label":"PrivateNote", "Value": "Private note to live chat"},
+    {"Label":"topic", "Value": "BMCOps-BWF"},
+    {"Label": "SSPattachmentUploadMessage", "Value": "%s has uploaded file"},
+    {"Label": "attachmentUploadMessage", "Value": "%s has uploaded a file"},
+    {"Label":"article", "Value":"Sample BWFA article for BMCOps Monitoring"}
+  ]
+}

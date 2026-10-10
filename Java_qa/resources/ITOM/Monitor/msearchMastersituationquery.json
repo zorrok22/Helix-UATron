@@ -1,0 +1,23 @@
+{
+	"query": {
+		"bool": {
+			"must": [
+				{
+					"match": {
+						"situation_relation_type": "parent"
+					}
+				},
+				{
+					"match": {
+						"status": "OPEN"
+					}
+				},
+				{
+					"match": {
+						"source_hostname": "<SERVICE_KEY>"
+					}
+				}
+			]
+		}
+	}
+}

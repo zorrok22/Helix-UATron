@@ -1,0 +1,35 @@
+{
+  "id": null,
+  "resourceType": "com.bmc.arsys.rx.services.record.domain.RecordInstance",
+  "displayId": null,
+  "recordDefinitionName": "com.fusiongbs.agility:Portfolio",
+  "permittedGroupsBySecurityLabels": null,
+  "permittedUsersBySecurityLabels": null,
+  "permittedRolesBySecurityLabels": null,
+  "fieldInstances": {
+    "8": {
+      "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+      "id": 8,
+      "value": "Sample Portfolio Record",
+      "permissionType": "CHANGE"
+    },
+    "536875001": {
+      "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+      "id": 536875001,
+      "value": "Sample Portfolio Record",
+      "permissionType": "CHANGE"
+    },
+    "536875017": {
+      "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+      "id": 536875017,
+      "value": "AGGA49C8ECHO0AQPV75ZQPV75ZP29A",
+      "permissionType": "CHANGE"
+    },
+    "536875018": {
+      "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+      "id": 536875018,
+      "value": "AGGA49C8ECHO0AQPV75ZQPV75ZP29A",
+      "permissionType": "CHANGE"
+    }
+  }
+}

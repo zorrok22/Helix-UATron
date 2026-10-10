@@ -1,0 +1,28 @@
+{
+    "id": "${0}",
+    "resourceType": "com.bmc.arsys.rx.services.record.domain.RecordInstance",
+    "recordDefinitionName": "com.bmc.dsom.hgm:Connection_${1}",
+    "permittedGroupsBySecurityLabels": {
+      
+    },
+    "permittedUsersBySecurityLabels": {
+      
+    },
+    "permittedRolesBySecurityLabels": {
+      
+    },
+    "fieldInstances": {
+      "6": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 6,
+        "value": "${2}", 
+        "permissionType": null
+      },
+      "7": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 7,
+        "value": "${3}",
+        "permissionType": null
+      }
+    }
+  }

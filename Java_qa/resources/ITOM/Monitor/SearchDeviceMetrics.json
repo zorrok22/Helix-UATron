@@ -1,0 +1,11 @@
+{
+	"sourceId": "<sourceId>",
+	"dataProviderId": "<ProviderId>",
+	"sourceType": "Device",
+	"searchString": "<searchString>",
+	"currentView": "hierarchyView",
+	"monitorsStartIndex": 0,
+	"monitorsEndIndex": 200,
+	"sortBy": "name",
+	"sortDirection": "ascending"
+}

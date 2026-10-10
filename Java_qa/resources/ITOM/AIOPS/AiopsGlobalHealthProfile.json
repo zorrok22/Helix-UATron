@@ -1,0 +1,58 @@
+{
+	"globalHealthConfiguration": [
+		{
+			"type": "health_processing",
+			"elements": [
+				{
+					"element_type": "health_processing",
+					"statusMapping": {
+						"minor": {
+							"threshold": 91,
+							"enabled": true
+						},
+						"major": {
+							"threshold": 61,
+							"enabled": true
+						},
+						"critical": {
+							"threshold": 31,
+							"enabled": true
+						}
+					},
+					"selectors": [],
+					"scoreMapping": {
+						"event": {
+							"critical": {
+								"threshold": 10
+							},
+							"major": {
+								"threshold": 8
+							},
+							"minor": {
+								"threshold": 5
+							},
+							"warning": {
+								"threshold": 4
+							}
+						},
+						"metric": {
+							"critical": {
+								"threshold": 20
+							},
+							"major": {
+								"threshold": 16
+							},
+							"minor": {
+								"threshold": 12
+							},
+							"warning": {
+								"threshold": 8
+							}
+						}
+					},
+					"propagation": "enabled"
+				}
+			]
+		}
+	]
+}

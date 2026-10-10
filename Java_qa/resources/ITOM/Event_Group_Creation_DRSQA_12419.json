@@ -1,0 +1,12 @@
+{
+  "tagName": "__groupname__",
+  "tagId": "__tag_id__",
+  "description": "description",
+  "configuration": {
+    "DEVICE": "",
+    "EVENT": "status\u2060equals\u2060OPEN",
+    "publishedAsService": "__false_true__"
+  },
+  "tableViewName": "Basic Information (Default View)",
+  "authProfileIds": []
+}

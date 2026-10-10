@@ -1,0 +1,9 @@
+{
+	"values": {
+		"ServiceCI_ReconID": "<RECON_ID>",
+		"ServiceCI": "<Service_Name>",
+		"Status": "Resolved",
+		"Status_Reason": "Automated Resolution Reported",
+		"Resolution": "<RESOLUTION>"
+	}
+}

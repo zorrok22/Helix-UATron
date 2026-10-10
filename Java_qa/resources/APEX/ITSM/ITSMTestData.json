@@ -1,0 +1,53 @@
+{
+	"DRSQA_12053_TestData": [
+	    { "Label": "Summary*", "Value": "Sample release request"},
+	    { "Label": "Notes", "Value": "Sample BMCOps Release"},
+		{ "Label": "Impact*", "Value": "4-Minor/Localized"},
+		{ "Label": "Urgency*", "Value": "4-Low"},
+		{ "Label": "Business Justification*", "Value": "Enhancement"}
+	],
+	
+	"DRSQA_12054_TestData": [
+	    { "Label": "Summary*", "Value": "Sample Apex problem"},
+	    { "Label": "Notes", "Value": "This is a sample problem for monitoring"},
+	    { "Label": "Impact*", "Value": "4-Minor/Localized"},
+	    { "Label": "Urgency*", "Value": "4-Low"},
+		{ "Label": "Assigned Group", "Value": "Facilities Operations Houston"},
+	    { "Label": "Assignee", "Value": "Max Green"},
+	    { "Label": "Problem Coordinator+", "Value": "Beth Byers"},
+	    { "Label": "Coordinator Group*+", "Value": "Problem Management"}
+	],
+  
+	"DRSQA_12056_TestData": [
+		{"Label": "Company*","Value": "Apex Global"},
+	  	{"Label": "Customer*","Value": "Adam_Ambach"},
+      	{"Label": "Notes","Value": "This is a sample work order for monitoring"},
+      	{"Label": "Summary*","Value": "Sample work order"},
+	  	{"Label": "Manager Support Group Name*", "Value": "Asset Management"},
+	 	{"Label": "Priority","Value": "Low"}
+    ],
+
+	"DRSQA_12058_TestData": [
+       { "Label": "Customer", "Value": "Adam_Ambach"},
+       { "Label": "Summary", "Value": "Sample Apex incident"},
+       { "Label": "Notes", "Value": "This is a sample incident for Apex monitoring"},
+       { "Label": "Impact", "Value": "4-Minor/Localized"},
+       { "Label": "Urgency", "Value": "4-Low"},
+       { "Label": "Incident Type", "Value": "User Service Request"},
+       { "Label": "Resolution", "Value": "Test"},
+       { "Label": "StatusReason", "Value": "Future Enhancement"}
+   ],
+
+   "DRSQA_12055_TestData": [
+	   { "Label": "Template", "Value": "How To"},
+	   { "Label": "Company*","Value": "Apex Global"},
+	   { "Label": "Title", "Value": "Sample HowTo Article"}
+   ],
+
+	"DRSQA_12057_TestData": [
+	    { "Label": "Summary", "Value": "Sample change request"},
+        { "Label": "Notes", "Value": "This is a sample change request for monitoring"},
+		{ "Label": "Impact", "Value": "4-Minor/Localized"},
+		{ "Label": "Urgency", "Value": "4-Low"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "pbunyon": [
+    {"Label": "UserName", "Value": "pbunyon"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "FullName", "Value": "Peter Bunyon"},
+    {"Label": "DisplayName", "Value": "pbunyon"}
+  ],
+  "invalidUser": [
+    {"Label": "UserName", "Value": "invaliduser"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ],
+  "rssoAccountNotInBCM": [
+    {"Label": "UserName", "Value": "rsso_user_not_in_bcm"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+    {"Label": "Description", "Value": "RSSO account that exists in RSSO but not registered in BCM"}
+  ],
+  "adminUser": [
+    {"Label": "UserName", "Value": "admin"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"}
+  ]
+}

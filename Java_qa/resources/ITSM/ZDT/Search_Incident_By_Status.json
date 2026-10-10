@@ -1,0 +1,14 @@
+{
+    "limit": 2,
+    "offset": 0,
+    "criteria": {
+      "bindingExpression": "OR",
+      "conditions": [
+        {
+          "fieldName": "status",
+          "operation": "eq",
+          "fieldValue": "27000"
+        }
+      ]
+    }
+  }

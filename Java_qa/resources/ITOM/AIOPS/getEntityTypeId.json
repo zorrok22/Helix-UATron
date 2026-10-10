@@ -1,0 +1,27 @@
+{
+	"limit": 10,
+	"filters": [
+		{
+			"attribute": "nodeId",
+			"value": "<NODE_ID>"
+		},
+		{
+			"attribute": "nodeKind",
+			"value": "Host"
+		},
+		{
+			"attribute": "entityType",
+			"value": "<ENTITY_TYPE>"
+		}
+	],
+	"multiSortMeta": [
+		{
+			"attribute": "entity.deviceHostName",
+			"order": 1
+		},
+		{
+			"attribute": "entity.entityName",
+			"order": 1
+		}
+	]
+}

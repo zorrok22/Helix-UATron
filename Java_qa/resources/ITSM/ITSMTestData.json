@@ -1,0 +1,195 @@
+{
+      "DRSQA_11805_data": [
+            {"Label": "FirstName", "Value": "BMCOps"},
+            {"Label": "LastName", "Value": "Reporting"},
+            {"Label": "Company", "Value": "BMCOpsMonitoring"},
+            {"Label": "Organization", "Value": "BMCOpsMonitoring Org"},
+            {"Label": "Department", "Value": "BMCOpsMonitoring Dept"},
+            {"Label": "Site", "Value": "Houston Support Center"},
+            {"Label": "LoginID", "Value": "bmcopsreporting"},
+            {"Label": "Password", "Value": "__USER_PASSWORD__"},
+            {"Label": "LicenseType", "Value": "Fixed"},
+            {"Label": "ApplicationPermission", "Value": "Incident, Incident User"},
+            {"Label": "FolderName","Value": "BMC Remedy Operational Reporting"},
+            {"Label": "SubFolderName","Value": "Incident Management"},
+            {"Label": "DashboardLink","Value": "Incident Details"}
+      ],
+
+      "DRSQA_11789_TestData": [
+            { "Label": "Customer", "Value": "bmcopsenduser"},
+            { "Label": "Summary", "Value": "Sample BMCOps Incident"},
+            { "Label": "Notes", "Value": "Sample BMCOps Incident"},
+            { "Label": "Impact", "Value": "4-Minor/Localized"},
+            { "Label": "Urgency", "Value": "4-Low"},
+            { "Label": "Incident Type", "Value": "User Service Request"},
+            { "Label": "Resolution", "Value": "Test"},
+            { "Label": "StatusReason", "Value": "Future Enhancement"}
+      ],
+
+      "DRSQA_11787_TestData": [
+            { "Label": "Customer", "Value": "bmcopsenduser"},
+            { "Label": "Summary", "Value": "Sample BMCOps WorkOrder"},
+            { "Label": "Impact", "Value": "4-Minor/Localized"},
+            { "Label": "Urgency", "Value": "4-Low"}
+      ],
+
+      "DRSQA_11788_TestData": [
+            { "Label": "Summary", "Value": "Sample BMCOps Change"},
+            { "Label": "Notes", "Value": "Sample BMCOps Change"}
+      ],
+
+
+      "DRSQA_11786_TestData": [
+            { "Label": "Template", "Value": "How To"},
+            { "Label": "Title", "Value": "Sample BMCOps Knowledge"}
+      ],
+
+      "DRSQA_11785_TestData": [
+            { "Label": "Summary", "Value": "Sample BMCOps Problem"},
+            { "Label": "Notes", "Value": "Sample BMCOps Problem"},
+            { "Label": "Impact", "Value": "4-Minor/Localized"},
+            { "Label": "Urgency", "Value": "4-Low"}
+      ],
+
+      "DRSQA_11784_TestData": [
+            { "Label": "Summary", "Value": "Sample BMCOps Release"},
+            { "Label": "Notes", "Value": "Sample BMCOps Release"},
+            { "Label": "Business Justification", "Value": "Enhancement"}
+      ],
+
+      "DRSQA_11816_TestData": [
+            { "Label": "JobName", "Value": "BMC Express CI Job"},
+            { "Label": "JobDescription", "Value": "BMC Express CI Job"},
+            { "Label": "Company", "Value": "BMCOpsMonitoring"},
+            { "Label": "AttachmentName", "Value": "DRSQA_11816.xlsm"},
+            { "Label": "TemplateType", "Value": "Using BMC Express Templates"},
+            { "Label": "TemplateName", "Value": "CI-CMDB"},
+			{ "Label": "FormName", "Value": "UDM:RAppPassword"},
+            { "Label": "ServerNameSearch", "Value": "%%"},
+            { "Label": "ServerName", "Value": "onbmc-s.bmc"}
+      ],
+
+      "DRSQA11747_data": [
+            { "Label": "JobName", "Value": "DRSQA_11747 Test Job SolQA"},
+            { "Label": "JobDescription", "Value": "Test Job SolQA"},
+            { "Label": "Company", "Value": "Calbro Services"},
+            { "Label": "AttachmentName", "Value": "HPM_People_TestUsers.xlsm"},
+            { "Label": "TemplateType", "Value": "Using BMC Templates"},
+            { "Label": "TemplateName", "Value": "People"},
+            { "Label": "LoadStepName", "Value": "Load People"},
+            { "Label": "FileCopyStepName", "Value": "Data Load File Copy"}
+      ],
+	  
+	  "DRSQA_12575_Data": [
+            {"Label":"menuItem","Value":"Dashboards"},
+            {"Label":"folderNames",  "Value":"Incident Dashboard"},
+			{"Label":"typeMenu",  "Value":"Web"},
+			{"Label":"formMenu",  "Value":"HPD:Help Desk"}
+      ],
+
+      "DRSQA_11809_TestData": [
+            {"Label": "FolderName","Value": "BMC Remedy Operational Reporting"},
+            {"Label": "SubFolderName","Value": "Incident Management"},
+            {"Label": "DashboardLink","Value": "Incident Details"}
+      ],
+      "DRSQA_12530_TestData": [
+            { "Label": "Summary", "Value": "DRSQA-12530 Increase CPU Allocation of AIX LPAR VM's"},
+            { "Label": "Notes", "Value": "DRSQA-12530 Increase CPU Allocation of AIX LPAR VM's"},
+            { "Label":"Service", "Value":  "ML-HW-AIX"},
+            {"Label":  "Categorization", "Value":  "BMC Software, Inc."},
+            {"Label":  "ChangeManager", "Value":  "Paul Bunyon"},
+            { "Label": "RelatedCI", "Value": "qa-host-02.example.com"},
+            { "Label": "Impact", "Value": "1-Extensive/Widespread"},
+            { "Label": "Urgency", "Value": "1-Critical"}
+      ],
+
+	  "DRSQA_12276_Data": [
+		{"Label": "SubMenu","Value": "Application Administration Console"},
+		{"Label": "CreateRequestInDWP","Value": "In Digital Workplace"}
+	  ],
+
+	  "DRSQA_11691_Data": [
+		{"Label": "Company","Value": "Petramco"},
+		{"Label": "CreateRequestInSRM","Value": "In Service Request Management"},
+		{"Label": "CreateRequestInDWP","Value": "In Digital Workplace"}
+	  ],
+
+  "DRSQA_11586_TestData": [
+    { "Label": "Customer", "Value": "apetersen"},
+    { "Label": "Summary", "Value": "Test Automation Incident"},
+    { "Label": "Notes", "Value": "Test Automation Incident"},
+    { "Label": "Impact", "Value": "1-Extensive/Widespread"},
+    { "Label": "Urgency", "Value": "1-Critical"}
+  ],
+
+  "DRSQA_11587_TestData": [
+    { "Label": "Customer", "Value": "apetersen"},
+    { "Label": "Summary", "Value": "Sample WorkOrder for PV Test"},
+    { "Label": "Notes", "Value": "Sample WorkOrder for PV Test"}
+  ],
+
+  "DRSQA_11434_TestData": [
+    {"Label": "FolderName","Value": "BMC Remedy Operational Reporting"},
+    {"Label": "SubFolderName","Value": "Incident Management"},
+    {"Label": "DashboardLink","Value": "Incident Details"}
+  ],
+
+      "DRSQA_11634_Data": [
+            { "Label": "Subject", "Value": "How to Install Flash Player"},
+            { "Label": "ReplyMailResponse", "Value": "has been submitted."},
+            { "Label": "ReopenMailResponse", "Value": "has been reopened."}
+
+      ],
+  
+  "DRSQA_13330_TestData" : [
+		{"Label": "expectedFormNames", "Value": "CORE_PL,com.bmc.arsys.rx.approval,com.bmc.dsom.approval-core-service,com.bmc.arsys.rx.assignment,com.bmc.arsys.rx.dataload,com.bmc.arsys.rx.environment-configuration,com.bmc.arsys.rx.foundation,com.bmc.arsys.rx.settings,com.bmc.arsys.rx.innovationstudio,com.bmc.arsys.rx.client,com.bmc.dsm.helix-data-connector,innovation-studio,standardlib,com.bmc.dsom.hgm,com.bmc.dsm.chatbot"}
+	  ],
+
+  "DRSQA11406_TestData": [
+    {"Label": "Company","Value": "BMCOpsMonitoring"},
+    {"Label": "ruleName","Value": "Cognitive Support Group Prediction"},
+    {"Label": "dataType","Value": "Support Group Prediction"},
+    {"Label": "templateName","Value": "Incident Support Group Prediction Training Data"}
+  ],
+
+  "DRSQA13471_TestData": [
+    {"Label": "Company","Value": "BMCOpsMonitoring"},
+    {"Label": "ruleName","Value": "Cognitive Support Group Prediction"},
+    {"Label": "dataType","Value": "Support Group Prediction"},
+    {"Label": "templateName","Value": "Incident Support Group Prediction Training Data"}
+  ],
+
+  "DRSQA_11643_data": [
+      {"Label": "FirstName", "Value": "CaseSensitiveUserFirstName"},
+      {"Label": "LastName", "Value": "CaseSensitiveUserLastName"},
+      {"Label": "Company", "Value": "Petramco"},
+      {"Label": "LoginID", "Value": "CaseSensitiveUserLoginID"},
+      {"Label": "Password", "Value": "__USER_PASSWORD__"},
+      {"Label": "LicenseType", "Value": "Fixed"},
+      {"Label": "ApplicationPermission", "Value": "Incident, Incident User"},
+      {"Label": "Organization", "Value": "Human Resources"},
+      {"Label": "Department", "Value": "Payroll"},
+      {"Label": "Site", "Value": "Austin"}
+    ],
+
+    "DRSQA_11643_data_2": [
+      {"Label": "FirstName", "Value": "CaseSensitiveUserFirstName_2"},
+      {"Label": "LastName", "Value": "CaseSensitiveUserLastName_2"},
+      {"Label": "Company", "Value": "Petramco"},
+      {"Label": "LoginID", "Value": "UPPERCASEUSERLOGINID"},
+      {"Label": "LowercaseLoginID", "Value": "uppercaseuserloginid"},
+      {"Label": "Password", "Value": "__USER_PASSWORD__"},
+      {"Label": "LicenseType", "Value": "Fixed"},
+      {"Label": "ApplicationPermission", "Value": "Incident, Incident User"},
+      {"Label": "Organization", "Value": "Human Resources"},
+      {"Label": "Department", "Value": "Payroll"},
+      {"Label": "Site", "Value": "Austin"}
+    ],
+
+  "DRSQA_15763_TestData": [
+    {"Label": "CSM_License_Value", "Value": "1"},
+    {"Label": "CSM_License_User_Fixed_Value", "Value": "100"},
+    {"Label": "CSM_License_User_Floating_Value", "Value": "100"},
+    {"Label": "CSMUserName", "Value": "bmcopssupportagent"}
+  ]
+}

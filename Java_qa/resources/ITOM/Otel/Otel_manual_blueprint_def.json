@@ -1,0 +1,87 @@
+{
+  "blueprintId": {
+    "version": "1.0.0"
+  },
+  "name": "%s",
+  "namespace": "com",
+  "contentSelector": {
+    "nodes": [
+      {
+        "id": "nExternalElement",
+        "includeContent": true,
+        "kinds": [
+          "ExternalElement"
+        ],
+        "rules": [],
+        "associatedElementSelectors": [],
+        "requireContent": false,
+        "autoCreateRules": {}
+      },
+      {
+        "id": "n____0",
+        "includeContent": true,
+        "kinds": [
+          "ExternalElement"
+        ],
+        "rules": [
+          {
+            "ruleCriterias": [
+              {
+                "attribute": "type",
+                "path": "",
+                "values": [
+                  "OTel Service Namespace"
+                ],
+                "regex": false,
+                "variable": false
+              },
+              {
+                "attribute": "name",
+                "path": "",
+                "values": [],
+                "regex": false,
+                "variable": true,
+                "variableInputName": "Enter OTel Service Namespace"
+              }
+            ]
+          }
+        ],
+        "associatedElementSelectors": [],
+        "requireContent": true,
+        "autoCreateRules": {}
+      },
+      {
+        "id": "n____1",
+        "includeContent": true,
+        "kinds": [
+          "ExternalElement"
+        ],
+        "rules": [],
+        "associatedElementSelectors": [],
+        "requireContent": false,
+        "autoCreateRules": {}
+      }
+    ],
+    "links": [
+      {
+        "sourceId": "n____0",
+        "targetId": "nExternalElement",
+        "rules": [
+          {
+            "ruleCriterias": [
+              {
+                "relKind": "Dependency"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sourceId": "nExternalElement",
+        "targetId": "n____1",
+        "rules": []
+      }
+    ]
+  },
+  "state": "ENABLED"
+}

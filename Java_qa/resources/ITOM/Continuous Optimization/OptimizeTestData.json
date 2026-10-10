@@ -1,0 +1,75 @@
+{
+  "DRSQA_16581_Data":[
+		{"Label":"columnName","Value":"Name"},
+		{"Label":"columnIndex", "Value":"3"},
+		{"Label":"filterOperator1", "Value":"like"},
+		{"Label":"filterOperator2","Value":"="},
+		{"Label":"filterOperator3",  "Value":"!="}
+  ],
+  "DRSQA_16580_Data":[
+	    {"Label":"columnName","Value":"Last Activity"},
+		{"Label":"columnIndex", "Value":"5"},
+  		{"Label":"filterOperator1","Value":"<"},
+  		{"Label":"filterOperator2", "Value":">"},
+  		{"Label":"filterOperator3","Value":"not empty"},
+  		{"Label":"filterOperator4",  "Value":"empty"}
+    ],
+  "DRSQA_16547_Data":[
+		{"Label":"columnName","Value":"Date of creation"},
+	    {"Label":"columnIndex", "Value":"4"},
+	  	{"Label":"filterOperator1","Value":"<"},
+	  	{"Label":"filterOperator2", "Value":">"}
+	],
+   "DRSQA_16594_Data":[
+		{"Label":"columnName1","Value":"Date of creation"},
+		{"Label":"columnIndex1", "Value":"4"},
+		{"Label":"filterOperator1","Value":"<"},
+		{"Label":"columnName2","Value":"Last Activity"},
+		{"Label":"columnIndex2", "Value":"5"},
+		{"Label":"filterOperator2","Value":"<"},
+		{"Label":"filterOperator3","Value":">"}
+	],	
+  "DRSQA_12440_Data":[
+		{"Label":"templateGroup","Value":"System"},
+		{"Label":"templateName", "Value":"Generic - Future Saturation"},
+		{"Label":"actionToPerform",  "Value":"Create Events for Future Saturation"},
+		{"Label":"systemTaskName",  "Value":"Optimizer - daily"},
+		{"Label":"hostName",  "Value":"PC-NameOption-3"},
+		{"Label":"eventMessage",  "Value":"Saturation alert for "}
+  ],
+  "DRSQA_14912_testData": [
+       { "Label": "serviceName", "Value": "HR Service Management" },
+	   { "Label": "CIname", "Value": "host-20" }
+	   
+     ],
+	"DRSQA_17387_Data": [
+		{ "Label": "column1", "Value": "File System [GB]" },
+		{ "Label": "column2", "Value": "File System Used [GB]" },
+		{ "Label": "column3", "Value": "File System Utilization [%]" },
+		{ "Label": "graph1", "Value": "CPU Utilization" },
+		{ "Label": "graph2", "Value": "Memory Utilization" },
+		{ "Label": "graph3", "Value": "File System/Datastore Utilization" },
+		{ "Label": "graph4", "Value": "Network Bit Rate/Disk Transfer Rate" },
+		{ "Label": "relatedInfoLink", "Value": "File System Profile" },
+		{ "Label": "fsProfileGraph1", "Value": "File System Usage" },
+		{ "Label": "fsProfileGraph2", "Value": "File System Utilization" },
+		{ "Label": "fsProfileGraph3", "Value": "Usage - Top 10 File Systems" },
+		{ "Label": "fsProfileGraph4", "Value": "Utilization - Top 10 File Systems" },
+		{ "Label": "dataExplorerSidebarItem", "Value": "Data Explorer" }
+	],
+	"DRSQA_12397_Data": [
+		{ "Label": "column1", "Value": "VM" },
+		{ "Label": "column2", "Value": "Cluster" },
+		{ "Label": "column3", "Value": "vCPUs" },
+		{ "Label": "graph1", "Value": "CPU Utilization" },
+		{ "Label": "graph2", "Value": "Memory Utilization" },
+		{ "Label": "graph3", "Value": "File System/Datastore Utilization" },
+		{ "Label": "graph4", "Value": "Network Bit Rate/Disk Transfer Rate" },
+		{ "Label": "relatedInfoLink", "Value": "File System Profile" },
+		{ "Label": "fsProfileGraph1", "Value": "File System Usage" },
+		{ "Label": "fsProfileGraph2", "Value": "File System Utilization" },
+		{ "Label": "fsProfileGraph3", "Value": "Usage - Top 10 File Systems" },
+		{ "Label": "fsProfileGraph4", "Value": "Utilization - Top 10 File Systems" },
+		{ "Label": "dataExplorerSidebarItem", "Value": "Data Explorer" }
+	]
+}

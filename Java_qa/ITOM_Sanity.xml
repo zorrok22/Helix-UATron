@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="ITOM_Sanity_P0_Suite" configfailurepolicy="skip" preserve-order="true" parallel="classes" thread-count="3" group-by-instances="true">
+    <listeners>
+        <listener class-name="util.Listener"/>
+        <listener class-name="util.PrometheusTestListener"/>
+    </listeners>
+    <test name="ITOM_Sanity_P0_Suite" preserve-order="true">
+        <groups>
+            <run>
+                <!-- Default: Run all sanity tests. Override with -Dgroups if needed. -->
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <!-- Prerequisites run FIRST due to preserve-order and priority/dependencies -->
+            <class name="ITOM.ITOM_Prerequisites"/>
+            <class name="ITOM.Sanity_Prerequisites"/>
+            <!-- Actual tests run IN PARALLEL after prerequisites complete (due to dependsOnMethods) -->
+            <class name="ITOM.BHOM_AIOps.BHOM_AIOps"/>
+            <class name="ITOM.Itsm_Insights.ItsmInsightsTest"/>
+            <class name="ITOM.Aiops.AiopsServiceModelTest"/>
+            <class name="ITOM.BHOM_IA_ITSM"/>
+            <class name="ITOM.Optimize.OptimizeTest"/>
+            <class name="ITOM.IA_AIOPS.IA_AIOPS"/>
+            <class name="ITOM.Ade_Platform.ADE_Platform_MultiCrossLaunch"/>
+        </classes>
+    </test>
+</suite>

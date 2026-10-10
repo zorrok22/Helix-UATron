@@ -1,0 +1,37 @@
+{
+  "entityThresholds": [
+    {
+      "metricDetails": {
+        "entityTypeId": "NUK_CPU",
+        "metricId": "Utilization",
+        "label": "Utilization",
+        "unit": "%",
+        "path": "nuk/__sol_version__/NUK_CPU/Utilization"
+      },
+      "type": "MULTI",
+      "evaluationCriteria": "instance_name string-equals 'NUK_CPU' AND device_host_name string-equals '__pa_host__'",
+      "isEvaluationCriteriaValid": true,
+      "alarmConfigurations": [
+        {
+          "condition": {
+            "comparison": "above",
+            "baseline": false,
+            "threshold": 1,
+            "duration": -1,
+            "numPolls": 1
+          },
+          "action": {
+            "severity": "CRITICAL",
+            "autoClose": true,
+            "closeDuration": 0
+          },
+          "configOrder": 0
+        }
+      ]
+    }
+  ],
+  "enabled": true,
+  "policyName": "__alarm_policy_name__",
+  "description": "",
+  "executionOrder": 9999
+}

@@ -1,0 +1,9 @@
+{
+  "ServiceData": [
+    { "Label": "serviceName", "Value": "Auto_VC_SrvModel_" },
+    { "Label": "k8sService", "Value": "Auto_k8s_SrvModel_"},
+    { "Label": "policyName", "Value": "UsedForAutomation" },
+    { "Label": "situationName", "Value": "Multi-Service"},
+    { "Label": "eventName", "Value": "SimpleEvent"}
+  ]
+}

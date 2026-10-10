@@ -1,0 +1,28 @@
+{
+  	"Apex_AdminUser_Beth":[
+		{"Label":"UserName","Value":"Beth"},
+		{"Label":"Password",  "Value":"__USER_PASSWORD__"}
+	],
+	
+	"Apex_AdminUser_Seth":[
+			{"Label":"UserName","Value":"Seth"},
+			{"Label":"Password",  "Value":"__USER_PASSWORD__"}
+	],
+	
+	"Apex_AdminUser_Alex": [
+			{"Label": "UserName","Value": "Alex"},
+			{"Label":"Password", "Value":"__USER_PASSWORD__"},
+			{"Label":"FirstName", "Value":"Alexis"},
+			{"Label":"FullName", "Value":"Alexis Bennett"}
+	],
+	
+	"Apex_AdminUser_Max":[
+			{"Label":"UserName","Value":"Max"},
+			{"Label":"Password",  "Value":"__USER_PASSWORD__"}
+	],
+	
+	"PrishaUser":[
+			{"Label":"UserName", "Value":"Prisha"},
+			{"Label":"Password", "Value":"__USER_PASSWORD__"}
+	]
+}

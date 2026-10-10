@@ -1,0 +1,31 @@
+{
+	"from": 0,
+	"size": 10000,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"range": {
+									"creation_time": {
+										"gte": <START_TIME>,
+										"lt": <END_TIME>
+									}
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

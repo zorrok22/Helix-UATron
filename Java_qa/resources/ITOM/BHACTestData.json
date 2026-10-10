@@ -1,0 +1,49 @@
+{
+  "DRSQA_17463_Test_Data": [
+    {"Label": "ConnectorName", "Value": "ansible_tower"},
+    {"Label": "ExpectedActions", "Value": "helloworld,hostping,Create Job Template,Get Stdout of job execution,List Job Templates,Launch a Job Template,getRunJobStatus,getWorkflowRunJobStatus,Update A Project,install_pkg,remediate_cve,test_downloadpkg,custom_var,Demo Job Template"},
+    {"Label": "ExpectedActionCount", "Value": "14"},
+    {"Label": "SearchAction", "Value": "helloworld"}
+  ],
+  "DRSQA_17464_Test_Data": [
+    {"Label": "FileName", "Value": "Qualys_latest_IA_Int1 4.xml"},
+    {"Label": "VulnerabilityName", "Value": "Java-Important/Sec"},
+    {"Label": "RemediationContent", "Value": "install_pkg"},
+    {"Label": "Vendor", "Value": "Qualys"}
+
+  ],
+
+  "DRSQA_17465_Test_Data": [
+    {"Label": "OperationName", "Value": "DRSQA_17465_VulnOps_IA_Remediation"},
+    {"Label": "OperationDescription", "Value": "Test operation to remediate vulnerabilities via IA remediation tool."},
+    {"Label": "AssetName", "Value": "host-56"},
+    {"Label": "SfAction", "Value": "install"},
+    {"Label": "SoftwareName", "Value": "vim"},
+    {"Label": "Vendor", "Value": "Qualys"},    
+    {"Label": "VulnerabilityName", "Value": "Java-Important/Sec"}
+  ],
+  
+  "DRSQA_17466_Test_Data": [
+    {"Label": "OperationName", "Value": "DRSQA_17465_VulnOps_IA_Remediation"},
+    {"Label": "AssetName", "Value": "host-56"},
+    {"Label": "VulnerabilityName", "Value": "Java-Important/Sec"}
+
+  ],
+
+  "DRSQA_17467_Test_Data": [
+    {"Label": "OperationName", "Value": "DRSQA_17465_VulnOps_IA_Remediation"},
+    {"Label": "OperationDescription", "Value": "Test operation to remediate vulnerabilities via IA remediation tool."},
+    {"Label": "AssetName", "Value": "host-56"},
+    {"Label": "VulnerabilityName", "Value": "Java-Important/Sec"},
+    {"Label": "FeatureName", "Value": "Vulnerabilities"}
+
+  ],
+
+  "DRSQA_17468_Test_Data": [
+    {"Label": "OperationName", "Value": "DRSQA_17465_VulnOps_IA_Remediation"},
+    {"Label": "AssetName", "Value": "host-56"},
+    {"Label": "VulnerabilityName", "Value": "Java-Important/Sec"}
+
+  ]
+}
+

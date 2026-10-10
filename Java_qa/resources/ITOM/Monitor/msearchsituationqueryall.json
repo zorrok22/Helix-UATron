@@ -1,0 +1,78 @@
+{
+	"from": 0,
+	"size": 9000,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"term": {
+									"_relationships.rstat": "primary"
+								}
+							},
+							{
+								"range": {
+									"creation_time": {
+										"gte": <START_TIME>,
+										"lt": <END_TIME>
+									}
+								}
+							},
+							{
+								"range": {
+									"_relationships.evcount": {
+										"gt": 0
+									}
+								}
+							},
+							{
+								"bool": {
+									"should": [
+										{
+											"bool": {
+												"must": [
+													{
+														"exists": {
+															"field": "situation_relation_type"
+														}
+													},
+													{
+														"term": {
+															"class": "Situation"
+														}
+													},
+													{
+														"bool": {
+															"must_not": [
+																{
+																	"term": {
+																		"situation_relation_type": {
+																			"value": "child"
+																		}
+																	}
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

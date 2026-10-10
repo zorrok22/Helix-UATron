@@ -1,0 +1,22 @@
+{
+   "testData": {
+    "Customer Name": "Irene Adler",
+    "Template":"Upgrade Servers"
+  },
+
+  "GPTData": {
+    "input1": "Show me all work orders",
+    "context1": "The user requests a comprehensive listing of all available work orders in the system. The response should return work order records in any readable format (table, list, structured text). Core requirement: each work order must include at least one stable identifier (Work Order Number, Work Order ID, or equivalent unique field). Enhancement fields may include Summary, Description, Status, Priority, Assignee, Created Date, or other work order attributes. System metadata such as record counts, pagination indicators, or instructional text should be considered acceptable response elements.",
+    "expected_components1": "A comprehensive response displaying all accessible work orders with proper identification. Minimum requirement: each work order record must contain at least one primary identifier (Work Order Number or equivalent). Valuable additions include Summary, Description, Status, and other work order properties. Response format flexibility, pagination elements, record totals, and system guidance are acceptable enhancement elements.",
+
+    "input2": "Summarize workorder ticket",
+    "context2": "The user seeks a summary or overview of work order information, potentially referring to a specific ticket or general work order summary. The response should provide work order summary information with clear identification. Core requirement: work order identification and summary content. If referencing a specific work order, include identifier and detailed summary. If providing general summary, focus on work order overview with relevant details. System messages about summary generation are acceptable contextual elements.",
+    "expected_components2": "A summary-focused response providing work order information and overview details. Essential elements: work order identification (if specific) and summary content. Include work order identifiers with descriptive summaries, status information, or key details. When context is unclear: provide helpful clarification or general work order summary. Additional system text and formatting options are acceptable elements.",
+
+    "input3": "List workorder similar to Upgrade the servers",
+    "context3": "The user seeks work orders that are similar to or related to 'Upgrade the servers' content/topic. The response should identify work orders with similar themes, keywords, or descriptions. Core requirement: similarity matching and work order identification. Search for work orders containing upgrade-related terms, server references, or similar technical content. Each returned work order needs at least one identifier plus relevant summary showing the similarity connection. System messages about search matching are acceptable contextual information.",
+    "expected_components3": "A similarity-based response listing work orders related to server upgrade themes. Essential elements: work order identification and similarity context to 'Upgrade the servers'. Each record should include work order identifier with summary or description showing the connection. Optional details include specific upgrade tasks, server references, or technical specifications. Search context and formatting variations are acceptable response elements."
+    }
+    
+  
+}

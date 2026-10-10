@@ -1,0 +1,9 @@
+{
+  "searchString": "<POLICY_NAME>",
+  "pageIndex": 1,
+  "recordsPerPage": 25,
+  "sortCriteria": {
+    "attribute": "modificationTime",
+    "order": "DESC"
+  }
+}

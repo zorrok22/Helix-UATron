@@ -1,0 +1,12 @@
+{
+	"stringToSearch": null,
+	"fieldToSearch": null,
+	"withCount": true,
+	"agentFilterCriteria": "",
+	"directFilterCriteria": {
+		"isConnected": "true",
+		"isDisconnected": "true",
+		"agentConnected": "true",
+		"agentDisconnected": "true"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Virus in Email and password needs to be changed",
+    "Incident Description": "Auto Desc",
+    "Status": "In Progress",
+    "Member": "pbunyon",
+    "Bot": "SolQA_April_APP",
+    "Bot2": "SolQA_App2",
+    "Template Name":"Email System Password Reset"
+  },
+  "testData2": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "ITOM Server PUN25 is down and needs to be fixed",
+    "Incident Description": "Auto Desc",
+    "Status": "In Progress",
+    "Member": "pbunyon",
+    "Bot": "SolQA_April_APP",
+    "Bot2": "SolQA_App2",
+    "Template Name":"Cannot Connect to VPN"
+  },
+  "Incident_data": [
+    "ITOM Server PUN24 is down and needs to be fixed",
+    "In Progress"
+      ]
+}

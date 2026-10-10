@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<operation name="WorkOrderRequiredData">
+		<fields>
+			<label>Affected User</label>
+			<value>Peter Pan</value>
+		</fields>
+		<fields>
+			<label>WorkOrder Title</label>
+			<value>Work order title</value>
+		</fields>
+	</operation>
+	
+	</data>
+	
+	

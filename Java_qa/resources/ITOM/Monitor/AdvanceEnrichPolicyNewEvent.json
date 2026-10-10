@@ -1,0 +1,76 @@
+{
+	"name": "Advanced_event_enrichment_policy_auto1",
+	"types": [
+		"ADVANCED_ENRICHMENT"
+	],
+	"description": "",
+	"executionOrder": 9999,
+	"selectorCriteria": "",
+	"selectorCriteriaList": [
+		"class equals 'NAGIOS_EV1'"
+	],
+	"timeframes": [
+		"-1"
+	],
+	"enabled": true,
+	"configurations": [
+		{
+			"type": "ADVANCED_ENRICHMENT",
+			"configOrder": 1,
+			"definition": {
+				"label": "generate New Event",
+				"children": [
+					{
+						"label": "If Condition",
+						"children": [
+							{
+								"label": "GenerateNewEvent",
+								"children": [
+									{
+										"type": "objectData",
+										"value": {
+											"class": "NAGIOS_EV1",
+											"severity": "$NEW.severity",
+											"priority": "$NEW.priority",
+											"source_hostname": "host-16",
+											"msg": "%msg%",
+											"pn_severity": "UNKNOWN",
+											"source_identifier": "%source_identifier%",
+											"location": "P1"
+										}
+									}
+								],
+								"type": "function",
+								"name": "GenerateNewEvent"
+							},
+							{
+								"label": "DropNewEvent",
+								"children": [],
+								"type": "function",
+								"name": "DropNewEvent"
+							}
+						],
+						"type": "if",
+						"conditions": [
+							{
+								"conditionOrder": 0,
+								"conditionOperator": "",
+								"slotName": "$NEW.source_hostname",
+								"slotOperator": "equals",
+								"slotValue": "abc.com",
+								"conditionBracket": "",
+								"endBracket": ""
+							}
+						]
+					},
+					{
+						"label": "",
+						"children": [],
+						"type": "else"
+					}
+				],
+				"type": "root"
+			}
+		}
+	]
+}

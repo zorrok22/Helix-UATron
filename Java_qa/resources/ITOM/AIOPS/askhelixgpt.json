@@ -1,0 +1,10 @@
+{
+	"user_query": "<query>",
+	"user_context": {
+		"source_page": "/situations"
+	},
+	"locale": "en-US",
+	"type": "human",
+	"id": "<randomnumber>-1"
+}
+

@@ -1,0 +1,5 @@
+{
+  "welcome_msg": "Hi User How can I help you today?",
+  "request_ack_msg": "I'm working on getting you the information",
+  "info_not_found_msg": "Sorry, I don’t have this information",
+}

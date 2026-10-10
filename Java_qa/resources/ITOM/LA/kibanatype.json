@@ -1,0 +1,18 @@
+{
+	"applications": [
+		"error",
+		"status",
+		"kibana",
+		"opensearch-dashboards",
+		"dev_tools",
+		"short_url_redirect",
+		"home",
+		"management",
+		"login",
+		"customerror",
+		"dashboards",
+		"timelion",
+		"visualize",
+		"discover"
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "bmcopsenduser":[
+        {"Label":"UserName", "Value":"bmcopsenduser"},
+        {"Label":"Password", "Value":"__USER_PASSWORD__"},
+        {"Label":"FirstName", "Value":"BMCOps"},
+        {"Label":"FullName", "Value":"BMCOps EndUser"}
+    ]   
+}

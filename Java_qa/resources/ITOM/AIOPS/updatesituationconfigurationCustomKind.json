@@ -1,0 +1,11 @@
+{
+	"name": "ml_situation_config",
+	"description": "ml_situation_config_description",
+	"enable": true,
+	"configuration": {
+		"show_policy_based_situations": "<STATUS>",
+		"infrastructure_custom_nodes": "<INFRASTRUCTURE_NODE>",
+		"network_custom_nodes": "<NETWORK_NODE>",
+		"application_custom_nodes": "<APPLICATION_NODE>"
+	}
+}

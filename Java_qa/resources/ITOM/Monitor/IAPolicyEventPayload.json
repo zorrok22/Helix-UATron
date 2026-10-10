@@ -1,0 +1,20 @@
+[{
+    "class": "EVENT",
+    "severity": "CRITICAL",
+    "object": "test event",
+    "msg": "__msg__NT_MEMORY Memory used > 100 MB for 0 min",
+    "source_identifier": "__hostname__",
+    "host": "__hostname__",
+    "source_hostname": "__hostname__",
+    "status": "OPEN",
+    "priority": "PRIORITY",
+    "details": "__hostname__",
+    "itsm_company": "Petramco",
+    "incident_company": "Petramco",
+    "al_is_predicted ": "true",
+    "p_host_class": "test",
+    "is_updated": "false",
+            "test": "may24",
+    "incident_id": ""
+   
+}]

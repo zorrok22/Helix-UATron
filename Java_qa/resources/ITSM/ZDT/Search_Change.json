@@ -1,0 +1,14 @@
+{
+    "limit": 2,
+    "offset": 0,
+    "criteria": {
+        "bindingExpression": "AND",
+        "conditions": [
+            {
+                "fieldName": "status",
+                "operation": "neq",
+                "fieldValue": "10"
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 
+    Regression Test Suite with Product-wise Grouping
+    
+    Available Groups:
+    - selenium: All Selenium-based UI tests
+    - BWF: Business Workflows tests
+    - DWP: Digital Workplace tests
+    - DWPC: Digital Workplace Catalog tests
+    - ITSM: IT Service Management tests
+    - CMDB: Configuration Management Database tests
+    - SmartIT: SmartIT/PV tests
+    - SmartReporting: Smart Reporting tests
+    - HKM: Helix Knowledge Management tests
+    - SSPLiveChat: SSP Live Chat tests
+    - RKM: Remedy Knowledge Management tests
+    - ITSMInsight: ITSM Insight tests
+    - PPM: Project Portfolio Management tests
+    - MAT: Model Assessment Tests (AI/ML testing)
+    
+    Usage Examples (Using Native TestNG Groups):
+    
+    Default Behavior: Runs all tests tagged with Regression group
+    
+    1. Run all MAT tests (default):
+       mvn test -Dsurefire.suiteXmlFiles=Regression.xml
+       
+    2. Run only BWF tests (must also have Regression tag):
+       mvn test -Dsurefire.suiteXmlFiles=Regression.xml -Dgroups=BWF
+       
+    3. Run BWF OR DWP tests (must also have Regression tag):
+       mvn test -Dsurefire.suiteXmlFiles=Regression.xml -Dgroups="BWF,DWP"
+       
+    4. Run ITSM OR DWP OR BWF tests (must also have Regression tag):
+       mvn test -Dsurefire.suiteXmlFiles=Regression.xml -Dgroups="ITSM,DWP,BWF"
+       
+    5. Run SmartIT tests (must also have Regression tag):
+       mvn test -Dsurefire.suiteXmlFiles=Regression.xml -Dgroups=SmartIT
+       
+    Note: -Dgroups parameter OVERRIDES the XML groups configuration
+-->
+
+<suite verbose="2" name="Petramco_P3_SolQA_Automation_Suite"
+	configfailurepolicy="continue" thread-count="3" parallel="classes">
+
+	<listeners>
+		<listener class-name="util.Listener" />
+	</listeners>
+	
+	 <!-- ========== Native TestNG Group Filtering (No BeanShell) ========== -->
+    <!-- Default: Runs all tests tagged with Regression group -->
+    <!-- Override: Use -Dgroups parameter to specify different groups -->
+    <!-- All tests MUST be tagged with Regression + other groups in test annotations -->
+
+	<test name="Helix Petramco P3 Suite">
+		  <!-- 
+            Native TestNG Group Filtering (No BeanShell!)
+            
+            Default: Runs all tests with Regression group
+            Override: Use -Dgroups parameter to specify additional groups
+            
+            Examples:
+            1. Run Regression tests only:
+               mvn test -Dsurefire.suiteXmlFiles=Petramco_P3.xml
+            
+            2. Run BWF tests (must also have Regression):
+               mvn test -Dsurefire.suiteXmlFiles=Petramco_P3.xml -Dgroups=BWF
+            
+            3. Run BWF OR DWP tests (must also have Regression):
+               mvn test -Dsurefire.suiteXmlFiles=Petramco_P3.xml -Dgroups="BWF,DWP"
+               
+            Note: All tests below must be tagged with @Test(groups={"Regression", "OtherGroups"})
+        -->
+           <groups>
+            <run>
+                <!-- Default: Run all Regression tests -->
+                <!-- This can be overridden by -Dgroups parameter -->
+                <include name="Regression_P3"/>
+            </run>
+        </groups>
+        
+        <!-- 
+            RETRY BEHAVIOR (testng-failed.xml):
+            When testng-failed.xml is generated, it will NOT include this <groups> block,
+            so failed tests will run without ANY group filtering - exactly as intended!
+            No need for Clean-FailedXml.ps1 script anymore (but it's still useful as backup).
+        -->
+		<classes>
+			<class name="ITSM.DWP.DWP_DWPC">
+				<methods>
+					<include
+						name="DRSQA_15148_Enable_Surveys_To_Display_NPS_Scores" />
+				</methods>
+			</class>
+			<class name="ITSM.CMDB.CMDBTests">
+                <methods>
+                    <include name="DRSQA_14659_Validate_CMDB_Data_Monitor_Functionality" />
+                </methods>
+            </class>
+            <class name="ITSM.SmartIT.SmartIT_PV">
+            </class>
+			<class name="ITSM.DWP.DWP_DWPC"/>
+			<class name="ITSM.CMDB.CMDBTests"/>
+         <class name="ITSM.ITSM.ITSMTest"/>
+		</classes>
+	</test>
+</suite>

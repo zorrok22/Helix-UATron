@@ -1,0 +1,8 @@
+{
+  "node_id": ["<NODE_ID>"],
+  "end_time": "<END_TIME>",
+  "service_key": "<SERVICE_KEY>",
+  "need_pca_score": false,
+  "start_time": "<START_TIME>",
+  "transition_time": "<TRANSITION_TIME>"
+}

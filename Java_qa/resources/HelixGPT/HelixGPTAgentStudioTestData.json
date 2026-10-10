@@ -1,0 +1,70 @@
+{
+  "DRSQA_12292_Data": [
+    {"Label": "field", "Value": "Attachment"},
+    {"Label": "attachmentFileName", "Value": "Incident Noise Reduction for ML-based situation in BMC Helix AIOps"},
+    {"Label": "attachmentDescription", "Value": "Attachment"},
+    {"Label": "attachmentStatus", "Value": "New"},
+    {"Label": "Context", "Value": "BMC Helix AIOps incident noise reduction feature that consolidates multiple incidents into a single incident per situation"},
+    {"Label": "input", "Value": "Incident Noise Reduction for ML-based situation in BMC Helix AIOps"},
+    {"Label": "ExpectedResponse", "Value": "To reduce incident noise for ML-based situations in BMC Helix AIOps, you can enable the Incident Noise Reduction feature, which consolidates multiple incidents into a single incident per situation and helps improve MTTR. Follow these steps: Log in to the BMC Helix AIOps console. Click on Services. Select the service for which you want to enable noise reduction. From your browser's URL, copy the service key for that service. In your configuration, specify the service keys for which you want to enable noise reduction, including a value for the show_policy_based_situations parameter. Set include to enable noise reduction for those service keys. After these steps, incident noise for ML-based situations on the selected services will be reduced by consolidating related incidents into a single incident for each situation."},
+    {"Label": "connectionRecordDefinitionName", "Value": "Connection_Record_Definition"},
+    {"Label": "connectionStatus", "Value": "Enabled"},
+    {"Label": "connectionName", "Value": "Attachment"},
+    {"Label": "connectionRecordDefinition", "Value": "com.bmc.dsom.hgm:Attachment"},
+    {"Label": "connectionDataSourceId", "Value": "Helix Innovation Suite Record Definition"},
+    {"Label": "dataConnectionJobRecordDefinitionName", "Value": "DataConnectionJob"},
+    {"Label": "dataConnectionJobDescription", "Value": "Attachment"},
+    {"Label": "dataConnectionJobStatus", "Value": "Done"},
+    {"Label": "dataConnectionJobType", "Value": "INGEST_DATA"},
+    {"Label": "dataConnectionJobDatasource", "Value": "RECORD_DEFINITION"}
+  ],
+
+  "SharePoint": [
+    {"Label": "ConnectionName", "Value": "Connection_SharePoint"},
+    {"Label": "DataSourceName", "Value": "SPT"},
+    {"Label": "Client ID", "Value": "__SHAREPOINT_CLIENT_ID__"},
+    {"Label": "Client Secret", "Value": "__SHAREPOINT_CLIENT_SECRET__"},
+    {"Label": "Site", "Value": "your-tenant.sharepoint.com/sites/your-site"},
+    {"Label": "Tenant ID", "Value": "__AZURE_TENANT_ID__"},
+    {"Label": "Tenant Name", "Value": "BMC"},
+    {"Label": "Name", "Value": "SPT"},
+    {"Label": "Connection Type", "Value": "SharePoint Online"},
+    {"Label": "DataSource ID", "Value": "Microsoft SharePoint Online"},
+    {"Label": "Description", "Value": "SPT"}
+  ],
+
+  "Web": [
+    {"Label": "ConnectionName", "Value": "Connection_Web"},
+    {"Label": "DataSourceName", "Value": "Web"},
+    {"Label": "Name", "Value": "Web"},
+    {"Label": "URL", "Value": "https://python.langchain.com/v0.1/docs/modules/tools/toolkits/"},
+    {"Label": "DataSource ID", "Value": "Web"},
+    {"Label": "Description", "Value": "WEB"}
+  ],
+
+  "CSM": [
+    {"Label": "ConnectionName", "Value": "Connection_CSM"},
+    {"Label": "DataSourceName", "Value": "Helix Customer Service Management"},
+    {"Label": "Name", "Value": "Helix Customer Service Management"},
+    {"Label": "DataSource ID", "Value": "Helix Customer Service Management"},
+    {"Label": "Description", "Value": "CSM"}
+  ],
+
+  "RKMArticle": [
+    {"Label": "DataSourceName", "Value": "RKM"},
+    {"Label": "DataSource ID", "Value": "RKM"},
+    {"Label": "Description", "Value": "RKM"}
+  ],
+
+  "HKMArticle": [
+    {"Label": "DataSourceName", "Value": "HKM"},
+    {"Label": "DataSource ID", "Value": "HKM"},
+    {"Label": "Description", "Value": "HKM"}
+  ],
+
+  "BWFArticle": [
+    {"Label": "DataSourceName", "Value": "BWF"},
+    {"Label": "DataSource ID", "Value": "BWF"},
+    {"Label": "Description", "Value": "BWF"}
+  ]
+}

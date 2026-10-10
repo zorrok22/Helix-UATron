@@ -1,0 +1,11 @@
+{
+    "summary": "Sample BMCOps Problem",
+    "impact": 4000,
+    "priority": 3,
+    "urgency": 4000,
+    "assigneeGroupId": "SMO000000000213",
+    "assigneeGroup": "BMCOpsMonitoring Support Group1",
+    "assigneeSupportCompany": "BMCOpsMonitoring",
+    "assigneeSupportOrganization": "BMCOpsMonitoring Support Org",
+    "company": "BMCOpsMonitoring"
+  }

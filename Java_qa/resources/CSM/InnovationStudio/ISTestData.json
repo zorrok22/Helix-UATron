@@ -1,0 +1,14 @@
+{
+	"DRSQA_12542_Data":[
+		{"Label":"loginErrorMessage","Value":"Failed to login. Please contact the Administrator."}
+	],
+	
+	"DRSQA_12543_Data":[
+		{"Label":"CustomerID","Value":"CUS134@bwflabs.localdomain"},
+		{"Label":"Case Nature","Value":"Complaint"},
+        {"Label":"Case Template","Value":"International calls over Charges"},
+        {"Label":"invoiceNo","Value":"Invoice01"},
+		{"Label":"amountBilled","Value":"1000"}
+	]
+
+}

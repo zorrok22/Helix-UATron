@@ -1,0 +1,114 @@
+{
+  "bmcopssupportagent1" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent1"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent2" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent2"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent3" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent3"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent4" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent4"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent5" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent5"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent6" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent6"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent7" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent7"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent8" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent8"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent9" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent9"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent10" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent10"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent11" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent11"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent12" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent12"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent13" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent13"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "bmcopssupportagent14" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent14"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ],
+  "User Key" : [ {
+    "Label" : "Label",
+    "Value" : "Value"
+  }, {
+    "Label" : "Label",
+    "Value" : "Value"
+  } ],
+  "bmcopssupportagent" : [ {
+    "Label" : "UserName",
+    "Value" : "bmcopssupportagent1"
+  }, {
+    "Label" : "Password",
+    "Value" : "__USER_PASSWORD__"
+  } ]
+}

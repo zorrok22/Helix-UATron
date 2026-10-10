@@ -1,0 +1,15 @@
+{
+    "search": {
+        "default_service": "ML-K8S-DEP"
+    },
+    "services": {
+        "ML-K8S-DEP": {
+            "name": "ML-K8S-DEP",
+            "description": "ML-based Kubernetes Deployment Service",
+            "type": "Kubernetes Service",
+            "expected_status": "Active",
+            "expected_severity": "Critical",
+            "expected_incident_id": "INC1234567"
+        }
+    }
+} 

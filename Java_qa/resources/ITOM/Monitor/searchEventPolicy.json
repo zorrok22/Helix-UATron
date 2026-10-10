@@ -1,0 +1,6 @@
+{
+	"recordsPerPage": 25,
+	"pageIndex": 1,
+	"query": "name ilike '%<POLICY_NAME>%'",
+	"sortCriteria": "modificationTime DESC"
+}

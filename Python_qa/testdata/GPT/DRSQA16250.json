@@ -1,0 +1,53 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Server is not able to connect to LAN",
+    "Incident Description": "Server cannot connect to the local area network.",
+    "Status": "Assigned",
+    "Template Name":"Can't connect to network",
+    "CI":"Optiplex 9020",
+    "AssignToMe":false
+  },
+  "GPTData": {
+    "input1": "show me all asset",
+    "context1": "The user requests a comprehensive display of all asset records available in the system. The response should present asset information in any readable format (table, list, structured text, JSON, or narrative). Core requirement: each asset must include at least one stable identifier (Asset Name, Asset ID, or equivalent unique field) to ensure proper identification. Enhancement fields that add value include Description, Reconciliation ID, Model, Status, Location, Owner, Category, Serial Number, or other relevant asset attributes. System elements such as greeting text, instructional messages, pagination indicators ('showing x of y records'), record totals, timestamps, or help text should be considered acceptable response enhancements rather than penalized as irrelevant content or hallucinations.",
+    "expected_components1": "A comprehensive asset listing response that demonstrates system access to all available assets with proper record identification. Minimum requirement: each asset record must contain at least one primary identifier (Asset Name or equivalent unique field). High-value additions include Description, Reconciliation ID, Status, Location, Owner, and other asset properties that provide useful context. Response format flexibility (table vs list vs structured text), pagination elements, record count summaries, system guidance messages, and metadata should be evaluated as positive response enhancements that improve user experience rather than elements that reduce relevancy or increase hallucination scores.",
+
+    "input2": "fetch all assets which are expiring next week",
+    "context2": "The user seeks assets with expiration dates falling within the next 7-day period from the current date. The response should apply proper date filtering to identify assets approaching expiration and return relevant records. Core requirement: accurate time-based filtering (next week timeframe) and asset identification. Each returned asset must include at least one identifier (Asset Name, Asset ID, or equivalent). Enhancement fields that provide valuable context include Expiration Date, Description, Reconciliation ID, Status, Owner, Model, Location, or Asset Type. System elements such as date range explanations, filtering criteria messages, record counts, pagination indicators, or 'no results found' notices should be considered acceptable contextual information that aids user understanding.",
+    "expected_components2": "A time-filtered response identifying assets expiring within the next week period with proper date-based filtering demonstrated. Essential elements: correct time filtering application and asset identification per record. When matches exist: asset identifiers with expiration date context and optional enhancement details. When no matches exist: clear 'no expiring assets' or equivalent message with optional explanation. Date formatting variations, system guidance about filtering criteria, pagination elements, and metadata should be evaluated as helpful response enhancements rather than irrelevant content.",
+ 
+    "input3": "find all computers related to CI \"Optiplex 9020\"",
+    "context3": "The user seeks computer assets that have established relationships or associations with the Configuration Item 'Optiplex 9020'. The response should focus on computer-type assets and clearly establish CI relationship context. Core requirements: proper asset type filtering (computers only), CI relationship identification, and asset record retrieval. Each returned computer must include at least one stable identifier (Asset Name, Asset ID, or equivalent). Enhancement fields that demonstrate relationship context include Description, Reconciliation ID, Model, Status, Location, Owner, Relationship Type, or CI association details. System elements such as relationship explanations, CI context messages, or filtering criteria should be considered valuable contextual information.",
+    "expected_components3": "A relationship-focused response showing computer assets with established connections to CI 'Optiplex 9020'. Essential elements: computer asset type confirmation, proper CI relationship filtering, and asset identification per record. Each record should include asset identifier with clear 'Optiplex 9020' CI association context. Optional enhancements include relationship details, asset specifications, CI context information, or organizational metadata. System guidance about CI relationships and formatting variations should be evaluated as helpful response elements.",
+
+    "input4": "display all business services",
+    "context4": "The user requests all business services. Any format is acceptable and no fixed response template is required. Return matching business service records and ensure each result includes at least one stable identifier field (Asset Name/Service Name or equivalent). Optional fields like Description, Reconciliation ID, Model, Status, Location, Owner, and metadata/pagination are acceptable.",
+    "expected_components4": "A response that lists all matching business services. Any structure is fine, as long as one or more business service records are returned with at least one identifier per record. Optional inclusion of Description/Reconciliation ID and additional metadata is allowed; no penalty for table/paragraph format differences or extra preface.",
+
+    "input5": "show me all databases asset",
+    "context5": "The user asks for all database assets. Any format (table, list, narrative, JSON) is acceptable. Return records that match the database-asset filter. Each returned item should include at least one identifier (Asset Name or equivalent). Description, Reconciliation ID, status, owner, and other metadata are optional. Preamble text and pagination are acceptable.",
+    "expected_components5": "A response listing database assets, matching the requested filter, with at least one identifying field per record. Optional fields and metadata (Description, Reconciliation ID, pagination, etc.) are accepted and should not reduce scores; format differences are valid.",
+
+    "input6": "give me all lan endpoints",
+    "context6": "The user asks for all LAN endpoint assets. Any output style is accepted. Return records matching the LAN endpoint filter, and include at least one identifier field per record (Asset Name or equivalent). Optional fields (Description, Reconciliation ID, etc.) and additional metadata/pagination can appear without penalty.",
+    "expected_components6": "A response with one or more LAN endpoint assets matching the query. It should answer the filter and provide identifiable records. Optional fields, added context, preamble text, and pagination are valid and should not harm scoring.",
+
+    "input7": "give me the recon id for the asset \"Optiplex 9020\"",
+    "context7": "The user specifically requests the Reconciliation ID value for the asset named 'Optiplex 9020'. This is a targeted lookup query requiring precise asset name matching and Reconciliation ID field retrieval. Core requirements: exact asset name matching ('Optiplex 9020'), Reconciliation ID field identification, and value extraction. The response should locate the specific asset and return its associated Reconciliation ID. If the asset exists, provide both asset confirmation and the requested Reconciliation ID value. If the asset doesn't exist in the system, provide clear not-found messaging. System elements such as lookup explanations or field descriptions are acceptable contextual additions.",
+    "expected_components7": "A precise lookup response providing the Reconciliation ID for the specifically named asset 'Optiplex 9020'. Essential elements: asset name confirmation and Reconciliation ID value retrieval. When asset is found: asset identifier confirmation plus the specific Reconciliation ID requested. When asset is not found: clear 'asset not found' or equivalent message with optional suggestions. Additional asset context, field explanations, and system guidance should be evaluated as helpful response enhancements.",
+
+    "input8": "give me the instance id for the asset \"Latitude E6430\"",
+    "context8": "The user requests Instance IDs for assets named \"Latitude E6430\". Output format is not fixed; table, list, or paragraph are all acceptable. Return matching record(s) and include the requested identifier (Instance ID) with an asset identifier. Extra metadata, notes, and pagination text are fine.",
+    "expected_components8": "A response that includes one or more Instance ID values tied to assets named \"Latitude E6430\" and identifies those assets. Optional fields such as Asset Name, Reconciliation ID, and extra metadata are acceptable; format differences are allowed.",
+
+    "input9": "tell me details of the asset \"Optiplex 9020\"",
+    "context9": "The user asks for details of asset \"Optiplex 9020\". Any layout is accepted. Provide detailed information for matching asset(s), including at least one identifier and any available fields (Description, Reconciliation ID, status, model, owner, location, etc.). Extra notes and pagination metadata are acceptable.",
+    "expected_components9": "A response that gives details for asset \"Optiplex 9020\" with at least an identifying field (Asset Name or equivalent) and any additional details. No strict format or exact phrase is required; additional metadata/preamble/text and pagination are acceptable.",
+
+    "input10": "fetch all assets which are status are deployed",
+    "context10": "The user asks for assets with status \"deployed\". Any output format is fine. Return only assets matching the status filter and include at least one identifier per returned record (Asset Name or equivalent). Optional fields and metadata (Description, Reconciliation ID, pagination, etc.) are acceptable.",
+    "expected_components10": "A response listing deployed assets that match the query. At minimum, each matching record should have an identifier field; optional fields, additional context, and pagination should not reduce relevancy or hallucination scores."
+   
+  }
+}

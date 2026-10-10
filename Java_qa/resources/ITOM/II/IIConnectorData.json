@@ -1,0 +1,103 @@
+{
+  "DRSQA_12486_Data": [
+    {"Label": "connectorName", "Value": "AWS CloudWatch"},
+    {"Label": "accessKey", "Value": "__AWS_ACCESS_KEY_ID__"},
+    {"Label": "secretKey", "Value": "__AWS_SECRET_ACCESS_KEY__"},
+    {"Label": "region", "Value": "us-west-2"},
+    {"Label": "deviceName", "Value": "__AWS_DEVICE_NAME__"},
+    {"Label": "serviceName", "Value": "AWSCloudWatchService_"},
+    {"Label": "monitorName", "Value": "AWS_EBS_Average"}
+  ],
+
+  "DataDog": [
+    {"Label": "connectorName", "Value": "Datadog"},
+    {"Label": "host", "Value": "api.datadoghq.com"},
+    {"Label": "token", "Value": "__DATADOG_API_TOKEN__"},
+    {"Label": "appKey", "Value": "__DATADOG_APP_KEY__"},
+    {"Label": "deviceName", "Value": "__DATADOG_DEVICE_NAME__"},
+    {"Label": "serviceName", "Value": "datadogService_"},
+    {"Label": "monitorName", "Value": "cpu"}
+  ],
+
+  "DRSQA_12498_Data": [
+    {"Label": "connectorName", "Value": "Icinga"},
+    {"Label": "host", "Value": "__ICINGA_HOST__"},
+    {"Label": "port", "Value": "5665"},
+    {"Label": "userName", "Value": "__ICINGA_USERNAME__"},
+    {"Label": "password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "DRSQA_12493_Data": [
+    {"Label": "connectorName", "Value": "New Relic"},
+    {"Label": "accessKey", "Value": "__NEW_RELIC_API_KEY__"},
+    {"Label": "accountId", "Value": "__NEW_RELIC_ACCOUNT_ID__"},
+    {"Label": "graphqlApiKey", "Value": "__NEW_RELIC_GRAPHQL_API_KEY__"},
+    {"Label": "deviceName", "Value": "__NEW_RELIC_DEVICE_NAME__"},
+    {"Label": "ciName", "Value": "__NEW_RELIC_CI_NAME__"},
+    {"Label": "serviceName", "Value": "NewRelicService_"},
+    {"Label": "monitorName", "Value": "User_Utilization"}
+  ],
+
+  "DRSQA_12495_Data": [
+    {"Label": "connectorName", "Value": "SolarWinds NPM"},
+    {"Label": "host", "Value": "__SOLARWINDS_HOST__"},
+    {"Label": "port", "Value": "10009"},
+    {"Label": "userName", "Value": "__SOLARWINDS_USERNAME__"},
+    {"Label": "password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "DRSQA_12497_Data": [
+    {"Label": "connectorName", "Value": "Splunk Enterprise"},
+    {"Label": "host", "Value": "__SPLUNK_HOST__"},
+    {"Label": "port", "Value": "443"},
+    {"Label": "userName", "Value": "__SPLUNK_USERNAME__"},
+    {"Label": "password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "DRSQA_12496_Data": [
+    {"Label": "connectorName", "Value": "Stackify Metrics"},
+    {"Label": "stackifyKey", "Value": "__STACKIFY_KEY__"},
+    {"Label": "host", "Value": "api.stackify.com"},
+    {"Label": "port", "Value": "443"},
+    {"Label": "deviceName", "Value": "__STACKIFY_DEVICE_NAME__"},
+    {"Label": "serviceName", "Value": "StackifyService_"},
+    {"Label": "monitorName", "Value": "cpu"}
+  ],
+  "AppDynamics_Data": [
+    {"Label": "connectorName", "Value": "AppDynamics"},
+    {"Label": "host", "Value": "__APPDYNAMICS_HOST__"},
+    {"Label": "accountName", "Value": "__APPDYNAMICS_ACCOUNT__"},
+    {"Label": "username", "Value": "__APPDYNAMICS_USERNAME__"},
+    {"Label": "password", "Value": "__USER_PASSWORD__"},
+    {"Label": "deviceName", "Value": "__APPDYNAMICS_DEVICE_NAME__"},
+    {"Label": "ciName", "Value": "__APPDYNAMICS_CI_NAME__"},
+    {"Label": "serviceName", "Value": "AppDynamicsService_"},
+    {"Label": "monitorName", "Value": "Overall_Application_Performance"}
+  ],
+
+  "DRSQA_12494_Data": [
+    {"Label": "connectorName", "Value": "Zabbix"},
+    {"Label": "host", "Value": "__ZABBIX_HOST__"},
+    {"Label": "port", "Value": "8080"},
+    {"Label": "userName", "Value": "__ZABBIX_USERNAME__"},
+    {"Label": "password", "Value": "__USER_PASSWORD__"}
+  ],
+
+  "DRSQA_12460_Data": [
+    {"Label": "connectorName", "Value": "Dynatrace"},
+    {"Label": "host", "Value": "__DYNATRACE_HOST__"},
+    {"Label": "token", "Value": "__DYNATRACE_API_TOKEN__"},
+    {"Label": "deviceName", "Value": "__DYNATRACE_DEVICE_NAME__"},
+    {"Label": "monitorName", "Value": "cpu"},
+    {"Label": "serviceName", "Value": "DynatraceService_"},
+    {"Label": "blockToProcess", "Value": "add_ci_incl_related_to_service_DynatraceConnector"},
+    {"Label": "hostType", "Value": "host"},
+    {"Label": "metricName", "Value": "Process_CPU_usage"},
+    {"Label": "ciName", "Value": "__DYNATRACE_CI_NAME__"},
+    {"Label": "entity", "Value": "entity"},
+    {"Label": "alarm", "Value": "dynatraceAlarm"},
+    {"Label": "threshold", "Value": "0"},
+    {"Label": "duration", "Value": "0"}
+  ]
+
+}

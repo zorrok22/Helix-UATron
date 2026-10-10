@@ -1,0 +1,659 @@
+{
+  "DRSQA_11781_Data":[
+    {"Label":"HR_LOB","Value":"Human Resource"}
+  ],
+
+  "DRSQA_11523_Data":[
+  	{"Label":"articleName", "Value":"Sample BWFA article for BMCOps Monitoring"},
+  	{"Label":"agentMessage1", "Value":"Which Printer can I help you with"}
+  ],
+
+  "DRSQA_11524_Data":[
+    {"Label":"agentMessage1", "Value":"Which Printer can I help you with"},
+    {"Label":"agentMessage2", "Value":"I can help you with login issue"},
+    {"Label":"chatActionAbandon", "Value":"Abandon"}
+  ],
+
+  "DRSQA_11525_Data":[
+    {"Label":"resourceName", "Value":"Change My Address"},
+    {"Label":"resourceQuestion", "Value":"Enter the effective date for this change. (YYYY-MM-DD)"},
+    {"Label":"agentMessage1", "Value":"how may i help you.."},
+    {"Label":"agentMessage2", "Value":"reconnected with user"},
+    {"Label":"chatActionRelease", "Value":"Release"}
+  ],
+
+  "DRSQA_11642_Data":[
+    {"Label":"CustomerName", "Value":"@swaugh"},
+    {"Label":"FullName", "Value":"Steve Waugh"},
+    {"Label":"TemplateSearchText", "Value":"!move"},
+    {"Label":"TemplateName", "Value":"Move employee to new desk location"},
+    {"Label":"LOBValue", "Value":"Facilities"}
+
+
+  ],
+	
+  "DRSQA_11694_Data":[
+    {"Label":"Line of Business", "Value":"Human Resource"},
+    {"Label":"Template Name", "Value":"Udemy Training"},
+    {"Label":"Summary", "Value":"Test case for Udemy template verification"},
+    {"Label":"Description", "Value":"Verify case creation with Udemy template and DWP task activation"},
+    {"Label":"Requester", "Value":"bhill"},
+    {"Label":"BusinessUnit", "Value":"Learning and Development"},
+    {"Label":"UdemyAccessReason", "Value":"To enhance technical skills and stay updated with latest industry practices for better job performance"},
+    {"Label":"OnlineCourse", "Value":"Selenium WebDriver with Java - Basics to Advanced + Frameworks"},
+    {"Label":"DaysToAdd", "Value":"5"},
+    {"Label":"TaskName", "Value":"Udemy"},
+    {"Label":"TemplateName", "Value":"Udemy Training"},
+    {"Label":"Assign To Me", "Value":"true"},
+    {"Label":"Resolution Description", "Value":"On Site engineer should get the travelling allowance and site allowance as per the designation."}
+  ],
+
+  "BMCOpsCaseData":[
+    {"Label":"Requester", "Value":"bmcopsenduser"},
+    {"Label":"Requester Full Name", "Value":"BMCOps EndUser"},
+    {"Label":"Priority", "Value":"Medium"},
+    {"Label":"Summary", "Value":"BMCOps Sample Case"},
+    {"Label":"Description", "Value":"BMCOps Sample Case"},
+    {"Label":"Assign To Me", "Value":"true"},
+    {"Label":"TIER1", "Value":"BMCOps OpCat1"},
+    {"Label":"TIER2", "Value":"BMCOps OpCat2"},
+    {"Label":"TIER3", "Value":"BMCOps OpCat3"},
+    {"Label":"Line of Business", "Value":"Human Resource"}
+  ],
+
+  "BMCOpsKnowledgeData":[
+    {"Label":"ArticleTemplate","Value":"How To"},
+    {"Label":"ArticleTitle", "Value":"Sample BMCOps Knowledge article."},
+    {"Label":"Question", "Value":"Sample Article Question"},
+    {"Label":"Answer", "Value":"Sample Article Answer"},
+    {"Label":"KnowledgeSet", "Value":"BMCOpsMonitoring"},
+    {"Label":"SupportGroup", "Value":"BMCOpsMonitoring SupportGroup1"},
+    {"Label":"Assignee", "Value":"BMCOps SupportAgent"},
+    {"Label":"TIER1", "Value":"BMCOps OpCat1"},
+    {"Label":"TIER2", "Value":"BMCOps OpCat2"},
+    {"Label":"TIER3", "Value":"BMCOps OpCat3"},
+    {"Label":"REGION",  "Value":"Americas"},
+    {"Label":"SITE_GROUP", "Value":"United States"},
+    {"Label":"SITE", "Value":"Houston Support Center"},
+    {"Label":"Line of Business", "Value":"Human Resource"}
+  ],
+
+  "HelixDashboardCaseData":[
+    {"Label":"Requester", "Value":"bmcopsenduser"},
+    {"Label":"Priority", "Value":"Medium"},
+    {"Label":"Summary", "Value":"BMCOps Sample Case"},
+    {"Label":"Description", "Value":"BMCOps Sample Case"},
+    {"Label":"Assign To Me", "Value":"true"},
+    {"Label":"TIER1", "Value":"BMCOps OpCat1"},
+    {"Label":"TIER2", "Value":"BMCOps OpCat2"},
+    {"Label":"TIER3", "Value":"BMCOps OpCat3"},
+    {"Label":"LOB", "Value":"Human Resource"},
+    {"Label":"Assigned Group", "Value":"BMCOpsMonitoring Support Group1"},
+    {"Label":"Line of Business", "Value":"Human Resource"}
+  ],
+
+  "reverseCrossLaunchData": [
+    {"Label":"reportName", "Value":"Case Details"},
+    {"Label":"companyName", "Value":"BMCOpsMonitoring"}
+  ],
+	
+  "DRSQA_12972_Data": [
+    {"Label":"Requester", "Value":"Elizabeth Peters"},
+    {"Label":"Summary", "Value":"On site information is needed."},
+    {"Label":"Assign To Me", "Value":"true"},
+    {"Label":"Resolution Description", "Value":"On Site engineer should get the travelling allowance and site allowance as per the designation."},
+    {"Label":"settingsName", "Value":"Manage Line of Business"}
+  ],
+
+  "DRSQA_11718Data":[
+    {"Label": "Context","Value": "You requested detailed steps on how to create high-resolution screenshots from the Chrome browser for design or demo purposes, referencing a PDF titled “Creating high resolution screenshots from the Chrome browser.pdf”. "},
+    {"Label": "ExpectedResponse","Value": "Open the webpage in Chrome → press F12 or Ctrl+Shift+I to open Developer Tools → click the Toggle device toolbar icon → set the desired Dimensions (for example 1920×1080) → open the device toolbar menu and choose Capture full size screenshot. The screenshot will be saved to the Downloads folder and yields a high-resolution image suitable for design/demos."},
+    {"Label": "input","Value": "How to Create high resolution screenshots from the Chrome browser.pdf."}
+  ],
+
+  "DRSQA_11777Data":[
+    {"Label":"Requester","Value":"Sarah Connor"},
+    {"Label":"Summary", "Value":"Case Creation for For GPT Search feature"},
+    {"Label":"Description", "Value":"This is sample case creation to check GPT in BWF."},
+    {"Label":"User", "Value":"Elizabeth"},
+    {"Label":"settingName", "Value": "Manage Line of Business"},
+    {"Label":"appConfigTabName", "Value": "HelixGPT"},
+    {"Label":"configName","Value": "HelixGPT for Global Search"},
+    {"Label":"globalSearchURL","Value": "com.bmc.dsm.bwfa:Global%20Search%20View"},
+    {"Label":"personName","Value": "Elizabeth Peters"},
+    {"Label":"kaName","Value": "FMLA"},
+    {"Label":"Line of Business","Value":"Human Resource"}
+  ],
+	
+  "DRSQA_12838_BWF_HelixGPT_Agent":[
+    {"Label":"SettingsName", "Value":"Manage Line Of Business"}
+  ],
+
+  "DRSQA_12282Data": [
+    {"Label":"Requester","Value":"Fritz Schulz"},
+    {"Label":"Summary", "Value":"How to resolve outlook issue?"},
+    {"Label":"Description", "Value":"Outlook is not syncing emails properly. New emails are not being received, and sent items are not updating. Users may experience delays in email delivery, connectivity errors, or Outlook becoming unresponsive."},
+    {"Label":"Assign To Me", "Value":"true"},
+    {"Label":"Input","Value":"How to resolve outlook issue?"},
+    {"Label":"Context","Value":"outlook issue description"},
+    {"Label":"ExpectedResponse","Value":"Overview * Problem description: The case pertains to an issue encountered with Outlook, requiring guidance on resolution steps." },
+    {"Label":"Line of Business","Value":"Human Resource"}
+  ],
+
+  "DRSQA_11517_Data": [
+    {"Label":"LOBName","Value":"Finance"},
+    {"Label":"BWFComment","Value":"BWF Public comment on case"},
+    {"Label":"BWFComment2","Value":"BWF Public comment on case with mentioning user"},
+    {"Label":"MentionedUser","Value":"bhill"},
+    {"Label":"BWFAttachment","Value":"DRSQA_11517.txt"}
+  ],
+
+  "DRSQA_11508_VerifyCaseCreation":[
+    {"Label":"HR_LOB", "Value":"Human Resource"},
+    {"Label":"Summary", "Value":"Accounting or Auditing Complaint"},
+    {"Label":"Priority", "Value":"High"},
+    {"Label":"resolvedState","Value": "Resolved"},
+    {"Label":"resolvedStateReason", "Value": "Auto Resolved"},
+    {"Label":"Source", "Value":"Digital Workplace"}
+  ],
+  
+  "DRSQA_11509_TestData":[
+    {"Label":"Line of Business", "Value":"Facilities"},
+    { "Label":"Summary",  "Value":"I want to move my office"},
+    {   "Label":"Status", "Value":"Pending"},
+    {   "Label":"Source",  "Value":"Digital Workplace"},
+    {   "Label":"TIER1", "Value":"Facilities"},
+    {   "Label":"TIER2", "Value": "Space Management"},
+    {   "Label":"Flowset", "Value": "Facilities Management"},
+    {   "Label":"CaseTemplateValue", "Value": "Move employee to new desk location"},
+    {   "Label":"SupportGroup", "Value": "Petramco > Facilities Support > Facilities"},
+    {   "Label":"Requester", "Value": "Franz Schwarz"},
+    {   "Label":"Contact", "Value": "Radha Menon"},
+    {   "Label":"Company", "Value": "Petramco"},
+    {   "Label":"FullName", "Value": "Frieda Hoffmann"}
+  ],
+  
+  "DRSQA_11769_caseData":[
+	{"Label":"Line of Business", "Value":"Human Resource"},
+	{"Label":"Requester", "Value":"Fritz Schulz"},
+	{"Label":"Template Name", "Value":"Udemy Training"},
+  {"Label":"Que1", "Value":"What is your Business Unit?"},
+  {"Label":"value1", "Value":"Test"},
+  {"Label":"Que2", "Value":"Why do you need access to Udemy?"},
+  {"Label":"value2", "Value":"Test"},
+  {"Label":"Que3", "Value":"Which Online training course do you want to take?"},
+    {   "Label":"value3", "Value":"Test"},
+    {   "Label":"TaskName", "Value":"Grant Udemy account access to an employee"},
+    {   "Label":"AddTaskOption1", "Value":"Add a sequential task"},
+    {   "Label":"AddTaskOption2", "Value":"Add a parallel task"},
+    {   "Label":"AddParallelTaskOption1", "Value":"Add a task from a template"},
+    {   "Label":"AddParallelTaskOption2", "Value":"Add an adhoc task"},
+    {   "Label":"AddAdhocTaskOption1", "Value":"Manual"},
+    {   "Label":"AddAdhocTaskOption2", "Value":"To Do"},
+    {   "Label":"TaskTitle", "Value":"Task title"},
+    {   "Label":"TaskTitleValue", "Value":"To do Parallel task"},
+    {   "Label":"TaskSummary", "Value":"Task Summary"},
+    {   "Label":"TaskSummaryValue", "Value":"To do Parallel task"},
+    {   "Label":"TaskTargetDays", "Value":"Target days to complete"},
+    {   "Label":"TaskTargetDaysValue", "Value":"2"},
+    {   "Label":"AssignToMe", "Value":"true"},
+    {   "Label":"AssigneeValue", "Value":"Fritz Schulz"},
+    {   "Label":"SequentialTaskTitleValue", "Value":"To Do Sequential Task"},
+    {   "Label":"SequentialTaskSummaryValue", "Value":"To Do Sequential Task"},
+    {   "Label":"SequentialAssigneeValue", "Value":"Frieda Hoffmann"},
+    {   "Label":"Status", "Value":"In Progress"}
+  ],
+
+  "DRSQA_11619_BWF_Case":[
+	{"Label":"Line of Business", "Value":"Human Resource"},
+	{"Label":"StatusResolved", "Value":"Resolved"},
+	{"Label":"StatusReason", "Value":"Auto Resolved"}
+  ],
+
+  "DRSQA_11549_BWFApprovalCrossLaunch":[
+    {"Label": "HR_LOB", "Value": "Human Resource"},
+    {"Label": "Status", "Value": "Pending"}
+  ],
+
+  "DRSQA_16264Data":[
+    {"Label":"Requester", "Value":"bmcopsenduser"},
+    {"Label":"Priority", "Value":"Medium"},
+    {"Label":"Summary", "Value":"BMCOps Sample Case"},
+    {"Label":"Description", "Value":"BMCOps Sample Case"},
+    {"Label":"Assign To Me", "Value":"true"},
+    {"Label":"TIER1", "Value":"BMCOps OpCat1"},
+    {"Label":"TIER2", "Value":"BMCOps OpCat2"},
+    {"Label":"TIER3", "Value":"BMCOps OpCat3"},
+    {"Label":"LOB", "Value":"Human Resource"},
+    {"Label":"Company", "Value":"BMCOpsMonitoring"},
+    {"Label":"Assigned Group", "Value":"BMCOpsMonitoring Support Group1"},
+    {"Label":"Line of Business", "Value":"Human Resource"},
+    {"Label":"personName", "Value":"BMCOps EndUser"},
+    {"Label":"kaName", "Value":"Sample BWFA article for BMCOps Monitoring"}
+  ],
+
+  "DRSQA_12838_Data":[
+    {"Label":"HelixGPTGlobalSearchConfig", "Value":"HelixGPT for Global Search"},
+    {"Label":"ConfigValue", "Value":"true"},
+    {"Label":"LineOfBusiness", "Value":"Human Resource"},
+    {"Label":"Query1", "Value":"Search for support group worked on highest number of cases"},
+    {"Label":"Context1", "Value":"Query requesting the support group that handled the most cases"},
+    {"Label":"ExpectedResponse1", "Value":"The support group that worked on the highest number of cases is Workforce Administration with thousands of cases. The response includes the support group name and the number of cases they handled."},
+    {"Label":"Query2", "Value":"List of cases belongs to Finance LOB"},
+    {"Label":"Context2", "Value":"Query for cases in Finance Line of Business"},
+    {"Label":"ExpectedResponse2", "Value":"Here is the list of cases belonging to the Finance Line of Business. The response should display case details including display ID, summary, create date, and full name for each case."},
+    {"Label":"Query3", "Value":"Show list of cases which needs attention"},
+    {"Label":"Context3", "Value":"Query for cases that need attention"},
+    {"Label":"ExpectedResponse3", "Value":"Here is a list of cases that need attention with case details and status information."},
+    {"Label":"Query4", "Value":"show me cases requested by Fritz"},
+    {"Label":"Context4", "Value":"Query for cases associated with Fritz including cases he requested or is involved with"},
+    {"Label":"ExpectedResponse4", "Value":"Here are cases associated with Fritz showing case details such as case ID, summary, dates, and assignment information. The response includes a list of cases in table format."},
+    {"Label":"Query5", "Value":"Show Cases which are Pending Approval"},
+    {"Label":"Context5", "Value":"Query for cases pending approval"},
+    {"Label":"ExpectedResponse5", "Value":"Here are cases that are currently pending approval with their case details and approval status."},
+    {"Label":"Query6", "Value":"Show all Cases created between START_DATE till END_DATE"},
+    {"Label":"Context6", "Value":"Query for cases created within a specific date range"},
+    {"Label":"ExpectedResponse6", "Value":"Here are all Cases created between the specified date range showing case details with creation dates."}
+  ],
+  
+  "DRSQA_11712_Data":[
+    {"Label":"Line of Business", "Value":"Human Resource"},
+    {"Label":"Template Name", "Value":"Udemy Training"},
+    {"Label":"Summary", "Value":"Test case for Udemy template verification"},
+    {"Label":"Description", "Value":"Verify case creation with Udemy template and DWP task activation"},
+    {"Label":"Requester", "Value":"bhill"},
+    {"Label":"BusinessUnit", "Value":"Learning and Development"},
+    {"Label":"AccessReason", "Value":"To enhance technical skills and stay updated with latest industry practices for better job performance"},
+    {"Label":"CourseName", "Value":"Selenium WebDriver with Java - Basics to Advanced + Frameworks"},
+    {"Label":"DaysToAdd", "Value":"5"},
+    {"Label":"TaskName", "Value":"Udemy"}
+  ],
+
+  "DRSQA_11535_TestData": [
+    {"Label":"ArticleTemplate","Value":"How To"},
+    {"Label":"KnowledgeSet","Value":"HR"},
+    {"Label":"TIER1","Value":"Employee Relations"},
+    {"Label":"TIER2","Value":"Compensation"},
+    {"Label":"TIER3","Value":"Bonus"},
+    {"Label":"TIER4","Value":"GICP"},
+    {"Label":"REGION","Value":"Americas"},
+    {"Label":"SITE_GROUP","Value":"Human Resources"},
+    {"Label":"SITE","Value":"Petramco Site1"},
+    {"Label":"Line of Business","Value":"Human Resource"},
+    {"Label":"PublishApprovalStatus","Value":"Publish Approval"},
+    {"Label":"PublishedStatus","Value":"Published"},
+    {"Label":"FeedbackRating","Value":"Good"},
+    {"Label": "External","Value": "Yes"},
+    {"Label": "Internal","Value": "No"}
+  ],
+
+  "DRSQA_11511_TestData": [
+    {"Label":"ArticleTemplate","Value":"How To"},
+    {"Label":"KnowledgeSet","Value":"HR"},
+    {"Label":"TIER1","Value":"Employee Relations"},
+    {"Label":"TIER2","Value":"Compensation"},
+    {"Label":"TIER3","Value":"Bonus"},
+    {"Label":"TIER4","Value":"GICP"},
+    {"Label":"REGION","Value":"Americas"},
+    {"Label":"SITE_GROUP","Value":"Human Resources"},
+    {"Label":"SITE","Value":"Petramco Site1"},
+    {"Label":"Line of Business","Value":"Human Resource"},
+    {"Label":"External","Value":"Yes"}
+  ],
+
+  "DRSQA_11495_CreateCase": [
+    {"Label":"Line of Business","Value":"Finance"},
+    {"Label":"Requester","Value":"Franz Schwarz"},
+    {"Label":"Summary","Value":"DRSQA_11495 Finance case"},
+    {"Label":"Description","Value":"DRSQA_11495 - Created for cross-launch validation"},
+    {"Label":"Assign To Me","Value":"true"}
+  ],
+
+  "DRSQA_11554_BWFData": [
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"RequestIdLabel","Value":"Request ID"},
+    {"Label":"QuestionLabelNewName","Value":"New Name"},
+    {"Label":"StatusReasonPending","Value":"Customer Response"},
+    {"Label":"Task1","Value":"Verify the documentation"},
+    {"Label":"Task2","Value":"Update the employees name"}
+  ],
+
+  "DRSQA_11551_BWFData": [
+    {"Label":"HR_LOB","Value":"Human Resource"}
+  ],
+
+  "DRSQA_11633_TestData":[
+    {"Label":"Line of Business","Value":"Human Resource"},
+    {"Label":"Requester","Value":"Sarah Connor"},
+    {"Label":"Template Name","Value":"HR BWF - ITSM Incident Management Integration"},
+    {"Label":"Template To Use","Value":"Billing Service Issue"},
+    {"Label":"Task Name","Value":"HR Incident using Automated Task"},
+    {"Label":"ExpectedExternalIdPrefix","Value":"INC"},
+    {"Label":"ExpectedResolvedStatus","Value":"Resolved"}
+  ],
+
+  "DRSQA_11485_TestData":[
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"ApproverCommentToVerify","Value":"Comment from Approver in DWP with attachment"},
+    {"Label":"EndUserCommentToVerify","Value":"End User comment in DWP"},
+    {"Label":"AttachmentName","Value":"DRSQA_11485.txt"}
+  ],
+
+  "DRSQA_11449_TestData": [
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"Summary", "Value":"Overpaid / Underpaid"},
+    {"Label":"Status", "Value":"Pending"},
+    {"Label":"Source", "Value":"Digital Workplace"},
+    {"Label":"CaseTemplateValue", "Value": "Overpaid / Underpaid"},
+    {"Label":"ActivityTabTitle","Value": "Case was approved"},
+    {"Label":"ResolvedState","Value": "Resolved"},
+    {"Label":"ResolvedStateReason", "Value": "Auto Resolved"},
+    {"Label":"InProgressState","Value": "In Progress"},
+    {"Label":"ActivityTitleAfterReopen","Value": "reopened the case"},
+    {"Label":"AssignedState","Value": "Assigned"},
+    {"Label":"PendingState","Value": "Pending"},
+    {"Label":"PendingStateReason","Value": "Customer Response"},
+    {"Label":"ApproverName", "Value": "Sam Adam"},
+    {"Label":"EditedCaseTemplate","Value": "Spot Bonus Request"}
+  ],
+
+  "DRSQA_11447_TaskHistory": [
+    {"Label":"LineOfBusiness","Value":"Human Resource"},
+    {"Label":"BWFCaseConsoleUserKey","Value":"Peter"},
+    {"Label":"CaseDetailLabelCaseTemplate","Value":"Case Template"},
+    {"Label":"CaseDetailRequestID","Value":"Request ID"},
+    {"Label":"AuditLabelSummary","Value":"Summary"},
+    {"Label":"AuditLabelStatus","Value":"Status"},
+    {"Label":"AuditLabelAssignee","Value":"Assignee"},
+    {"Label":"AuditLabelAssignedCompany","Value":"Assigned Company"},
+    {"Label":"AuditLabelAssignedBU","Value":"Assigned Business Unit"},
+    {"Label":"AuditLabelDescription","Value":"Description"},
+    {"Label":"AuditLabelCategoryTier1","Value":"Category Tier 1"},
+    {"Label":"AuditLabelCategoryTier2","Value":"Category Tier 2"},
+    {"Label":"AuditLabelCategoryTier3","Value":"Category Tier 3"},
+    {"Label":"AuditLabelPriority","Value":"Priority"},
+    {"Label":"AuditLabelAssignedGroup","Value":"Assigned Group"},
+    {"Label":"AuditLabelContact","Value":"Contact"},
+    {"Label":"Template","Value":"Generate Employee Verification Letter"},
+    {"Label":"TaskSummary","Value":"Review the request for employment verification."},
+    {"Label":"Status","Value":"Staged"},
+    {"Label":"Assignee","Value":"Allen Allbrook"},
+    {"Label":"AssignedCompany","Value":"Petramco"},
+    {"Label":"AssignedBU","Value":"HR Support"},
+    {"Label":"Description","Value":"Make sure employee has filled out the appropriate documentation so that we can release their employment information."},
+    {"Label":"CategoryTier1","Value":"Workforce Administration"},
+    {"Label":"Priority","Value":"High"},
+    {"Label":"AssignedGroup","Value":"Workforce Administration"}
+  ],
+
+  "DRSQA_11448_VerifyCaseDetails": [
+    {"Label":"FACILITIES_LOB","Value":"Facilities"},
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"BWFCaseConsoleUserKey","Value":"Peter"},
+    {"Label":"ExpectedCasesForReqId1","Value":"1"},
+    {"Label":"ExpectedCasesForReqId2","Value":"2"}
+  ],
+
+  "DRSQA_11506_CaseSelfApprovalOfRequest":[
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"Summary","Value":"UI Automation: Case Approval - self-approval"},
+    {"Label":"Tier1","Value":"Total Rewards"},
+    {"Label":"Tier2","Value":"Compensation"},
+    {"Label":"Tier3","Value":"Recognition Awards"},
+    {"Label":"Status","Value":"In Progress"},
+    {"Label":"ActivityMessageSelf","Value":"Case was auto-approved"}
+  ],
+
+  "DRSQA_11507_TestData":[
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"Summary","Value":"Employee Spot Bonus"},
+    {"Label":"Category Tier 1","Value":"Total Rewards"},
+    {"Label":"Category Tier 2","Value":"Compensation"},
+    {"Label":"Category Tier 3","Value":"Recognition Awards"},
+    {"Label":"Requester","Value":"Bobby Hill"},
+    {"Label":"ApproverFullName","Value":"Felix Cat"},
+    {"Label":"CaseStatusAfterApproval","Value":"In Progress"},
+    {"Label":"CaseStatusAfterRejection","Value":"Canceled"},
+    {"Label":"InProgressNotificationTemplate","Value":"System changed the status of %s to In Progress"},
+    {"Label":"CanceledNotificationTemplate","Value":"System changed the status of %s to Canceled"},
+    {"Label":"SearchColumnName","Value":"Request ID"}
+  ],
+
+  "DRSQA_11626_TestData":[
+    {"Label":"CustomerName", "Value":"Fritz"},
+    {"Label":"CustomerFullName", "Value":"Fritz Schulz"},
+    {"Label":"TemplateSearchText", "Value":"!Paid Time Off"},
+    {"Label":"TemplateName", "Value":"Employee has asked for time off"},
+    {"Label":"SummaryPrefix", "Value":"DRSQA11626_Reopen"},
+    {"Label":"Description", "Value":"DRSQA11626 - Created to validate resolution note + reopen"},
+    {"Label":"TaskSummary", "Value":"Add the employees PTO to the HCM Calendar"},
+    {"Label":"InProgressState", "Value":"In Progress"},
+    {"Label":"ResolvedState", "Value":"Resolved"},
+    {"Label":"ResolvedStateReason", "Value":"Auto Resolved"},
+    {"Label":"ResolutionDescription", "Value":"Resolution note: we will monitor the case."},
+    {"Label":"RequestIdFieldLabel", "Value":"Request ID"}
+  ],
+
+  "DRSQA_11487_TestData":[
+    {"Label":"LOB","Value":"Finance"},
+    {"Label":"Summary","Value":"Accounting or Auditing Complaint"},
+    {"Label":"Requester","Value":"Bobby Hill"},
+    {"Label":"Status","Value":"Pending"},
+    {"Label":"Source","Value":"Digital Workplace"},
+    {"Label":"TaskSummary","Value":"Treatment of Complaints"},
+    {"Label":"TaskStatus","Value":"Assigned"},
+    {"Label":"InProgressNotificationTemplate","Value":"System changed the status of %s to In Progress"},
+    {"Label":"TaskAssignedNotificationTemplate","Value":"System changed status of %s to Assigned"}
+  ],
+
+  "DRSQA_11463_TestData":[
+    {"Label":"LOB","Value":"Human Resource"},
+    {"Label":"CommonSettingRequest","Value":"CASE_ALLOW_ADHOC_APPROVAL"},
+    {"Label":"CaseTemplate","Value":"Ergonomic Assessment"},
+    {"Label":"Summary","Value":"Summary for DRSQA_11463"},
+    {"Label":"Description","Value":"Summary for DRSQA_11463"},
+    {"Label":"Site","Value":"Frankfurt"},
+    {"Label":"AssignedGroup","Value":"Petramco > HR Support > Employee Relations"},
+    {"Label":"Priority","Value":"High"},
+    {"Label":"LOBValue","Value":"Human Resource"}
+  ],
+
+  "DRSQA_11499_TestData":[
+    {"Label":"LOB","Value":"Human Resource"},
+    {"Label":"Priority","Value":"Medium"},
+    {"Label":"Source","Value":"Digital Workplace"},
+    {"Label":"Summary","Value":"DRSQA_11499 Text Value"},
+    {"Label":"TIER1","Value":"Workforce Administration"},
+    {"Label":"Multi-select Question","Value":"Dog, Bird"},
+    {"Label":"Radio Button Question","Value":"On"},
+    {"Label":"Toggle Question","Value":"Yes"},
+    {"Label":"Checkbox Question","Value":"Orange, Green"},
+    {"Label":"Dropdown Question","Value":"Violet"},
+    {"Label":"Default Text Question","Value":"All Questions"},
+    {"Label":"Lookup Question from BWF","Value":"Change My Legal Name"},
+    {"Label":"Lookup Question from ITSM","Value":"Rose James"},
+    {"Label":"Counter","Value":"1"},
+    {"Label":"Attachment Question","Value":"DRSQA_11499"},
+    {"Label":"Select city","Value":"Pune"},
+    {"Label":"dynamicUser","Value":"Tom Cruise"},
+    {"Label":"updatedDynamicUser","Value":"Peter Pan"},
+    {"Label":"Assigned Group","Value":"Workforce Administration"},
+    {"Label":"Site","Value":"San Jose"}
+  ],
+
+  "DRSQA_11571_VerifyCaseDetails_ForTemplateLOB":[
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"FACILITIES_LOB","Value":"Facilities"},
+    {"Label":"Summary","Value":"DRSQA_11571 request time off"},
+    {"Label":"Status","Value":"Pending"},
+    {"Label":"CaseTemplateValue","Value":"Paid Time Off Request"},
+    {"Label":"LOB","Value":"Human Resource"},
+    {"Label":"CaseTemplateId","Value":"AGGCEME2HPULZAOQMNX3OPQLPURSV1"}
+  ],
+
+  "DRSQA_11571_VerifyCaseDetails_WithoutTemplateAndDifferentLOBInput":[
+    {"Label":"FACILITIES_LOB","Value":"Facilities"},
+    {"Label":"Summary","Value":"DRSQA_11571 request time off"},
+    {"Label":"LOB","Value":"Facilities"}
+  ],
+
+  "DRSQA_11571_VerifyCaseDetails_WithoutTemplateAndLOB":[
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"Summary","Value":"DRSQA_11571 request time off"},
+    {"Label":"LOB","Value":"Facilities"}
+  ],
+
+  "DRSQA_11459_TestData":[
+    {"Label":"Summary","Value":"DRSQA_11459 Text Value"},
+    {"Label":"Priority","Value":"Medium"},
+    {"Label":"Source","Value":"Digital Workplace"},
+    {"Label":"ConfidentialMaskedValue","Value":"******"},
+    {"Label":"Expected_MultiSelect","Value":"Dog, Bird"},
+    {"Label":"Expected_Radio","Value":"On"},
+    {"Label":"Expected_Toggle","Value":"Yes"},
+    {"Label":"Expected_Checkbox","Value":"Orange, Green"},
+    {"Label":"Expected_Dropdown","Value":"Violet"},
+    {"Label":"Expected_LookupBWF","Value":"Change My Legal Name"},
+    {"Label":"Expected_LookupITSM","Value":"Rose James"},
+    {"Label":"Expected_Counter","Value":"1"},
+    {"Label":"Expected_SelectCity","Value":"Pune,Maharashtra,India"},
+    {"Label":"Expected_Occupation","Value":"Developer, QA"},
+    {"Label":"Field_MultiSelect","Value":"Multi-select Question"},
+    {"Label":"Field_Radio","Value":"Radio Button Question"},
+    {"Label":"Field_Toggle","Value":"Toggle Question"},
+    {"Label":"Field_Checkbox","Value":"Checkbox Question"},
+    {"Label":"Field_Dropdown","Value":"Dropdown Question"},
+    {"Label":"Field_DateTime","Value":"Date/Time Question"},
+    {"Label":"Field_LookupBWF","Value":"Lookup Question from BWF (Case Template)"},
+    {"Label":"Field_LookupITSM","Value":"Lookup Question from ITSM (End User)"},
+    {"Label":"Field_Counter","Value":"Counter"},
+    {"Label":"Field_Attachment","Value":"Attachment Question"},
+    {"Label":"Field_SelectCity","Value":"Select city"},
+    {"Label":"Field_Occupation","Value":"Occupation"},
+    {"Label":"Field_HiddenToggle","Value":"Toggle Question"}
+  ],
+
+  "DRSQA_11458_TestData":[
+    {"Label":"LOB","Value":"Human Resource"},
+    {"Label":"TitleValue","Value":"DRSQA_11458 Summary"},
+    {"Label":"Template","Value":"Tuition Reimbursement"},
+    {"Label":"ConfidAnswer","Value":"*****"},
+    {"Label":"Counter","Value":"1"},
+    {"Label":"ConfidGroup","Value":"Sensitive Personal Data (HR)"},
+    {"Label":"Tier1","Value":"Total Rewards"},
+    {"Label":"Tier2","Value":"Expatriate Administration"},
+    {"Label":"StatusPending","Value":"Pending"},
+    {"Label":"StatusInProgress","Value":"In Progress"}
+  ],
+
+  "DRSQA_11427_Surveys":[
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"StatusAssigned","Value":"Assigned"},
+    {"Label":"StatusInProgress","Value":"In Progress"},
+    {"Label":"StatusResolved","Value":"Resolved"},
+    {"Label":"StatusReason","Value":"Auto Resolved"},
+    {"Label":"RatingExcellent","Value":"5"},
+    {"Label":"RatingOkay","Value":"3"},
+    {"Label":"SurveyComment","Value":"Survey - excellent DRSQA_11427"},
+    {"Label":"ManageLOBSettingName","Value":"Manage Line of Business"},
+    {"Label":"ApplicationConfigTabName","Value":"Application Configurations"},
+    {"Label":"ApplicationConfigName","Value":"ADD_DWP_SURVEY_ON_CASE"},
+    {"Label":"ApplicationConfigValueOn","Value":"true"},
+    {"Label":"ApplicationConfigValueOff","Value":"false"},
+    {"Label":"RatingFieldLabel","Value":"Rating"},
+    {"Label":"CommentFieldLabel","Value":"Comment"},
+    {"Label":"CaseTemplateName","Value":"401K Status"}
+  ],
+
+  "DRSQA11733_CreateCase":[
+    { "Label":"Line of Business", "Value":"Human Resource" },
+    { "Label":"Requester","Value":"Sarah Connor"},
+    { "Label":"Summary", "Value":"Case Creation for relating change to ticket"},
+    { "Label":"Description", "Value":"This is sample case creation to relate change in BWF."},
+    { "Label":"User", "Value":"Elizabeth"},
+    { "Label":"Company", "Value":"Petramco"},
+    { "Label":"settingName", "Value":"Manage Line of Business"},
+    { "Label":"appConfigTabName", "Value":"Application Configurations"},
+    { "Label":"configName", "Value":"CASE_ITSM_INTEGRATION"},
+    { "Label":"configName2","Value":"ASSET_INTEGRATION"},
+    { "Label":"Create_DropDown_Options", "Value":"Change,Incident,Work order"},
+    { "Label":"changeDropdown","Value": "Change"},
+    { "Label":"customerlabel","Value": "CUSTOMER"},
+    { "Label":"summaryLabel","Value": "SUMMARY"},
+    { "Label":"companyLabel","Value": "COMPANY"},
+    { "Label":"impactValue","Value": "4-Minor/Localized"},
+    { "Label":"urgencyValue","Value": "4-Low"},
+    { "Label":"classValue","Value": "Emergency"},
+    { "Label":"riskValue","Value": "Risk Level 5"},
+    { "Label":"ManagerOrgLabel","Value":"Manager organization"},
+    { "Label":"managerOrgValue","Value": "Australia Support"},
+    { "Label":"managerGroupValue","Value": "AU Support 1"},
+    { "Label":"ciValue","Value": "Computer System"},
+    { "Label":"CITypeLabel","Value":"CI type"},
+    { "Label":"CustomerFieldLabel","Value":"Customer"},
+    { "Label":"CompanyFieldLabel","Value":"Company"},
+    { "Label":"ManagerGroupLabel","Value":"Manager group name"},
+    { "Label":"LOBValue","Value":"Human Resource"}
+  ],
+
+  "DRSQA11652_TestData":[
+      {   "Label": "CommonSettingRequest", "Value": "CASE_ITSM_INTEGRATION"},
+      {   "Label":"Line of Business", "Value":"Human Resource" },
+      {   "Label":"Requester","Value":"Fritz Schulz"},
+      {   "Label":"Relate_DropDown_Options", "Value":"Case,Change,Incident,Problem,Work order"},
+      {   "Label":"Create_DropDown_Options", "Value":"Change,Incident,Work order"},
+      {   "Label":"Incident_Type", "Value":"User Service Request"},
+      {   "Label":"Urgency", "Value":"4-Low"},
+      {   "Label":"Impact", "Value":"4-Minor/Localized"},
+      {   "Label":"RelationShip_Type_Status", "Value":"Related to"},
+      {   "Label":"Summary", "Value":"TTID_18024 Sample case creation"},
+      {   "Label":"Private_Note", "Value":"TTID_18024 Sample private note"},
+      {   "Label":"Work_Note_Type", "Value":"General Information"},
+      {   "Label":"Public_Note", "Value":"TTID_18024 Sample public note"},
+      {   "Label":"ApplicationName","Value":"BMC Helix Dashboards"},
+      {   "Label":"Error_Message","Value":"Related BMC Helix Business workflow cases cannot be removed"},
+      {   "Label":"First_Activity","Value":"added a note"},
+      {   "Label":"Second_Activity","Value":"added a note"},
+      {   "Label":"Third_Activity","Value":"created the case"},
+      {   "Label":"Fourth_Activity","Value":"viewed the case."},
+      {   "Label":"Fifth_Activity","Value":"as a Related to incident."},
+      {   "Label":"Sixth_Activity","Value":"viewed the case."},
+      {   "Label":"Seventh_Activity","Value":"%s was flagged from a new comment or email"},
+      {   "Label":"Eighth_Activity","Value":"created the case"},
+      {   "Label": "appConfigTabName", "Value": "HelixGPT"},
+      {   "Label": "configName","Value": "HelixGPT for Global Search"}
+    ],
+    
+
+  "DRSQA_11480_VerifyCaseDetails": [
+    {"Label":"BWFUserKey","Value":"Elizabeth"},
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"Summary1","Value":"Summary for child dependent service 1"},
+    {"Label":"Priority","Value":"Medium"},
+    {"Label":"Source","Value":"Digital Workplace"},
+    {"Label":"Description2","Value":"Description for child dependent service 2"}
+  ],
+
+  "TTID_34408_caseData":[
+    {"Label":"BWFUserKey","Value":"Elizabeth"},
+    {"Label":"LOB","Value":"Facilities"},
+    {"Label":"todo1Summary","Value":"Personal details for ID card"},
+    {"Label":"todo2Summary","Value":"ID card receipt"}
+  ],
+
+  "DRSQA_11654_VerifyCaseDetails": [
+    {"Label":"BWFUserKey","Value":"Elizabeth"},
+    {"Label":"HR_LOB","Value":"Human Resource"},
+    {"Label":"QuestionName","Value":"Repeat1"},
+    {"Label":"PreviewMessage","Value":"Attachment preview is not available."}
+  ],
+
+  "DRSQA_11534_Anonymization": [
+    {   "Label":"Comment1",  "Value":"DRCES-910 comment from BWF before anon"},
+    {   "Label":"Comment2", "Value": "DRCES-910 comment from BWF after anon"},
+    {   "Label":"Comment3",  "Value":"DRCES-910 comment from BWF with Requester"},
+    {   "Label":"Status", "Value":"Pending"},
+    {   "Label":"Priority", "Value":"High"},
+    {   "Label":"ConfigName", "Value":"HIDE_AGENT_NAME_FROM_REQUESTER"}
+  ]
+}

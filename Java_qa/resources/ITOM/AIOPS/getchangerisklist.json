@@ -1,0 +1,1 @@
+{"parameters":{"offset":0,"sort":{"attribute":"change_id","order":-1},"filters":[],"limit":20,"method":"get_changes"}}

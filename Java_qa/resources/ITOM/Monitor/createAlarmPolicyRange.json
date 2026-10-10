@@ -1,0 +1,40 @@
+{
+	"entityThresholds": [
+		{
+			"metricDetails": {
+				"entityTypeId": "<entityTypeId>",
+				"metricId": "<metricId>",
+				"label": "<label>",
+				"unit": "<unit>",
+				"path": "<path>"
+			},
+			"entityDetails": {},
+			"order": 0,
+			"isEvaluationCriteriaValid": false,
+			"alarmConfigurations": [
+				{
+					"condition": {
+						"comparison": "<condition>",
+						"baseline": false,
+						"startRange": <startRange>,
+						"endRange": <endRange>,
+						"numPolls": 1,
+						"duration": -1
+					},
+					"action": {
+						"severity": "<severity>",
+						"autoClose": true,
+						"closeDuration": 0
+					},
+					"configOrder": 0
+				}
+			],
+			"type": "ALL",
+			"evaluationCriteria": ""
+		}
+	],
+	"enabled": true,
+	"policyName": "<PolicyName>",
+	"description": "<PolicyName>",
+	"executionOrder": 9989
+}

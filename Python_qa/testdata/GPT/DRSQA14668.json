@@ -1,0 +1,15 @@
+{
+  "GPTData": {
+    "input": "Image showing a jammed printer with the heading '[QUICK FIX] How To Fix Paper Jam in Printer?' and URL linking to a printer support page",
+    "context": [
+      "The user is seeking troubleshooting assistance for printer paper jam issues based on visual content. The response should provide comprehensive printer paper jam resolution guidance covering multiple scenarios and prevention strategies.",
+      "Core focus areas: paper jam troubleshooting steps, root cause identification, and preventive maintenance. The response should be practical and actionable for common printer models and jam situations.",
+      "System messages about printer maintenance, safety warnings, or manufacturer-specific guidance are acceptable contextual elements that enhance the troubleshooting experience."
+    ],
+    "expected_components": [
+      "Comprehensive step-by-step instructions for resolving paper jams in various printer components (exit cover areas, paper trays, document feeders, internal mechanisms). Each solution should be clear and actionable.",
+      "Root cause analysis covering common paper jam triggers such as overfilled paper trays, incorrect paper sizing, worn rollers, foreign objects, or environmental factors that contribute to jamming issues.",
+      "Preventive maintenance recommendations including proper paper loading techniques, regular cleaning procedures, paper quality considerations, and environmental controls to minimize future jam occurrences. Additional printer care tips and manufacturer guidance are valuable enhancements."
+    ]
+  }
+}

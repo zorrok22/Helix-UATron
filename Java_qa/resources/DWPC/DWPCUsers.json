@@ -1,0 +1,28 @@
+{
+  "pbunyon":[
+		{"Label":"UserName","Value":" pbunyon"},
+		{"Label":"Password",  "Value":"__USER_PASSWORD__"}
+	],
+
+  "Fritz":[
+		{"Label":"UserName","Value":"Fritz"},
+		{"Label":"Password","Value":"__USER_PASSWORD__"}
+	],
+	
+  "Liam_User":[
+		{"Label":"UserName","Value":"Liam"},
+		{"Label":"Password","Value":"__USER_PASSWORD__"}
+	],
+  "bhill":[
+		{"Label":"UserName","Value":"bhill"},
+		{"Label":"Password","Value":"__USER_PASSWORD__"}
+	],
+  "hannah_admin":[
+		{"Label":"UserName","Value":"hannah_admin"},
+		{"Label":"Password","Value":"__USER_PASSWORD__"}
+	],
+	"rjames":[
+		{"Label":"UserName","Value":"rjames"},
+		{"Label":"Password","Value":"__USER_PASSWORD__"}
+	]
+}

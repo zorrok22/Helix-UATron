@@ -1,0 +1,9 @@
+{
+    "name": "${0}",
+    "dataSourceId": "${1}",
+    "clientId": "__SHAREPOINT_CLIENT_ID__",
+    "clientSecret": "__SHAREPOINT_CLIENT_SECRET__",
+    "site": "your-tenant.sharepoint.com/sites/your-site",
+    "tenantId": "__AZURE_TENANT_ID__",
+    "tenantName": "YourTenant"
+  }

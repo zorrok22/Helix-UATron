@@ -1,0 +1,7 @@
+{
+	"serviceKey": "<SERVICE_NAME>",
+	"additionalAttributes": [
+		"hba_id",
+		"wwnn"
+	]
+}

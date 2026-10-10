@@ -1,0 +1,699 @@
+{
+  "ComAroundDetails": [
+    {"Label": "HKMMainURL", "Value": "https://zero-test.comaround.com"},
+    {"Label": "HKMFrameURL", "Value": "https://knowledge-test.comaround.com"},
+    {"Label": "EndPoint", "Value": "https://api2.comaround.com/integrationtest"},
+    {"Label": "SubscriptionID", "Value": "aea3ebc610bd413bba60f6aea3b5ea21"},
+    {"Label": "UserName", "Value": "managersolQA1"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+	  {"Label": "knowledgeManagement", "Value": "Knowledge management"}
+  ],
+
+  "DRSQA_11718Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "Skill","Value": "Skill"},
+    {"Label": "Skill_name","Value": "BWF Global Chat Skill"},
+    {"Label": "BWFapplicationName","Value": "BMC Helix Business Workflows"},
+    {"Label": "BWFskillName","Value": "BWF Global Chat Skill"},
+    {"Label": "PromptName","Value": "KnowledgePrompt"},
+    {"Label": "SearchSetting","Value": "Microsoft SharePoint Online"},
+    {"Label": "Context","Value": "You requested detailed steps on how to create high-resolution screenshots from the Chrome browser for design or demo purposes, referencing a PDF titled “Creating high resolution screenshots from the Chrome browser.pdf”. "},
+    {"Label": "ExpectedResponse","Value": "Open the webpage in Chrome → press F12 or Ctrl+Shift+I to open Developer Tools → click the Toggle device toolbar icon → set the desired Dimensions (for example 1920×1080) → open the device toolbar menu and choose Capture full size screenshot. The screenshot will be saved to the Downloads folder and yields a high-resolution image suitable for design/demos."},
+    {"Label": "input","Value": "Creating high resolution screenshots from the Chrome browser.pdf."}
+  ],
+
+  "DRSQA_11744Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "BotName","Value": "HelixGPT"},
+    {"Label": "Input","Value": "Could you please provide my details"},
+    {"Label": "Context","Value": "User details should be available with full name"},
+    {"Label": "ExpectedResponse","Value": "Full name: Liam Shay"},
+    {"Label": "PromptName","Value": "User_Knowledge"}
+  ],
+
+  "DRSQA_11735Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "SearchSetting","Value": "Helix Customer Service Management"},
+    {"Label": "Input","Value": "How do I create a subtask in JIRA?"},
+    {"Label": "Context","Value": "Creating a subtask in JIRA helps break down larger stories into smaller, manageable tasks for better project tracking and execution."},
+    {"Label": "ExpectedResponse","Value": ["To create a subtask in JIRA, follow these steps:", "If there is participant name and more data then consider answer as relevant"]}
+  ],
+
+  "DRSQA_11736Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "SearchSetting","Value": "Salesforce Knowledge"},
+    {"Label": "Input","Value": "my wi-fi has poor connection"},
+    {"Label": "Context","Value": "The case highlights poor Wi-Fi connectivity, with general troubleshooting steps suggested and a need for more details to provide specific VPN-related guidance."},
+    {"Label": "ExpectedResponse","Value": ["the information mainly relates to VPN connection issues and does not specify actionable steps for resolving Wi-Fi problems. ", "If there is participant name and more data then consider answer as relevant"]}
+  ],
+
+  "DRSQA_11734Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "SearchSetting","Value": "Web"},
+    {"Label": "Input","Value": "LangChain overview"},
+    {"Label": "Context","Value": "LangChain’s new tooling model enables rapid development of LLM-powered agents with minimal code by providing pre-built agent architectures and integrations with major model providers. Built on LangGraph, it offers durable execution, persistence, and human-in-the-loop support without added complexity. LangChain also standardizes model interactions to avoid vendor lock-in, while LangSmith helps with tracing, debugging, and performance monitoring."},
+    {"Label": "ExpectedResponse","Value": "LangChain overview - Docs by LangChain"},
+    {"Label": "FeedbackMessage","Value": "Service is not so good"},
+    {"Label": "FeedbackUP","Value": "up"},
+    {"Label": "FeedbackDown","Value": "down"},
+    {"Label": "PromptSetting","Value": "RouterPrompt V1"}
+  ],
+
+  "DRSQA_11695Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "BWFSearchSetting","Value": "Helix Business Workflows Knowledge Management"},
+    {"Label": "BWFArticle","Value": "What To Do If Having a Baby"},
+    {"Label": "Context","Value": "The document provides a step-by-step guide on handling company benefits, leave options, and enrollment requirements before and after having a baby, including Short-Term Disability, FMLA, Parental Bonding Leave, newborn enrollment, and return-to-work procedures."},
+    {"Label": "ExpectedResponse","Value": "If you are having a baby, prepare by scheduling prenatal checkups and arranging needed support.After birth, ensure the baby receives medical evaluation, birth registration, and necessary vaccinations.Also plan for childcare, parental leave, and adjusting your home for the baby’s safety and comfort.If there is participant name and more data then consider answer as relevant"},
+    {"Label": "RKMSearchSetting","Value": "Helix ITSM Knowledge Management"},
+    {"Label": "RKMArticle","Value": "How To Connect To The Office Printer / Copier"},
+    {"Label": "Context_2","Value": "The model added general explanation of how to connect to an office printer/copier."},
+    {"Label": "ExpectedResponse_2","Value": "To connect to the office printer or copier, open your computer’s printer settings and select “Add Printer.” Choose the office printer from the network list or enter its network address if provided."},
+    {"Label": "HKMSearchSetting","Value": "Helix Knowledge Management by ComAround"},
+    {"Label": "HKMArticle","Value": "Install Flash player"},
+    {"Label": "Context_3","Value": "The document outlines how to install Flash Player by downloading it and following on-screen instructions, while also noting that Adobe has discontinued support and cautioning users to download only from trusted sources."},
+    {"Label": "ExpectedResponse_3","Value": "Install Flash player"},
+    {"Label": "HKMArticle","Value": "Flash Player"}
+  ],
+
+  "DRSQA_11696Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "serviceName", "Value": "Request Time Off"},
+    {"Label": "DWPCserviceName","Value": "I Want paid time off next week"},
+    {"Label": "summar","Value": "vacation"},
+    {"Label": "vacation","Value": "Skip"},
+    {"Label": "attach","Value": "No"},
+    {"Label": "descri","Value": "Jury Service"},
+    {"Label": "start","Value": "Today"},
+    {"Label": "end","Value": "Tomorrow"},
+    {"Label": "submit","Value": "Yes"},
+    {"Label": "skip","Value": "Yes"},
+    {"Label": "invalid","Value": "Skip"},
+    {"Label": "SummaryField1","Value": "Summary"},
+    {"Label": "SummaryField2","Value": "Start Date:"},
+    {"Label": "SummaryField3","Value": "End Date:"},
+    {"Label": "SummaryField4","Value": "Attachments:"},
+    {"Label": "SummaryField5","Value": "Description:"},
+    {"Label": "SecondServiceName", "Value": "Donations SRD"},
+    {"Label": "documents", "Value": "No"},
+    {"Label": "how much", "Value": "5000"},
+    {"Label": "donati", "Value": "Test"},
+    {"Label": "tax receipt", "Value": "Yes"},
+    {"Label": "SecondServiceSummaryField1","Value": "Attachments:"},
+    {"Label": "SecondServiceSummaryField1","Value": "donation"},
+    {"Label": "SecondServiceSummaryField2","Value": "donat"},
+    {"Label": "SecondServiceSummaryField3","Value": "tax receipt"},
+    {"Label": "submit","Value": "Yes"},
+    {"Label": "GPT","Value": "No"},
+    {"Label": "SummaryConfirmationMessage","Value": "Here is a summary"},
+    {"Label": "SummaryConfirmationMessage2","Value": "Please confirm"},
+    {"Label": "SummaryConfirmationMessage3","Value": "Here’s the current summary"},
+    {"Label": "SummaryConfirmationMessage4","Value": "like to submit it"}
+  ],
+
+  "DRSQA_17550Data": [
+    {"Label": "skillName","Value": "Employee Navigator for Helix"},
+    {"Label": "agentName","Value": "Employee Navigator Supervisor"},
+    {"Label": "ServiceName","Value": "Request Time Off"},
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "WorkspaceURL","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/workspace"}
+  ],
+
+  "Summarization": [
+    {"Label": "applicationName","Value": "BMC Helix Live Chat"},
+    {"Label": "skillName","Value": "Summarization Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"}
+  ],
+
+  "DRSQA_11710Data": [
+    {"Label": "applicationName","Value": "BMC Helix IT Service Management"},
+    {"Label": "ResolutionSkillName","Value": "Incident Resolution Generation"},
+    {"Label": "Tab","Value": "Prompts"}
+  ],
+
+  "DRSQA_11757Data": [
+    {"Label": "applicationName","Value": "SolQAGPT"},
+    {"Label": "application","Value": "SolQAGPT.zip"},
+    {"Label": "SolQAGPT_URL","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/view/edit/grp1.SolQAGPT:SolQATest1"},
+    {"Label": "skillName","Value": "HelixGPT Sample Skill"},
+    {"Label": "message1","Value": "exit"},
+    {"Label": "LaunchWebsiteURL","Value": "https://www.bmc.com/"}
+  ],
+
+  "DRSQA_11768Data": [
+    {"Label": "applicationName","Value": "BMC Helix Virtual Agent"},
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"}
+  ],
+
+  "DRSQA_11779Data": [
+    {"Label": "applicationName","Value": "BMC Helix IT Service Management"},
+    {"Label": "skillName","Value": "Agent in Global Context"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "HelixGPTManager","Value": "HelixGPT Manager"},
+    {"Label": "BMCChatbot","Value": "BMC Chatbot"},
+    {"Label": "ConnectionTest","Value": "AI service provider"},
+    {"Label": "PromptName","Value": "ITSM Router Prompt"},
+    {"Label": "InfoProvider1","Value": "Helix Knowledge Management by ComAround"},
+    {"Label": "InfoProvider2","Value": "Helix ITSM Knowledge Management"},
+    {"Label": "InfoProvider3","Value": "Helix ITSM"},
+    {"Label": "skill","Value": "Skill"},
+    {"Label": "dataConnectionJob","Value": "DataConnectionJob"},
+    {"Label": "dataConnectionJobStep","Value": "DataConnectionJobStep"},
+    {"Label": "ConnectionJob","Value": "hkm"},
+    {"Label": "dataSourceName","Value": "HKM"},
+    {"Label": "description","Value": "hkm"}
+  ],
+
+  "DRSQA_11401Data": [
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "skillName","Value": "Employee Navigator for Helix"},
+    {"Label": "agentName","Value": "Employee Navigator Supervisor"},
+    {"Label": "WorkspaceURL","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/workspace"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "BMCChatbot","Value": "BMC Chatbot"},
+    {"Label": "BotName","Value": "HelixGPT"},
+    {"Label": "BundleName","Value": "Digital Workplace"}
+  ],
+
+  "DRSQA_11407Data": [
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "skillName","Value": "Employee Navigator for Helix"}
+  ],
+
+  "DRSQA_11408Data": [
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "skillName","Value": "Employee Navigator for Helix"},
+    {"Label": "WorkspaceURL","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/workspace"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "BMCChatbot","Value": "BMC Chatbot"},
+    {"Label": "BotName","Value": "HelixGPT"},
+    {"Label": "BundleName","Value": "Digital Workplace"},
+    {"Label": "Subtenant","Value": "Subtenant"},
+    {"Label": "Skill","Value": "Skill"},
+    {"Label": "SkillName2","Value": "DWP Azure GPT-4 Turbo Sample Skill"},
+    {"Label": "ConfigParam","Value": "ConfigurationParams"},
+    {"Label": "skillID","Value": "000000000000708"},
+    {"Label": "Value","Value": "Value"}
+  ],
+
+  "DRSQA_11409Data": [
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "skillName","Value": "Employee Navigator for Helix"}
+  ],
+
+  "DRSQA_11773Data":[
+    {"Label": "applicationName","Value": "BMC Digital Workplace"},
+    {"Label": "skillName","Value": "Employee Navigator for Helix"},
+    {"Label": "SkillNameFile","Value": "DWP_GPT.json"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "HelixGPTManager","Value": "HelixGPT Manager"},
+    {"Label": "BMCChatbot","Value": "BMC Chatbot"},
+    {"Label": "BotName","Value": "HelixGPT"},
+    {"Label": "DWPRouterPrompt","Value": "DWP Router Prompt V1"},
+    {"Label": "KnowledgeCitationsUniPrompt","Value": "KnowledgeCitationsUniversalPrompt"},
+    {"Label": "DWPEventSummarizer","Value": "DWP Event Summarizer"},
+    {"Label": "DWPEventRetriever","Value": "DWP Event Retriever"},
+    {"Label": "DWPFallbackPrompt","Value": "DWP Fallback Prompt"},
+    {"Label": "PromptData","Value": "You are an intelligent virtual assistant and you need to decide whether the input text is an information request.\nThis is a classification task that you are being asked to predict between the classes: information or tools requests.\nReturned response should always be in JSON format specified below for both classes.\nDo not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation:\n{\n    \"classificationType\": \"information service\",\n    \"nextPromptType\": \"Knowledge\",\n    \"services\": [\n        {\n            \"serviceName\": \"Dummy\",\n            \"confidenceScore\": \"1.0\",\n            \"nextPromptType\": \"Knowledge\"\n        }\n    ],\n    \"userInputText\": \"....\"\n}\n\n\nEnsure these guidelines are met.\n\n0. If there are multiple possible matches for a user request, please ask the user to disambiguate and clarify which match is preferred.\n\n1. If user input text is a question that contains phrases such as \"How\" or \"Why\", \"How to\", \"How do\" etc., then classify the input text as 'information request' in the classification field of the result JSON. The JSON format should be:\n{\n    \"classificationType\": \"information service\",\n    \"nextPromptType\": \"Knowledge\",\n    \"services\": [\n        {\n            \"serviceName\": \"Dummy\",\n            \"confidenceScore\": \"1.0\",\n            \"nextPromptType\": \"Knowledge\"\n        }\n    ],\n    \"userInputText\": \"....\"\n}\n\n2. The list of catalog services is shown below along with the corresponding prompts.\n\nUse only this list.\n\nList of catalog services and corresponding prompt types are:\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nInput Text: Sample input text1\nInput Text: Sample input text2\nService Name: Sample Service, Prompt Type: Sample Prompt Type\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nInput Text: GPTDemo\nInput Text: Raise a service request\n\n3. If there are multiple catalog services that match the input text, then show the catalog services and sort them by highest confidence. Set the \"services\" field in the result JSON. 'text' field should have the input text. Output JSON:\n{\n    \"classificationType\": \"catalog service\",\n    \"nextPromptType\": \"Service\",\n    \"services\": [\n        {\n            \"serviceName\": \"service name 1\",\n            \"confidenceScore\": highest confidence score,\n            \"nextPromptType\": \"prompt type 1\"\n        },\n        {\n            \"serviceName\": \"service name 2\",\n            \"confidenceScore\": second highest confidence score,\n            \"nextPromptType\": \"prompt type 2\"\n        }\n    ],\n    \"userInputText\": \"....\"\n}\n\n4. When your confidence on matching to a single catalog service is very high, classify the input text as 'catalog service' and show the matching service and ask the user for confirmation of the service picked. Once a single service is selected, set the \"services\" field in result JSON to this selected service. 'text' field should have the input text. Output JSON:\n{\n    \"classificationType\": \"catalog service\",\n    \"nextPromptType\": \"Service\",\n    \"services\": [\n        {\n            \"serviceName\": \"service name\",\n            \"confidenceScore\": confidence score,\n            \"nextPromptType\": \"prompt type\"\n        }\n    ],\n    \"userInputText\": \"....\"\n}\n\n5. If the user input text is a query about\na. a request or a service request,\nb. a list of requests or a list of service requests\nc. an appointment or a list of appointments\nd. a task or a list of tasks,\ne. a to-do or a list of to-dos\nf. what is the status of request REQXXXX\ng. what is the details of request REQXXXX\nh. summarize requests\ni. an existing request\nj. contains a string like REQXXXX\nk. what is the status of request XXXX\nl. what is the details of request XXXX\nm. contains a string like XXXX\nthen classify the input text as 'requests' in the classification field of the result JSON. The JSON format should be\n{\n    \"classificationType\": \"requests\",\n    \"nextPromptType\": \"Request\",\n    \"services\": [\n        {\n            \"serviceName\": \"Dummy\",\n            \"confidenceScore\": \"1.0\",\n            \"nextPromptType\": \"Request\"\n        }\n    ],\n    \"userInputText\": \"....\"\n}\n\n6. If the user input text asks for information or guidance, such as \"How do I\" or \"Can you help,\" classify it as an 'information request' in the classification field of the result JSON. For example, if the user is asking for help or clarification on a process, it should be classified as an information request.\n7. Based on the classification, if the request is for a request, set 'classification' in JSON to 'requests'.\n8. Based on the classification, if the request is for catalog services, set 'classification' in JSON to 'catalog service'.\n9. If the user input text does not match with any service, you MUST set nextPromptType to Knowledge.\n10. Return the response in JSON format only without any explanations. You must ensure that you return a valid JSON response.\n\n{input}"},
+    {"Label": "PromptName","Value": "DWPRouterPrompt"},
+    {"Label": "ServiceName", "Value": "GPTDemo"}
+  ],
+
+  "DRSQA_12256Data": [
+    {"Label": "technologyDropdown","Value": "technology"},
+    {"Label": "response1","Value": "Medical InsurancefuicL"},
+    {"Label": "techDropdownValues","Value": "Employee Navigator"},
+    {"Label": "skillDropdown","Value": "Skill"},
+    {"Label": "WorkspaceURL","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/workspace"},
+    {"Label": "skillDropdownValues","Value": "DWP Employee Navigator Agent - V1 - Cards"},
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "skillName","Value": "DWP Employee Navigator Agent - V1 - Cards"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "HelixGPTManager","Value": "HelixGPT Manager"},
+    {"Label": "BMCChatbot","Value": "BMC Chatbot"},
+    {"Label": "BotName","Value": "HelixGPT"},
+    {"Label": "BundleName","Value": "Digital Workplace"},
+    {"Label": "Subtenant","Value": "Subtenant"},
+    {"Label": "Skill","Value": "Skill"},
+    {"Label": "SkillName2","Value": "DWP Azure GPT-4 Turbo Sample Skill"},
+    {"Label": "ConfigParam","Value": "ConfigurationParams"},
+    {"Label": "skillID","Value": "000000000000708"},
+    {"Label": "Value","Value": "Value"}
+  ],
+
+  "DRSQA_12296Data": [
+    {"Label": "SkillName","Value": "Incident Resolution Generation"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelValue","Value": "GPT-4.1"}
+  ],
+
+  "DRSQA_12280Data": [
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "BMCChatbot","Value": "BMC Chatbot"},
+    {"Label": "InfoProvider1","Value": "Helix ITSM Knowledge Management"},
+    {"Label": "Knowledge_Prompt","Value": "KnowledgePrompt"},
+    {"Label": "RKMSearchSetting","Value": "Helix ITSM Knowledge Management"},
+    {"Label": "RKMArticle","Value": "How To Connect To The Office Printer / Copier"},
+    {"Label": "Context","Value": "The document explains how to connect to an office Xerox printer/copier via the appropriate print server (\\print-01 or \\print-02), enabling users to add and use the printer for printing tasks."},
+    {"Label": "ExpectedResponse","Value": ["How To Connect To The Office Printer / Copier", "If there is participant name and more data then consider answer as relevant"]},
+    {"Label": "SkillID","Value": "AGGDPINNEEMO1AS75V10S75V10UYEZ"},
+    {"Label": "TestLogFileName","Value": "skill_test"}
+  ],
+
+  "DRSQA_12282Data": [
+    {"Label": "ResolutionSkillName","Value": "Generate Case Resolution"},
+    {"Label": "InfoProvider1","Value": "Helix Business Workflows Knowledge Management"}
+  ],
+
+  "DRSQA_11775Data": [
+    {"Label": "skillName","Value": "Solqa_HVA_Skill"},
+    {"Label": "ProviderField","Value": "Provider"},
+    {"Label": "ProviderValue","Value": "Azure OpenAI"},
+    {"Label": "ModelField","Value": "Model"},
+    {"Label": "ModelValue","Value": "GPT-4.1"},
+    {"Label": "Router_Prompt","Value": "RouterPrompt V1"},
+    {"Label": "Tab","Value": "Prompts"},
+    {"Label": "Fallback_Prompt","Value": "Fallback Prompt"},
+    {"Label": "LiveChat_Prompt","Value": "Live Chat Prompt"},
+    {"Label": "Router_Prompt","Value": "RouterPrompt V1"},
+    {"Label": "FirstMessage","Value": "BWF cases"},
+    {"Label": "FirstResponse","Value": "It seems"},
+    {"Label": "StartOverOption","Value": "Start Over"},
+    {"Label": "CallLiveAgentOption","Value": "Call Live Agent"},
+    {"Label": "StartOverResponse","Value": "help you"},
+    {"Label": "summarizeQue","Value": "please summarize the issue"},
+    {"Label":"SummarizeIssue", "Value":"I cannot print"},
+    {"Label":"topic", "Value":"MSSQL"},
+    {"Label":"response2", "Value":"At any point, type following command to end live chat: /endlivechat"},
+    {"Label":"response3", "Value":"Your estimated wait is more than"},
+    {"Label": "agentMessage1", "Value":  "Can you please provide me with a few more details on your problem?"},
+    {"Label": "response1", "Value":  "When I go to print, i do not see my printer in the drop-drown."},
+    {"Label": "agentMessage2", "Value":  "You are in Windows, correct?"},
+    {"Label": "response2", "Value":  "Yes"},
+    {"Label": "FirstResponse_2", "Value":  "I couldn’t understand your query"}
+  ],
+
+  "DRSQA_11771Data": [
+    {"Label": "applicationName","Value": "BMC Helix Digital Workplace"},
+    {"Label": "skillName","Value": "Employee Navigator for Helix"},
+    {"Label": "DigitalWorkplace","Value": "Digital Workplace"},
+    {"Label": "Router_Prompt","Value": "DWP Event Summarizer"},
+    {"Label": "WorkspaceURL","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/workspace"}
+  ],
+
+  "HPM_PortfolioData": [
+    {"Label": "Description","Value": "Portfolio Description"},
+    {"Label": "Scope","Value": "Business"}
+  ],
+
+  "HPM_IdeaData": [
+    {"Label": "Description","Value": "Idea Description"},
+    {"Label": "Benefits","Value": "description of benefits"},
+    {"Label": "Problem Solved","Value": "description of Problem Solved"}
+  ],
+
+  "HPM_DemandData": [
+    {"Label": "Priority","Value": "Medium"},
+    {"Label": "Description","Value": "Demand Description"},
+    {"Label": "Type","Value": "Phased Project"},
+    {"Label": "Strategy","Value": "Compliance"},
+    {"Label": "Associate Record","Value": "Yes"}
+  ],
+
+  "HPM_ProjectData": [
+    {"Label": "Description","Value": "Project Description"},
+    {"Label": "Behaviour","Value": "Phased"},
+    {"Label": "Priority","Value": "Medium"},
+    {"Label": "Strategic","Value": "No"},
+    {"Label": "Start Date","Value": "0"},
+    {"Label": "End Date","Value": "1"},
+    {"Label": "Target Date","Value": "1"},
+    {"Label": "Associate Record","Value": "Yes"}
+  ],
+
+  "HPM_ProgramData": [
+    {"Label": "Description","Value": "Program Description"},
+    {"Label": "Importance","Value": "0"},
+    {"Label": "Total Risk","Value": "0"},
+    {"Label": "Strategic","Value": "No"},
+    {"Label": "Value","Value": "0"},
+    {"Label": "Start Date","Value": "0"},
+    {"Label": "End Date","Value": "1"},
+    {"Label": "Target Date","Value": "1"},
+    {"Label": "Associate Record","Value": "Yes"}
+  ],
+
+  "HPM_ResourceRequestData": [
+    {"Label": "Request Summary","Value": "Resource Request Summary"},
+    {"Label": "Description","Value": "Resource Request Description"},
+    {"Label": "Request Type","Value": "Individual"},
+    {"Label": "Priority","Value": "Medium"},
+    {"Label": "Scope","Value": "Internal"},
+    {"Label": "Source Application","Value": "BMC Helix ITSM"},
+    {"Label": "Entity Type","Value": "Incident"},
+    {"Label": "Start Date","Value": "0"},
+    {"Label": "End Date","Value": "1"},
+    {"Label": "External Entity Reference","Value": "Yes"},
+    {"Label": "External Entity Reference External ID","Value": "INC"},
+    {"Label": "External Entity Reference Summary","Value": "Sample External Incident Summary"}
+  ],
+
+  "DRSQA_14662Data": [
+    {"Label": "SkillName","Value": "CMDB Data Monitor Azure OpenAI GPT Skill"},
+    {"Label": "Question_1","Value": "Confirm if normalization is enabled for class BMC_ComputerSystem in dataset BMC.ASSET. or suggest me accordingly"},
+    {"Label": "Context_1","Value": "You checked the normalization status of the class BMC_ComputerSystem in the dataset BMC.ASSET."},
+    {"Label": "ExpectedResponse_1","Value": "Normalization is not enabled for BMC_ComputerSystem in BMC.ASSET. There are no job runs or standard rules, and the only custom rule present is disabled."},
+    {"Label": "Question_2","Value": "Is normalization enabled for class BMC_Printer across all datasets? or suggest me accordingly"},
+    {"Label": "Context_2","Value": "You asked whether normalization is enabled for the class BMC_Printer across all datasets."},
+    {"Label": "ExpectedResponse_2","Value": "Normalization is not enabled for BMC_Printer in any dataset. No standardization, categorization, or custom rules exist; only unrelated suite rollup rules are present."},
+    {"Label": "Question_3","Value": "List all normalization jobs for dataset id BMC.ASSET and their recent run statuses. suggest me accordingly"},
+    {"Label": "Context_3","Value": "Normalization jobs are not executed on the BMC.ASSET dataset. As per CMDB architecture best practices, normalization is always performed on source datasets (for example, BMC.AE, BMC.ADDM), and the normalized data is then promoted to BMC.ASSET."},
+    {"Label": "ExpectedResponse_3","Value": "No normalization jobs are found for BMC.ASSET, so no recent run statuses are available. You’ll need to create and configure normalization jobs if required."},
+    {"Label": "Question_4","Value": "For class `BMC_NetworkDevice`, confirm normalization is enabled and list the last three normalization job statuses. or suggest me accordingly"},
+    {"Label": "Context_4","Value": "You asked to confirm whether normalization is enabled for the class BMC_NetworkDevice and to list the last three normalization job statuses."},
+    {"Label": "ExpectedResponse_4","Value": "Normalization is not enabled for BMC_NetworkDevice in any dataset. No relevant normalization rules or job runs exist due to the absence of normalization for this class."},
+    {"Label": "Question_5","Value": "List all normalized CIs where some attributes() are null or assist me or suggest me accordingly"},
+    {"Label": "Context_5","Value": "You asked to list all normalized Configuration Items (CIs) that have some attributes with null values."},
+    {"Label": "ExpectedResponse_5","Value": "To assist you accurately, could you please specify the class name and dataset for which you want to list all normalized CIs with some attributes as null? Additionally, if you have specific attributes in mind, please mention them. This information will help me provide a precise and relevant answer."},
+    {"Label": "Question_6","Value": "List all datasets where all inline/batch normalizations are enabled or if you are unable to directly retrieve a list assist me further or suggest me accordingly"},
+    {"Label": "Context_6","Value": "The CMDB does not provide a single query, report, or API to retrieve a consolidated list of datasets where inline and batch normalization are enabled. Normalization settings are maintained at the individual dataset level, so they must be reviewed separately for each dataset."},
+    {"Label": "ExpectedResponse_6","Value": "The system cannot directly retrieve all datasets with inline and batch normalization status in one query. It requires either a list of specific datasets or permission to check all available ones to determine normalization enablement."},
+    {"Label": "Question_7","Value": "What are the different normalization features enabled on a different dataset(name) or suggest me accordingly"},
+    {"Label": "Context_7","Value": "You asked about the different normalization features enabled across datasets or requested suggestions accordingly."},
+    {"Label": "ExpectedResponse_7","Value": "The system requested the dataset name to provide accurate details. Normalization features may include standardization, categorization, suite rollup, version rollup, custom rules, and inline normalization."},
+    {"Label": "Question_8","Value": "InVersionRollup rule enabled for a particular class/product? or suggest me accordingly"},
+    {"Label": "Context_8","Value": "You asked whether the InVersionRollup (Version Rollup) rule is enabled for any specific class or product."},
+    {"Label": "ExpectedResponse_8","Value": "Version Rollup is not enabled for any class or product. No version rollup rules are defined; only unrelated suite rollup rules exist."},
+    {"Label": "Question_9","Value": "Suiterollup rule enabled for particular class/product? or suggest me accordingly"},
+    {"Label": "Context_9","Value": "You asked whether the Suite Rollup rule is enabled for any particular class or product."},
+    {"Label": "ExpectedResponse_9","Value": "Yes, Suite Rollup rules are enabled for specific software suites like Adobe Creative Suite 5 Design Standard and Microsoft Office Professional 2007, which group their component products under respective suite configurations."}
+  ],
+   
+  "DRSQA_14661Data": [
+    {"Label": "SkillName","Value": "CMDB Data Monitor Azure OpenAI GPT Skill"},
+    {"Label": "Question_1","Value": "How many recon jobs present around the dataset BMC.ADDM give me answer in 4 to 5 line"},
+    {"Label": "Context_1","Value": "Validate whether the model correctly identifies the count of reconciliation jobs associated with the dataset BMC.ADDM.f the available information is insufficient, the answer should ask for the required additional data"},
+    {"Label": "ExpectedResponse_1","Value": "There are reconciliation jobs present around the dataset BMC.ADDM. "},
+    {"Label": "Question_2","Value": "For CI with instance id ASHAA5V0GQBORANBA0I28I8MWWG5WD, retrieve all attribute values and note the ReconciliationIdentity value."},
+    {"Label": "Context_2","Value": "gettign all the attributer values for the given instance id and specifically the ReconciliationIdentity value."},
+    {"Label": "ExpectedResponse_2","Value": "Should be like that. please see the attached screen shot"},
+    {"Label": "Question_3","Value": "List jobs that use multiple datasets else assist me"},
+    {"Label": "Context_3","Value": "Validate whether the model correctly identifies reconciliation jobs that reference more than one dataset."},
+    {"Label": "ExpectedResponse_3","Value": "A list of reconciliation jobs that use multiple datasets. If no jobs use multiple datasets, expected output should state: No reconciliation jobs use multiple datasets."},
+    {"Label": "Question_4","Value": "For all CIs in any dataset, list reconciliation jobs and report any with non-successful statuses."},
+    {"Label": "Context_4","Value": "Validate whether the model requests specific dataset names when “all datasets” cannot be processed."},
+    {"Label": "ExpectedResponse_4","Value": "A list of reconciliation jobs for all CIs across all datasets, highlighting any job with a non-successful status. If no failures exist, respond with: All reconciliation jobs have successful statuses."},
+    {"Label": "Question_5","Value": "List all the CIs that are failed to be identified and suggest ways to fix it or assist me"},
+    {"Label": "Context_5","Value": "Validate whether the actual output can list all CIs that failed identification or provide actionable suggestions to fix the identification failures."},
+    {"Label": "ExpectedResponse_5","Value": "A list of all CIs that failed identification, along with brief suggestions to fix the failures. If none are found, respond with: No CIs have failed identification."}
+  ],
+
+  "DRSQA_14638Data": [
+    {"Label": "SearchCMDBGainsight", "Value": "CMDB - Gainsight Integration"},
+    {"Label": "SearchCMDBQA", "Value": "CMDB QA"},
+    {"Label": "SearchCMDBMapping", "Value": "CMDB Mapping"},
+    {"Label": "DeploymentType", "Value": "SaaS"},
+    {"Label": "EnvironmentType", "Value": "QA"}
+  ],
+
+  "DRSQA_11774Data": [
+    {"Label": "AutomationName", "Value": "Test Automation"},
+    {"Label": "AssetType", "Value": "Computer System"},
+    {"Label": "RelationshipType", "Value": "Relate people"},
+    {"Label": "PeopleType", "Value": "Person"},
+    {"Label": "PersonName", "Value": "Paul Bunyon"},
+    {"Label": "Role", "Value": "Used by"}
+  ],
+  
+  "DRSQA_14660Data": [
+    {"Label": "SkillName","Value": "CMDB Data Monitor Azure OpenAI GPT Skill"},
+    {"Label": "Question_1","Value": "list standard reconciliation rules used to determine duplicates of BMC_ComputerSystem class"},
+    {"Label": "Context_1","Value": "standard reconciliation identification rules BMC_ComputerSystem duplicates TokenId Domain HostName SerialNumber PartitionId isVirtual TokenId Rule Domain HostName SerialNumber isVirtual Rule. Or user provide to add more information i required."},
+    {"Label": "ExpectedResponse_1","Value": "Here are the standard reconciliation identification rules used to determine duplicates for the BMC_ComputerSystem class:"},
+       
+	{"Label": "Question_2","Value": "For CI with instance id ASHAA5V0GQBORANBA2HA85K4PSG6TT, retrieve all attribute values and note the ReconciliationIdentity value."},
+	{"Label": "Context_2","Value": "Looking up a specific Configuration Item by its unique instance ID to retrieve all attributes and analyze its ReconciliationIdentity value, which controls how CMDB reconciliation matches and merges this CI with records from multiple data sources for duplicate detection and data consolidation."},
+	{"Label": "ExpectedResponse_2","Value": "I could not retrieve any information for the CI with instance id ASHAA5V0GQBORANBA2HA85K4PSG6TT in the BMC.ASSET dataset"},
+		
+	{"Label": "Question_3","Value": "List name, short desc, serial no for CI with instance id ASHAA5V0GQBORANBA2HA85K4PSG6TT"},
+    {"Label": "Context_3","Value": "Latitude E5430 Dell Latitude E5430 03FD49UDP4UAX1WD36XWMX"},
+    {"Label": "ExpectedResponse_3","Value": "Here are the requested details for the CI with instance id ASHAA5V0GQBORANBA2HA85K4PSG6TT:"},
+       
+	{"Label": "Question_4","Value": "I have incorrect value for the Model and ManufacturerName attributes for the CI with instance id: OIGFVX7SGPYXWATBPA56TBPA56NZPV. This belongs to the BMC. ADDM dataset under the BMC_ComputerSystem class.What is the root cause?"},
+    {"Label": "Context_4","Value": "OIGFVX7SGPYXWATBPA56TBPA56NZPV BMC.ADDM dataset BMC_ComputerSystem Model ManufacturerName no record found Investigation Instance Retrieval Reconciliation Job Status Potential Root Cause CI does not exist deleted never imported incorrect instance id Recommended Actions Verify Instance ID Re-import Re-discover"},
+    {"Label": "ExpectedResponse_4","Value": "Here is the analysis for the issue with incorrect Model and ManufacturerName attributes for the CI with instance id OIGFVX7SGPYXWATBPA56TBPA56NZPV in the BMC.ADDM dataset (BMC_ComputerSystem class):"},
+  	  
+	{"Label": "Question_5","Value": "Identify CIs in dataset BMC.ASSET with missing `Serial Number` attribute;"},
+  	{"Label": "Context_5","Value": "User queried HelixGPT to identify Configuration Items (CIs) in the BMC.ASSET dataset that have missing Serial Number attributes. This is a data quality check for CMDB asset management to find incomplete records"},
+  	{"Label": "ExpectedResponse_5","Value": "No CIs in the BMC.ASSET dataset were found with missing Serial Number attribute values"},
+       
+	{"Label": "Question_6","Value": "Identify CIs in dataset BMC.ASSET with missing `Product Name` attribute;"},
+    {"Label": "Context_6","Value": "Identifying Configuration Items with missing Product Name attribute across CMDB datasets to assess data completeness and enable targeted data enrichment for accurate asset inventory management"},
+    {"Label": "ExpectedResponse_6","Value": "No CIs in the BMC.ASSET dataset were found with missing Product Name attribute values, or there are no records available to check for this attribute."},
+		
+	{"Label": "Question_7","Value": "List source datasets for all CIs in dataset `BMC.ASSET` with missing `Product Name`. For each, retrieve and compare attribute values. Pay special attention to the `Mark As Deleted` field and report any discrepancies."},
+	{"Label": "Context_7","Value": "Performing multi-source CMDB reconciliation analysis to identify CIs with missing Product Name in BMC.ASSET, trace their source datasets, compare attribute values across sources, and detect discrepancies in the Mark As Deleted flag that could indicate data synchronization or reconciliation issues."},
+	{"Label": "ExpectedResponse_7","Value": "There are no CIs in the BMC.ASSET dataset with a missing Product Name attribute"}
+					
+	],
+
+  "DRSQA_14659Data": [
+    {"Label": "MonitoringRuleName", "Value": "Test_SolutionQA"},
+    {"Label": "MonitoringRuleDescription", "Value": "Test_SolutionQA"},
+    {"Label": "MonitoringRuleClassType", "Value": "CI"},
+    {"Label": "MonitoringRuleClass", "Value": "BMC.CORE:BMC_ComputerSystem"}
+  ],
+  
+  "DRSQA_14851Data": [
+      {"Label": "applicationName","Value": "SOLQA_Application"},
+	  {"Label": "processName1","Value": "studentCreateRecord"},
+	  {"Label": "processType1","Value": "Create a New Process with 'Create Record'"},
+	  {"Label": "processDetails1","Value":"Process Name=studentCreateRecord  Process Type=Create Record  Record Definition=student  Task=Create Record"},
+	  {"Label": "expectedResponse1","Value": "process studentCreateRecord has been created successfully, Your process studentCreateRecord is now fully created"},
+	  {"Label": "processName2","Value": "studentUpdateRecord"},
+	  {"Label": "processType2","Value": "Create a New Process with 'Update Record'"},
+	  {"Label": "processDetails2","Value": "Create a process studentUpdateRecord which will update the Description field of student when ID is passed"},
+	  {"Label": "expectedResponse2","Value": "process studentUpdateRecord has been created successfully, Your process studentUpdateRecord is now fully created, has already been created and is ready for use"},
+	  {"Label": "processName3","Value": "studentDeleteRecord"},
+	  {"Label": "processType3","Value": "Create a New Process with 'Delete Record'"},
+	  {"Label": "processDetails3","Value": "I want to create a new process with name=studentDeleteRecord which will delete record by record instace ID in student record definition"},
+	  {"Label": "expectedResponse3","Value": "process studentDeleteRecord has been created successfully, Your process studentDeleteRecord is now fully created"},
+	  {"Label": "processName4","Value": "studentGetRecord"},
+	  {"Label": "processType4","Value": "Create a New Process with 'Get Record'"},
+	  {"Label": "processDetails4","Value": "i want to create a process with name=studentGetRecord which will get the record by record instance ID in student record definition"},
+	  {"Label": "expectedResponse4","Value": "process studentGetRecord has been created successfully, Your process studentGetRecord is now fully created"}
+    ],
+  
+  "DRSQA_12799Data": [
+      {"Label": "applicationName","Value": "SOLQA_Application"},
+	  {"Label": "applicationShortName","Value": "SOLQAApplication"},
+	  {"Label": "applicationGroupId","Value": "SOLQA_Application.com"},
+	  {"Label": "recordName1","Value": "student"},
+	  {"Label": "processType1","Value": "I want a create record definition with name='student'"},
+	  {"Label": "processDetails1","Value":"Proceed"},
+	  {"Label": "expectedResponse1","Value": "The record definition SOLQA_Application.com.SOLQAApplication:student has been successfully created with only the default system fields.,SOLQA_Application.com.SOLQAApplication:student has already been successfully created"},
+	  {"Label": "processType2","Value": "I want a Create Record definition with name='student'"},
+	  {"Label": "processDetails2","Value":"Proceed"},
+	  {"Label": "expectedResponse2","Value": "It appears that a Record Definition with the name SOLQA_Application.com.SOLQAApplication:student already exists in the system.,\"student\" already exists in the system,Duplicate record definition name,'student' is already in use"},
+	  {"Label": "recordName2","Value": "employee"},
+	  {"Label": "processType3","Value": "I want create a record definition name='employee' with custom field. employee ID,employee Name,employee Number."},
+	  {"Label": "processDetails3","Value":"Proceed"},
+	  {"Label": "expectedResponse3","Value": "The record definition SOLQA_Application.com.SOLQAApplication:employee has been successfully created with only the default system fields.,SOLQA_Application.com.SOLQAApplication:employee has already been successfully created"},
+	  {"Label": "customField1","Value":"employee ID"},
+	  {"Label": "customField2","Value":"employee Name"},
+	  {"Label": "customField3","Value":"employee Number"},
+	  {"Label": "processType4","Value": "I want a create record definition with name='student_1'"},
+	  {"Label": "processDetails4","Value":"Proceed"},
+	  {"Label": "expectedResponse4","Value": "definition com.bmc.dsm.asset-automation:student_1 could not be created due to insufficient administrative permissions,creating the record definition com.bmc.dsm.asset-automation:student_1 because the system reports: 'Must have Administrative permissions to perform this operation.'"}
+	    	  
+    ],
+
+  "DRSQA_13286Data":[  
+	  {"Label": "FetureDescription", "Value": "Sharepoint RBAC Support"},
+	  {"Label": "Context","Value": "You requested detailed steps on how to create high-resolution screenshots from the Chrome browser for design or demo purposes, referencing a PDF titled “Creating high resolution screenshots from the Chrome browser.pdf”. "},
+	  {"Label": "ExpectedResponse","Value": "Open the webpage in Chrome → press F12 or Ctrl+Shift+I to open Developer Tools → click the Toggle device toolbar icon → set the desired Dimensions (for example 1920×1080) → open the device toolbar menu and choose Capture full size screenshot. The screenshot will be saved to the Downloads folder and yields a high-resolution image suitable for design/demos."},
+	  {"Label": "input","Value": "how to create high resolution screenshots?"}
+    ],
+
+  "DRSQA_16269Data": [
+    {"Label": "MonitoringRuleName", "Value": "solqacomputersystem"},
+    {"Label": "MonitoringRuleDescription", "Value": "solqacomputersystem"},
+    {"Label": "MonitoringRuleClass", "Value": "BMC.CORE:BMC_ComputerSystem"},
+    {"Label": "MonitoringRuleFrequency", "Value": "Daily"},
+    {"Label": "MonitoringRulePriority", "Value": "High"},
+    {"Label": "ExpressionField", "Value": "Name"},
+    {"Label": "ExpressionOperator", "Value": "!="},
+    {"Label": "ExpressionValue", "Value": "NULL"},
+    {"Label": "AnalysisSummaryText1", "Value": "Potential Root Cause"},
+    {"Label": "AnalysisSummaryText2", "Value": "Recommended Actions"},
+    {"Label": "MonitoringRuleName2", "Value": "Test"},
+    {"Label": "MonitoringRuleDescription2", "Value": "Test"},
+    {"Label": "MonitoringRuleClass2", "Value": "BMC.CORE:BMC_ComputerSystem"},
+    {"Label": "MonitoringRuleFrequency2", "Value": "Daily"},
+    {"Label": "MonitoringRulePriority2", "Value": "High"},
+    {"Label": "ExpressionField2", "Value": "NormalizationStatus"},
+    {"Label": "ExpressionOperator2", "Value": "!="},
+    {"Label": "ExpressionValue2", "Value": "NULL"},
+    {"Label": "MonitoringRuleName3", "Value": "TestNonCI"},
+    {"Label": "MonitoringRuleDescription3", "Value": "Test"},
+    {"Label": "MonitoringRuleClass3", "Value": "BMC.CORE:BMC_ComputerSystem"},
+    {"Label": "MonitoringRuleFrequency3", "Value": "Daily"},
+    {"Label": "MonitoringRulePriority3", "Value": "High"},
+	{"Label": "ExpressionField3", "Value": "ClassId"},
+	{"Label": "ExpressionOperator3", "Value": "="},
+	{"Label": "ExpressionValue3", "Value": "0"}
+  ],
+
+  "DRSQA_11634Data": [
+    {"Label": "DigitalWorkplace","Value": "Digital Workplace"},
+    {"Label": "DigitalWorkplaceURL","Value": "Digital Workplace URL"},
+    {"Label": "DigitalWorkplaceUsername","Value": "Digital Workplace User"},
+    {"Label": "DigitalWorkplacePassword","Value": "Digital Workplace Password"},
+    {"Label": "HKMMainURL", "Value": "https://zero-test.comaround.com"},
+    {"Label": "HKMFrameURL", "Value": "https://knowledge-test.comaround.com"},
+    {"Label": "EndPoint", "Value": "https://api2.comaround.com/integrationtest"},
+    {"Label": "SubscriptionID", "Value": "aea3ebc610bd413bba60f6aea3b5ea21"},
+    {"Label": "UserName", "Value": "managersolQA1"},
+    {"Label": "Password", "Value": "__USER_PASSWORD__"},
+	  {"Label": "knowledgeManagement", "Value": "Knowledge management"}
+  ],
+  
+  "DRSQA_13334_Data": [
+      {"Label": "ApplicationDisplayName", "Value": "SolQAApplication"},
+      {"Label": "ApplicationShortName", "Value": "SolQAApplication"},
+      {"Label": "GroupID", "Value": "SolQAApplication"},
+      {"Label": "RecordDefinitionName", "Value": "SolQA"},
+      {"Label": "ProcessDefinitionName", "Value": "SolQA"},
+	  {"Label": "RecordType", "Value": "Regular record"},
+	  {"Label": "InputMap", "Value": "Build Expression"}
+    ],
+
+    "DRSQA_16236Data": [
+      {"Label": "applicationName","Value": "BMC Helix IT Service Management"},
+      {"Label": "skillName","Value": "Agent in Global Context"}
+],
+  
+    "DRSQA_16101Data": [
+      {"Label": "SkillName","Value": "Incident Resolution Generation"}
+    ],
+
+  "DRSQA_15763_TestData": [
+    {"Label": "Company", "Value": "BMCOpsMonitoring"},
+    {"Label": "Support Group", "Value": "Yes"},
+    {"Label": "Domain", "Value": "Telecommunication"},
+    {"Label": "Classification", "Value": "Case Nature"},
+    {"Label": "Main Group", "Value": "Frontliners"},
+    {"Label": "Group Role", "Value": "Initiator"},
+    {"Label": "Case Nature", "Value": "BMCOpsCSMOpCat1"},
+    {"Label": "Category", "Value": "BMCOpsCSMOpCat2"},
+    {"Label": "Type", "Value": "BMCOpsCSMOpCat3"},
+    {"Label": "Item", "Value": "BMCOpsCSMOpCat4"},
+    {"Label": "Summary", "Value": "BMCOps CSM Case Summary"},
+    {"Label": "Template Name", "Value": "BMCOps CSM Template"},
+    {"Label": "First Assignment Main Group", "Value": "Frontliners"},
+    {"Label": "First Assignment Sub Group", "Value": "BMCOpsMonitoring Support Group1"},
+    {"Label": "Priority Matrix Option", "Value": "Customer Segment"},
+    {"Label": "SLA Tag Name", "Value": "Shift1"},
+    {"Label": "KPI Tag Name", "Value": "Shift1"},
+    {"Label": "Group Name", "Value": "BMCOpsMonitoring Support Group1"},
+    {"Label": "Parent Group", "Value": "Frontliners"},
+    {"Label": "User FullName", "Value": "BMCOps EndUser"},
+    {"Label": "Customer ID", "Value": "bmcopsenduser@bwflabs.localdomain"},
+    {"Label": "First Name", "Value": "BMCOps"},
+    {"Label": "Last Name", "Value": "EndUser"},
+    {"Label": "Email", "Value": "bmcopsenduser@bwflabs.localdomain"},
+    {"Label": "Primary Contact No", "Value": "1111111111"},
+    {"Label": "Customer Segment", "Value": "Standard"},
+    {"Label": "Company Default Values", "Value": "Yes"}
+  ],
+
+  "HPM_Demand_RequirementData": [
+    {"Label": "Requirement Summary","Value": "Requirement Summary"},
+    {"Label": "Requirement Description","Value": "Requirement Description"}
+  ],
+
+  "HPM_Demand_RiskData": [
+    {"Label": "Risk Summary","Value": "Risk Summary"},
+    {"Label": "Risk Description","Value": "Risk Description"}
+  ],
+
+  "HPM_Demand_StakeholderData": [
+    {"Label": "Stakeholder","Value": "bmcopsenduser"},
+    {"Label": "Main Role","Value": "Board"},
+    {"Label": "Approval Required","Value": "Yes"}
+  ],
+
+  "DRSQA_11722_NetOpsData": [
+    {"Label": "alarmName","Value": "AlarmCreation_Create_Incident__"},
+    {"Label": "primaryOldName","Value": "Primary Alarm Creation"},
+    {"Label": "singleAlarmText","Value": "This incident has a related alarm."},
+    {"Label": "summary","Value": "Fail"},
+    {"Label": "responseCode","Value": "201"}
+  ],
+
+  "DRSQA11709_TestData": [
+    {"Label": "ProductTagmappingFormName","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/record/edit-data/com.bmc.arsys.rx.settings:Gainsight%20Bundle%20Product%20Tag%20Mapping"},
+    {"Label": "ProductTagdescription","Value": "ITSM Production"},
+    {"Label": "ValueOfBundleID","Value": "ITSM"},
+    {"Label": "globalContextMappingForm","Value": "/helix/index.html#/com.bmc.arsys.rx.innovationstudio/record/edit-data/com.bmc.arsys.rx.settings:Gainsight%20view%20global%20context%20mapping"},
+    {"Label": "Contextdescription","Value": "ITSM mapping"},
+    {"Label": "contextArrayValue","Value": " \"productAreaCustomerEnvironment\": \"${customerEnvironment}\""},
+    {"Label": "help1","Value": "Quick tour of the Shared Ticket Console"},
+    {"Label": "help2","Value": "Quick tour of the Asset Console"},
+    {"Label": "userIDKey","Value": "hashedUserId"},
+    {"Label": "productVersionKey","Value": "productAreaVersion"},
+    {"Label": "productEnvironmentKey","Value": "productAreaCustomerEnvironment"},
+    {"Label": "DeploymentType", "Value": "SaaS"},
+    {"Label": "EnvironmentType", "Value": "QA"}
+  ]
+
+}

@@ -1,0 +1,31 @@
+{
+			"metricDetails": {
+				"entityTypeId": "<entityTypeId>",
+				"metricId": "<metricId>",
+				"label": "<label>",
+				"unit": "<unit>",
+				"path": "<path>"
+			},
+			"entityDetails": {},
+			"order": 0,
+			"isEvaluationCriteriaValid": false,
+			"alarmConfigurations": [
+				{
+					"condition": {
+						"comparison": "above",
+						"baseline": false,
+						"threshold": <threshold>,
+						"duration": 1,
+						"numPolls": -1
+					},
+					"action": {
+						"severity": "<severity>",
+						"autoClose": true,
+						"closeDuration": 0
+					},
+					"configOrder": 0
+				}
+			],
+			"type": "ALL",
+			"evaluationCriteria": ""
+}

@@ -1,0 +1,63 @@
+{
+	"from": 0,
+	"size": 0,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"range": {
+									"creation_time": {
+										"gte": "<START_TIME>",
+										"lt": "<END_TIME>"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"term": {
+						"severity": "CRITICAL"
+					}
+				},
+				{
+					"term": {
+						"class": "Situation"
+					}
+				}
+			],
+			"must_not": [
+				{
+					"term": {
+						"class": "INCIDENT_INFO"
+					}
+				},
+				{
+					"term": {
+						"class": "Prediction"
+					}
+				},
+				{
+					"term": {
+						"class": "Change"
+					}
+				},
+				{
+					"term": {
+						"incident_id.keyword": ""
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"DRSQA_15635_Data":[
+		{"Label":"HR_LOB","Value":"Human Resources"}
+	],
+
+	"DRSQA_15633_Data":[
+	      {   "Label":"Line of Business","Value":"Human Resources"},
+	      {   "Label":"Requester","Value":"Beth Byers"},
+	      {   "Label":"Summary", "Value":"Sample Create BWF Case"},
+	      {   "Label":"Description", "Value":"This is case creation in BWF from Apex user"},
+	      {   "Label":"Category Tier 1", "Value":"Employee Relations"},
+	      {   "Label":"Category Tier 2", "Value":"Compensation"},
+	      {   "Label":"Category Tier 3", "Value":"Bonus"},
+	      {   "Label":"Status", "Value":"Assigned"},
+	      {   "Label":"Priority", "Value":"Medium"},
+		  {   "Label":"Assigned Group", "Value":"Employee Relations"},
+	      {   "Label":"Assignee", "Value":"Anders Reimann"}
+	],
+	
+	"DRSQA_12052_Data":[
+		{   "Label":"Line of Business","Value":"BMC Sample Facilities"},
+	    {   "Label":"ArticleTemplate","Value":"How To"},
+	    {   "Label":"ArticleTitle", "Value":"Sample Knowledge article created manually"},
+	    {   "Label":"Question", "Value":"Sample Article Question"},
+	    {   "Label":"Answer", "Value":"Sample Article Answer"},
+	    {   "Label":"KnowledgeSet", "Value":"Facilities"},
+	    {   "Label":"SITE_GROUP", "Value":"North America"},
+	    {   "Label":"Assignee", "Value":"Max Green"},
+	    {   "Label":"TIER1", "Value":"Building"},
+	    {   "Label":"TIER2", "Value":"Restore"},
+	    {   "Label":"TIER3", "Value":"Restroom"},
+		{   "Label":"TIER4", "Value":"Toilet"},
+	    {   "Label":"SITE", "Value":"Houston"},
+		{   "Label":"REGION", "Value":"Americas"}
+	]
+
+}

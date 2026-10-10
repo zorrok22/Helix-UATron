@@ -1,0 +1,35 @@
+{
+    "id": "${0}",
+    "resourceType": "com.bmc.arsys.rx.services.record.domain.RecordInstance",
+    "displayId": "${1}",
+    "recordDefinitionName": "com.bmc.dsom.hgm:Agent",
+    "permittedGroupsBySecurityLabels": {
+      
+    },
+    "permittedUsersBySecurityLabels": {
+      
+    },
+    "permittedRolesBySecurityLabels": {
+      
+    },
+    "fieldInstances": {
+      "6": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 6,
+        "value": "${2}",
+        "permissionType": null
+      },
+      "490000155": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 490000155,
+        "value": "${3}",
+        "permissionType": null
+      },
+      "490000161": {
+        "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+        "id": 490000161,
+        "value": 0,
+        "permissionType": null
+      }
+    }
+  }

@@ -1,0 +1,11 @@
+{
+  "tagName": "__groupname__",
+  "tagId": "__tag_id__",
+  "description": "description",
+  "configuration": {
+    "DEVICE": "DEVICE_NAME\u2060contains\u2060__device_name__",
+    "publishedAsService": "__false_true__"
+  },
+  "tableViewName": "Basic Information (Default View)",
+  "authProfileIds": []
+}

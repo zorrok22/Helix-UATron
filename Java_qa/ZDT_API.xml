@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="ZDT_API_Automation_Suite" configfailurepolicy="continue" preserve-order="true">
+	<listeners>
+		<listener class-name="util.Listener"/>
+        <listener class-name="util.PrometheusTestListener"/>
+	</listeners>
+    <test name="ZDT_API Suite">
+     <classes>
+         <class name = "ZDT_API.ITSM.ITSMTests"/>
+         <class name = "ZDT_API.DWP.DWPTests"/>
+         <class name = "ZDT_API.SmartIT.SmartITTests"/>
+     </classes>
+	</test>
+</suite>

@@ -1,0 +1,125 @@
+{
+	"blueprintId": {
+		"version": "1.0.0"
+	},
+	"description": "Using K8S Namespace",
+	"name": "%s",
+	"namespace": "com.bmc.test",
+	"contentSelector": {
+		"nodes": [
+			{
+				"id": "nNamespace",
+				"includeContent": true,
+				"kinds": [
+					"Namespace"
+				],
+				"rules": [
+					{
+						"ruleCriterias": [
+							{
+								"attribute": "name",
+								"path": "",
+								"values": [],
+								"regex": false,
+								"variable": true,
+								"variableInputName": "Select Namespace"
+							}
+						]
+					}
+				],
+				"associatedElementSelectors": []
+			},
+			{
+				"id": "nNamespace____Deployment____Collection",
+				"includeContent": true,
+				"kinds": [
+					"Deployment"
+				],
+				"rules": [],
+				"associatedElementSelectors": []
+			},
+			{
+				"id": "nNamespace____Deployment____Collection____SoftwarePod____Collection",
+				"includeContent": true,
+				"kinds": [
+					"SoftwarePod"
+				],
+				"rules": [],
+				"associatedElementSelectors": []
+			},
+			{
+				"id": "nNamespace____Deployment____Collection____SoftwarePod____Collection____Host____HostedSoftware",
+				"includeContent": true,
+				"kinds": [
+					"Host"
+				],
+				"rules": [],
+				"associatedElementSelectors": []
+			},
+			{
+				"id": "nNamespace____Cluster____Collection",
+				"includeContent": true,
+				"kinds": [
+					"Cluster"
+				],
+				"rules": [],
+				"associatedElementSelectors": []
+			}
+		],
+		"links": [
+			{
+				"sourceId": "nNamespace",
+				"targetId": "nNamespace____Deployment____Collection",
+				"rules": [
+					{
+						"ruleCriterias": [
+							{
+								"relKind": "Collection"
+							}
+						]
+					}
+				]
+			},
+			{
+				"sourceId": "nNamespace____Deployment____Collection",
+				"targetId": "nNamespace____Deployment____Collection____SoftwarePod____Collection",
+				"rules": [
+					{
+						"ruleCriterias": [
+							{
+								"relKind": "Collection"
+							}
+						]
+					}
+				]
+			},
+			{
+				"sourceId": "nNamespace____Deployment____Collection____SoftwarePod____Collection",
+				"targetId": "nNamespace____Deployment____Collection____SoftwarePod____Collection____Host____HostedSoftware",
+				"rules": [
+					{
+						"ruleCriterias": [
+							{
+								"relKind": "HostedSoftware"
+							}
+						]
+					}
+				]
+			},
+			{
+				"sourceId": "nNamespace",
+				"targetId": "nNamespace____Cluster____Collection",
+				"rules": [
+					{
+						"ruleCriterias": [
+							{
+								"relKind": "Collection"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"state": "ENABLED"
+}

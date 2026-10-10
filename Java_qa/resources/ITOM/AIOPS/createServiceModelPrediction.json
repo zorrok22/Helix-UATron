@@ -1,0 +1,28 @@
+[
+	{
+		"method": "POST",
+		"body": {
+			"compatibility": "aiops",
+			"type": "rules",
+			"published": true,
+			"attributes": {
+				"compatibility": "aiops",
+				"criticality": 0,
+				"_labels": [],
+				"_labels_values": {}
+			},
+			"name": "<SERVICE_NAME>",
+			"kind": "BusinessService",
+			"contents": {
+				"nodes": {
+					<NODE_IDS>
+				}
+			},
+			"templates": {},
+			"metadata": {
+				"_associatedElements": "[{\"type\":\"metric_group\",\"label\":\"tempId#1\",\"elements\":[{\"element_type\":\"metrics_kpi\",\"selectors\":[<Associated Elements>]}]}]"
+			},
+			"temp_key": "$$$$_<TEMP_KEY>"
+		}
+	}
+]

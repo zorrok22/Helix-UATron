@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Bmcops_P0_SolQA_Automation_Suite" configfailurepolicy="continue" thread-count="3" parallel="classes">
+    <listeners>
+        <listener class-name="util.Listener"/>
+        <listener class-name="util.PrometheusTestListener"/>
+    </listeners>
+
+    <test name="Bmcops_P0 Suite - Parameterized Group Tests">
+        <groups>
+            <run>
+                <!-- Default: Run all MAT tests. Override with -Dgroups if needed. -->
+                <include name="MAT"/>
+            </run>
+        </groups>
+        <classes>
+           <class name="ITSM.SmartIT.MAT_BeforeSuite"/>
+            <class name="ITSM.BWF.BWFTests"/>
+            <class name="ITSM.CMDB.CMDBTests"/>
+            <class name="ITSM.DWP.DWP_BWF"/>
+            <class name="ITSM.DWP.DWP_SmartIT"/>
+            <class name="ITSM.DWP.DWPTests"/>
+            <class name="ITSM.ITSM.ITSM_SmartReporting"/>
+            <class name="ITSM.ITSM.ITSMTest"/>
+            <class name="ITSM.SmartIT.SmartIT_PV"/>
+            <class name="ITSM.SmartIT.SmartIT_SmartReporting"/>
+            <class name="ITSM.SSPLiveChat.SSPLiveChat_BWF"/>
+            <class name="ITSM.DWP.DWP_HKM"/>
+            <class name="ITSM.ITSM.ITSM_SmartIT_DWPC"/>
+            <class name="ITSM.DWP.DWP_DWPC"/>
+            <class name="ITSM.InnovationStudio.ISTests"/>
+            <class name="ITSM.PartnerApps.PartnerApps"/>
+        </classes>
+    </test>
+</suite>

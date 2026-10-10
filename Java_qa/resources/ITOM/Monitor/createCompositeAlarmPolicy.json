@@ -1,0 +1,16 @@
+{
+	"policyName": "<COMPOSITE_ALARM_NAME>",
+	"description": "<COMPOSITE_ALARM_NAME>",
+	"hostnameLabel": "hostname",
+	"hostnameStatic": false,
+	"severityConfigurations": [
+		{
+			"severity": "CRITICAL",
+			"numPoll": 1,
+			"expression": "<CompositeExpression>"
+		}
+	],
+	"enabled": true,
+	"evaluationInterval": "5m",
+	"eventMessage": "<Event Message>"
+}

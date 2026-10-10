@@ -1,0 +1,59 @@
+{
+	"increments": {
+		"links": [],
+		"nodes": [
+			{
+				"id": "<Service_node_id>",
+				"compatibleOnly": "false",
+				"associatedElements": [
+					{
+						"type": "event_configuration",
+						"elements": []
+					},
+					{
+						"type": "health_processing",
+						"elements": [
+							{
+								"element_type": "health_processing",
+								"statusMapping": {},
+								"selectors": [],
+								"scoreMapping": {
+									"event": {
+										"critical": {
+											"threshold": 10
+										},
+										"major": {
+											"threshold": 8
+										},
+										"minor": {
+											"threshold": 6
+										},
+										"warning": {
+											"threshold": 4
+										}
+									},
+									"metric": {
+										"critical": {
+											"threshold": 20
+										},
+										"major": {
+											"threshold": 16
+										},
+										"minor": {
+											"threshold": 12
+										},
+										"warning": {
+											"threshold": 8
+										}
+									}
+								},
+								"propagation": "enabled",
+								"globalConfigurationBalancingRules": "disabled"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

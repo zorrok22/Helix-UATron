@@ -1,0 +1,7 @@
+To reduce incident noise for ML-based situations in BMC Helix AIOps, you can enable the Incident Noise Reduction option. This feature consolidates multiple incidents into a single incident for a situation, which helps in reducing noise and improving the mean-time-to-resolution (MTTR). Here are the steps to enable this feature:
+Log in to the BMC Helix AIOps console.
+Click on Services and select the service for which you want to enable noise reduction.
+Copy the service key from the URL in the browser.
+Specify the service keys for which you want to enable noise reduction, including the value for the show_policy_based_situations parameter.
+Specify include to enable noise reduction for the service keys.
+By following these steps, you can effectively manage and reduce incident noise in BMC Helix AIOps, leading to a more efficient incident response process. 

@@ -1,0 +1,56 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Server is not able to connect to LAN",
+    "Incident Description": "Server cannot connect to the local area network.",
+    "Status": "Assigned",
+    "Template Name": "Can't connect to network",
+    "CI": "Optiplex 9020",
+    "AssignToMe": false
+  },
+  "GPTData": {
+    "input1": "List change assigned to AU Support 1 support Group",
+    "context1": "The user requests change records specifically assigned to the 'AU Support 1' support group. The response must focus on this exact support group assignment and return relevant change management records. Core requirements: precise support group matching ('AU Support 1'), change record identification, and assignment relationship confirmation. Each returned change must include at least one stable identifier (Infrastructure Change ID, Change Number, or equivalent unique field). Enhancement fields that provide valuable context include Submit Date, Priority, Status, Summary, Assignee, Description, or Change Type. System elements such as assignment explanations, group context messages, pagination indicators, or record counts should be considered acceptable contextual information that aids understanding.",
+    "expected_components1": "An assignment-focused response listing change records with confirmed assignment to 'AU Support 1' support group. Essential elements: precise support group matching and change record identification per item. Each record should include change identifier with clear assignment confirmation to the requested support group. Optional enhancements include status information, priorities, dates, summaries, or other change management details. System guidance about assignments, formatting variations, and metadata should be evaluated as helpful response elements rather than irrelevant content.",
+
+    "input2": "Which support group Change Request Status is closed for change in year 2026?",
+    "context2": [
+      "The user asks for support groups tied to Closed change requests in 2026. Any response format is valid.",
+      "A correct answer either returns matching records with clear support group references, or explicitly states that no matching closed change requests were found.",
+      "Optional pagination, helper text, and extra lines are acceptable."
+    ],
+    "expected_components2": [
+      "A clear answer that identifies support groups for Closed change requests in 2026.",
+      "If records exist, include at least one change identifier and one support group reference.",
+      "If no records exist, clearly state there are no matches; pagination/helper text is acceptable."
+    ],
+
+    "input3": "Are there change assigned to support group which are high priority?",
+    "context3": "The user inquires about the existence of change requests that satisfy two criteria: (1) assignment to support groups AND (2) high priority designation. This requires intersection analysis of assignment status and priority levels. Core requirements: support group assignment confirmation, high priority filtering, and existence verification. The response should provide a clear yes/no answer with supporting evidence. If high-priority assigned changes exist, include specific examples with identifiers, priority confirmation, and support group context. If none exist, provide explicit negative confirmation. System elements such as priority level explanations or assignment status messages are acceptable contextual additions.",
+    "expected_components3": "An existence-verification response directly answering whether high-priority changes assigned to support groups exist. Essential elements: clear yes/no confirmation with supporting evidence when applicable. When present: change identifier(s) with high priority confirmation and support group assignment context. When absent: explicit 'no matching changes found' or equivalent statement. Optional enhancements include priority level details, assignment information, or system guidance about filtering criteria.",
+
+    "input4": "List change assigned to AU Support 1 support group",
+    "context4": "The user asks for all change records for AU Support 1 support group. Answer can be any format. Return all matching records, and include at least one identifier per record. Optional columns/fields are not required and may vary.",
+    "expected_components4": "A response listing change records for AU Support 1 support group, with at least one identifier per record and group association. Optional additional metadata, helper messaging, and pagination text should not reduce relevance.",
+
+    "input5": "Which support group got critical change?",
+    "context5": [
+      "The user asks for support groups that have critical-priority change requests. Any format is valid. Return matching records that include a critical indicator and support group, or an explicit statement of no matches. Pagination/extra conversational text is acceptable."
+    ],
+    "expected_components5": [
+      "Support groups tied to critical-priority change records.",
+      "If matching records exist, include at least one change identifier and support group reference.",
+      "Helper text, follow-up prompts, and pagination indicators are acceptable."
+    ],
+
+    "input6": "Which support group handled change from Petramco company earlier?",
+    "context6": [
+      "The user asks for support groups that handled historical change records for Petramco. Return matching records in any format and include relevant group names. Explicit no-data handling is acceptable. Additional summaries, pagination, and helper phrases are non-penalizable."
+    ],
+    "expected_components6": [
+      "Support groups associated with Petramco change history.",
+      "At least one matching change record with a group reference, or clear no-result message.",
+      "Optional summary lines and metadata are acceptable."
+    ]
+  }
+}

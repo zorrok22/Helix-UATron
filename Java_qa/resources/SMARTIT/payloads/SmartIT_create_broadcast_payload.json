@@ -1,0 +1,1 @@
+{"title":"Performance_Broadcast_Created_check","message":"${strmsg}","targets":[{"company":"${LoginUsercompanyname}","site":"1000000001"}],"type":"Scheduled Unavailability","priority":"Low","visibility":"Public","originatedFrom":"GALILEO","broadcastStartDate":"${StartdatemBaseline}","broadcastEndDate":"${EnddatemBaseline}"}

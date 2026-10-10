@@ -1,0 +1,210 @@
+{
+	"track_total_hits": true,
+	"from": 0,
+	"size": 10000,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"should": [
+							{
+								"bool": {
+									"must": [
+										{
+											"range": {
+												"creation_time": {
+													"gte": 1,
+													"lt": <END_TIME>
+												}
+											}
+										},
+										{
+											"match": {
+												"class": "INCIDENT_INFO"
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"terms": {
+															"incident_status.keyword": [
+																"Closed",
+																"Resolved",
+																"Cancelled"
+															]
+														}
+													},
+													{
+														"term": {
+															"status": {
+																"value": "CLOSED"
+															}
+														}
+													}
+												]
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"term": {
+															"incident_id.keyword": {
+																"value": ""
+															}
+														}
+													}
+												]
+											}
+										},
+										{
+											"terms": {
+												"severity": [
+													"CRITICAL",
+													"MAJOR",
+													"MINOR",
+													"WARNING",
+													"INFO"
+												]
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"term": {
+															"incident_status.keyword": {
+																"value": ""
+															}
+														}
+													}
+												]
+											}
+										},
+										{
+											"terms": {
+												"_service_key.keyword": [
+													"<SERVICE_KEY>"
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"bool": {
+									"must": [
+										{
+											"bool": {
+												"should": [
+													{
+														"terms": {
+															"incident_status.keyword": [
+																"Closed",
+																"Resolved",
+																"Cancelled"
+															]
+														}
+													},
+													{
+														"term": {
+															"status": {
+																"value": "CLOSED"
+															}
+														}
+													}
+												],
+												"minimum_should_match": 1
+											}
+										},
+										{
+											"terms": {
+												"severity": [
+													"CRITICAL",
+													"MAJOR",
+													"MINOR",
+													"WARNING",
+													"INFO"
+												]
+											}
+										},
+										{
+											"bool": {
+												"must": {
+													"match": {
+														"class": "INCIDENT_INFO"
+													}
+												}
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"term": {
+															"incident_id.keyword": {
+																"value": ""
+															}
+														}
+													}
+												]
+											}
+										},
+										{
+											"bool": {
+												"must_not": [
+													{
+														"term": {
+															"incident_status.keyword": {
+																"value": ""
+															}
+														}
+													}
+												]
+											}
+										}
+									],
+									"filter": [
+										{
+											"range": {
+												"_modified_time": {
+													"gte": <START_TIME>,
+													"lt": null
+												}
+											}
+										},
+										{
+											"range": {
+												"creation_time": {
+													"gte": 1,
+													"lt": <END_TIME>
+												}
+											}
+										},
+										{
+											"terms": {
+												"_service_key.keyword": [
+													"<SERVICE_KEY>"
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc",
+				"unmapped_type": "boolean"
+			}
+		}
+	]
+}

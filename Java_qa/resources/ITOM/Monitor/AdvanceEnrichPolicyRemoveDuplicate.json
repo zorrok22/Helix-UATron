@@ -1,0 +1,80 @@
+{
+	"name": "Advanced_event_enrichment_policy_auto2",
+	"types": [
+		"ADVANCED_ENRICHMENT"
+	],
+	"description": "",
+	"executionOrder": 9900,
+	"selectorCriteriaList": [
+		"class equals 'NAGIOS_EV1'"
+	],
+	"enabled": true,
+	"configurations": [
+		{
+			"type": "ADVANCED_ENRICHMENT",
+			"configOrder": 1,
+			"definition": {
+				"label": "remove dublicate",
+				"type": "root",
+				"children": [
+					{
+						"all": true,
+						"withinInSeconds": 0,
+						"label": "Lookup events",
+						"duplicate": false,
+						"type": "lookup",
+						"conditions": [
+							{
+								"slotName": "$OLD.status",
+								"slotOperator": "not_equals",
+								"conditionOperator": "",
+								"conditionBracket": "",
+								"conditionOrder": 0,
+								"endBracket": "",
+								"slotValue": "BLACKOUT"
+							},
+							{
+								"slotName": "$OLD.msg",
+								"slotOperator": "equals",
+								"conditionOperator": "AND",
+								"conditionBracket": "",
+								"conditionOrder": 1,
+								"endBracket": "",
+								"slotValue": "$NEW.msg"
+							},
+							{
+								"slotName": "$OLD.status",
+								"slotOperator": "equals",
+								"conditionOperator": "AND",
+								"conditionBracket": "",
+								"conditionOrder": 2,
+								"endBracket": "",
+								"slotValue": "OPEN"
+							}
+						],
+						"fetchEventForClass": "NAGIOS_EV1",
+						"children": [
+							{
+								"label": "",
+								"type": "updateNew",
+								"children": [
+									{
+										"label": "Close Event",
+										"children": [],
+										"type": "enrich",
+										"key": "$NEW.status",
+										"value": "CLOSED"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	],
+	"timeframes": [
+		"-1"
+	],
+	"selectorCriteria": ""
+}

@@ -1,0 +1,7 @@
+{
+  "AzureOpenAI_gpt-5.2": {
+      "provider": "Azure OpenAI",
+      "model": "GPT-5.2"
+  }
+
+}

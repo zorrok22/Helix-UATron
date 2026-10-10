@@ -1,0 +1,5 @@
+{
+	"modelKey": "<SERVICE_KEY>",
+	"includeDownstream": true,
+	"includeUpstream": true
+}

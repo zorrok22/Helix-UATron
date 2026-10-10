@@ -1,0 +1,15 @@
+{
+	"values": {
+		"ServiceCI": "<ServiceCI>",
+		"ServiceCI_ReconID": "<ServiceCI_ReconID>",
+		"Customer Person ID": "<PersonID>",
+		"Support Group ID": "<GroupID>",
+		"Reason For Change": "Upgrade",
+		"Product Cat Tier 1(2)": null,
+		"Product Cat Tier 2 (2)": null,
+		"Product Cat Tier 3 (2)": null,
+		"Product Name (2)": null,
+		"Product Model/Version (2)": null,
+		"Manufacturer (2)": null
+	}
+}

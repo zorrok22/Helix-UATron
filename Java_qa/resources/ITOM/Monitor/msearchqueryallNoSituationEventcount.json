@@ -1,0 +1,71 @@
+{
+	"from": 0,
+	"size": 0,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"range": {
+									"creation_time": {
+										"gte": "<START_TIME>",
+										"lt": "<END_TIME>"
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"script": {
+						"script": {
+							"source": "if (doc['_service_key.keyword'].size() == 0 || doc['_impacted_service_key.keyword'].size() == 0) { return false;} else {return (doc['_service_key.keyword'].value.length() > 4 || doc['_impacted_service_key.keyword'].value.length() > 4 );}",
+							"lang": "painless"
+						}
+					}
+				}
+			],
+			"must_not": [
+				{
+					"term": {
+						"class.keyword": "Prediction"
+					}
+				},
+				{
+					"term": {
+						"class.keyword": "Change"
+					}
+				},
+				{
+					"term": {
+						"class.keyword": "Situation"
+					}
+				},
+				{
+					"term": {
+						"class.keyword": "AUTOMATION_STATUS_EV"
+					}
+				},
+				{
+					"term": {
+						"severity": "INFO"
+					}
+				},
+				{
+					"exists": {
+						"field": "_relationships.mlsituation"
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

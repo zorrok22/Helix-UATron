@@ -1,0 +1,56 @@
+{
+  "testData": {
+    "Customer Name": "Irene Adler",
+    "Incident Title": "Server is not able to connect to LAN",
+    "Incident Description": "Server cannot connect to the local area network.",
+    "Status": "Assigned",
+    "Template Name": "Can't connect to network",
+    "CI": "Optiplex 9020",
+    "AssignToMe": false
+  },
+  "GPTData": {
+    "input1": "List change assigned to AU Support 1 support Group",
+    "context1": "The user requests change records specifically assigned to the 'AU Support 1' support group. The response must focus on this exact support group and return relevant change records. Any table, list, or structured format is acceptable. Each record should contain at minimum a change identifier (Infrastructure Change ID, Change Number, or similar stable ID). Additional fields like submit date, priority, status, summary, assignee, or description enhance the response but are optional. Helper text, pagination indicators, totals, and system messages are acceptable and should not be considered hallucinations.",
+    "expected_components1": "A focused response returning change records assigned to 'AU Support 1' support group. Core requirement: each record must include a change identifier (ID/Number) and clear association with the requested support group. Optional enhancements include status, priority, dates, summaries, or other change details. Formatting variations (table vs list), pagination text, record counts, and instructional text are acceptable response elements.",
+
+    "input2": "Which support group Change Request Status is closed for change in year 2026?",
+    "context2": [
+      "The user seeks to identify support groups that have change requests with 'Closed' status during the year 2026. The query focuses on the intersection of: support groups, closed status, and 2026 timeframe.",
+      "Valid responses include: (1) listing support groups with their closed changes from 2026, (2) explicitly stating no matches exist for the criteria, or (3) providing relevant records that satisfy the time and status filters.",
+      "Response formats can vary (table, list, narrative). System messages, pagination, totals, and contextual help text should not impact scoring."
+    ],
+    "expected_components2": [
+      "A direct answer addressing support groups with Closed change requests in 2026. Core elements: support group identification and confirmation of closed status within 2026 timeframe.",
+      "When matches exist: include support group name(s) and at least one change identifier with closed status confirmation.",
+      "When no matches exist: clear 'no results' or equivalent statement. Additional context, suggestions, or system messaging are acceptable supplements."
+    ],
+
+    "input3": "Are there change assigned to support group which are high priority?",
+    "context3": "The user inquires about the existence of change requests that are both assigned to support groups AND have high priority status. This requires confirmation of: (1) assignment to support groups, (2) high priority designation. The response should provide a direct yes/no answer with supporting evidence. If high-priority changes exist, include specific examples with identifiers and priority confirmation. If none exist, state this clearly. System metadata and explanatory text are acceptable additions.",
+    "expected_components3": "A direct answer confirming whether high-priority changes assigned to support groups exist. Core requirements: clear yes/no response with supporting evidence. When present: include change identifier(s), priority level confirmation, and support group context. When absent: explicit 'no matches' or equivalent statement. Supplementary metadata, formatting variations, and helper text are acceptable elements.",
+
+    "input4": "Which support group got critical change?",
+    "context4": [
+      "The user seeks support groups that have been assigned change requests with 'critical' priority level. The response should identify specific support groups and their critical changes.",
+      "Core focus: support group names linked to critical-priority changes. Include change identifiers when available.",
+      "If no critical changes exist: provide clear negative response. System messages, pagination, and contextual information should not impact relevance scoring."
+    ],
+    "expected_components4": [
+      "Support groups that handle critical-priority change requests. Essential elements: support group identification and critical priority confirmation.",
+      "When matches exist: support group name(s) and at least one change identifier with critical priority designation.",
+      "When no matches exist: clear 'no results found' or equivalent messaging. Optional system text and formatting variations are acceptable."
+    ],
+
+    "input5": "Which support group handled change from Petramco company earlier?",
+    "context5": [
+      "The user requests historical information about support groups that processed change requests originating from or related to 'Petramco company'. The query focuses on past/historical changes with company association.",
+      "Response should identify support groups with Petramco-related change history. Include change identifiers and company context when available.",
+      "If no Petramco-related changes exist: provide clear negative response. Helper text and system messaging are acceptable supplements."
+    ],
+    "expected_components5": [
+      "Support groups with historical involvement in Petramco company change requests. Core elements: support group identification and Petramco company connection.",
+      "When matches exist: support group name(s) and at least one change identifier with Petramco context.",
+      "When no matches exist: clear statement of no historical records. Additional summaries, suggestions, and system text are acceptable."
+    ]
+  }
+}

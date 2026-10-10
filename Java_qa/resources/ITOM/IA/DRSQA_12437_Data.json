@@ -1,0 +1,20 @@
+[
+  {
+    "class": "EVENT",
+    "severity": "",
+    "object": "test event",
+    "msg": "",
+    "source_identifier": "",
+    "host": "",
+    "source_hostname": "",
+    "status": "",
+    "priority": "PRIORITY",
+    "details": "Testing by sdk automation",
+    "itsm_company": "",
+    "incident_company": "",
+    "al_is_predicted ": "true",
+    "p_host_class": "test",
+    "is_updated": "false",
+    "incident_id": ""
+  }
+]

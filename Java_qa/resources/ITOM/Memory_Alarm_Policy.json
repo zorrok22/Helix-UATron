@@ -1,0 +1,37 @@
+{
+  "entityThresholds": [
+    {
+      "metricDetails": {
+        "entityTypeId": "NUK_Memory",
+        "metricId": "Free",
+        "label": "Free memory",
+        "unit": "MB",
+        "path": "nuk/__sol_version__/NUK_Memory/Free"
+      },
+      "type": "MULTI",
+      "evaluationCriteria": "instance_name string-equals 'NUK_Memory' AND device_host_name string-equals '__pa_host__'",
+      "isEvaluationCriteriaValid": true,
+      "alarmConfigurations": [
+        {
+          "condition": {
+            "comparison": "above",
+            "baseline": false,
+            "threshold": 1,
+            "numPolls": 1,
+            "duration": -1
+          },
+          "action": {
+            "severity": "MAJOR",
+            "autoClose": true,
+            "closeDuration": 0
+          },
+          "configOrder": 0
+        }
+      ]
+    }
+  ],
+  "enabled": true,
+  "policyName": "__alarm_policy_name__",
+  "description": "",
+  "executionOrder": 9999
+}

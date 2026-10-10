@@ -1,0 +1,20 @@
+{
+    "common_data": {
+        "TEAMS_ADMIN": "pbunyon",
+        "ADMIN": "pbunyon",
+        "TEAMS_ADMIN_FULLNAME": "Paul Bunyon",
+        "ADE_USERNAME": "pbunyon",
+        "END_USER": "iadler",
+        "END_USER_PASSWORD": "__USER_PASSWORD__",
+        "ADE_PASSWORD": "__USER_PASSWORD__",
+        "SU_USERNAME": "Liam",
+        "SU_PASSWORD": "__USER_PASSWORD__",
+        "SMARTIT_UNAME": "iadler",
+        "SMARTIT_PWD": "__USER_PASSWORD__",
+        "SKILL_NAME": "Employee Navigator for Helix",
+        "DWP_EMP_SKILL": "Employee Navigator for Helix",
+        "HVA_SKILL_NAME": "Solqa_HVA_Skill",
+        "SMARTIT_SKILL": "Agent in Global Context",
+        "OPSWARMER_SKILL": "Ops Swarmer"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "testData": {
+    "Summary": "Test 14477 Problem",
+    "Impact": "3-Moderate/Limited",
+    "Urgency": "4-Low",
+    "CI": "Optiplex 9020",
+    "Region": "Europe"
+  },
+
+  "GPTData": {
+    "input1": "Show me all problems",
+    "context1": "The user requests a comprehensive listing of all problem investigation records in the system. The response should return problem records in any readable format (table, list, structured text). Core requirement: each problem must include at least one stable identifier (Problem Investigation ID, Problem Number, or equivalent unique field). Enhancement fields may include Summary, Description, Status, Priority, Impact, Assignee, Created Date, or other problem attributes. System metadata such as record counts, pagination indicators, or instructional text should be considered acceptable response elements.",
+    "expected_components1": "A comprehensive response displaying all accessible problem investigations with proper identification. Minimum requirement: each problem record must contain at least one primary identifier (Problem Investigation ID or equivalent). Valuable additions include Summary, Description, Status, Impact, and other problem properties. Response format flexibility, pagination elements, record totals, and system guidance are acceptable enhancement elements.",
+
+    "input2": "Summarize Problem",
+    "context2": "The user seeks a summary or overview of problem investigation information, potentially referring to a specific problem or general problem summary. The response should provide problem summary information with clear identification. Core requirement: problem identification and summary content. If referencing a specific problem, include identifier and detailed summary. If providing general summary, focus on problem overview with relevant details. System messages about summary generation are acceptable contextual elements.",
+    "expected_components2": "A summary-focused response providing problem investigation information and overview details. Essential elements: problem identification (if specific) and summary content. Include problem identifiers with descriptive summaries, status information, impact details, or resolution progress. When context is unclear: provide helpful clarification or general problem summary. Additional system text and formatting options are acceptable elements.",
+
+    "input3": "Show me incidents created in the last 1 week",
+    "context3": "The user requests incident records created within the last 7 days from current date. The response should filter for recent incidents and return matching records. Core requirement: proper time-scope filtering (last week) and incident identification. Each returned incident needs at least one identifier (Incident Number or equivalent). Enhancement fields include Summary, Description, Status, Priority, Created Date, or Assignee information. System messages about date filtering or time ranges are acceptable contextual elements.",
+    "expected_components3": "A time-filtered response showing incidents created in the last week period. Essential elements: correct time filtering and incident identification per record. Each record should include incident identifier with creation timeframe confirmation. Optional details include incident summaries, status, priorities, or assignment information. When no recent incidents exist: clear 'no incidents found' message. Date formatting and system text are acceptable elements.",
+
+    "input4": "Show me all Problem similar to Test Problem",
+    "context4": "The user seeks problem investigations that are similar to or related to 'Test Problem' content/topic. The response should identify problems with similar themes, keywords, or descriptions. Core requirement: similarity matching and problem identification. Search for problems containing test-related terms, similar descriptions, or comparable technical content. Each returned problem needs at least one identifier plus relevant summary showing the similarity connection. System messages about similarity matching are acceptable contextual information.",
+    "expected_components4": "A similarity-based response listing problems related to 'Test Problem' themes. Essential elements: problem identification and similarity context to the reference term. Each record should include problem identifier with summary or description showing the connection. Optional details include specific test scenarios, technical descriptions, or comparable issues. Search context and formatting variations are acceptable response elements.",
+
+    "input5": "What are investigation drivers for PBIs raised in the last 3 months?",
+    "context5": "The user requests investigation driver information for Problem-Based Investigations (PBIs) created within the last 3 months. The response should filter for recent PBIs and identify their investigation drivers or root causes. Core requirement: time-scope filtering (3 months) and investigation driver identification. Each returned PBI needs identifier and driver information. Enhancement fields include Investigation Driver details, Root Cause, Status, or Created Date. System messages about PBI filtering or driver analysis are acceptable contextual elements.",
+    "expected_components5": "A driver-focused response showing investigation drivers for recent PBIs (last 3 months). Essential elements: correct time filtering, PBI identification, and investigation driver details. Each record should include PBI identifier with associated investigation driver information. Optional enhancements include root cause analysis, driver categories, or resolution status. When no recent PBIs exist: clear 'no PBIs found' message. System guidance and formatting options are acceptable elements."
+  }
+}

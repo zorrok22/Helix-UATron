@@ -1,0 +1,162 @@
+{
+	"name": "<POLICY_NAME>_auto3",
+	"types": [
+		"ADVANCED_ENRICHMENT"
+	],
+	"description": "<POLICY_NAME>_auto3",
+	"executionOrder": 9999,
+	"selectorCriteria": "",
+	"selectorCriteriaList": [
+		"class equals 'NAGIOS_EV1'"
+	],
+	"timeframes": [
+		"-1"
+	],
+	"enabled": true,
+	"configurations": [
+		{
+			"type": "ADVANCED_ENRICHMENT",
+			"configOrder": 1,
+			"definition": {
+				"label": "update detail",
+				"children": [
+					{
+						"label": "LookupNodeDetails",
+						"children": [
+							{
+								"type": "objectData",
+								"value": {
+									"ciattributes": "[\"dns_domain\",\"local_fqdn\"]",
+									"source": "DSM"
+								}
+							}
+						],
+						"type": "function",
+						"name": "LookupNodeDetails"
+					},
+					{
+						"label": "descr_string",
+						"children": [
+							{
+								"children": [
+									{
+										"type": "data",
+										"value": "BS",
+										"children": []
+									},
+									{
+										"type": "data",
+										"value": "$NODE.local_fqdn",
+										"children": []
+									}
+								],
+								"type": "function",
+								"name": "Concat"
+							}
+						],
+						"type": "assignVar",
+						"key": "$descr_string",
+						"value": null
+					},
+					{
+						"label": "descr_string_1",
+						"children": [
+							{
+								"children": [
+									{
+										"type": "data",
+										"value": "$descr_string",
+										"children": []
+									},
+									{
+										"type": "data",
+										"value": "<FQDN>",
+										"children": []
+									}
+								],
+								"type": "function",
+								"name": "Concat"
+							}
+						],
+						"type": "assignVar",
+						"key": "$descr_string_1",
+						"value": null
+					},
+					{
+						"label": "des_try5",
+						"children": [
+							{
+								"children": [
+									{
+										"type": "data",
+										"value": "$descr_string_1",
+										"children": []
+									},
+									{
+										"type": "data",
+										"value": "$NODE.dns_domain",
+										"children": []
+									}
+								],
+								"type": "function",
+								"name": "Concat"
+							}
+						],
+						"type": "assignVar",
+						"key": "$des_try5",
+						"value": null
+					},
+					{
+						"label": "enrich-2",
+						"children": [
+							{
+								"children": [],
+								"type": "data",
+								"value": "$des_try5"
+							}
+						],
+						"type": "enrich",
+						"key": "$NEW.details",
+						"value": null
+					},
+					{
+						"label": "check length",
+						"children": [
+							{
+								"label": "enrich",
+								"children": [
+									{
+										"children": [],
+										"type": "data",
+										"value": "$descr_string_1"
+									}
+								],
+								"type": "enrich",
+								"key": "$NEW.details",
+								"value": null
+							}
+						],
+						"type": "if",
+						"conditions": [
+							{
+								"conditionOrder": 0,
+								"conditionOperator": "",
+								"slotName": "$NEW.class",
+								"slotOperator": "equals",
+								"slotValue": "NAGIOS_EV1",
+								"conditionBracket": "",
+								"endBracket": ""
+							}
+						]
+					},
+					{
+						"label": "",
+						"children": [],
+						"type": "else"
+					}
+				],
+				"type": "root"
+			}
+		}
+	]
+}

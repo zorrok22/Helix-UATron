@@ -1,0 +1,11 @@
+{
+  "EnrichmentServiceData": [
+    { "Label": "priority", "Value": "PRIORITY_1" },
+    { "Label": "location", "Value": "Pune"},
+    { "Label": "msg", "Value": "SGE:[APM]- BMC-Helix-Operations-Management-PROD reported Data Collection Availability is in alarm. Please investigate the issue." },
+    { "Label": "closureMessage", "Value": "Validation testing done"},
+    { "Label": "eventName", "Value": "SimpleEvent"},
+    { "Label": "MLTsomService", "Value": "ML-TSOM" }
+  ]
+}
+

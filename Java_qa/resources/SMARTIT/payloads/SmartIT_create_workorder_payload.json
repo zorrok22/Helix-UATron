@@ -1,0 +1,275 @@
+{
+  "id": "${id}",
+  "customer": {
+    "firstName": "Atma",
+    "lastName": "Ananda",
+    "fullName": "Atma Ananda",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "Macquarie Park",
+        "address": {
+          "street": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "country": "Australia",
+          "zip": "2113",
+          "address": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+        },
+        "region": "Asia-Pac",
+        "siteGroup": "Engineering",
+        "siteId": "GTE000000000037"
+      }
+    },
+    "site": {
+      "name": "Macquarie Park",
+      "address": {
+        "street": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "country": "Australia",
+        "zip": "2113",
+        "address": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+      },
+      "region": "Asia-Pac",
+      "siteGroup": "Engineering",
+      "siteId": "GTE000000000037"
+    },
+    "email": "aananda@petramco.com",
+    "phone": "61 2 8899 2900",
+    "loginId": "aananda",
+    "personId": "GPL000000000398",
+    "thumbnail": "",
+    "organization": "Engineering",
+    "department": "Development",
+    "jid": "aananda_000000000000001",
+    "displayId": "GPL000000000398",
+    "isSupportStaff": false,
+    "instanceId": "IDGAA5V0HI5R3ANBIAFTDY5DDU6QSB",
+    "profileStatus": "Enabled",
+    "clientType": "Office-Based Employee",
+    "clientSensitivity": "Standard",
+    "isVIP": false,
+    "customFields": {},
+    "id": "aananda",
+    "createDate": 1750146327966,
+    "modifiedDate": 1750146327966
+  },
+  "displayId": "${DID}",
+  "status": {
+    "value": "Assigned"
+  },
+  "categorizations": [
+    {
+      "name": "operational",
+      "tiers": {
+        "operationCategoryTier1": "Applications",
+        "operationCategoryTier2": "Help Desk",
+        "operationCategoryTier3": "Incident"
+      }
+    },
+    {
+      "name": "product",
+      "tiers": {
+        "productCategoryTier1": "Business",
+        "productCategoryTier2": "Business Process",
+        "productCategoryTier3": "Level 1",
+        "productName": "",
+        "productModelVersion": ""
+      }
+    }
+  ],
+  "resCategorizations": [],
+  "customFields": {},
+  "templateId": "",
+  "templateName": "",
+  "summary": "Performance_WorkOrder_Add_WorkLog_Created",
+  "priority": "Low",
+  "impactedService": {
+    "name": "App Hosting",
+    "desc": "",
+    "type": "Business Service",
+    "company": {
+      "name": "Petramco"
+    },
+    "product": {
+      "categorizations": [
+        {
+          "name": "product",
+          "tiers": {
+            "productCategoryTier1": "Service",
+            "productCategoryTier2": "Infrastructure",
+            "productCategoryTier3": "Service Management"
+          },
+          "cognitiveFlag": false
+        }
+      ]
+    },
+    "reconciliationId": "REHAA5V0GQBORANAMVYHWDLW3SVMWE",
+    "classId": "BMC_BUSINESSSERVICE",
+    "instanceId": "AGHAA5V0GQBORANAMVYHWDLW3SVMWF",
+    "site": {},
+    "status": {
+      "value": "Deployed"
+    },
+    "assetExtension": {},
+    "needsReconciliation": false,
+    "dataSetId": "BMC.ASSET",
+    "assetId": "GBS000000000007",
+    "assetType": "Business Service",
+    "verified": false,
+    "customFields": {},
+    "id": "GBS000000000007",
+    "createDate": 1693562966000,
+    "modifiedDate": 1567167031924
+  },
+  "locationCompany": {
+    "name": "Petramco"
+  },
+  "assignee": {
+    "type": "child",
+    "firstName": "Adam",
+    "lastName": "Pavlik",
+    "fullName": "Adam Pavlik",
+    "department": "Premier",
+    "email": "apavlik@petramco.co",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "Pleasanton",
+        "address": {
+          "street": "6200 Stoneridge Mall Road, Suite 200",
+          "city": "Pleasanton",
+          "state": "California",
+          "country": "United States",
+          "zip": "94588",
+          "address": "6200 Stoneridge Mall Road, Suite 200\nPleasanton, California 94588\nUnited States"
+        },
+        "region": "Americas",
+        "siteGroup": "Marketing",
+        "siteId": "GTE000000000076"
+      }
+    },
+    "phone": "1 925 469-4006",
+    "thumbnailMime": "",
+    "thumbnail": "",
+    "site": {
+      "name": "Pleasanton",
+      "address": {
+        "street": "6200 Stoneridge Mall Road, Suite 200",
+        "city": "Pleasanton",
+        "state": "California",
+        "country": "United States",
+        "zip": "94588",
+        "address": "6200 Stoneridge Mall Road, Suite 200\nPleasanton, California 94588\nUnited States"
+      },
+      "region": "Americas",
+      "siteGroup": "Marketing",
+      "siteId": "GTE000000000076"
+    },
+    "organization": "United States Support",
+    "loginId": "apavlik",
+    "available": "",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "US Support 3",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "United States Support",
+        "id": "GGP000000000023",
+        "assignedToGroup": false,
+        "persons": []
+      }
+    ],
+    "id": "apavlik",
+    "createDate": 1750146327966,
+    "supportGroup": "US Support 3",
+    "supportGroupId": "GGP000000000023",
+    "supportOrganization": "United States Support"
+  },
+  "supportGroup": {
+    "name": "US Support 3",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "United States Support",
+    "id": "GGP000000000023",
+    "assignedToGroup": false,
+    "persons": [],
+    "supportGroups": "US Support 3"
+  },
+  "manager": {
+    "type": "child",
+    "firstName": "Adam",
+    "lastName": "Warlock",
+    "fullName": "Adam Warlock",
+    "department": "Development",
+    "email": "awarlock@petramco.com",
+    "company": {
+      "name": "Petramco",
+      "site": {
+        "name": "Macquarie Park",
+        "address": {
+          "street": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "country": "Australia",
+          "zip": "2113",
+          "address": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+        },
+        "region": "Asia-Pac",
+        "siteGroup": "Engineering",
+        "siteId": "GTE000000000037"
+      }
+    },
+    "phone": "61 2 8899 2914",
+    "thumbnailMime": "",
+    "thumbnail": "",
+    "site": {
+      "name": "Macquarie Park",
+      "address": {
+        "street": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "country": "Australia",
+        "zip": "2113",
+        "address": "Level 5, Building C\n11 Talavera Road\nMacquarie Park NSW\nSydney, New South Wales 2113\nAustralia"
+      },
+      "region": "Asia-Pac",
+      "siteGroup": "Engineering",
+      "siteId": "GTE000000000037"
+    },
+    "organization": "Australia Support",
+    "loginId": "awarlock",
+    "available": "",
+    "jid": "",
+    "supportGroups": [
+      {
+        "name": "AU Support 1",
+        "company": {
+          "name": "Petramco"
+        },
+        "organization": "Australia Support",
+        "id": "GTE000000000037",
+        "assignedToGroup": false
+      }
+    ],
+    "id": "awarlock",
+    "createDate": 1750146327966,
+    "supportGroup": "AU Support 1",
+    "supportGroupId": "GTE000000000037",
+    "supportOrganization": "Australia Support"
+  },
+  "managerGroup": {
+    "name": "AU Support 1",
+    "company": {
+      "name": "Petramco"
+    },
+    "organization": "Australia Support",
+    "id": "GTE000000000037",
+    "assignedToGroup": false,
+    "supportGroups": "AU Support 1"
+  }
+}

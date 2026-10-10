@@ -1,0 +1,10 @@
+{
+  "values": {
+    "dataPageType": "com.bmc.arsys.rx.application.record.datapage.RecordInstanceDataPageQuery",
+    "pageSize": "50",
+    "startIndex": "0",
+    "recorddefinition": "com.fusiongbs.agility:Portfolio",
+    "propertySelection": "2,3,8,536871901,179,536870915,536875001",
+    "queryExpression": ""
+  }
+}

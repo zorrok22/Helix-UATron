@@ -1,0 +1,25 @@
+{
+    "fieldInstances": {
+        "490000157": {
+            "id": 490000157,
+            "permissionType": null,
+            "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+            "value": "${0}"
+        },
+        "6": {
+            "id": 6,
+            "permissionType": null,
+            "resourceType": "com.bmc.arsys.rx.services.record.domain.FieldInstance",
+            "value": "${1}"
+        }
+    },
+    "id": "AGGCKS2IDOYBVASQS0THSQS0THQOQO",
+    "permittedGroupsBySecurityLabels": {
+    },
+    "permittedRolesBySecurityLabels": {
+    },
+    "permittedUsersBySecurityLabels": {
+    },
+    "recordDefinitionName": "com.bmc.dsom.hgm:Agent",
+    "resourceType": "com.bmc.arsys.rx.services.record.domain.RecordInstance"
+}

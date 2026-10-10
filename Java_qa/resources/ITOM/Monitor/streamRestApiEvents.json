@@ -1,0 +1,18 @@
+[
+  {
+    "severity": "<SEVERITY>",
+    "msg": "<MESSAGE>",
+    "location": "<LOCATION>",
+    "details": "<MESSAGE>",
+    "priority": "PRIORITY_3",
+    "class_slots": {
+      "pn_severity": "<SEVERITY>"
+    },
+    "class": "<CLASS>",
+    "source_hostname": "<SOURCE_HOSTNAME>",
+    "object": "/usr/bin",
+    "source_identifier": "automation",
+    "status": "OPEN",
+    "tags": ["<tag>"]
+  }
+]

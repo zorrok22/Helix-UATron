@@ -1,0 +1,6 @@
+{
+	"page_index": 1,
+	"page_size": 2000,
+	"search_string": "name='<SEARCH_NAME>' and rule_type='PARSER'",
+	"sort_criteria": "name ASC"
+}

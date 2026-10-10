@@ -1,0 +1,106 @@
+{
+	"from": 0,
+	"size": 0,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"bool": {
+						"must": [
+							{
+								"range": {
+									"creation_time": {
+										"gte": <START_TIME>,
+										"lt": <END_TIME>
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"bool": {
+						"should": [
+							{
+								"bool": {
+									"must": [
+										{
+											"exists": {
+												"field": "_service_key"
+											}
+										}
+									],
+									"must_not": [
+										{
+											"term": {
+												"_service_key.keyword": ""
+											}
+										}
+									]
+								}
+							},
+							{
+								"bool": {
+									"must": [
+										{
+											"exists": {
+												"field": "_impacted_service_key"
+											}
+										}
+									],
+									"must_not": [
+										{
+											"term": {
+												"_impacted_service_key.keyword": ""
+											}
+										}
+									]
+								}
+							}
+						],
+						"minimum_should_match": 1
+					}
+				}
+			],
+			"must_not": [
+				{
+					"term": {
+						"class": "INCIDENT_INFO"
+					}
+				},
+				{
+					"term": {
+						"class": "Prediction"
+					}
+				},
+				{
+					"term": {
+						"class": "Change"
+					}
+				},
+				{
+					"term": {
+						"class": "Situation"
+					}
+				},
+				{
+					"term": {
+						"class": "AUTOMATION_STATUS_EV"
+					}
+				},
+				{
+					"term": {
+						"severity.keyword": "INFO"
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc"
+			}
+		}
+	]
+}

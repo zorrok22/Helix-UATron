@@ -1,0 +1,12 @@
+{
+	"tagId": "",
+	"tagName": "<POLICY_NAME>",
+	"description": "<POLICY_NAME>",
+	"configuration": {
+		"DEVICE": "DEVICE_NAME⁠contains⁠<device>",
+		"EVENT": ""
+	},
+	"tableViewId": "<SLOT_VALUE>",
+	"tableViewName": "<SLOT_NAME>",
+	"authProfileIds": []
+}

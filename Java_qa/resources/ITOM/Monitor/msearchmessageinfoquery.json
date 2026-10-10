@@ -1,0 +1,23 @@
+{
+	"from": 0,
+	"size": 10,
+	"query": {
+		"bool": {
+			"filter": [
+				{
+					"regexp": {
+						"msg.keyword": ".*Incident.*Information.*<SERVICE_KEY>.*"
+					}
+				}
+			]
+		}
+	},
+	"sort": [
+		{
+			"creation_time": {
+				"order": "desc",
+				"unmapped_type": "boolean"
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"values": {
+		"Lookup Keyword": "<classid>",
+		"DatasetId": "BMC.ASSET",
+		"InstanceId2": "<instanceid>",
+		"Location Company": "Petramco",
+		"Support Group Name": "US Support 3",
+		"Form Name01": "<form_name>",
+		"Change Type": "Change",
+		"Infrastructure Change ID": "<infra_change_id>",
+		"ReconID": "<CI_ReconID>",
+		"Name": "<name>",
+		"Description": "<Summary>",
+		"Form Name02": "CHG:Infrastructure Change"
+	}
+}

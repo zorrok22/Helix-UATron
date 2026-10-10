@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="ITOM_FullRun" configfailurepolicy="continue" thread-count="1">
+
+    <listeners>
+        <listener class-name="util.Listener"/>
+        <listener class-name="util.PrometheusTestListener"/>
+    </listeners>
+
+    <!-- Runs first, no parallel to guarantee completion -->
+    <test name="Prerequisites">
+        <classes>
+            <class name="ITOM.ITOM_Prerequisites"/>
+        </classes>
+    </test>
+
+    <test name="ITOM_FullRun Suite" parallel="classes" thread-count="3">
+
+        <groups>
+            <run>
+                <!-- Default: Run all "ADE Regression" - ADE Core tests -->
+                <!-- This can be overridden by -Dgroups parameter -->
+                <include name="Regression"/>
+                <include name="bap"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="ITOM.Intelligent_Automation.IntelligentAutomationTest"></class>
+            <class name="ITOM.Rsso.SingleLogoutTests"></class>
+            <class name="ITOM.Discovery.DiscoveryTests"></class>
+            <class name="ITOM.Dashboard.HelixDashboard_ContinuousOptimization"></class>
+            <class name="ITOM.Dashboard.HelixDashboardTests"></class>
+            <class name="ITOM.Aiops.AIOpsTest"></class>
+            <class name="ITOM.Optimize.OptimizeTest"></class>
+            <class name="ITOM.BHOM_AIOps.BHOM_AIOps"></class>
+            <class name="ITOM.Bhom.BHOMTest"></class>
+            <class name="ITOM.Ade_Platform.WebhookTests"></class>
+			<class name ="ITOM.Aiops.AiopsSituationMultiService"></class>
+			<class name ="ITOM.Aiops.AiopsMasterSituationTest"></class>
+			<class name ="ITOM.Aiops.AIOpsStandaloneTests"></class>
+			<class name ="ITOM.Aiops.AiopsWithIAChangeBlackout"></class>
+			<class name ="ITOM.Aiops.AiopshealthScoreTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationConfigurationTest"></class>
+			<class name ="ITOM.Aiops.AiopsServiceLevelTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationChangerequestList"></class>
+			<class name ="ITOM.Aiops.AiopsImpactBalanceProfileTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationModelTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationDeepRCATest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationIncidentTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationBAPLogAgentTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationBAPDeepRCATest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationBAPJiraTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationDeepRCAJiraTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationEricssonTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationpriorityTest"></class>
+			<class name ="ITOM.Bhom.BhomAlarmMergertTest"></class>
+			<class name ="ITOM.Bhom.BhomAlarmExportTest"></class>
+			<class name ="ITOM.Aiops.AiopsPredictionTest"></class>
+            <class name="ITOM.GrafanaDashboard.GrafanaUI_ADE"></class>
+			<class name ="ITOM.Aiops.AiopsPredictionValidation"></class>
+			<class name ="ITOM.Bhom.BhomBaselineAlertTest"></class>
+			<class name ="ITOM.LogAnalytics.LogLinuxFileConnectorTest"></class>
+			<class name ="ITOM.Bhom.BhomAdvancedEnrichmentPolicyTest"></class>
+			<class name ="ITOM.LogAnalytics.LogWindowsFileConnectorTest"></class>
+			<class name ="ITOM.Aiops.AiopsServiceInsightTest"></class>
+			<class name ="ITOM.LogAnalytics.LogEventAlert"></class>
+			<class name ="ITOM.Aiops.AiopsValueDashboard"></class>
+			<class name ="ITOM.Aiops.AiopsSituationBARTest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationBAPTest"></class>
+			<class name ="ITOM.Aiops.AIOpsCRMtest"></class>
+			<class name ="ITOM.Aiops.AIOpsOpsSwarmertest"></class>
+			<class name ="ITOM.Aiops.AiopsSituationCustomKindTest"></class>
+			<class name ="ITOM.Aiops.AiopsAskHelixGPTTest"></class>
+            <class name="ITOM.Bhom.BHOMAssociateEventToNodeTest"></class>
+            <class name="ITOM.Bhom.BhomCompositeAlarmTest"></class>
+            <class name="ITOM.Bhom.BhomRBACTest"></class>
+            <class name="ITOM.Bhom.NonBmcMetricsPushTest"></class>			
+			<class name ="ITOM.Bhom.BhomBaselineAlertVerifyTest"></class>
+			<class name ="ITOM.Aiops.changeriskadvisortest"></class>
+            <class name="ITOM.Bhom.BhomAlarmRange"></class>
+            <class name="ITOM.Ade_Platform.Ade_Platform"></class>
+            <class name ="ITOM.Intelligent_integrations.IntelligentIntegrationsTests"></class>
+            <class name="ITOM.Aiops.AiopsBapTests"></class>
+            <class name="ITOM.Otel.OtelTests"></class>
+            <class name="ITOM.HelixGPT_InsightFinder.InsightFinderTest"></class>
+            <class name="ITOM.Portal.HelixPortal"></class>
+            <class name="ITOM.Itsm_Insights.ItsmInsightsTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,21 @@
+{
+	"startTime": <startTime>,
+	"endTime": <endTime>,
+	"dataType": 0,
+	"baseLines": [],
+	"thresholds": [
+		0,
+		1,
+		2
+	],
+	"graphDatas": [],
+	"dataSets": [
+		{
+			"serverId": "<serverId>",
+			"moTypeId": "<moTypeId>",
+			"monitorId": "<monitorId>",
+			"attributeId": "<attributeId>"
+		}
+	],
+	"considerDataFromPA": true
+}

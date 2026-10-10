@@ -1,0 +1,174 @@
+{
+    "name": "__ia_policy_name__",
+    "description": "",
+    "trigger_condition_expression": "$ ? ($.event.msg == \"NT_MEMORY Memory used > 100 MB for 0 min\")",
+    "is_active": false,
+    "auto_enabled": true,
+    "actions": {
+      "Case - Get Case Details": {
+        "continue_on_failure": false,
+        "plugin_type": "restapi_plugin",
+        "action_def_uri": "/api/rx/application/command#com.bmc.dsm.case-lib:Case - Get Case Details",
+        "action": {
+          "server": "___is_restapi__",
+          "/api/rx/application/command": {
+            "post": {
+              "parameters": [
+                {
+                  "x-requested-by": "XMLHttpRequest",
+                  "in": "headers"
+                }
+              ],
+              "requestBody": {
+                "content": {
+                  "application/json": {
+                    "resourceType": "com.bmc.arsys.rx.application.process.command.StartProcessInstanceCommand",
+                    "processDefinitionName": "com.bmc.dsm.case-lib:Case - Get Case Details"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "credential": {
+          "target_id": "___is_restapi__",
+          "provider_id": "innovation_studio"
+        },
+        "actionproperties": {
+          "retry_scheduled": false,
+          "retry_duration": "default",
+          "retry_error_codes": [
+            
+          ]
+        }
+      },
+      "Case - Get Case Details status": {
+        "continue_on_failure": false,
+        "plugin_type": "restapi_plugin",
+        "action_def_uri": "innovation_studio/api/rx/application/process/processinstance/{processDefinitionName}/{instanceId}//get",
+        "action": {
+          "/api/rx/application/process/processinstance/{processDefinitionName}/{instanceId}/": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "instanceId": "$.\"Case - Get Case Details\".output.headers.\"x-bmc-process-instanceId\""
+                },
+                {
+                  "in": "path",
+                  "processDefinitionName": "com.bmc.dsm.case-lib:Case - Get Case Details"
+                }
+              ]
+            }
+          },
+          "server": "___is_restapi__"
+        },
+        "credential": {
+          "target_id": "___is_restapi__",
+          "provider_id": "innovation_studio"
+        },
+        "success_conditions": {
+          "$.output.result.status": "COMPLETED"
+        },
+        "poll_conditions": {
+          "$.output.result.status": "ACTIVE"
+        },
+        "predecessor": [
+          "Case - Get Case Details"
+        ]
+      }
+    },
+    "workflowproperties": {
+      "publish_status_event": true,
+      "exclude_on_update": false,
+      "retention_period": 30
+    },
+    "execution_mode": "AUTOMATIC",
+    "metadata": {
+      "event": {
+        "class": "EVENT",
+        "severity": "CRITICAL",
+        "object": "test event",
+        "msg": "NT_MEMORY Memory used > 100 MB for 0 min",
+        "source_identifier": "host-01-05",
+        "host": "host-01-05",
+        "source_hostname": "host-01-05",
+        "status": "OPEN",
+        "priority": "PRIORITY",
+        "details": "Testing by sdk automation",
+        "itsm_company": "Petramco",
+        "incident_company": "Petramco",
+        "al_is_predicted ": "true",
+        "p_host_class": "test",
+        "is_updated": "false",
+        "test": "may24",
+        "incident_id": ""
+      },
+      "trigger_condition_expression_metadata": [
+        {
+          "condition_order": 0,
+          "condition_operator": "",
+          "slot_name": "$.event.msg",
+          "slot_operator": "==",
+          "slot_value": "NT_MEMORY Memory used > 100 MB for 0 min",
+          "condition_bracket": "",
+          "end_bracket": ""
+        }
+      ],
+      "json_paths": {
+        "$.class": [
+          "EVENT"
+        ],
+        "$.severity": [
+          "CRITICAL"
+        ],
+        "$.object": [
+          "test event"
+        ],
+        "$.msg": [
+          "NT_MEMORY Memory used > 100 MB for 0 min"
+        ],
+        "$.source_identifier": [
+          "host-01-05"
+        ],
+        "$.host": [
+          "host-01-05"
+        ],
+        "$.source_hostname": [
+          "host-01-05"
+        ],
+        "$.status": [
+          "OPEN"
+        ],
+        "$.priority": [
+          "PRIORITY"
+        ],
+        "$.details": [
+          "Testing by sdk automation"
+        ],
+        "$.itsm_company": [
+          "Petramco"
+        ],
+        "$.incident_company": [
+          "Petramco"
+        ],
+        "$.p_host_class": [
+          "test"
+        ],
+        "$.is_updated": [
+          "false"
+        ],
+        "$.test": [
+          "may24"
+        ],
+        "$.incident_id": [
+          "\"\""
+        ]
+      },
+      "event_type": "User defined event"
+    },
+    "tag_specs": {
+      
+    },
+    "repeat_condition": null
+  }
